@@ -1,0 +1,241 @@
+{
+    "jcr:created": "Tue Nov 14 2023 04:01:40 GMT+0000",
+    "jcr:createdBy": "steph.briggs@backcountry.com",
+    "jcr:primaryType": "cq:Page",
+    "jcr:content": {
+      "cq:lastReplicatedBy": "steph.briggs@backcountry.com",
+      "cq:lastReplicationAction": "Activate",
+      "cq:lastReplicatedBy_publish": "steph.briggs@backcountry.com",
+      "sling:resourceType": "baem/components/page",
+      "jcr:uuid": "14b1d226-9819-437f-8484-294d9c26ad3b",
+      "jcr:title": "Snowboards",
+      "cq:isDelivered": true,
+      "pageProperty_seo-toggle": "false",
+      "jcr:versionHistory": "006c1199-ea34-4e9f-b300-2f4e9dc980d8",
+      "cq:lastModifiedBy": "steph.briggs@backcountry.com",
+      "cq:template": "/conf/baem/settings/wcm/templates/plp-content",
+      "pageProperty_titleTag": "Snowboards",
+      "jcr:created": "Tue Nov 14 2023 04:01:40 GMT+0000",
+      "jcr:createdBy": "steph.briggs@backcountry.com",
+      "jcr:predecessors": [
+        "2a37aacb-6780-446e-9c28-a9de6558663d"
+      ],
+      "cq:lastReplicationAction_scene7": "Activate",
+      "jcr:isCheckedOut": true,
+      "jcr:mixinTypes": [
+        "mix:versionable",
+        "cq:ReplicationStatus2"
+      ],
+      "pageProperty_description": "Snowboards",
+      "cq:lastReplicationAction_publish": "Activate",
+      "cq:lastModified": "Tue Nov 14 2023 04:07:34 GMT+0000",
+      "cq:lastReplicatedBy_scene7": "steph.briggs@backcountry.com",
+      "jcr:primaryType": "cq:PageContent",
+      "cq:lastReplicated": "Tue Nov 14 2023 04:07:38 GMT+0000",
+      "cq:lastReplicated_publish": "Tue Nov 14 2023 04:07:38 GMT+0000",
+      "cq:lastReplicated_scene7": "Tue Nov 14 2023 04:07:38 GMT+0000",
+      "sling:vanityPath": "bc-snowboards",
+      "jcr:baseVersion": "2a37aacb-6780-446e-9c28-a9de6558663d",
+      "root": {
+        "layout": "responsiveGrid",
+        "sling:resourceType": "baem/components/container",
+        "jcr:primaryType": "nt:unstructured",
+        "container": {
+          "layout": "responsiveGrid",
+          "sling:resourceType": "baem/components/container",
+          "jcr:primaryType": "nt:unstructured",
+          "accordion": {
+            "jcr:created": "Tue Nov 14 2023 03:43:22 GMT+0000",
+            "jcr:lastModifiedBy": "steph.briggs@backcountry.com",
+            "jcr:createdBy": "steph.briggs@backcountry.com",
+            "sling:resourceType": "baem/components/accordion",
+            "singleExpansion": "false",
+            "jcr:lastModified": "Tue Nov 14 2023 04:07:34 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "item_1699933508528": {
+              "cq:panelTitle": "What type of snowboard should I buy?",
+              "sling:resourceType": "baem/components/container",
+              "jcr:primaryType": "nt:unstructured",
+              "text": {
+                "jcr:created": "Tue Nov 14 2023 03:46:13 GMT+0000",
+                "jcr:lastModifiedBy": "steph.briggs@backcountry.com",
+                "jcr:createdBy": "steph.briggs@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Tue Nov 14 2023 03:52:55 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<p>The type of snowboard you should buy depends on the type of terrain you plan to ride, your ability level, and the type of riding style you prefer. Our website has a <a href=\"https://www.backcountry.com/explore/how-to-size-a-snowboard\">snowboard size guide</a> as well as technical specs on each snowboard, to help you choose the right type of snowboard for you.</p>\r\n"
+              }
+            },
+            "item_1699933419438": {
+              "cq:panelTitle": "What size snowboard do I need for my height and weight?",
+              "sling:resourceType": "baem/components/container",
+              "jcr:primaryType": "nt:unstructured",
+              "text": {
+                "jcr:created": "Tue Nov 14 2023 03:49:37 GMT+0000",
+                "jcr:lastModifiedBy": "steph.briggs@backcountry.com",
+                "jcr:createdBy": "steph.briggs@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Tue Nov 14 2023 03:51:22 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<p>The old rule of thumb was that you just more or less picked a board that hit between your chin and your nose. But choosing your snowboard length involves a mix of subjective and objective factors, including your height AND weight, the type of riding you’ll be doing, and personal preference.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>We can start with some sweeping generalizations: shorter <a href=\"https://www.backcountry.com/snowboards\">snowboards</a> will in general be more manageable and easier to maneuver, so they’re great for beginners, lighter folks, or more freestyle-oriented riders. Longer snowboard will be faster and more stable, making them good for&nbsp; great for heavier, more advanced, or aggressive freeriders.&nbsp;</p>\r\n"
+              }
+            },
+            "item_1699933421288": {
+              "cq:panelTitle": "How much should you pay for your first snowboard?",
+              "sling:resourceType": "baem/components/container",
+              "jcr:primaryType": "nt:unstructured",
+              "text": {
+                "jcr:created": "Tue Nov 14 2023 03:46:15 GMT+0000",
+                "jcr:lastModifiedBy": "steph.briggs@backcountry.com",
+                "jcr:createdBy": "steph.briggs@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Tue Nov 14 2023 03:52:24 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<p>A beginner snowboard will cost around $250–$400. Flat camber or all-mountain boards are easiest to learn on. </p>\r\n"
+              }
+            },
+            "item_1699933510108": {
+              "cq:panelTitle": "What safety gear do I need to go snowboarding?",
+              "sling:resourceType": "baem/components/container",
+              "jcr:primaryType": "nt:unstructured",
+              "text": {
+                "jcr:created": "Tue Nov 14 2023 03:46:12 GMT+0000",
+                "jcr:lastModifiedBy": "steph.briggs@backcountry.com",
+                "jcr:createdBy": "steph.briggs@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Tue Nov 14 2023 03:53:38 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<p>It’s always important to wear the right safety gear when you go snowboarding. We recommend wearing a <a title=\"https://www.backcountry.com/snowboard-helmets-goggles\" href=\"https://www.backcountry.com/snowboard-helmets-goggles\">helmet, goggles</a>, gloves, and other protective clothing. </p>\r\n"
+              }
+            },
+            "item_1699933512556": {
+              "cq:panelTitle": "What's the difference between a snowboard binding and a snowboard boot?",
+              "sling:resourceType": "baem/components/container",
+              "jcr:primaryType": "nt:unstructured",
+              "text": {
+                "jcr:created": "Tue Nov 14 2023 03:46:09 GMT+0000",
+                "jcr:lastModifiedBy": "steph.briggs@backcountry.com",
+                "jcr:createdBy": "steph.briggs@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Tue Nov 14 2023 03:54:35 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<p>Snowboard bindings are the connection between the board and the rider's feet, while <a href=\"https://www.backcountry.com/snowboard-boots\">snowboard boots</a> are the footwear worn by the rider. <a href=\"https://www.backcountry.com/snowboard-bindings\">Bindings</a> have different levels of stiffness, from soft to very stiff, depending on the rider's preference. <a href=\"https://www.backcountry.com/snowboard-bindings\"></a></p>\r\n"
+              }
+            },
+            "item_1699934566356": {
+              "cq:panelTitle": "What's the best type of snowboard for beginners?",
+              "sling:resourceType": "baem/components/container",
+              "jcr:primaryType": "nt:unstructured",
+              "text": {
+                "jcr:created": "Tue Nov 14 2023 04:05:17 GMT+0000",
+                "jcr:lastModifiedBy": "steph.briggs@backcountry.com",
+                "jcr:createdBy": "steph.briggs@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Tue Nov 14 2023 04:06:09 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<p>For beginner snowboarders, a directional twin snowboard is the best option. This type of board is designed for all-mountain riding, meaning it is suitable for any type of terrain. </p>\r\n"
+              }
+            },
+            "item_1699934580942": {
+              "cq:panelTitle": "What's the difference between camber vs rocker snowboards?",
+              "sling:resourceType": "baem/components/container",
+              "jcr:primaryType": "nt:unstructured",
+              "text": {
+                "jcr:created": "Tue Nov 14 2023 04:05:11 GMT+0000",
+                "jcr:lastModifiedBy": "steph.briggs@backcountry.com",
+                "jcr:createdBy": "steph.briggs@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Tue Nov 14 2023 04:06:21 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<p>Camber snowboards have an arched shape, which provides the rider with more edge control and power, while rocker snowboards have a reverse-camber shape, which is better suited for freestyle riding and deep powder.</p>\r\n"
+              }
+            },
+            "item_1699934582620": {
+              "cq:panelTitle": "What's the difference between hard vs soft snowboards?",
+              "sling:resourceType": "baem/components/container",
+              "jcr:primaryType": "nt:unstructured",
+              "text": {
+                "jcr:created": "Tue Nov 14 2023 04:05:09 GMT+0000",
+                "jcr:lastModifiedBy": "steph.briggs@backcountry.com",
+                "jcr:createdBy": "steph.briggs@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Tue Nov 14 2023 04:06:37 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<p>A soft snowboard is more forgiving and easier to turn, while a hard snowboard is more stable and provides better edge control.</p>\r\n"
+              }
+            },
+            "item_1699934613471": {
+              "cq:panelTitle": "What is the best type of snowboard for powder riding?",
+              "sling:resourceType": "baem/components/container",
+              "jcr:primaryType": "nt:unstructured",
+              "text": {
+                "jcr:created": "Tue Nov 14 2023 04:05:07 GMT+0000",
+                "jcr:lastModifiedBy": "steph.briggs@backcountry.com",
+                "jcr:createdBy": "steph.briggs@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Tue Nov 14 2023 04:06:49 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<p>The best type of snowboard for powder riding is a directional powder board, which has a longer nose and a shorter tail. This type of board is designed for deep powder and is the best choice for riders who want to float on top of the snow.</p>\r\n"
+              }
+            },
+            "item_1699934608729": {
+              "cq:panelTitle": "What is the best type of snowboard for park riding?",
+              "sling:resourceType": "baem/components/container",
+              "jcr:primaryType": "nt:unstructured",
+              "text": {
+                "jcr:created": "Tue Nov 14 2023 04:05:04 GMT+0000",
+                "jcr:lastModifiedBy": "steph.briggs@backcountry.com",
+                "jcr:createdBy": "steph.briggs@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Tue Nov 14 2023 04:06:59 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<p>The best type of snowboard for park riding is a true twin snowboard, which has an identical shape and flex pattern in the nose and tail. This type of board is designed for freestyle riding, and is the most popular choice for park riders.</p>\r\n<p>&nbsp;</p>\r\n"
+              }
+            },
+            "item_1699934611112": {
+              "cq:panelTitle": "What's the difference between a snowboard edge and a sidewall?",
+              "sling:resourceType": "baem/components/container",
+              "jcr:primaryType": "nt:unstructured",
+              "text": {
+                "jcr:created": "Tue Nov 14 2023 04:05:02 GMT+0000",
+                "jcr:lastModifiedBy": "steph.briggs@backcountry.com",
+                "jcr:createdBy": "steph.briggs@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Tue Nov 14 2023 04:07:10 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<p>The edge of a snowboard is the metal edge that runs along the length of the board and contacts the snow, while the sidewall is the plastic material that runs along the edge and helps to protect it.</p>\r\n"
+              }
+            },
+            "item_1": {
+              "layout": "responsiveGrid",
+              "cq:panelTitle": "What should a beginner snowboarder wear?",
+              "sling:resourceType": "baem/components/container",
+              "jcr:primaryType": "nt:unstructured",
+              "jcr:title": "Item 1",
+              "text": {
+                "jcr:created": "Tue Nov 14 2023 03:46:20 GMT+0000",
+                "jcr:lastModifiedBy": "steph.briggs@backcountry.com",
+                "jcr:createdBy": "steph.briggs@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Tue Nov 14 2023 03:49:14 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<p>Based on the weather for the day, a beginner snowboarder would wear:</p>\r\n<ul>\r\n<li><a title=\"https://www.backcountry.com/snowboard-clothing\" href=\"https://www.backcountry.com/snowboard-clothing\">Clothing layers</a> consisting of leggings and a long sleeve, preferably made of polyester, spandex, merino wool, tencel, elastane or a blend of these materials. Cotton should be avoided since it does not breathe well.</li>\r\n<li>A good pair of socks made of wool, nylon, lycra, elastane, primaloft/a blend of these materials. Avoid cotton socks as well as they do not breathe well or provide the warmth needed.&nbsp;</li>\r\n<li>A pair of insulated ski pants and jacket during the colder months, shells during the spring season.Purchasing gear during spring/summer sales is a great way to save money on winter gear as well.&nbsp;</li>\r\n<li>Face masks are a great addition during the colder months to protect our faces from windburn/sun damage in the spring.&nbsp;</li>\r\n<li>Hand and feet warmers are a great way to stay warm on the slopes.&nbsp;</li>\r\n<li>Glove liners keep your hands dry and warm inside your mittens /gloves.&nbsp;</li>\r\n<li>Impact shorts are a great investment for a beginner snowboarders, you will come to find you will spend a lot of time falling at first, impact shorts will protect vulnerable areas.</li>\r\n</ul>\r\n"
+              }
+            }
+          }
+        }
+      }
+    }
+  }

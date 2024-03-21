@@ -1,0 +1,1354 @@
+{
+  "jcr:created": "Tue Oct 10 2023 21:04:49 GMT+0000",
+  "jcr:createdBy": "gabriel.segura@backcountry.com",
+  "jcr:primaryType": "cq:Page",
+  "jcr:content": {
+    "cq:lastReplicatedBy": "lclark@backcountry.com",
+    "cq:lastReplicationAction": "Activate",
+    "cq:lastReplicatedBy_publish": "lclark@backcountry.com",
+    "sling:resourceType": "baem/components/page",
+    "jcr:uuid": "21d34e1d-4ee0-41d4-a3c9-6b3f1734e60b",
+    "jcr:title": "’23/’24 Outerwear Guide",
+    "cq:isDelivered": true,
+    "pageProperty_seo-toggle": "false",
+    "jcr:versionHistory": "a0fe29d9-60df-4c86-b20c-5b1922ecb08c",
+    "cq:lastModifiedBy": "tina.mathew@backcountry.com",
+    "cq:template": "/conf/baem/settings/wcm/templates/page-content",
+    "pageProperty_titleTag": "’23/’24 Outerwear Guide | Backcountry.com",
+    "jcr:created": "Tue Oct 10 2023 21:04:49 GMT+0000",
+    "jcr:createdBy": "gabriel.segura@backcountry.com",
+    "jcr:predecessors": ["59e46df7-e799-4788-9c85-d99428895eab"],
+    "jcr:isCheckedOut": true,
+    "jcr:mixinTypes": ["cq:ReplicationStatus2", "mix:versionable"],
+    "pageProperty_description": "The best outerwear of the ’23/’24 ski & snowboard season. Explore our Gearheads’ top picks: skiing & snowboarding jackets, pants, bibs, helmets, goggles, winter accessories, baselayers, midlayers, and more.  ",
+    "cq:lastReplicationAction_publish": "Activate",
+    "cq:lastModified": "Mon Nov 13 2023 16:42:54 GMT+0000",
+    "jcr:primaryType": "cq:PageContent",
+    "cq:lastReplicated": "Mon Oct 23 2023 19:11:56 GMT+0000",
+    "cq:lastReplicated_publish": "Mon Oct 23 2023 19:11:56 GMT+0000",
+    "sling:vanityPath": "backcountry-outerwear-guide",
+    "jcr:baseVersion": "59e46df7-e799-4788-9c85-d99428895eab",
+    "root": {
+      "layout": "responsiveGrid",
+      "sling:resourceType": "baem/components/container",
+      "jcr:primaryType": "nt:unstructured",
+      "container": {
+        "layout": "responsiveGrid",
+        "sling:resourceType": "baem/components/container",
+        "jcr:primaryType": "nt:unstructured",
+        "title": {
+          "sling:resourceType": "baem/components/title",
+          "jcr:primaryType": "nt:unstructured"
+        },
+        "container": {
+          "sling:resourceType": "baem/components/container",
+          "layout": "responsiveGrid",
+          "jcr:primaryType": "nt:unstructured",
+          "teaser_1794064492_co": {
+            "aspect_ratio": "hero",
+            "controls": "false",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/teaser",
+            "styleName": "card",
+            "assetList": "video",
+            "promotionId": "202310_Ski_Guide_LP",
+            "backgroundcolor": "blank",
+            "promotionName": "202310_Ski_Guide_LP",
+            "loop": "true",
+            "poster_aspect_ratio": "original",
+            "muted": "true",
+            "videoAsset": "/content/dam/bcs/projects/bc23_0340_ski-guide/outerwear-guide-landing-page/Outerwear_LP Hero.mp4",
+            "cq:styleIds": ["1657877310615"],
+            "jcr:created": "Thu Aug 11 2022 20:01:51 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "jcr:createdBy": "anicholson@backcountry.com",
+            "alt": "Ski & Ride Guide",
+            "autoplay": "true",
+            "actionsEnabled": "false",
+            "jcr:lastModified": "Tue Oct 10 2023 22:30:25 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "fileReference": "/content/dam/bcs/projects/bc23_0340_ski-guide/ski-guide-landing-page/Ski Guide_LP_Hero.jpg",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "small_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "large_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured",
+                "behavior": "none"
+              },
+              "medium_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            },
+            "actions": {
+              "jcr:primaryType": "nt:unstructured",
+              "item0": {
+                "link": "/rc/summer-on-the-water",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Shop Now",
+                "variation": "brand"
+              }
+            }
+          },
+          "anchornavigation_cop": {
+            "backgroundColor": "white",
+            "jcr:created": "Fri Jul 07 2023 20:18:06 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "jcr:createdBy": "anicholson@backcountry.com",
+            "sling:resourceType": "baem/components/anchornavigation",
+            "jcr:lastModified": "Tue Oct 10 2023 22:19:04 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "center",
+            "actions": {
+              "jcr:primaryType": "nt:unstructured",
+              "item0": {
+                "link": "#202310_Outerwear_Guide_HelmetsGoggles",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Helmets & Goggles",
+                "openInNewWindow": "false"
+              },
+              "item1": {
+                "link": "#202310_Outerwear_Guide_MensOuterwear",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Men's Outerwear",
+                "openInNewWindow": "false"
+              },
+              "item2": {
+                "link": "#202310_Outerwear_Guide_WomensOuterwear",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Women's Outerwear",
+                "openInNewWindow": "false"
+              },
+              "item3": {
+                "link": "#202310_Outerwear_Guide_Accessories",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Accessories",
+                "openInNewWindow": "false"
+              }
+            }
+          },
+          "spacer_1427639433_co": {
+            "jcr:created": "Thu Jun 15 2023 21:52:30 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "32",
+            "pixels_large": "32",
+            "pixels_medium": "32",
+            "jcr:lastModified": "Fri Jul 07 2023 21:13:43 GMT+0000",
+            "pixels_small": "32",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "32"
+          },
+          "text_294269145_copy_": {
+            "jcr:created": "Wed Oct 05 2022 20:03:43 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "jcr:createdBy": "anicholson@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/text",
+            "jcr:lastModified": "Tue Oct 10 2023 22:21:02 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "id": "202310_Outerwear_Guide_HelmetsGoggles",
+            "text": "<p style=\"text-align: center;\"><span class=\"title3Heavy\">Helmets &amp; Goggles</span></p>\r\n<p style=\"text-align: center;\"><span class=\"body1\">Protection to keep you covered all season and proper optics for catching mountain views, too.</span></p>\r\n",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "base_bp": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "small_bp": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "medium_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "large_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "default": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "spacer_1427639433_co_1611998248": {
+            "jcr:created": "Thu Jun 15 2023 21:52:30 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "32",
+            "pixels_large": "32",
+            "pixels_medium": "32",
+            "jcr:lastModified": "Tue Oct 10 2023 17:10:35 GMT+0000",
+            "pixels_small": "32",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "32"
+          },
+          "textbanner_copy_copy": {
+            "jcr:created": "Wed Sep 20 2023 18:24:04 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "colorselector": "primary",
+            "jcr:createdBy": "gabriel.segura@backcountry.com",
+            "textIsRich": "true",
+            "textcolor": "primary",
+            "sling:resourceType": "baem/components/textbanner",
+            "promotionId": "202309_Ski_Ride_Teaser_LP",
+            "promotionName": "202309_Ski_Ride_Teaser_LP",
+            "actionsEnabled": "true",
+            "jcr:description": "<p><span class=\"title2Heavy\">Our Top Helmet Picks</span></p>\r\n",
+            "jcr:lastModified": "Tue Oct 10 2023 21:12:22 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "actions": {
+              "jcr:primaryType": "nt:unstructured",
+              "item0": {
+                "link": "/ski-helmets",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Shop Helmets",
+                "variation": "outline"
+              }
+            }
+          },
+          "spacer_1427639433_co_1329990063": {
+            "jcr:created": "Thu Jun 15 2023 21:52:30 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "16",
+            "pixels_large": "16",
+            "pixels_medium": "16",
+            "jcr:lastModified": "Tue Oct 10 2023 17:11:51 GMT+0000",
+            "pixels_small": "16",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "16"
+          },
+          "experiencefragment_c_1809961809": {
+            "jcr:created": "Fri Jun 02 2023 16:47:02 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "jcr:createdBy": "anicholson@backcountry.com",
+            "cq:panelTitle": "hiking boots",
+            "sling:resourceType": "baem/components/experiencefragment",
+            "fragmentVariationPath": "/content/experience-fragments/baem/us/en/product_listing/bcs/full_price/bc23_0340_ski_guide_/helmets/master",
+            "jcr:lastModified": "Tue Oct 10 2023 21:11:13 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "Manual Product details: BCCZ2M9-OLIPLA PATZ9UB HBRD034 PNN0028 SICZ2PY Tracking Product List: 202309_BC23_0315_Fall_Layers_xfrow_mens-shirts Show OOS: true Sale Only: false Varient: row",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "spacer_1427639433_co_2118323238": {
+            "jcr:created": "Thu Jun 15 2023 21:52:30 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "32",
+            "pixels_large": "32",
+            "pixels_medium": "32",
+            "jcr:lastModified": "Tue Oct 10 2023 17:10:35 GMT+0000",
+            "pixels_small": "32",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "32"
+          },
+          "textbanner_copy_copy_2028177261": {
+            "jcr:created": "Wed Sep 20 2023 18:24:04 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "colorselector": "primary",
+            "jcr:createdBy": "gabriel.segura@backcountry.com",
+            "textIsRich": "true",
+            "textcolor": "primary",
+            "sling:resourceType": "baem/components/textbanner",
+            "promotionId": "202309_Ski_Ride_Teaser_LP",
+            "promotionName": "202309_Ski_Ride_Teaser_LP",
+            "actionsEnabled": "true",
+            "jcr:description": "<p><span class=\"title2Heavy\">Our Top Goggles Picks</span></p>\r\n",
+            "jcr:lastModified": "Tue Oct 10 2023 21:12:09 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "actions": {
+              "jcr:primaryType": "nt:unstructured",
+              "item0": {
+                "link": "/goggles",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Shop Goggles",
+                "variation": "outline"
+              }
+            }
+          },
+          "spacer_1427639433_co_1459706840": {
+            "jcr:created": "Thu Jun 15 2023 21:52:30 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "16",
+            "pixels_large": "16",
+            "pixels_medium": "16",
+            "jcr:lastModified": "Tue Oct 10 2023 17:11:51 GMT+0000",
+            "pixels_small": "16",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "16"
+          },
+          "experiencefragment_c_212919208": {
+            "jcr:created": "Fri Jun 02 2023 16:47:02 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "jcr:createdBy": "anicholson@backcountry.com",
+            "cq:panelTitle": "hiking boots",
+            "sling:resourceType": "baem/components/experiencefragment",
+            "fragmentVariationPath": "/content/experience-fragments/baem/us/en/product_listing/bcs/full_price/bc23_0340_ski_guide_/goggles/master",
+            "jcr:lastModified": "Tue Oct 10 2023 22:13:06 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "Manual Product details: BCCZ2M9-OLIPLA PATZ9UB HBRD034 PNN0028 SICZ2PY Tracking Product List: 202309_BC23_0315_Fall_Layers_xfrow_mens-shirts Show OOS: true Sale Only: false Varient: row",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "spacer_1427639433_co_287996495": {
+            "jcr:created": "Thu Jun 15 2023 21:52:30 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "32",
+            "pixels_large": "32",
+            "pixels_medium": "32",
+            "jcr:lastModified": "Tue Oct 10 2023 17:10:35 GMT+0000",
+            "pixels_small": "32",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "32"
+          },
+          "text_294269145_copy__1883822718": {
+            "jcr:created": "Wed Oct 05 2022 20:03:43 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "jcr:createdBy": "anicholson@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/text",
+            "jcr:lastModified": "Tue Oct 10 2023 21:14:04 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "id": "202310_Ski_Guide_Skis",
+            "text": "<p style=\"text-align: center;\"><span class=\"title3Heavy\">Outerwear</span></p>\r\n<p style=\"text-align: center;\"><span class=\"body1\">This year’s best gear to keep your body dry—and spirits high—from the season’s first laps to its final tracks.</span></p>\r\n",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "base_bp": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "small_bp": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "medium_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "large_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "default": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "textbanner_copy_copy_1791404263": {
+            "jcr:created": "Wed Sep 20 2023 18:24:04 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "colorselector": "primary",
+            "jcr:createdBy": "gabriel.segura@backcountry.com",
+            "textIsRich": "true",
+            "textcolor": "primary",
+            "sling:resourceType": "baem/components/textbanner",
+            "promotionId": "202309_Ski_Ride_Teaser_LP",
+            "promotionName": "202309_Ski_Ride_Teaser_LP",
+            "actionsEnabled": "true",
+            "jcr:description": "<p><span class=\"title2Heavy\">Men’s Outerwear</span></p>\r\n",
+            "jcr:lastModified": "Tue Oct 10 2023 21:17:42 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "actions": {
+              "jcr:primaryType": "nt:unstructured",
+              "item0": {
+                "link": "/mens-ski-clothing",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Shop Men’s Outerwear",
+                "variation": "outline"
+              }
+            }
+          },
+          "teaser_1794064492_co_1752061618": {
+            "aspect_ratio": "hero",
+            "controls": "false",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/teaser",
+            "styleName": "herobox",
+            "assetList": "images",
+            "promotionId": "202310_Ski_Guide_LP",
+            "backgroundcolor": "light",
+            "promotionName": "202310_Ski_Guide_LP",
+            "loop": "true",
+            "poster_aspect_ratio": "original",
+            "muted": "true",
+            "cq:styleIds": ["1665063735774"],
+            "jcr:created": "Thu Aug 11 2022 20:01:51 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "jcr:createdBy": "anicholson@backcountry.com",
+            "alt": "Ski & Ride Guide",
+            "autoplay": "true",
+            "actionsEnabled": "true",
+            "jcr:description": "<p><span class=\"title4Heavy\">Backcountry Cottonwoods GORE-TEX Jacket &amp; Bibs</span><br>\r\n</p>\r\n<p>Characterized by durability and hardiness, the Cottonwoods kit has a canvas-like construction that will live through all of winter's harshness. This year, we updated the fit with a more comfortable and movement-friendly profile based on community feedback. And it's built with all the small details that make a huge difference: tons of intelligently placed pockets, an internal cloth for defogging goggles, fully waterproof construction, proper ventilation, and a colorway collaboration with our friends at the Japan-based brand, Manastash.</p>\r\n",
+            "jcr:lastModified": "Tue Oct 10 2023 22:09:41 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "right",
+            "fileReference": "/content/dam/bcs/projects/bc23_0340_ski-guide/outerwear-guide-landing-page/Mens Outerwear_image.jpg",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "small_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "large_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured",
+                "behavior": "none"
+              },
+              "medium_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            },
+            "actions": {
+              "jcr:primaryType": "nt:unstructured",
+              "item0": {
+                "link": "/backcountry-cottonwoods-gore-tex-jacket-mens",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Shop Our Pick",
+                "variation": "brand"
+              }
+            }
+          },
+          "textbanner_copy_copy_1172616232": {
+            "jcr:created": "Wed Sep 20 2023 18:24:04 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "colorselector": "primary",
+            "jcr:createdBy": "gabriel.segura@backcountry.com",
+            "textIsRich": "true",
+            "textcolor": "primary",
+            "sling:resourceType": "baem/components/textbanner",
+            "promotionId": "202309_Ski_Ride_Teaser_LP",
+            "promotionName": "202309_Ski_Ride_Teaser_LP",
+            "actionsEnabled": "true",
+            "jcr:description": "<p><span class=\"body2Heavy\">Runners Up</span></p>\r\n<p><span class=\"body2\">Our Gearheads’ Next Best Picks</span></p>\r\n",
+            "jcr:lastModified": "Tue Oct 10 2023 21:21:37 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "actions": {
+              "jcr:primaryType": "nt:unstructured",
+              "item0": {
+                "link": "/mens-ski-clothing",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Shop Men’s Outerwear",
+                "variation": "outline"
+              }
+            }
+          },
+          "experiencefragment_c": {
+            "jcr:created": "Fri Jun 02 2023 16:47:02 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "jcr:createdBy": "anicholson@backcountry.com",
+            "cq:panelTitle": "hiking boots",
+            "sling:resourceType": "baem/components/experiencefragment",
+            "fragmentVariationPath": "/content/experience-fragments/baem/us/en/product_listing/bcs/full_price/bc23_0340_ski_guide_/men-s-outerwear/master",
+            "jcr:lastModified": "Tue Oct 10 2023 21:22:01 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "Manual Product details: BCCZ2M9-OLIPLA PATZ9UB HBRD034 PNN0028 SICZ2PY Tracking Product List: 202309_BC23_0315_Fall_Layers_xfrow_mens-shirts Show OOS: true Sale Only: false Varient: row",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "spacer_1427639433_co_931160285": {
+            "jcr:created": "Thu Jun 15 2023 21:52:30 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "16",
+            "pixels_large": "16",
+            "pixels_medium": "16",
+            "jcr:lastModified": "Tue Oct 10 2023 17:11:51 GMT+0000",
+            "pixels_small": "16",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "16"
+          },
+          "textbanner_copy_copy_287435638": {
+            "jcr:created": "Wed Sep 20 2023 18:24:04 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "colorselector": "primary",
+            "jcr:createdBy": "gabriel.segura@backcountry.com",
+            "textIsRich": "true",
+            "textcolor": "primary",
+            "sling:resourceType": "baem/components/textbanner",
+            "promotionId": "202309_Ski_Ride_Teaser_LP",
+            "promotionName": "202309_Ski_Ride_Teaser_LP",
+            "actionsEnabled": "true",
+            "jcr:description": "<p><span class=\"title2Heavy\">Our Top Men’s Baselayers &nbsp;</span></p>\r\n",
+            "jcr:lastModified": "Tue Oct 10 2023 21:31:29 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "actions": {
+              "jcr:primaryType": "nt:unstructured",
+              "item0": {
+                "link": "/mens-baselayers",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Shop Men’s Baselayers ",
+                "variation": "outline"
+              }
+            }
+          },
+          "spacer_1427639433_co_1411182125": {
+            "jcr:created": "Thu Jun 15 2023 21:52:30 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "16",
+            "pixels_large": "16",
+            "pixels_medium": "16",
+            "jcr:lastModified": "Tue Oct 10 2023 17:11:51 GMT+0000",
+            "pixels_small": "16",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "16"
+          },
+          "experiencefragment_c_2102419092": {
+            "jcr:created": "Fri Jun 02 2023 16:47:02 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "jcr:createdBy": "anicholson@backcountry.com",
+            "cq:panelTitle": "hiking boots",
+            "sling:resourceType": "baem/components/experiencefragment",
+            "fragmentVariationPath": "/content/experience-fragments/baem/us/en/product_listing/bcs/full_price/bc23_0340_ski_guide_/men-s-baselayers/master",
+            "jcr:lastModified": "Tue Oct 10 2023 21:31:53 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "Manual Product details: BCCZ2M9-OLIPLA PATZ9UB HBRD034 PNN0028 SICZ2PY Tracking Product List: 202309_BC23_0315_Fall_Layers_xfrow_mens-shirts Show OOS: true Sale Only: false Varient: row",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "spacer_1427639433_co_671259789": {
+            "jcr:created": "Thu Jun 15 2023 21:52:30 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "16",
+            "pixels_large": "16",
+            "pixels_medium": "16",
+            "jcr:lastModified": "Tue Oct 10 2023 17:20:30 GMT+0000",
+            "pixels_small": "16",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "16"
+          },
+          "textbanner_copy_copy_1039221343": {
+            "jcr:created": "Wed Sep 20 2023 18:24:04 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "colorselector": "primary",
+            "jcr:createdBy": "gabriel.segura@backcountry.com",
+            "textIsRich": "true",
+            "textcolor": "primary",
+            "sling:resourceType": "baem/components/textbanner",
+            "promotionId": "202309_Ski_Ride_Teaser_LP",
+            "promotionName": "202309_Ski_Ride_Teaser_LP",
+            "actionsEnabled": "true",
+            "jcr:description": "<p><span class=\"title2Heavy\">Our Top Men’s Midlayers</span></p>\r\n",
+            "jcr:lastModified": "Tue Oct 10 2023 23:33:15 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "actions": {
+              "jcr:primaryType": "nt:unstructured",
+              "item0": {
+                "link": "/mens-fleece-jackets",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Men’s Fleece Jackets",
+                "variation": "outline"
+              },
+              "item1": {
+                "link": "/mens-insulated-jackets",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Men’s Insulated Jackets",
+                "variation": "outline"
+              }
+            }
+          },
+          "spacer_1427639433_co_1378414809": {
+            "jcr:created": "Thu Jun 15 2023 21:52:30 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "16",
+            "pixels_large": "16",
+            "pixels_medium": "16",
+            "jcr:lastModified": "Tue Oct 10 2023 17:11:51 GMT+0000",
+            "pixels_small": "16",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "16"
+          },
+          "experiencefragment_c_153710529": {
+            "jcr:created": "Fri Jun 02 2023 16:47:02 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "jcr:createdBy": "anicholson@backcountry.com",
+            "cq:panelTitle": "hiking boots",
+            "sling:resourceType": "baem/components/experiencefragment",
+            "fragmentVariationPath": "/content/experience-fragments/baem/us/en/product_listing/bcs/full_price/bc23_0340_ski_guide_/men-s-mid-layers/master",
+            "jcr:lastModified": "Tue Oct 10 2023 21:37:33 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "Manual Product details: BCCZ2M9-OLIPLA PATZ9UB HBRD034 PNN0028 SICZ2PY Tracking Product List: 202309_BC23_0315_Fall_Layers_xfrow_mens-shirts Show OOS: true Sale Only: false Varient: row",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "spacer_1427639433_co_1267356338": {
+            "jcr:created": "Thu Jun 15 2023 21:52:30 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "16",
+            "pixels_large": "16",
+            "pixels_medium": "16",
+            "jcr:lastModified": "Tue Oct 10 2023 17:20:30 GMT+0000",
+            "pixels_small": "16",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "16"
+          },
+          "textbanner_copy_copy_1786871483": {
+            "jcr:created": "Wed Sep 20 2023 18:24:04 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "colorselector": "primary",
+            "jcr:createdBy": "gabriel.segura@backcountry.com",
+            "textIsRich": "true",
+            "textcolor": "primary",
+            "sling:resourceType": "baem/components/textbanner",
+            "promotionId": "202309_Ski_Ride_Teaser_LP",
+            "promotionName": "202309_Ski_Ride_Teaser_LP",
+            "actionsEnabled": "true",
+            "jcr:description": "<p><span class=\"title2Heavy\">Women’s Outerwear</span></p>\r\n",
+            "jcr:lastModified": "Tue Oct 10 2023 21:45:09 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "actions": {
+              "jcr:primaryType": "nt:unstructured",
+              "item0": {
+                "link": "/womens-ski-clothing",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Shop Women’s Outerwear",
+                "variation": "outline"
+              }
+            }
+          },
+          "text_294269145_copy__651400134": {
+            "jcr:created": "Wed Oct 05 2022 20:03:43 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "jcr:createdBy": "anicholson@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/text",
+            "jcr:lastModified": "Tue Oct 10 2023 22:22:12 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "id": "202310_Outerwear_Guide_WomensOuterwear",
+            "text": "<p style=\"text-align: center;\">-</p>\r\n",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "base_bp": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "small_bp": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "medium_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "large_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "default": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "teaser_1794064492_co_1525776647": {
+            "aspect_ratio": "hero",
+            "controls": "false",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/teaser",
+            "styleName": "herobox",
+            "assetList": "images",
+            "promotionId": "202310_Ski_Guide_LP",
+            "backgroundcolor": "light",
+            "promotionName": "202310_Ski_Guide_LP",
+            "loop": "true",
+            "poster_aspect_ratio": "original",
+            "muted": "true",
+            "cq:styleIds": ["1665063735774"],
+            "jcr:created": "Thu Aug 11 2022 20:01:51 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "jcr:createdBy": "anicholson@backcountry.com",
+            "alt": "Ski & Ride Guide",
+            "autoplay": "true",
+            "actionsEnabled": "true",
+            "jcr:description": "<p><span class=\"title4Heavy\">Backcountry Cardiac GORE-TEX PRO Jacket &amp; Pants</span><br />\r\n</p>\r\n<p>We built this kit to solve every pain point we’ve run into with other outerwear. It’ll regulate your temps during uphill climbs or downhill rips. 3-layer GORE-TEX laminate delivers best-in-class weather protection (without restricting movement or comfort) that pairs easily with other layers. And clever details like the pass-specific pocket, built-in goggle wipe, glove-friendly zippers, and other intelligent pocket placements let you solely focus on carving joy out of winter.  </p>\r\n",
+            "jcr:lastModified": "Tue Oct 10 2023 21:46:20 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "right",
+            "fileReference": "/content/dam/bcs/projects/bc23_0340_ski-guide/outerwear-guide-landing-page/Women Outerwear_image.jpg",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "small_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "large_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured",
+                "behavior": "none"
+              },
+              "medium_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            },
+            "actions": {
+              "jcr:primaryType": "nt:unstructured",
+              "item0": {
+                "link": "/backcountry-cardiac-gore-tex-pro-jacket-womens",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Shop Our Pick",
+                "variation": "brand"
+              }
+            }
+          },
+          "textbanner_copy_copy_1267549960": {
+            "jcr:created": "Wed Sep 20 2023 18:24:04 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "colorselector": "primary",
+            "jcr:createdBy": "gabriel.segura@backcountry.com",
+            "textIsRich": "true",
+            "textcolor": "primary",
+            "sling:resourceType": "baem/components/textbanner",
+            "promotionId": "202309_Ski_Ride_Teaser_LP",
+            "promotionName": "202309_Ski_Ride_Teaser_LP",
+            "actionsEnabled": "true",
+            "jcr:description": "<p><span class=\"body2Heavy\">Runners Up</span></p>\r\n<p><span class=\"body2\">Our Gearheads’ Next Best Picks</span></p>\r\n",
+            "jcr:lastModified": "Tue Oct 10 2023 21:49:18 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "actions": {
+              "jcr:primaryType": "nt:unstructured",
+              "item0": {
+                "link": "/womens-ski-clothing",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Shop Women’s Outerwear",
+                "variation": "outline"
+              }
+            }
+          },
+          "experiencefragment_c_1545241487": {
+            "jcr:created": "Fri Jun 02 2023 16:47:02 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "jcr:createdBy": "anicholson@backcountry.com",
+            "cq:panelTitle": "hiking boots",
+            "sling:resourceType": "baem/components/experiencefragment",
+            "fragmentVariationPath": "/content/experience-fragments/baem/us/en/product_listing/bcs/full_price/bc23_0340_ski_guide_/women-s-outerwear/master",
+            "jcr:lastModified": "Tue Oct 10 2023 21:49:40 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "Manual Product details: BCCZ2M9-OLIPLA PATZ9UB HBRD034 PNN0028 SICZ2PY Tracking Product List: 202309_BC23_0315_Fall_Layers_xfrow_mens-shirts Show OOS: true Sale Only: false Varient: row",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "spacer_1427639433_co_1941880277": {
+            "jcr:created": "Thu Jun 15 2023 21:52:30 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "16",
+            "pixels_large": "16",
+            "pixels_medium": "16",
+            "jcr:lastModified": "Tue Oct 10 2023 17:11:51 GMT+0000",
+            "pixels_small": "16",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "16"
+          },
+          "textbanner_copy_copy_463594075": {
+            "jcr:created": "Wed Sep 20 2023 18:24:04 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "colorselector": "primary",
+            "jcr:createdBy": "gabriel.segura@backcountry.com",
+            "textIsRich": "true",
+            "textcolor": "primary",
+            "sling:resourceType": "baem/components/textbanner",
+            "promotionId": "202309_Ski_Ride_Teaser_LP",
+            "promotionName": "202309_Ski_Ride_Teaser_LP",
+            "actionsEnabled": "true",
+            "jcr:description": "<p><span class=\"title2Heavy\">Our Top Women’s Baselayers  </span></p>\r\n",
+            "jcr:lastModified": "Tue Oct 10 2023 21:51:26 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "actions": {
+              "jcr:primaryType": "nt:unstructured",
+              "item0": {
+                "link": "/womens-baselayers",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Shop Women’s Baselayers ",
+                "variation": "outline"
+              }
+            }
+          },
+          "spacer_1427639433_co_635616502": {
+            "jcr:created": "Thu Jun 15 2023 21:52:30 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "16",
+            "pixels_large": "16",
+            "pixels_medium": "16",
+            "jcr:lastModified": "Tue Oct 10 2023 17:11:51 GMT+0000",
+            "pixels_small": "16",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "16"
+          },
+          "experiencefragment_c_1758582406": {
+            "jcr:created": "Fri Jun 02 2023 16:47:02 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "jcr:createdBy": "anicholson@backcountry.com",
+            "cq:panelTitle": "hiking boots",
+            "sling:resourceType": "baem/components/experiencefragment",
+            "fragmentVariationPath": "/content/experience-fragments/baem/us/en/product_listing/bcs/full_price/bc23_0340_ski_guide_/women-s-baselayers/master",
+            "jcr:lastModified": "Tue Oct 10 2023 21:51:45 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "Manual Product details: BCCZ2M9-OLIPLA PATZ9UB HBRD034 PNN0028 SICZ2PY Tracking Product List: 202309_BC23_0315_Fall_Layers_xfrow_mens-shirts Show OOS: true Sale Only: false Varient: row",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "spacer_1427639433_co_1227499556": {
+            "jcr:created": "Thu Jun 15 2023 21:52:30 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "16",
+            "pixels_large": "16",
+            "pixels_medium": "16",
+            "jcr:lastModified": "Tue Oct 10 2023 17:20:30 GMT+0000",
+            "pixels_small": "16",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "16"
+          },
+          "textbanner_copy_copy_190696263": {
+            "jcr:created": "Wed Sep 20 2023 18:24:04 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "colorselector": "primary",
+            "jcr:createdBy": "gabriel.segura@backcountry.com",
+            "textIsRich": "true",
+            "textcolor": "primary",
+            "sling:resourceType": "baem/components/textbanner",
+            "promotionId": "202309_Ski_Ride_Teaser_LP",
+            "promotionName": "202309_Ski_Ride_Teaser_LP",
+            "actionsEnabled": "true",
+            "jcr:description": "<p><span class=\"title2Heavy\">Our Top Women’s Midlayers</span></p>\r\n",
+            "jcr:lastModified": "Wed Oct 11 2023 00:43:19 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "actions": {
+              "jcr:primaryType": "nt:unstructured",
+              "item0": {
+                "link": "/womens-fleece-jackets",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Shop Women’s Fleece Jackets",
+                "variation": "outline"
+              },
+              "item1": {
+                "link": "/womens-insulated-jackets",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Shop Women’s Insulated Jackets",
+                "variation": "outline"
+              }
+            }
+          },
+          "spacer_1427639433_co_1475333533": {
+            "jcr:created": "Thu Jun 15 2023 21:52:30 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "16",
+            "pixels_large": "16",
+            "pixels_medium": "16",
+            "jcr:lastModified": "Tue Oct 10 2023 17:11:51 GMT+0000",
+            "pixels_small": "16",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "16"
+          },
+          "experiencefragment_c_1486760550": {
+            "jcr:created": "Fri Jun 02 2023 16:47:02 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "jcr:createdBy": "anicholson@backcountry.com",
+            "cq:panelTitle": "hiking boots",
+            "sling:resourceType": "baem/components/experiencefragment",
+            "fragmentVariationPath": "/content/experience-fragments/baem/us/en/product_listing/bcs/full_price/bc23_0340_ski_guide_/women-s-mid-layers/master",
+            "jcr:lastModified": "Tue Oct 10 2023 21:53:58 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "Manual Product details: BCCZ2M9-OLIPLA PATZ9UB HBRD034 PNN0028 SICZ2PY Tracking Product List: 202309_BC23_0315_Fall_Layers_xfrow_mens-shirts Show OOS: true Sale Only: false Varient: row",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "spacer_1427639433_co_194887310": {
+            "jcr:created": "Thu Jun 15 2023 21:52:30 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "32",
+            "pixels_large": "32",
+            "pixels_medium": "32",
+            "jcr:lastModified": "Fri Jul 07 2023 21:13:43 GMT+0000",
+            "pixels_small": "32",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "32"
+          },
+          "text_294269145_copy__1183503085": {
+            "jcr:created": "Wed Oct 05 2022 20:03:43 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "jcr:createdBy": "anicholson@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/text",
+            "jcr:lastModified": "Tue Oct 10 2023 22:20:22 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "id": "202310_Outerwear_Guide_Accessories",
+            "text": "<p style=\"text-align: center;\"><span class=\"title3Heavy\">Accessories</span></p>\r\n<p style=\"text-align: center;\"><span class=\"body1\">Gloves, mittens, hats, beanies, socks, and more of our favorite kit-completing styles.</span></p>\r\n",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "base_bp": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "small_bp": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "medium_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "large_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "default": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "spacer_1427639433_co_1216427581": {
+            "jcr:created": "Thu Jun 15 2023 21:52:30 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "16",
+            "pixels_large": "16",
+            "pixels_medium": "16",
+            "jcr:lastModified": "Tue Oct 10 2023 21:59:34 GMT+0000",
+            "pixels_small": "16",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "16"
+          },
+          "textbanner_copy_copy_542708322": {
+            "jcr:created": "Wed Sep 20 2023 18:24:04 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "colorselector": "primary",
+            "jcr:createdBy": "gabriel.segura@backcountry.com",
+            "textIsRich": "true",
+            "textcolor": "primary",
+            "sling:resourceType": "baem/components/textbanner",
+            "promotionId": "202309_Ski_Ride_Teaser_LP",
+            "promotionName": "202309_Ski_Ride_Teaser_LP",
+            "actionsEnabled": "true",
+            "jcr:description": "<p><span class=\"title2Heavy\">Our Top Mittens &amp; Gloves</span></p>\r\n",
+            "jcr:lastModified": "Tue Oct 10 2023 23:34:45 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "actions": {
+              "jcr:primaryType": "nt:unstructured",
+              "item0": {
+                "link": "/mens-gloves-mittens",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Shop Men's",
+                "variation": "outline"
+              },
+              "item1": {
+                "link": "/womens-gloves-mittens",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Shop Women's",
+                "variation": "outline"
+              }
+            }
+          },
+          "experiencefragment_c_1763589844": {
+            "jcr:created": "Fri Jun 02 2023 16:47:02 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "jcr:createdBy": "anicholson@backcountry.com",
+            "cq:panelTitle": "hiking boots",
+            "sling:resourceType": "baem/components/experiencefragment",
+            "fragmentVariationPath": "/content/experience-fragments/baem/us/en/product_listing/bcs/full_price/bc23_0340_ski_guide_/gloves---mittens/master",
+            "jcr:lastModified": "Tue Oct 10 2023 21:58:24 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "Manual Product details: BCCZ2M9-OLIPLA PATZ9UB HBRD034 PNN0028 SICZ2PY Tracking Product List: 202309_BC23_0315_Fall_Layers_xfrow_mens-shirts Show OOS: true Sale Only: false Varient: row",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "spacer_1427639433_co_207622624": {
+            "jcr:created": "Thu Jun 15 2023 21:52:30 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "16",
+            "pixels_large": "16",
+            "pixels_medium": "16",
+            "jcr:lastModified": "Tue Oct 10 2023 22:00:09 GMT+0000",
+            "pixels_small": "16",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "16"
+          },
+          "textbanner_copy_copy_228429436": {
+            "jcr:created": "Wed Sep 20 2023 18:24:04 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "colorselector": "primary",
+            "jcr:createdBy": "gabriel.segura@backcountry.com",
+            "textIsRich": "true",
+            "textcolor": "primary",
+            "sling:resourceType": "baem/components/textbanner",
+            "promotionId": "202309_Ski_Ride_Teaser_LP",
+            "promotionName": "202309_Ski_Ride_Teaser_LP",
+            "actionsEnabled": "true",
+            "jcr:description": "<p><span class=\"title2Heavy\">Our Top Socks</span></p>\r\n",
+            "jcr:lastModified": "Wed Oct 11 2023 00:42:29 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "actions": {
+              "jcr:primaryType": "nt:unstructured",
+              "item0": {
+                "link": "/mens-ski-socks",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Shop Men's Ski Socks",
+                "variation": "outline"
+              },
+              "item1": {
+                "link": "/womens-ski-socks",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Shop Women's Ski Socks",
+                "variation": "outline"
+              }
+            }
+          },
+          "experiencefragment_c_281991792": {
+            "jcr:created": "Fri Jun 02 2023 16:47:02 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "jcr:createdBy": "anicholson@backcountry.com",
+            "cq:panelTitle": "hiking boots",
+            "sling:resourceType": "baem/components/experiencefragment",
+            "fragmentVariationPath": "/content/experience-fragments/baem/us/en/product_listing/bcs/full_price/bc23_0340_ski_guide_/socks/master",
+            "jcr:lastModified": "Tue Oct 10 2023 22:01:30 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "Manual Product details: SWLZ8VO DRN000U DRN000Q DRN001O DRNC022 BUR02KR BUR01IC SWLZ8VX SESZ6IC Tracking Product List: 202310_BC23_0340_Ski_Guide_xrow_socks Show OOS: true Sale Only: false Varient: row",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "spacer_1427639433_co_1563550072": {
+            "jcr:created": "Thu Jun 15 2023 21:52:30 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "16",
+            "pixels_large": "16",
+            "pixels_medium": "16",
+            "jcr:lastModified": "Tue Oct 10 2023 22:00:09 GMT+0000",
+            "pixels_small": "16",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "16"
+          },
+          "textbanner_copy_copy_989086825": {
+            "jcr:created": "Wed Sep 20 2023 18:24:04 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "colorselector": "primary",
+            "jcr:createdBy": "gabriel.segura@backcountry.com",
+            "textIsRich": "true",
+            "textcolor": "primary",
+            "sling:resourceType": "baem/components/textbanner",
+            "promotionId": "202309_Ski_Ride_Teaser_LP",
+            "promotionName": "202309_Ski_Ride_Teaser_LP",
+            "actionsEnabled": "true",
+            "jcr:description": "<p><span class=\"title2Heavy\">Our Top Kids’ Outerwear</span></p>\r\n",
+            "jcr:lastModified": "Wed Oct 11 2023 00:42:57 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "actions": {
+              "jcr:primaryType": "nt:unstructured",
+              "item0": {
+                "link": "/kids-accessories",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Shop Kids’ Accessories",
+                "variation": "outline"
+              },
+              "item1": {
+                "link": "/rc/kids-ski-snowboard-gear-apparel",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Shop Kids' Ski & Snowboard Gear",
+                "variation": "outline"
+              }
+            }
+          },
+          "experiencefragment_c_2101933248": {
+            "jcr:created": "Fri Jun 02 2023 16:47:02 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "jcr:createdBy": "anicholson@backcountry.com",
+            "cq:panelTitle": "hiking boots",
+            "sling:resourceType": "baem/components/experiencefragment",
+            "fragmentVariationPath": "/content/experience-fragments/baem/us/en/product_listing/bcs/full_price/bc23_0340_ski_guide_/kids--outerwear/master",
+            "jcr:lastModified": "Tue Oct 10 2023 22:09:21 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "Manual Product details: BCCZ2M9-OLIPLA PATZ9UB HBRD034 PNN0028 SICZ2PY Tracking Product List: 202309_BC23_0315_Fall_Layers_xfrow_mens-shirts Show OOS: true Sale Only: false Varient: row",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "spacer_1427639433_co_500317832": {
+            "jcr:created": "Thu Jun 15 2023 21:52:30 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "32",
+            "pixels_large": "32",
+            "pixels_medium": "32",
+            "jcr:lastModified": "Fri Jul 07 2023 21:13:43 GMT+0000",
+            "pixels_small": "32",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "32"
+          },
+          "teaser_1794064492_co_1296578704": {
+            "aspect_ratio": "hero",
+            "controls": "false",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/teaser",
+            "styleName": "card",
+            "assetList": "images",
+            "promotionId": "202310_Ski_Guide_LP",
+            "backgroundcolor": "blank",
+            "promotionName": "202310_Ski_Guide_LP",
+            "loop": "true",
+            "poster_aspect_ratio": "original",
+            "muted": "true",
+            "cq:styleIds": ["1657877310615"],
+            "jcr:created": "Thu Aug 11 2022 20:01:51 GMT+0000",
+            "jcr:lastModifiedBy": "tina.mathew@backcountry.com",
+            "jcr:createdBy": "anicholson@backcountry.com",
+            "alt": "Ski & Snowboard Guide",
+            "autoplay": "true",
+            "actionsEnabled": "true",
+            "jcr:lastModified": "Mon Oct 16 2023 17:56:36 GMT+0000",
+            "jcr:description": "<p><span class=\"title2Heavy\">Our Gearheads’ Top Picks</span></p>\r\n<p><span class=\"body2\">Skis, Boards, Outerwear &amp; More</span></p>\r\n",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "fileReference": "/content/dam/bcs/projects/bc23_0340_ride-guide/updates/Ski and Ride Guides_Hero.jpg",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "small_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "large_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured",
+                "behavior": "none"
+              },
+              "medium_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            },
+            "actions": {
+              "jcr:primaryType": "nt:unstructured",
+              "item0": {
+                "link": "/service/backcountry-ski-guide",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Shop The Ski Guide",
+                "variation": "brand"
+              },
+              "item1": {
+                "link": "/service/backcountry-snowboard-guide",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Shop The Snowboard Guide",
+                "variation": "brand"
+              }
+            }
+          },
+          "textbanner_copy_copy_447516195": {
+            "jcr:created": "Wed Sep 20 2023 18:24:04 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "colorselector": "primary",
+            "jcr:createdBy": "gabriel.segura@backcountry.com",
+            "textIsRich": "true",
+            "textcolor": "primary",
+            "sling:resourceType": "baem/components/textbanner",
+            "promotionId": "202309_Ski_Ride_Teaser_LP",
+            "promotionName": "202309_Ski_Ride_Teaser_LP",
+            "actionsEnabled": "true",
+            "jcr:lastModified": "Thu Oct 05 2023 17:26:06 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "center",
+            "actions": {
+              "jcr:primaryType": "nt:unstructured",
+              "item0": {
+                "link": "#top",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Back To Top",
+                "variation": "outline"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

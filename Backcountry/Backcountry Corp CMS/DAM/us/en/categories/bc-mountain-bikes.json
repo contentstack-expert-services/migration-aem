@@ -1,0 +1,73 @@
+{
+  "jcr:created": "Wed Jun 29 2022 14:39:08 GMT+0000",
+  "jcr:createdBy": "agomez@backcountry.com",
+  "jcr:primaryType": "cq:Page",
+  "jcr:content": {
+    "cq:lastReplicatedBy": "agomez@backcountry.com",
+    "cq:lastReplicationAction": "Activate",
+    "cq:lastReplicatedBy_publish": "agomez@backcountry.com",
+    "sling:resourceType": "baem/components/page",
+    "jcr:uuid": "5420e715-c3ea-486c-b8c6-f6f705057200",
+    "jcr:title": "Mountain Bikes",
+    "jcr:versionHistory": "73a3d96f-f28b-495b-af4c-fbd321df8c3f",
+    "seo-toggle": "on",
+    "cq:lastModifiedBy": "agomez@backcountry.com",
+    "cq:template": "/conf/baem/settings/wcm/templates/plp-content",
+    "jcr:created": "Wed Jun 29 2022 14:39:08 GMT+0000",
+    "jcr:createdBy": "agomez@backcountry.com",
+    "jcr:predecessors": [
+      "af7f96a9-ef46-481c-834e-369907124707"
+    ],
+    "cq:lastReplicationAction_scene7": "Activate",
+    "jcr:isCheckedOut": true,
+    "jcr:mixinTypes": [
+      "mix:versionable"
+    ],
+    "cq:lastReplicationAction_publish": "Activate",
+    "cq:lastModified": "Tue Aug 30 2022 06:47:27 GMT+0000",
+    "cq:lastReplicatedBy_scene7": "agomez@backcountry.com",
+    "jcr:primaryType": "cq:PageContent",
+    "cq:lastReplicated": "Tue Aug 30 2022 06:47:47 GMT+0000",
+    "cq:lastReplicated_publish": "Tue Aug 30 2022 06:47:47 GMT+0000",
+    "cq:lastReplicated_scene7": "Tue Aug 30 2022 06:47:47 GMT+0000",
+    "jcr:baseVersion": "af7f96a9-ef46-481c-834e-369907124707",
+    "root": {
+      "layout": "responsiveGrid",
+      "sling:resourceType": "baem/components/container",
+      "jcr:primaryType": "nt:unstructured",
+      "container": {
+        "layout": "responsiveGrid",
+        "sling:resourceType": "baem/components/container",
+        "jcr:primaryType": "nt:unstructured",
+        "text": {
+          "jcr:created": "Wed Jun 29 2022 14:39:28 GMT+0000",
+          "jcr:lastModifiedBy": "agomez@backcountry.com",
+          "jcr:createdBy": "agomez@backcountry.com",
+          "textIsRich": "true",
+          "sling:resourceType": "baem/components/text",
+          "jcr:lastModified": "Tue Aug 30 2022 06:47:27 GMT+0000",
+          "jcr:primaryType": "nt:unstructured",
+          "text": "<h2><span class=\"title2Heavy\">Mountain Bikes</span></h2>\r\n<p>&nbsp;</p>\r\n<p>Any day we spend on the trail is a good day—especially if we do it on wheels. We’ve got everything you need for every ride, from high-speed descents on a big-travel beast to miles of trail on a lightweight hardtail.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>Cross-country bikes are designed with just enough suspension to absorb the shock of the trail while maintaining a light weight for less resistance. As you get into trail, enduro, and downhill bikes you’ll see slacker geometry and more suspension designed for steeper terrain and bigger drops and jumps. Some of our favorite MTB brands are&nbsp;<a href=\"/santa-cruz-bicycles.html\" target=\"_self\">Santa Cruz</a>,&nbsp;<a href=\"/ibis.html\" target=\"_self\">Ibis</a>, and&nbsp;<a href=\"/pivot.html\" target=\"_self\">Pivot</a>.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>While you can buy a bike that comes complete with wheels, tires, and everything else, another option is to buy a&nbsp;mountain bike frame and customize it yourself. “Components”&nbsp;is a fancy word for&nbsp;<a href=\"/mountain-bike-components.html\" target=\"_self\">mountain bike parts</a>—the shifters, brakes, handlebars, and other stuff that you add to a frame. You can even get the whole family on the trail with a&nbsp;<a href=\"/kids-bikes.html\" target=\"_self\">kids’ mountain bike</a>&nbsp;in your fleet, or you can add a kids’ seat and footrests to your bike so even toddlers can come along.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<h3><span class=\"title1Heavy\">What To Wear For Mountain Biking</span></h3>\r\n<p>&nbsp;</p>\r\n<p><a href=\"/rc/mountain-bike-clothing.html\" target=\"_self\">Mountain bike clothing</a>&nbsp;can make the difference between enjoying your ride and being uncomfortable, so make sure you get a jersey, chamois, and shorts specific to the activity.&nbsp;<a href=\"/mens-mountain-shorts-pants.html\" target=\"_self\">Mountain bike shorts</a>&nbsp;protect you from tree and rock scrapes—and if you want to level up your&nbsp;protection&nbsp;you can add knee pads and elbow pads to your kit (a&nbsp;<a href=\"/mountain-bike-helmets.html\" target=\"_self\">mountain bike helmet</a>&nbsp;is non-negotiable, of course).&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>Last but not least, what you wear on your hands and feet can make a big difference.&nbsp;<a href=\"/mountain-bike-gloves.html\" target=\"_self\">Mountain bike gloves</a>&nbsp;protect your hands in case of a fall and from the friction and pressure against your grips, so you’ll want them on every ride.&nbsp;<a href=\"/mountain-bike-shoes.html\" target=\"_self\">Mountain bike shoes</a>&nbsp;make the difference between staying connected to your&nbsp;<a href=\"/mountain-bike-pedals.html\" target=\"_self\">mountain bike pedals</a>&nbsp;and losing your footing. Make sure you choose pedals and shoes that are compatible.&nbsp;</p>\r\n",
+          "cq:responsive": {
+            "jcr:primaryType": "nt:unstructured",
+            "base_bp": {
+              "offset": "1",
+              "width": "10",
+              "jcr:primaryType": "nt:unstructured"
+            },
+            "large_bp": {
+              "offset": "2",
+              "width": "8",
+              "jcr:primaryType": "nt:unstructured"
+            },
+            "default": {
+              "offset": "2",
+              "width": "8",
+              "jcr:primaryType": "nt:unstructured"
+            }
+          }
+        }
+      }
+    }
+  }
+}

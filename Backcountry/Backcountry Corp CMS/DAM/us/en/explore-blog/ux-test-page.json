@@ -1,0 +1,242 @@
+{
+  "jcr:created": "Tue May 09 2023 22:17:58 GMT+0000",
+  "jcr:createdBy": "kzylstra@backcountry.com",
+  "jcr:primaryType": "cq:Page",
+  "jcr:content": {
+    "jcr:created": "Tue May 09 2023 22:17:58 GMT+0000",
+    "jcr:createdBy": "kzylstra@backcountry.com",
+    "sling:resourceType": "baem/components/page",
+    "jcr:uuid": "ffbd5c9a-77ac-478c-bfb7-d8702e5767b1",
+    "jcr:title": "UX Test Page",
+    "pageProperty_seo-toggle": "false",
+    "jcr:versionHistory": "f05c0877-1ea3-4a7f-b594-139163453752",
+    "jcr:predecessors": ["4bc5ea71-c877-4ee5-8ea5-1faa346371e7"],
+    "jcr:isCheckedOut": true,
+    "jcr:mixinTypes": ["mix:versionable"],
+    "cq:lastTranslationUpdate": "Tue May 09 2023 22:17:58 GMT+0000",
+    "pageProperty_description": "ux test pages",
+    "cq:lastModified": "Thu Nov 16 2023 13:23:19 GMT+0000",
+    "cq:lastModifiedBy": "saurav.upadhyay@contentstack.com",
+    "jcr:primaryType": "cq:PageContent",
+    "cq:translationSourcePath": "/content/bcs/us/en/haley-test-location/ux-test-page",
+    "cq:template": "/conf/baem/settings/wcm/templates/page-content",
+    "jcr:baseVersion": "4bc5ea71-c877-4ee5-8ea5-1faa346371e7",
+    "cq:isTransCreated": true,
+    "pageProperty_titleTag": "ux test page",
+    "root": {
+      "layout": "responsiveGrid",
+      "sling:resourceType": "baem/components/container",
+      "jcr:primaryType": "nt:unstructured",
+      "container": {
+        "layout": "responsiveGrid",
+        "sling:resourceType": "baem/components/container",
+        "jcr:primaryType": "nt:unstructured",
+        "title": {
+          "sling:resourceType": "baem/components/title",
+          "jcr:primaryType": "nt:unstructured"
+        },
+        "container": {
+          "layout": "responsiveGrid",
+          "sling:resourceType": "baem/components/container",
+          "jcr:primaryType": "nt:unstructured",
+          "image": {
+            "aspect_ratio": "3:1",
+            "jcr:created": "Tue May 09 2023 18:15:31 GMT+0000",
+            "jcr:lastModifiedBy": "kswistak@backcountry.com",
+            "jcr:createdBy": "kswistak@backcountry.com",
+            "alt": "Alt Text",
+            "sling:resourceType": "baem/components/image",
+            "jcr:lastModified": "Tue May 09 2023 18:16:44 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "fileReference": "/content/dam/bcs/projects/bc23_0116_climbing-shoe-guide/Climb Shoe Guide_4-3_card.jpg"
+          },
+          "spacer": {
+            "jcr:created": "Tue May 09 2023 18:22:31 GMT+0000",
+            "jcr:lastModifiedBy": "kswistak@backcountry.com",
+            "jcr:createdBy": "kswistak@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "32",
+            "pixels_large": "32",
+            "pixels_medium": "32",
+            "jcr:lastModified": "Tue May 09 2023 18:23:59 GMT+0000",
+            "pixels_small": "24",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "16"
+          },
+          "text": {
+            "jcr:created": "Tue May 09 2023 18:15:34 GMT+0000",
+            "jcr:lastModifiedBy": "kswistak@backcountry.com",
+            "jcr:createdBy": "kswistak@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/text",
+            "jcr:lastModified": "Tue May 09 2023 18:28:01 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "<h1 style=\"text-align: center;\"><span class=\"title4Brand\">Article Title</span></h1>\r\n<h2 style=\"text-align: center;\"><span class=\"title3Heavy\">Article Subtitle</span></h2>\r\n<h3 style=\"text-align: center;\"><span class=\"title1\">Written By Author</span></h3>\r\n"
+          },
+          "spacer_copy": {
+            "jcr:created": "Tue May 09 2023 18:22:31 GMT+0000",
+            "jcr:lastModifiedBy": "kswistak@backcountry.com",
+            "jcr:createdBy": "kswistak@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "32",
+            "pixels_large": "32",
+            "pixels_medium": "32",
+            "jcr:lastModified": "Tue May 09 2023 18:23:44 GMT+0000",
+            "pixels_small": "24",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "16"
+          },
+          "text_1047561452": {
+            "jcr:created": "Tue May 09 2023 18:15:38 GMT+0000",
+            "jcr:lastModifiedBy": "kswistak@backcountry.com",
+            "jcr:createdBy": "kswistak@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/text",
+            "jcr:lastModified": "Tue May 09 2023 18:17:57 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "<p><span class=\"body2\">*Term details: Lorem ipsum dolor sit amet consectetur. Praesent viverra urna mi lectus. Viverra arcu at vivamus pulvinar sem eget viverra. Dictumst cras diam odio maecenas et placerat. Molestie ornare et commodo ut senectus porttitor gravida nisl. Nibh diam non tellus cras ipsum ac. Amet porttitor suspendisse venenatis molestie cras bibendum tellus sem. Sit tincidunt tortor pulvinar proin nulla venenatis eget.<br>\r\n<br>\r\n*Term details: Lorem ipsum dolor sit amet consectetur. Praesent viverra urna mi lectus. Viverra arcu at vivamus pulvinar sem eget viverra. Dictumst cras diam odio maecenas et placerat. Molestie ornare et commodo ut senectus porttitor gravida nisl. Nibh diam non tellus cras ipsum ac. Amet porttitor suspendisse venenatis molestie cras bibendum tellus sem. Sit tincidunt tortor pulvinar proin nulla venenatis eget.</span></p>\r\n",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "3",
+                "width": "6",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "medium_bp": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "small_bp": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "spacer_copy_1118552902": {
+            "jcr:created": "Tue May 09 2023 18:22:31 GMT+0000",
+            "jcr:lastModifiedBy": "kswistak@backcountry.com",
+            "jcr:createdBy": "kswistak@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "32",
+            "pixels_large": "32",
+            "pixels_medium": "32",
+            "jcr:lastModified": "Tue May 09 2023 18:23:35 GMT+0000",
+            "pixels_small": "24",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "16"
+          },
+          "image_1104402111_cop": {
+            "aspect_ratio": "1:1",
+            "jcr:created": "Tue May 09 2023 18:15:46 GMT+0000",
+            "jcr:lastModifiedBy": "kswistak@backcountry.com",
+            "jcr:createdBy": "kswistak@backcountry.com",
+            "alt": "Lalalal",
+            "sling:resourceType": "baem/components/image",
+            "jcr:lastModified": "Tue May 09 2023 18:19:01 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "fileReference": "/content/dam/bcs/projects/bc23_0116_climbing-shoe-guide/Climb Shoe Guide_4-3_card.jpg",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "6",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "image_1104402111": {
+            "aspect_ratio": "1:1",
+            "jcr:created": "Tue May 09 2023 18:15:46 GMT+0000",
+            "jcr:lastModifiedBy": "kswistak@backcountry.com",
+            "jcr:createdBy": "kswistak@backcountry.com",
+            "alt": "Lalalal",
+            "sling:resourceType": "baem/components/image",
+            "jcr:lastModified": "Tue May 09 2023 18:19:01 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "fileReference": "/content/dam/bcs/projects/bc23_0116_climbing-shoe-guide/Climb Shoe Guide_4-3_card.jpg",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "6",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "spacer_copy_2018599833": {
+            "jcr:created": "Tue May 09 2023 18:22:31 GMT+0000",
+            "jcr:lastModifiedBy": "kswistak@backcountry.com",
+            "jcr:createdBy": "kswistak@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "32",
+            "pixels_large": "32",
+            "pixels_medium": "32",
+            "jcr:lastModified": "Tue May 09 2023 18:23:22 GMT+0000",
+            "pixels_small": "24",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "16"
+          },
+          "text_1161101881": {
+            "jcr:created": "Tue May 09 2023 18:15:57 GMT+0000",
+            "jcr:lastModifiedBy": "kswistak@backcountry.com",
+            "jcr:createdBy": "kswistak@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/text",
+            "jcr:lastModified": "Tue May 09 2023 18:27:01 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "id": "anchor",
+            "text": "<p><span class=\"body2\">*Term details: Lorem ipsum dolor sit amet consectetur. Praesent viverra urna mi lectus. Viverra arcu at vivamus pulvinar sem eget viverra. Dictumst cras diam odio maecenas et placerat. Molestie ornare et commodo ut senectus porttitor gravida nisl. Nibh diam non tellus cras ipsum ac. Amet porttitor suspendisse venenatis molestie cras bibendum tellus sem. Sit tincidunt tortor pulvinar proin nulla venenatis eget.<br />\r\n<br />\r\n*Term details: Lorem ipsum dolor sit amet consectetur. Praesent viverra urna mi lectus. Viverra arcu at vivamus pulvinar sem eget viverra. Dictumst cras diam odio maecenas et placerat. Molestie ornare et commodo ut senectus porttitor gravida nisl. Nibh diam non tellus cras ipsum ac. Amet porttitor suspendisse venenatis molestie cras bibendum tellus sem. Sit tincidunt tortor pulvinar proin nulla venenatis eget.</span></p>\r\n",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "3",
+                "width": "6",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "medium_bp": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "small_bp": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "large_bp": {
+                "offset": "3",
+                "width": "6",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "spacer_copy_2009095389": {
+            "jcr:created": "Tue May 09 2023 18:22:31 GMT+0000",
+            "jcr:lastModifiedBy": "kswistak@backcountry.com",
+            "jcr:createdBy": "kswistak@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "64",
+            "pixels_large": "64",
+            "pixels_medium": "64",
+            "jcr:lastModified": "Tue May 09 2023 18:23:12 GMT+0000",
+            "pixels_small": "64",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "64"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "jcr:created": "Thu Sep 07 2023 14:45:32 GMT+0000",
+  "jcr:createdBy": "ghopkins@backcountry.com",
+  "jcr:primaryType": "cq:Page",
+  "jcr:content": {
+    "cq:lastReplicatedBy": "gabriel.segura@backcountry.com",
+    "cq:lastReplicationAction": "Activate",
+    "cq:lastReplicatedBy_publish": "gabriel.segura@backcountry.com",
+    "sling:resourceType": "baem/components/page",
+    "jcr:uuid": "73ebe604-01f2-4c4e-807e-e4894b025aa1",
+    "jcr:title": "EP Anniversary Landing Page",
+    "cq:isDelivered": true,
+    "pageProperty_seo-toggle": "true",
+    "jcr:versionHistory": "63b682ed-d2d3-4583-a9fd-8ad105c139dc",
+    "cq:lastModifiedBy": "gabriel.segura@backcountry.com",
+    "cq:template": "/conf/baem/settings/wcm/templates/page-content",
+    "pageProperty_titleTag": "EP Anniversary Landing Page",
+    "jcr:created": "Thu Sep 07 2023 14:45:32 GMT+0000",
+    "jcr:createdBy": "ghopkins@backcountry.com",
+    "jcr:predecessors": ["5bb12403-331d-4ec5-ac6b-0ebeab93c08f"],
+    "jcr:isCheckedOut": true,
+    "jcr:mixinTypes": ["cq:ReplicationStatus2", "mix:versionable"],
+    "pageProperty_description": "It's our Loyalty Anniversary! Thank you, Expedition Perks Members. Let's party!",
+    "cq:lastReplicationAction_publish": "Activate",
+    "cq:lastModified": "Mon Sep 18 2023 16:03:59 GMT+0000",
+    "jcr:primaryType": "cq:PageContent",
+    "cq:lastReplicated": "Mon Sep 18 2023 16:30:36 GMT+0000",
+    "cq:lastReplicated_publish": "Mon Sep 18 2023 16:30:36 GMT+0000",
+    "sling:vanityPath": "anniversary-loyalty",
+    "jcr:baseVersion": "5bb12403-331d-4ec5-ac6b-0ebeab93c08f",
+    "root": {
+      "layout": "responsiveGrid",
+      "sling:resourceType": "baem/components/container",
+      "jcr:primaryType": "nt:unstructured",
+      "container": {
+        "layout": "responsiveGrid",
+        "sling:resourceType": "baem/components/container",
+        "jcr:primaryType": "nt:unstructured",
+        "title": {
+          "sling:resourceType": "baem/components/title",
+          "jcr:primaryType": "nt:unstructured"
+        },
+        "container": {
+          "layout": "responsiveGrid",
+          "sling:resourceType": "baem/components/container",
+          "jcr:primaryType": "nt:unstructured",
+          "teaser": {
+            "aspect_ratio": "3:1",
+            "controls": "false",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/teaser",
+            "styleName": "card",
+            "assetList": "images",
+            "promotionId": "202309_EPAnniversary_loyalty-anniversary",
+            "backgroundcolor": "blank",
+            "promotionName": "202309_EPAnniversary_loyalty-anniversary",
+            "loop": "true",
+            "poster_aspect_ratio": "original",
+            "muted": "true",
+            "cq:styleIds": ["1657877310615"],
+            "jcr:created": "Thu Sep 07 2023 14:45:53 GMT+0000",
+            "jcr:lastModifiedBy": "gabriel.segura@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "alt": "Expedition Perks",
+            "autoplay": "true",
+            "actionsEnabled": "false",
+            "jcr:lastModified": "Mon Sep 18 2023 16:03:59 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "fileReference": "/content/dam/bcs/projects/gen23_0062_ep-anniversary_/3.1_Hero.Ends.png"
+          },
+          "text": {
+            "jcr:created": "Thu Sep 07 2023 14:49:48 GMT+0000",
+            "jcr:lastModifiedBy": "ghopkins@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/text",
+            "jcr:lastModified": "Fri Sep 08 2023 17:47:03 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "<p style=\"text-align: center;\"><span class=\"title3Heavy\">Members Anniversary Week</span></p>\r\n<p style=\"text-align: center;\">&nbsp;</p>\r\n<p style=\"text-align: center;\"><span class=\"title2\">Expedition Perks Is Turning ✌</span></p>\r\n<p style=\"text-align: center;\">&nbsp;</p>\r\n<p style=\"text-align: center;\"><span class=\"body1\">Our Members are the real GOATs. Thank you for two years of gear, stupendous sends, and all of your support. To celebrate, we’re giving you $30/$40/$50* (depending on your tier level) in Anniversary Bonus Rewards when you spend $250!</span></p>\r\n",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "2",
+                "width": "8",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "small_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "spacer": {
+            "jcr:created": "Thu Sep 07 2023 15:21:57 GMT+0000",
+            "jcr:lastModifiedBy": "ghopkins@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "72",
+            "pixels_large": "72",
+            "pixels_medium": "72",
+            "jcr:lastModified": "Thu Sep 07 2023 15:23:13 GMT+0000",
+            "pixels_small": "72",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "72"
+          },
+          "button": {
+            "jcr:created": "Thu Sep 07 2023 14:53:59 GMT+0000",
+            "jcr:lastModifiedBy": "ghopkins@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "link": "/rc/new-arrivals",
+            "sling:resourceType": "baem/components/button",
+            "jcr:title": "Shop Now",
+            "promotionId": "202309_EPAnniversary_loyalty-anniversary",
+            "promotionName": "202309_EPAnniversary_loyalty-anniversary",
+            "jcr:lastModified": "Thu Sep 07 2023 22:30:06 GMT+0000",
+            "variant": "light",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "center",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "4",
+                "width": "2",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "0",
+                "width": "5",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "small_bp": {
+                "offset": "0",
+                "width": "5",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "button_1920010127": {
+            "jcr:created": "Thu Sep 07 2023 14:54:03 GMT+0000",
+            "jcr:lastModifiedBy": "ghopkins@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "link": "/expeditionperks",
+            "sling:resourceType": "baem/components/button",
+            "jcr:title": "Not A Member? Sign Up",
+            "promotionId": "202309_EPAnniversary_loyalty-anniversary",
+            "promotionName": "202309_EPAnniversary_loyalty-anniversary",
+            "jcr:lastModified": "Thu Sep 07 2023 22:30:19 GMT+0000",
+            "variant": "brand",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "center",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "2",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "0",
+                "width": "5",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "small_bp": {
+                "offset": "0",
+                "width": "5",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "spacer_copy": {
+            "jcr:created": "Thu Sep 07 2023 15:21:57 GMT+0000",
+            "jcr:lastModifiedBy": "ghopkins@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "72",
+            "pixels_large": "72",
+            "pixels_medium": "72",
+            "jcr:lastModified": "Thu Sep 07 2023 15:23:20 GMT+0000",
+            "pixels_small": "72",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "72"
+          },
+          "text_649793807": {
+            "jcr:created": "Thu Sep 07 2023 14:54:11 GMT+0000",
+            "jcr:lastModifiedBy": "ghopkins@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/text",
+            "jcr:lastModified": "Fri Sep 15 2023 13:38:55 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "<p style=\"text-align: center;\"><span class=\"body1\">*SPEND $250, GET BONUS REWARDS, VALID 9/10–9/18<br>\r\n</span></p>\r\n<p style=\"text-align: center;\"><span class=\"body1\"><br>\r\n&nbsp;</span></p>\r\n<p style=\"text-align: center;\"><span class=\"body1\">Offer valid for Bonus Rewards when you spend $250 from 9/10/23 at 12:01 am MT thru 9/18/23 at 11:59 pm MT at backcountry.com, competitivecyclist.com, and in retail stores for Expedition Perks Members only. Order must be $250 or more, pre-tax, to earn bonus Rewards. Trailhead and new Members will earn $30 in Bonus Rewards on a qualifying order. Switchback Members will earn $40 in Bonus Rewards on a qualifying order. Summit Members will earn $50 in Bonus Rewards on a qualifying order. Bonus Rewards may be earned once per order and multiple times within the promotion window. Bonus Rewards will be issued in $5 increments. Bonus Rewards will be issued after an order has shipped or retail store order has actualized. Must select desired Rewards amount at checkout to redeem. Rewards must be redeemed in increments of $5. When redeeming online, Rewards may be redeemed in excess of the order subtotal, and the difference between the subtotal and Rewards figure will be forfeited. When redeeming in-store, Rewards may not exceed the order subtotal. Unused Bonus Rewards balance will expire on 10/4/23 at 11:59 pm MT. Not valid on gift cards, charitable contributions, packaging, taxes, shipping, and any special-order handling charges. Limited to stock on hand. No cash value, substitutions, or rainchecks. This offer is exclusive to you and this Expedition Perks account, and cannot be reproduced, transferred, or used by anyone else. Offer can only be applied in combination with one (1) other promotional offer or coupon. Taxes, surcharges, or fees may apply. Backcountry reserves the right to modify or terminate this offer at any time without notice. Rewards are available for redemption at <a href=\"http://www.backcountry.com/\">www.backcountry.com</a>, <a href=\"http://www.competitivecyclist.com/\">www.competitivecyclist.com</a>, or at retail locations. For more information about this offer or Gearhead assistance placing an order, email <a href=\"mailto:service@backcountry.com\">service@backcountry.com</a>, select the chat icon at <a href=\"http://www.backcountry.com/\">www.backcountry.com</a>, or call 1 (800) 409-4502. This promotion is subject to Expedition Perks's terms and conditions.</span></p>\r\n",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "2",
+                "width": "8",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "small_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

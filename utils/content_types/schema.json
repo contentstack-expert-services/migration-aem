@@ -1,0 +1,707 @@
+[
+  {
+    "title": "Carousel",
+    "uid": "carousel",
+    "schema": [
+      {
+        "data_type": "text",
+        "display_name": "Carousel Title",
+        "field_metadata": { "_default": true, "version": 1 },
+        "mandatory": true,
+        "uid": "title",
+        "unique": true,
+        "multiple": false,
+        "non_localizable": false
+      },
+      {
+        "data_type": "json",
+        "display_name": "Text",
+        "uid": "text",
+        "field_metadata": {
+          "allow_json_rte": true,
+          "embed_entry": false,
+          "description": "",
+          "default_value": "",
+          "multiline": false,
+          "rich_text_type": "advanced",
+          "options": []
+        },
+        "format": "",
+        "error_messages": { "format": "" },
+        "reference_to": ["sys_assets"],
+        "multiple": false,
+        "non_localizable": false,
+        "unique": false,
+        "mandatory": false
+      },
+      {
+        "data_type": "reference",
+        "display_name": "Teaser",
+        "reference_to": ["teaser"],
+        "field_metadata": {
+          "ref_multiple": true,
+          "ref_multiple_content_types": true
+        },
+        "uid": "teaser",
+        "mandatory": false,
+        "multiple": true,
+        "non_localizable": false,
+        "unique": false
+      },
+      {
+        "data_type": "global_field",
+        "display_name": "image",
+        "reference_to": "image",
+        "field_metadata": { "description": "" },
+        "uid": "image",
+        "mandatory": false,
+        "multiple": true,
+        "non_localizable": false,
+        "unique": false
+      }
+    ],
+    "description": "",
+    "options": {
+      "is_page": false,
+      "singleton": false,
+      "sub_title": [],
+      "title": "title"
+    }
+  },
+  {
+    "title": "Teaser",
+    "uid": "teaser",
+    "schema": [
+      {
+        "data_type": "text",
+        "display_name": "Description",
+        "field_metadata": { "_default": true, "version": 1 },
+        "mandatory": true,
+        "uid": "title",
+        "unique": true,
+        "multiple": false,
+        "non_localizable": false
+      },
+      {
+        "data_type": "text",
+        "display_name": "linkURL",
+        "uid": "url",
+        "field_metadata": { "_default": true, "version": 1 },
+        "multiple": false,
+        "unique": false,
+        "mandatory": false,
+        "non_localizable": false
+      },
+      {
+        "data_type": "text",
+        "display_name": "Alt",
+        "uid": "alt",
+        "field_metadata": {
+          "description": "",
+          "default_value": "",
+          "version": 1
+        },
+        "format": "",
+        "error_messages": { "format": "" },
+        "mandatory": false,
+        "multiple": false,
+        "non_localizable": false,
+        "unique": false
+      },
+      {
+        "data_type": "file",
+        "display_name": "Video Asset",
+        "uid": "videoasset",
+        "extensions": [],
+        "field_metadata": { "description": "", "rich_text_type": "standard" },
+        "mandatory": false,
+        "multiple": true,
+        "non_localizable": false,
+        "unique": false
+      },
+      {
+        "data_type": "file",
+        "display_name": "File Reference",
+        "uid": "file_reference",
+        "extensions": [],
+        "field_metadata": { "description": "", "rich_text_type": "standard" },
+        "mandatory": false,
+        "multiple": true,
+        "non_localizable": false,
+        "unique": false
+      },
+      {
+        "data_type": "link",
+        "display_name": "Actions",
+        "uid": "actions",
+        "field_metadata": {
+          "description": "",
+          "default_value": { "title": "", "url": "" }
+        },
+        "mandatory": false,
+        "multiple": true,
+        "non_localizable": false,
+        "unique": false
+      },
+      {
+        "data_type": "text",
+        "display_name": "Multi Line Textbox",
+        "uid": "multi_line",
+        "field_metadata": {
+          "description": "",
+          "default_value": "",
+          "multiline": true,
+          "version": 1
+        },
+        "format": "",
+        "error_messages": { "format": "" },
+        "mandatory": false,
+        "multiple": false,
+        "non_localizable": false,
+        "unique": false
+      }
+    ],
+    "description": "",
+    "options": {
+      "is_page": false,
+      "singleton": false,
+      "sub_title": [],
+      "title": "title"
+    }
+  },
+  {
+    "title": "Image",
+    "uid": "image",
+    "schema": [
+      {
+        "data_type": "text",
+        "display_name": "Alt",
+        "field_metadata": { "_default": true, "version": 1 },
+        "mandatory": true,
+        "uid": "title",
+        "unique": true,
+        "multiple": false,
+        "non_localizable": false
+      },
+      {
+        "data_type": "text",
+        "display_name": "URL",
+        "uid": "url",
+        "field_metadata": { "_default": true, "version": 1 },
+        "multiple": false,
+        "unique": false,
+        "mandatory": false,
+        "non_localizable": false
+      },
+      {
+        "data_type": "file",
+        "display_name": "File Reference",
+        "uid": "file_reference",
+        "extensions": [],
+        "field_metadata": { "description": "", "rich_text_type": "standard" },
+        "mandatory": false,
+        "multiple": true,
+        "non_localizable": false,
+        "unique": false
+      }
+    ],
+    "description": "",
+    "options": {
+      "is_page": false,
+      "singleton": false,
+      "sub_title": [],
+      "title": "title"
+    }
+  },
+  {
+    "title": "Text",
+    "uid": "text",
+    "schema": [
+      {
+        "data_type": "text",
+        "display_name": "Title",
+        "field_metadata": { "_default": true, "version": 1 },
+        "mandatory": true,
+        "uid": "title",
+        "unique": true,
+        "multiple": false,
+        "non_localizable": false
+      },
+      {
+        "data_type": "text",
+        "display_name": "URL",
+        "uid": "url",
+        "field_metadata": { "_default": true, "version": 1 },
+        "multiple": false,
+        "unique": false,
+        "mandatory": false,
+        "non_localizable": false
+      },
+      {
+        "data_type": "json",
+        "display_name": "Text",
+        "uid": "text",
+        "field_metadata": {
+          "allow_json_rte": true,
+          "embed_entry": false,
+          "description": "",
+          "default_value": "",
+          "multiline": false,
+          "rich_text_type": "advanced",
+          "options": []
+        },
+        "format": "",
+        "error_messages": { "format": "" },
+        "reference_to": ["sys_assets"],
+        "multiple": false,
+        "non_localizable": false,
+        "unique": false,
+        "mandatory": false
+      }
+    ],
+    "description": "",
+    "options": {
+      "is_page": false,
+      "singleton": false,
+      "sub_title": [],
+      "title": "title"
+    }
+  },
+  {
+    "title": "Backcountry podcast",
+    "uid": "backcountry_podcast",
+    "schema": [
+      {
+        "data_type": "text",
+        "display_name": "Title",
+        "field_metadata": { "_default": true, "version": 1 },
+        "mandatory": true,
+        "uid": "title",
+        "unique": true,
+        "multiple": false,
+        "non_localizable": false
+      },
+      {
+        "data_type": "text",
+        "display_name": "URL",
+        "uid": "url",
+        "field_metadata": { "_default": true, "version": 1 },
+        "multiple": false,
+        "unique": false,
+        "mandatory": false,
+        "non_localizable": false
+      },
+      {
+        "data_type": "reference",
+        "display_name": "Textbanner",
+        "reference_to": ["textbanner"],
+        "field_metadata": {
+          "ref_multiple": false,
+          "ref_multiple_content_types": true
+        },
+        "uid": "textbanner",
+        "mandatory": false,
+        "multiple": true,
+        "non_localizable": false,
+        "unique": false
+      },
+      {
+        "data_type": "reference",
+        "display_name": "Text",
+        "reference_to": ["text"],
+        "field_metadata": {
+          "ref_multiple": false,
+          "ref_multiple_content_types": true
+        },
+        "uid": "text",
+        "mandatory": false,
+        "multiple": true,
+        "non_localizable": false,
+        "unique": false
+      },
+      {
+        "data_type": "reference",
+        "display_name": "Button",
+        "reference_to": ["button"],
+        "field_metadata": {
+          "ref_multiple": false,
+          "ref_multiple_content_types": true
+        },
+        "uid": "button",
+        "mandatory": false,
+        "multiple": true,
+        "non_localizable": false,
+        "unique": false
+      }
+    ],
+    "description": "",
+    "options": {
+      "is_page": false,
+      "singleton": false,
+      "sub_title": [],
+      "title": "title"
+    }
+  },
+  {
+    "title": "Text Banner",
+    "uid": "textbanner",
+    "schema": [
+      {
+        "data_type": "text",
+        "display_name": "Title",
+        "field_metadata": { "_default": true, "version": 1 },
+        "mandatory": true,
+        "uid": "title",
+        "unique": true,
+        "multiple": false,
+        "non_localizable": false
+      },
+      {
+        "data_type": "text",
+        "display_name": "URL",
+        "uid": "url",
+        "field_metadata": { "_default": true, "version": 1 },
+        "multiple": false,
+        "unique": false,
+        "mandatory": false,
+        "non_localizable": false
+      },
+      {
+        "data_type": "json",
+        "display_name": "Description",
+        "uid": "description",
+        "field_metadata": {
+          "allow_json_rte": true,
+          "embed_entry": false,
+          "description": "",
+          "default_value": "",
+          "multiline": false,
+          "rich_text_type": "advanced",
+          "options": []
+        },
+        "format": "",
+        "error_messages": { "format": "" },
+        "reference_to": ["sys_assets"],
+        "multiple": false,
+        "non_localizable": false,
+        "unique": false,
+        "mandatory": false
+      },
+      {
+        "data_type": "file",
+        "display_name": "File Reference",
+        "uid": "file_reference",
+        "extensions": [],
+        "field_metadata": { "description": "", "rich_text_type": "standard" },
+        "mandatory": false,
+        "multiple": true,
+        "non_localizable": false,
+        "unique": false
+      },
+      {
+        "data_type": "link",
+        "display_name": "Actions",
+        "uid": "actions",
+        "field_metadata": {
+          "description": "",
+          "default_value": { "title": "", "url": "" }
+        },
+        "mandatory": false,
+        "multiple": true,
+        "non_localizable": false,
+        "unique": false
+      }
+    ],
+    "description": "",
+    "options": {
+      "is_page": false,
+      "singleton": false,
+      "sub_title": [],
+      "title": "title"
+    }
+  },
+  {
+    "title": "Button",
+    "uid": "button",
+    "schema": [
+      {
+        "data_type": "text",
+        "display_name": "Title",
+        "field_metadata": { "_default": true, "version": 1 },
+        "mandatory": true,
+        "uid": "title",
+        "unique": true,
+        "multiple": false,
+        "non_localizable": false
+      },
+      {
+        "data_type": "text",
+        "display_name": "URL",
+        "uid": "url",
+        "field_metadata": { "_default": true, "version": 1 },
+        "multiple": false,
+        "unique": false,
+        "mandatory": false,
+        "non_localizable": false
+      }
+    ],
+    "description": "",
+    "options": {
+      "is_page": true,
+      "singleton": false,
+      "sub_title": [],
+      "title": "title",
+      "url_pattern": "/:title",
+      "url_prefix": "/"
+    }
+  },
+  {
+    "title": "Backcountry Bulletin",
+    "uid": "backcountry_bulletin",
+    "schema": [
+      {
+        "data_type": "text",
+        "display_name": "Title",
+        "field_metadata": { "_default": true, "version": 1 },
+        "mandatory": true,
+        "uid": "title",
+        "unique": true,
+        "multiple": false,
+        "non_localizable": false
+      },
+      {
+        "data_type": "text",
+        "display_name": "URL",
+        "uid": "url",
+        "field_metadata": { "_default": true, "version": 1 },
+        "multiple": false,
+        "unique": false,
+        "mandatory": false,
+        "non_localizable": false
+      },
+      {
+        "data_type": "reference",
+        "display_name": "Text Banner",
+        "reference_to": ["textbanner"],
+        "field_metadata": {
+          "ref_multiple": false,
+          "ref_multiple_content_types": true
+        },
+        "uid": "textbanner",
+        "mandatory": false,
+        "multiple": true,
+        "non_localizable": false,
+        "unique": false
+      },
+      {
+        "data_type": "reference",
+        "display_name": "Teaser",
+        "reference_to": ["teaser"],
+        "field_metadata": {
+          "ref_multiple": false,
+          "ref_multiple_content_types": true
+        },
+        "uid": "teaser",
+        "mandatory": false,
+        "multiple": true,
+        "non_localizable": false,
+        "unique": false
+      },
+      {
+        "data_type": "reference",
+        "display_name": "Carousel",
+        "reference_to": ["carousel"],
+        "field_metadata": {
+          "ref_multiple": false,
+          "ref_multiple_content_types": true
+        },
+        "uid": "carousel",
+        "mandatory": false,
+        "multiple": true,
+        "non_localizable": false,
+        "unique": false
+      }
+    ],
+    "description": "",
+    "options": {
+      "is_page": false,
+      "singleton": false,
+      "sub_title": [],
+      "title": "title"
+    }
+  },
+  {
+    "title": "Explore-Blog",
+    "uid": "explore_blog",
+    "schema": [
+      {
+        "data_type": "text",
+        "display_name": "Title",
+        "field_metadata": { "_default": true, "version": 1 },
+        "mandatory": true,
+        "uid": "title",
+        "unique": true,
+        "multiple": false,
+        "non_localizable": false
+      },
+      {
+        "data_type": "text",
+        "display_name": "URL",
+        "uid": "url",
+        "field_metadata": { "_default": true, "version": 1 },
+        "multiple": false,
+        "unique": false,
+        "mandatory": false,
+        "non_localizable": false
+      },
+      {
+        "data_type": "text",
+        "display_name": "Description",
+        "uid": "description",
+        "field_metadata": {
+          "allow_rich_text": true,
+          "description": "",
+          "multiline": false,
+          "rich_text_type": "advanced",
+          "options": [],
+          "version": 1
+        },
+        "mandatory": false,
+        "multiple": false,
+        "non_localizable": false,
+        "unique": false
+      },
+      {
+        "data_type": "reference",
+        "display_name": "Image",
+        "reference_to": ["image"],
+        "field_metadata": {
+          "ref_multiple": false,
+          "ref_multiple_content_types": true
+        },
+        "uid": "image",
+        "mandatory": false,
+        "multiple": true,
+        "non_localizable": false,
+        "unique": false
+      },
+      {
+        "data_type": "reference",
+        "display_name": "Teaser",
+        "reference_to": ["teaser"],
+        "field_metadata": {
+          "ref_multiple": false,
+          "ref_multiple_content_types": true
+        },
+        "uid": "teaser",
+        "mandatory": false,
+        "multiple": true,
+        "non_localizable": false,
+        "unique": false
+      },
+      {
+        "data_type": "reference",
+        "display_name": "Text",
+        "reference_to": ["text"],
+        "field_metadata": {
+          "ref_multiple": false,
+          "ref_multiple_content_types": true
+        },
+        "uid": "text",
+        "mandatory": false,
+        "multiple": true,
+        "non_localizable": false,
+        "unique": false
+      },
+      {
+        "data_type": "reference",
+        "display_name": "Carousel ",
+        "reference_to": ["carousel"],
+        "field_metadata": {
+          "ref_multiple": false,
+          "ref_multiple_content_types": true
+        },
+        "uid": "carousel",
+        "mandatory": false,
+        "multiple": true,
+        "non_localizable": false,
+        "unique": false
+      },
+      {
+        "data_type": "reference",
+        "display_name": "Customembed",
+        "reference_to": ["customembed"],
+        "field_metadata": {
+          "ref_multiple": false,
+          "ref_multiple_content_types": true
+        },
+        "uid": "carousel",
+        "mandatory": false,
+        "multiple": true,
+        "non_localizable": false,
+        "unique": false
+      }
+    ],
+    "description": "",
+    "options": {
+      "is_page": false,
+      "singleton": false,
+      "sub_title": [],
+      "title": "title"
+    }
+  },
+  {
+    "title": "Customembed",
+    "uid": "customembed",
+    "schema": [
+      {
+        "data_type": "text",
+        "display_name": "Title",
+        "field_metadata": { "_default": true, "version": 1 },
+        "mandatory": true,
+        "uid": "title",
+        "unique": true,
+        "multiple": false,
+        "non_localizable": false
+      },
+      {
+        "data_type": "text",
+        "display_name": "URL",
+        "uid": "url",
+        "field_metadata": { "_default": true, "version": 1 },
+        "multiple": false,
+        "unique": false,
+        "mandatory": false,
+        "non_localizable": false
+      },
+      {
+        "data_type": "json",
+        "display_name": "youtubeVideoId",
+        "uid": "youtubevideoid",
+        "field_metadata": {
+          "allow_json_rte": true,
+          "embed_entry": false,
+          "description": "",
+          "default_value": "",
+          "multiline": false,
+          "rich_text_type": "advanced",
+          "options": []
+        },
+        "format": "",
+        "error_messages": { "format": "" },
+        "reference_to": ["sys_assets"],
+        "multiple": false,
+        "non_localizable": false,
+        "unique": false,
+        "mandatory": false
+      }
+    ],
+    "description": "",
+    "options": {
+      "is_page": false,
+      "singleton": false,
+      "sub_title": [],
+      "title": "title"
+    }
+  }
+]

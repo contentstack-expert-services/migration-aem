@@ -1,0 +1,67 @@
+{
+    "jcr:created": "Mon Oct 03 2022 04:56:50 GMT+0000",
+    "jcr:createdBy": "agomez@backcountry.com",
+    "jcr:primaryType": "cq:Page",
+    "jcr:content": {
+      "cq:lastReplicatedBy": "agomez@backcountry.com",
+      "cq:lastReplicationAction": "Activate",
+      "cq:lastReplicatedBy_publish": "agomez@backcountry.com",
+      "sling:resourceType": "baem/components/page",
+      "jcr:uuid": "25915c3b-458f-4f94-b3bf-6b32c92c785d",
+      "jcr:title": "Mountain Bike Shoes",
+      "pageProperty_seo-toggle": "off",
+      "jcr:versionHistory": "b199a3e7-3200-40f4-a56d-cf7c809c5f98",
+      "cq:lastModifiedBy": "agomez@backcountry.com",
+      "cq:template": "/conf/baem/settings/wcm/templates/page-content",
+      "pageProperty_titleTag": "Mountain Bike Shoes",
+      "jcr:created": "Mon Oct 03 2022 04:56:50 GMT+0000",
+      "jcr:createdBy": "agomez@backcountry.com",
+      "jcr:predecessors": [
+        "0be3829c-2b30-4c6d-970c-ead75d44a5b0"
+      ],
+      "cq:lastReplicationAction_scene7": "Activate",
+      "jcr:isCheckedOut": true,
+      "jcr:mixinTypes": [
+        "mix:versionable"
+      ],
+      "pageProperty_description": "Mountain Bike Shoes Description",
+      "cq:lastReplicationAction_publish": "Activate",
+      "cq:lastModified": "Wed Oct 19 2022 18:01:00 GMT+0000",
+      "cq:lastReplicatedBy_scene7": "agomez@backcountry.com",
+      "jcr:primaryType": "cq:PageContent",
+      "cq:lastReplicated": "Wed Oct 19 2022 18:01:14 GMT+0000",
+      "cq:lastReplicated_publish": "Wed Oct 19 2022 18:01:14 GMT+0000",
+      "cq:lastReplicated_scene7": "Wed Oct 19 2022 18:01:14 GMT+0000",
+      "sling:vanityPath": "bc-mountain-bike-shoes",
+      "jcr:baseVersion": "0be3829c-2b30-4c6d-970c-ead75d44a5b0",
+      "root": {
+        "layout": "responsiveGrid",
+        "sling:resourceType": "baem/components/container",
+        "jcr:primaryType": "nt:unstructured",
+        "container": {
+          "layout": "responsiveGrid",
+          "sling:resourceType": "baem/components/container",
+          "jcr:primaryType": "nt:unstructured",
+          "title": {
+            "sling:resourceType": "baem/components/title",
+            "jcr:primaryType": "nt:unstructured"
+          },
+          "container": {
+            "layout": "responsiveGrid",
+            "sling:resourceType": "baem/components/container",
+            "jcr:primaryType": "nt:unstructured",
+            "text": {
+              "jcr:created": "Thu Oct 06 2022 17:17:24 GMT+0000",
+              "jcr:lastModifiedBy": "agomez@backcountry.com",
+              "jcr:createdBy": "agomez@backcountry.com",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/text",
+              "jcr:lastModified": "Wed Oct 19 2022 18:01:00 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "text": "<h2><span class=\"title4Heavy\">How to Choose the Perfect Mountain Bike Shoe for You</span></h2>\r\n<h3><span class=\"title3Heavy\">Are Mountain Bike Shoes Necessary?</span></h3>\r\n<p>Yes. As one of 3 points of contact between us and our <a title=\"Mountain Bikes\" href=\"/mountain-bikes.html\" target=\"_self\">mountain bike</a>, what anchors us to our pedals is super important. <a href=\"/mountain-bike-shoes.html\" target=\"_self\" title=\"Mountain Bike Shoes\">Mountain bike shoes</a> are designed with a hard sole and performance fit to maintain our connection to the bike for efficiency, support, and control.</p>\r\n<p>&nbsp;</p>\r\n<h3><span class=\"title3Heavy\">What Are Different Types Of Mountain Bikes Shoes?</span></h3>\r\n<p>There are two main categories of mountain bikes shoes: clipless and flat. Contrary to what their name suggests, clipless shoes clip into your pedals, giving you optimal power transfer through the entire pedal cycle. Flat shoes feature grippy soles that bite onto the pins of flat pedals for solid footing that still lets quickly stick your foot out for balance on tight corners.</p>\r\n<p>&nbsp;</p>\r\n<h3><span class=\"title3Heavy\">What Mountain Bike Shoes Are Compatible With What Pedals?</span></h3>\r\n<p>With mountain bike shoes, pedal compatibility is a little simpler compared to other <a href=\"/bike-footwear.html\" target=\"_self\" title=\"Bike Footwear\">bike footwear</a>. If you get a flat shoe, make sure your rig is equipped with pin-riddled flat pedals. If you get a clipless shoe, then you’ll need a 2-bolt, or SPD (Shimano Pedaling Dynamics), cleat/pedal system which uses a ratcheting mechanism to secure your shoe to the pedal.</p>\r\n<p>&nbsp;</p>\r\n<h3><span class=\"title3Heavy\">How Should Mountain Bike Shoes Fit?</span></h3>\r\n<p>You’re looking for that “just right” fit when it comes to mountain bike shoes. Your heel is locked in, your toes can wiggle in the toe box, and the upper gives your feet a snug hug that stops them from shifting side-to-side or front-to-back. Each bike shoe manufacturer uses their own sizing system, so be sure to check the size chart of the shoe you have your eye on.</p>\r\n<p>&nbsp;</p>\r\n<h3><span class=\"title3Heavy\">Buying Tips For Mountain Bike Shoes:</span></h3>\r\n<h4>What type of terrain will you be riding?</h4>\r\n<ul>\r\n<li>For the more technical terrain encountered in downhill riding, a flat mountain bike shoe gives a more low-profile fit that feels light and nimble for greater control when rolling over rocks and roots.</li>\r\n<li>For cross-country riding on long, smooth trails, a clipless mountain bike shoe will boost your pedal efficiency, letting you cover more ground, quicker.</li>\r\n<li>For a lot of time spent in the heels-down position that enduro riding requires, a shoe with extra heel padding will give you a more pleasant experience.</li>\r\n</ul>\r\n<h4>What type of weather will you be riding in?</h4>\r\n<ul>\r\n<li>If riding in a wet area, like the PNW, your feet might appreciate a waterproof shoe.</li>\r\n<li>When kicking up dust on desert trails, you’ll appreciate a lighter, more breathable option.</li>\r\n</ul>\r\n<h4>What type of closure style do you prefer?</h4>\r\n<ul>\r\n<li>Laces are a simple, tried-and-true tightening system but are susceptible to snagging.</li>\r\n<li>Hook-and-loop straps allow a quick-and-easy on-off but take on muck and debris from the trail.</li>\r\n<li>Dial closures, like Boa, are quick, easy, and rugged, yet expensive.</li>\r\n</ul>\r\n<h4>What is your foot shape?</h4>\r\n<ul>\r\n<li>For narrower feet, we suggest checking out European brands like <span data-contrast=\"none\" class=\"TextRun Underlined SCXW40174353 BCX0\" style=\"margin: 0.0px; padding: 0.0px;\"><span class=\"NormalTextRun SCXW40174353 BCX0\" data-ccp-charstyle=\"Hyperlink\" style=\"margin: 0.0px; padding: 0.0px;\"><a title=\"Sidi Bike Footwear\" href=\"/sidi-bike-footwear.html\" target=\"_self\">Sidi mountain bike shoes</a></span></span> for a snug, no-shift fit.</li>\r\n<li>For wider feet, we trust <span data-contrast=\"none\" class=\"TextRun Underlined SCXW52327119 BCX0\" style=\"margin: 0.0px; padding: 0.0px;\"><span class=\"NormalTextRun SCXW52327119 BCX0\" data-ccp-charstyle=\"Hyperlink\" style=\"margin: 0.0px; padding: 0.0px;\"><a title=\"Shimano Bike Footwear\" href=\"/shimano-bike-footwear.html\" target=\"_self\">Shimano mountain bike shoes</a></span></span> and <span data-contrast=\"none\" class=\"TextRun Underlined SCXW52327119 BCX0\" style=\"margin: 0.0px; padding: 0.0px;\"><span class=\"NormalTextRun SCXW52327119 BCX0\" data-ccp-charstyle=\"Hyperlink\" style=\"margin: 0.0px; padding: 0.0px;\"><a title=\"Lake bike footwear\" href=\"/lake-bike-footwear.html\" target=\"_self\">Lake mountain bike shoes</a></span></span> to offer wider toe boxes.</li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<h3><span class=\"title3Heavy\">Gearhead Picks:</span></h3>\r\n<p>We ride far clipped in with&nbsp;<span data-contrast=\"none\" class=\"TextRun Underlined SCXW99595275 BCX0\" style=\"margin: 0.0px; padding: 0.0px;\"><span class=\"NormalTextRun SCXW99595275 BCX0\" data-ccp-charstyle=\"Hyperlink\" style=\"margin: 0.0px; padding: 0.0px;\"><a title=\"Specialized Mountain Bike Shoes\" href=\"/specialized-mountain-bike-shoes.html\" target=\"_self\">Specialized mountain bike shoes</a></span></span>. We drop fast strapped into <span data-contrast=\"none\" class=\"TextRun Underlined SCXW99595275 BCX0\" style=\"margin: 0.0px; padding: 0.0px;\"><span class=\"NormalTextRun SCXW99595275 BCX0\" data-ccp-charstyle=\"Hyperlink\" style=\"margin: 0.0px; padding: 0.0px;\"><a title=\"Giro Bike Footewear\" href=\"/giro-bike-footwear.html\" target=\"_self\">Giro mountain bike shoes</a></span></span>. And we take the lift for pure downhill joy laced in <span data-contrast=\"none\" class=\"TextRun Underlined SCXW99595275 BCX0\" style=\"margin: 0.0px; padding: 0.0px;\"><span class=\"NormalTextRun SCXW99595275 BCX0\" data-ccp-charstyle=\"Hyperlink\" style=\"margin: 0.0px; padding: 0.0px;\"><a title=\"Five Ten Mountain Bike Shoes\" href=\"/five-ten-mountain-bike-shoes.html\" target=\"_self\">Five Ten mountain bike shoes</a></span></span>. Now that you have your feet kitted, go find the rest of your mountain bike clothing. We personally think <span data-contrast=\"none\" class=\"TextRun Underlined SCXW99595275 BCX0\" style=\"margin: 0.0px; padding: 0.0px;\"><span class=\"NormalTextRun SCXW99595275 BCX0\" data-ccp-charstyle=\"Hyperlink\" style=\"margin: 0.0px; padding: 0.0px;\"><a title=\"Mountain Bike Shorts\" href=\"/mens-mountain-shorts-pants.html\" target=\"_self\">mountain bike shorts</a></span></span>&nbsp;are one of the next upgrades a rider should make. Shop our&nbsp;<span data-contrast=\"none\" class=\"TextRun Underlined SCXW99595275 BCX0\" style=\"margin: 0.0px; padding: 0.0px;\"><span class=\"NormalTextRun SCXW99595275 BCX0\" data-ccp-charstyle=\"Hyperlink\" style=\"margin: 0.0px; padding: 0.0px;\"><a title=\"Mountain Bike Clothing\" href=\"/rc/mountain-bike-clothing.html\" target=\"_self\">Mountain Bike Clothing</a></span></span> for the full ensemble.</p>\r\n<p>&nbsp;</p>\r\n<h2><span class=\"title4Heavy\">FAQ</span></h2>\r\n<h3><span class=\"title3Heavy\">Are running shoes good for mountain biking?</span></h3>\r\n<p>They’ll work for a quick ride to the store, but when you’re going off road, you want a pair of shoes that will really stick to your pedals and give plenty of feedback. Running shoes are designed to stick to textured ground, not flat plastic pedals.</p>\r\n<p>&nbsp;</p>\r\n<h3><span class=\"title3Heavy\">Should my toes touch the end of my mountain bike shoes?</span></h3>\r\n<p>No. When you stand in your pedals, your toes will splay, reaching out a little further than when standing flat on he ground. Even then, with toes splayed, you don't eant your toes to touch the font og your shoe.</p>\r\n<p>&nbsp;</p>\r\n<h3><span class=\"title3Heavy\">When should I replace my mountain bike shoes?</span></h3>\r\n<p>It’s important to inspect your shoes every few months, checking for separation between parts or significant signs of wear. If you have clipless mountain bike shoes, the cleat should be replaced about every 6 months or every 300–500 hours of riding to make sure you don’t experience cleat failure when on the trail.</p>\r\n<p>&nbsp;</p>\r\n<p>Have other questions? Connect with a Gearhead for all your mountain bike shoe needs and woes.</p>\r\n<p>&nbsp;</p>\r\n<p>Looking for road shoes? Check out our&nbsp;<span data-contrast=\"none\" class=\"TextRun Underlined SCXW181107579 BCX0\" style=\"margin: 0.0px; padding: 0.0px;\"><span class=\"NormalTextRun SCXW181107579 BCX0\" data-ccp-charstyle=\"Hyperlink\" style=\"margin: 0.0px; padding: 0.0px;\"><a title=\"Road bike shoes\" href=\"/road-bike-shoes.html\" target=\"_self\">Road Bike Shoe</a></span></span> collection.</p>\r\n"
+            }
+          }
+        }
+      }
+    }
+  }

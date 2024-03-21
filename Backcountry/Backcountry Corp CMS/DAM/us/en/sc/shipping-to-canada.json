@@ -1,0 +1,76 @@
+{
+  "jcr:created": "Tue Jan 04 2022 23:37:43 GMT+0000",
+  "jcr:createdBy": "cchristoffersen@backcountry.com",
+  "jcr:primaryType": "cq:Page",
+  "jcr:content": {
+    "cq:lastReplicatedBy": "gabriel.segura@backcountry.com",
+    "cq:lastReplicationAction": "Activate",
+    "cq:lastReplicatedBy_publish": "gabriel.segura@backcountry.com",
+    "sling:resourceType": "baem/components/page",
+    "jcr:title": "Shipping To Canada",
+    "jcr:uuid": "eebab990-0711-4558-99b2-85de44d7b772",
+    "cq:isDelivered": true,
+    "pageProperty_seo-toggle": "on",
+    "jcr:versionHistory": "75a0b9c5-a8ce-49a2-95da-c1ebdbe5e2e5",
+    "seo-toggle": "on",
+    "cq:lastModifiedBy": "cchristoffersen@backcountry.com",
+    "seo-description": "Shipping to Canada | Backcountry.com",
+    "cq:template": "/conf/baem/settings/wcm/templates/page-content1",
+    "pageProperty_titleTag": "Shipping To Canada | Backcountry.com",
+    "seo-canonical": "https://www.backcountry.com/sc/shipping-to-canada",
+    "jcr:created": "Tue Jan 04 2022 23:37:43 GMT+0000",
+    "jcr:createdBy": "cchristoffersen@backcountry.com",
+    "seo-title": "Shipping to Canada | Backcountry.com",
+    "jcr:predecessors": ["9441c576-a0fc-4940-bea2-78508f5ec7a0"],
+    "cq:lastReplicationAction_scene7": "Activate",
+    "jcr:isCheckedOut": true,
+    "jcr:mixinTypes": ["mix:versionable", "cq:ReplicationStatus2"],
+    "pageProperty_description": "Due to contracts with the following brands, we are unable to ship any of their products to Canada. If you attempt to order one of these brands and have it shipped outside the US, we will contact you and cancel the order.",
+    "cq:lastReplicationAction_publish": "Activate",
+    "cq:lastModified": "Tue Oct 11 2022 18:41:44 GMT+0000",
+    "cq:lastReplicatedBy_scene7": "gabriel.segura@backcountry.com",
+    "jcr:primaryType": "cq:PageContent",
+    "cq:lastReplicated": "Wed Aug 16 2023 18:35:13 GMT+0000",
+    "cq:lastReplicated_publish": "Wed Aug 16 2023 18:35:13 GMT+0000",
+    "cq:lastReplicated_scene7": "Wed Aug 16 2023 18:35:13 GMT+0000",
+    "sling:vanityPath": "bc-shipping-to-canada",
+    "jcr:baseVersion": "9441c576-a0fc-4940-bea2-78508f5ec7a0",
+    "root": {
+      "layout": "responsiveGrid",
+      "sling:resourceType": "baem/components/container",
+      "jcr:primaryType": "nt:unstructured",
+      "container": {
+        "layout": "responsiveGrid",
+        "sling:resourceType": "baem/components/container",
+        "jcr:primaryType": "nt:unstructured",
+        "title": {
+          "sling:resourceType": "baem/components/title",
+          "jcr:primaryType": "nt:unstructured"
+        },
+        "container": {
+          "layout": "responsiveGrid",
+          "sling:resourceType": "baem/components/container",
+          "jcr:primaryType": "nt:unstructured",
+          "text": {
+            "jcr:created": "Tue Jan 04 2022 23:38:44 GMT+0000",
+            "jcr:lastModifiedBy": "cchristoffersen@backcountry.com",
+            "jcr:createdBy": "cchristoffersen@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/text",
+            "jcr:lastModified": "Wed May 04 2022 17:46:55 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "<h4><span class=\"title4Brand\">Shipping to Canada</span></h4>\r\n<p>Due to contracts with the following brands, we are unable to ship any of their products to Canada. If you attempt to order one of these brands and have it shipped outside the US, we will contact you and cancel the order. However, it is OK to purchase any of these products with an international credit card and have the product shipped to a US address. Brands we specifically cannot ship to Canada include:</p>\r\n<p> </p>\r\n<ul>\r\n<li>Marmot</li>\r\n<li>ENVE Composites</li>\r\n<li>XCEL Hawaii</li>\r\n<li>ABS Avalanche Rescue Devices</li>\r\n</ul>\r\n<p> </p>\r\n<p>See the full list of brands that we cannot ship outside of the US <a href=\"https://www.backcountry.com/service/bc-brands-we-cant-ship-outside-us\">here.</a></p>\r\n<p> </p>\r\n<h4><span class=\"title2Heavy\">Calculating Shipping Costs</span></h4>\r\n<p>First, add the item or items to your cart. Then proceed to checkout (don't worry - proceeding to checkout doesn't make you obligated to purchase anything). Enter your address in the billing and shipping fields. Once you change the country, the page will show you the shipping charges.</p>\r\n",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

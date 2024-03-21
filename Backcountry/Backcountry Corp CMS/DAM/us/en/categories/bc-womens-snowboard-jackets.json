@@ -1,0 +1,177 @@
+{
+    "jcr:created": "Mon Nov 13 2023 17:19:45 GMT+0000",
+    "jcr:createdBy": "steph.briggs@backcountry.com",
+    "jcr:primaryType": "cq:Page",
+    "jcr:content": {
+      "cq:lastReplicatedBy": "steph.briggs@backcountry.com",
+      "cq:lastReplicationAction": "Activate",
+      "cq:lastReplicatedBy_publish": "steph.briggs@backcountry.com",
+      "sling:resourceType": "baem/components/page",
+      "jcr:uuid": "c28a35a4-7b0e-4efb-8406-843b21ac384b",
+      "jcr:title": "Women's Snowboard Jackets",
+      "cq:isDelivered": true,
+      "pageProperty_seo-toggle": "false",
+      "jcr:versionHistory": "f9e66564-298e-40f4-b4b9-396948ad8329",
+      "cq:lastModifiedBy": "steph.briggs@backcountry.com",
+      "cq:template": "/conf/baem/settings/wcm/templates/plp-content",
+      "pageProperty_titleTag": "Women's Snowboard Jackets",
+      "jcr:created": "Mon Nov 13 2023 17:19:45 GMT+0000",
+      "jcr:createdBy": "steph.briggs@backcountry.com",
+      "jcr:predecessors": [
+        "1a02ec89-b1b4-4d69-9743-dd27b006bc73"
+      ],
+      "cq:lastReplicationAction_scene7": "Activate",
+      "jcr:isCheckedOut": true,
+      "jcr:mixinTypes": [
+        "mix:versionable",
+        "cq:ReplicationStatus2"
+      ],
+      "pageProperty_description": "Women's Snowboard Jackets",
+      "cq:lastReplicationAction_publish": "Activate",
+      "cq:lastModified": "Mon Nov 13 2023 17:21:17 GMT+0000",
+      "cq:lastReplicatedBy_scene7": "steph.briggs@backcountry.com",
+      "jcr:primaryType": "cq:PageContent",
+      "cq:lastReplicated": "Mon Nov 13 2023 17:21:31 GMT+0000",
+      "cq:lastReplicated_publish": "Mon Nov 13 2023 17:21:31 GMT+0000",
+      "cq:lastReplicated_scene7": "Mon Nov 13 2023 17:21:31 GMT+0000",
+      "sling:vanityPath": "bc-womens-snowboard-jackets",
+      "jcr:baseVersion": "1a02ec89-b1b4-4d69-9743-dd27b006bc73",
+      "root": {
+        "layout": "responsiveGrid",
+        "sling:resourceType": "baem/components/container",
+        "jcr:primaryType": "nt:unstructured",
+        "container": {
+          "layout": "responsiveGrid",
+          "sling:resourceType": "baem/components/container",
+          "jcr:primaryType": "nt:unstructured",
+          "accordion": {
+            "jcr:created": "Mon Nov 13 2023 17:10:45 GMT+0000",
+            "jcr:lastModifiedBy": "steph.briggs@backcountry.com",
+            "jcr:createdBy": "steph.briggs@backcountry.com",
+            "sling:resourceType": "baem/components/accordion",
+            "expandedItems": [
+              "item_1699895569508",
+              "item_1699895567416",
+              "item_1699895452548",
+              "item_1699895450755",
+              "item_2",
+              "item_1",
+              "item_1699895538581"
+            ],
+            "singleExpansion": "false",
+            "jcr:lastModified": "Mon Nov 13 2023 17:20:30 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "item_1699895538581": {
+              "cq:panelTitle": "What kind of jacket should I wear for snowboarding?",
+              "sling:resourceType": "baem/components/container",
+              "jcr:primaryType": "nt:unstructured",
+              "text": {
+                "jcr:created": "Mon Nov 13 2023 17:14:08 GMT+0000",
+                "jcr:lastModifiedBy": "steph.briggs@backcountry.com",
+                "jcr:createdBy": "steph.briggs@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Mon Nov 13 2023 17:20:57 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<p>Look for a waterproof, breathable jacket with armpit vents, a helmet-compatible hood, powder skirt, and a good number of pockets. <a href=\"https://www.backcountry.com/womens-insulated-jackets\">Insulated</a> or shell-only is the next decision, we prefer shell jackets so we can adjust <a href=\"https://www.backcountry.com/womens-baselayers\">layers underneath</a> according to the conditions and season.</p>\r\n"
+              }
+            },
+            "item_1": {
+              "layout": "responsiveGrid",
+              "cq:panelTitle": "How thick should a snowboarding jacket be?",
+              "sling:resourceType": "baem/components/container",
+              "jcr:primaryType": "nt:unstructured",
+              "jcr:title": "Item 1",
+              "text": {
+                "jcr:created": "Mon Nov 13 2023 17:14:06 GMT+0000",
+                "jcr:lastModifiedBy": "steph.briggs@backcountry.com",
+                "jcr:createdBy": "steph.briggs@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Mon Nov 13 2023 17:15:56 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<p>Unless you run particularly cold, thinner, shell-only snowboarding jackets are a great pick because you can layer different levels of warmth based on the conditions and season.</p>\r\n"
+              }
+            },
+            "item_2": {
+              "layout": "responsiveGrid",
+              "cq:panelTitle": "Should I buy a snowboarding jacket one size bigger?",
+              "sling:resourceType": "baem/components/container",
+              "jcr:primaryType": "nt:unstructured",
+              "jcr:title": "Item 2",
+              "text": {
+                "jcr:created": "Mon Nov 13 2023 17:14:03 GMT+0000",
+                "jcr:lastModifiedBy": "steph.briggs@backcountry.com",
+                "jcr:createdBy": "steph.briggs@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Mon Nov 13 2023 17:16:30 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<p>The rule of thumb is usually to size up, especially if it is an insulated jacket. Shells with no insulation tend to run true to size. You'll want to try the jacket out at home with the layers you would wear on the slopes to ensure a relaxed fit. </p>\r\n"
+              }
+            },
+            "item_1699895450755": {
+              "cq:panelTitle": "Is GORE-TEX worth it for snowboarding?",
+              "sling:resourceType": "baem/components/container",
+              "jcr:primaryType": "nt:unstructured",
+              "text": {
+                "jcr:created": "Mon Nov 13 2023 17:14:00 GMT+0000",
+                "jcr:lastModifiedBy": "steph.briggs@backcountry.com",
+                "jcr:createdBy": "steph.briggs@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Mon Nov 13 2023 17:16:46 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<p>If you live in a drier climate, you may not need GORE-TEX. If you’re riding in a wetter climate, GORE-TEX offers top notch waterproofing to keep you dry and comfortable. </p>\r\n"
+              }
+            },
+            "item_1699895452548": {
+              "cq:panelTitle": "How do I know if my jacket is too small?",
+              "sling:resourceType": "baem/components/container",
+              "jcr:primaryType": "nt:unstructured",
+              "text": {
+                "jcr:created": "Mon Nov 13 2023 17:13:57 GMT+0000",
+                "jcr:lastModifiedBy": "steph.briggs@backcountry.com",
+                "jcr:createdBy": "steph.briggs@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Mon Nov 13 2023 17:17:02 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<p>You'll want an unrestricted fit for freedom of movement and under-layering options. If you lift your arms or give yourself a hug and feel any restriction or significant shortening of the sleeve length, it may be wise to size up. </p>\r\n"
+              }
+            },
+            "item_1699895567416": {
+              "cq:panelTitle": "Is 10k waterproofing enough for snowboarding?",
+              "sling:resourceType": "baem/components/container",
+              "jcr:primaryType": "nt:unstructured",
+              "text": {
+                "jcr:created": "Mon Nov 13 2023 17:13:54 GMT+0000",
+                "jcr:lastModifiedBy": "steph.briggs@backcountry.com",
+                "jcr:createdBy": "steph.briggs@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Mon Nov 13 2023 17:17:11 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<p>Yes, a 10k waterproof rating is great for most snowboarding needs, and it’s a standard rating for snowboard jackets in general. If you ride in a particularly wet climate, you may want to seek 15k or 20k ratings. </p>\r\n"
+              }
+            },
+            "item_1699895569508": {
+              "cq:panelTitle": "Why are snowboarders clothes so baggy?",
+              "sling:resourceType": "baem/components/container",
+              "jcr:primaryType": "nt:unstructured",
+              "text": {
+                "jcr:created": "Mon Nov 13 2023 17:13:51 GMT+0000",
+                "jcr:lastModifiedBy": "steph.briggs@backcountry.com",
+                "jcr:createdBy": "steph.briggs@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Mon Nov 13 2023 17:21:17 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<p>A lot of snowboarders prefer baggier clothing for an increased range of motion and for style reasons.. You want a relaxed fit for freedom of movement while riding, and a baggy fit allows that. Additionally, <a href=\"https://www.backcountry.com/womens-snowboard-clothing\">snowboarding clothing</a> is influenced by street-riding style.&nbsp;</p>\r\n"
+              }
+            }
+          }
+        }
+      }
+    }
+  }

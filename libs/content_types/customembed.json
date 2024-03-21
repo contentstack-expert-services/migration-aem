@@ -1,0 +1,74 @@
+{
+  "title": "Customembed",
+  "uid": "customembed",
+  "_version": 1,
+  "inbuilt_class": false,
+  "schema": [
+    {
+      "data_type": "text",
+      "display_name": "Title",
+      "field_metadata": { "_default": true, "version": 1 },
+      "mandatory": true,
+      "uid": "title",
+      "unique": true,
+      "multiple": false,
+      "non_localizable": false
+    },
+    {
+      "data_type": "text",
+      "display_name": "URL",
+      "uid": "url",
+      "field_metadata": { "_default": true, "version": 1 },
+      "multiple": false,
+      "unique": false,
+      "mandatory": false,
+      "non_localizable": false
+    },
+    {
+      "data_type": "json",
+      "display_name": "youtubeVideoId",
+      "uid": "youtubevideoid",
+      "field_metadata": {
+        "allow_json_rte": true,
+        "embed_entry": false,
+        "description": "",
+        "default_value": "",
+        "multiline": false,
+        "rich_text_type": "advanced",
+        "options": []
+      },
+      "format": "",
+      "error_messages": { "format": "" },
+      "reference_to": ["sys_assets"],
+      "multiple": false,
+      "non_localizable": false,
+      "unique": false,
+      "mandatory": false
+    }
+  ],
+  "last_activity": {},
+  "maintain_revisions": true,
+  "description": "",
+  "DEFAULT_ACL": [
+    { "k": "others", "v": { "read": false, "create": false } },
+    {
+      "k": "users.blt6ff6647ea68cb2c2",
+      "v": { "read": true, "sub_acl": { "read": true } }
+    }
+  ],
+  "SYS_ACL": { "roles": [] },
+  "options": {
+    "is_page": false,
+    "singleton": false,
+    "sub_title": [],
+    "title": "title"
+  },
+  "abilities": {
+    "get_one_object": true,
+    "get_all_objects": true,
+    "create_object": true,
+    "update_object": true,
+    "delete_object": true,
+    "delete_all_objects": true
+  }
+}

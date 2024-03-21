@@ -1,0 +1,271 @@
+{
+  "jcr:created": "Wed Nov 01 2023 16:07:00 GMT+0000",
+  "jcr:createdBy": "ghopkins@backcountry.com",
+  "jcr:primaryType": "cq:Page",
+  "jcr:content": {
+    "cq:lastReplicatedBy": "ghopkins@backcountry.com",
+    "cq:lastReplicationAction": "Activate",
+    "cq:lastReplicatedBy_publish": "ghopkins@backcountry.com",
+    "sling:resourceType": "baem/components/page",
+    "jcr:uuid": "55d02cc7-8595-4edf-991c-d406b6b5977a",
+    "jcr:title": "Cyber Monday Sale",
+    "cq:isDelivered": true,
+    "pageProperty_seo-toggle": "false",
+    "jcr:versionHistory": "19fe7f8d-86d1-48cb-9c98-db7af5d10cca",
+    "cq:lastModifiedBy": "ghopkins@backcountry.com",
+    "cq:template": "/conf/baem/settings/wcm/templates/page-content",
+    "pageProperty_titleTag": "Cyber Monday Sale | Backcountry.com",
+    "jcr:created": "Wed Nov 01 2023 16:07:00 GMT+0000",
+    "jcr:createdBy": "ghopkins@backcountry.com",
+    "jcr:predecessors": ["c20b86a2-c73c-4bd9-9119-974aa54b2db2"],
+    "jcr:isCheckedOut": true,
+    "jcr:mixinTypes": ["mix:versionable", "cq:ReplicationStatus2"],
+    "pageProperty_description": "Backcountry's biggest sale of the year! Snag the best outdoor gear & apparel at up to 70% off.",
+    "cq:lastReplicationAction_publish": "Activate",
+    "cq:lastModified": "Thu Nov 09 2023 23:23:31 GMT+0000",
+    "jcr:primaryType": "cq:PageContent",
+    "cq:lastReplicated": "Thu Nov 09 2023 23:30:20 GMT+0000",
+    "cq:lastReplicated_publish": "Thu Nov 09 2023 23:30:20 GMT+0000",
+    "sling:vanityPath": "cyber-sale",
+    "jcr:baseVersion": "c20b86a2-c73c-4bd9-9119-974aa54b2db2",
+    "root": {
+      "layout": "responsiveGrid",
+      "sling:resourceType": "baem/components/container",
+      "jcr:primaryType": "nt:unstructured",
+      "container": {
+        "layout": "responsiveGrid",
+        "sling:resourceType": "baem/components/container",
+        "jcr:primaryType": "nt:unstructured",
+        "title": {
+          "sling:resourceType": "baem/components/title",
+          "jcr:primaryType": "nt:unstructured"
+        },
+        "container": {
+          "layout": "responsiveGrid",
+          "sling:resourceType": "baem/components/container",
+          "jcr:primaryType": "nt:unstructured",
+          "teaser_copy": {
+            "aspect_ratio": "3:1",
+            "controls": "false",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/teaser",
+            "styleName": "card",
+            "assetList": "images",
+            "promotionId": "202311_CyberMondayLP",
+            "backgroundcolor": "blank",
+            "promotionName": "202311_CyberMondayLP",
+            "loop": "true",
+            "poster_aspect_ratio": "original",
+            "muted": "true",
+            "cq:styleIds": ["1657877310615"],
+            "jcr:created": "Wed Nov 01 2023 15:58:57 GMT+0000",
+            "jcr:lastModifiedBy": "ghopkins@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "alt": " Cyber Monday Sale",
+            "autoplay": "true",
+            "actionsEnabled": "false",
+            "jcr:lastModified": "Thu Nov 09 2023 23:23:23 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "fileReference": "/content/dam/bcs/projects/bc23_0460_cyber-monday-sale/Cyber Coming Soon Hero 3_1.jpg"
+          },
+          "textbanner_copy": {
+            "jcr:created": "Wed Nov 01 2023 16:20:35 GMT+0000",
+            "jcr:lastModifiedBy": "ghopkins@backcountry.com",
+            "colorselector": "primary",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "textIsRich": "true",
+            "textcolor": "primary",
+            "sling:resourceType": "baem/components/textbanner",
+            "promotionId": "202311_CyberMondayLP",
+            "promotionName": "202311_CyberMondayLP",
+            "actionsEnabled": "true",
+            "jcr:description": "<p style=\"\ttext-align: center;\r\n\"><span class=\"title2Heavy\">Cyber Monday Sale</span></p>\r\n<p style=\"\ttext-align: center;\r\n\"><span class=\"title1\">Coming Soon!</span></p>\r\n<p style=\"\ttext-align: center;\r\n\"> </p>\r\n<p style=\"\ttext-align: center;\r\n\"><span class=\"body1\">Check back November 26, when our biggest sale of the year kicks off. You’ll find gear for skiing, snowboarding, camping, and more—plus apparel for the whole crew—at extra-deep discounts.</span></p>\r\n<p style=\"\ttext-align: center;\r\n\"> </p>\r\n",
+            "jcr:lastModified": "Thu Nov 09 2023 23:23:31 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "center",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "2",
+                "width": "8",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            },
+            "actions": {
+              "jcr:primaryType": "nt:unstructured",
+              "item0": {
+                "link": "/rc/shop-all-sale?rp=onsaleUS%3Atrue",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Shop Current Deals",
+                "variation": "solid"
+              }
+            }
+          },
+          "teaser_238261719_cop": {
+            "aspect_ratio": "original",
+            "controls": "false",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/teaser",
+            "styleName": "tile",
+            "assetList": "images",
+            "promotionId": "202311_CyberMondayLP",
+            "backgroundcolor": "light",
+            "promotionName": "202311_CyberMondayLP",
+            "loop": "true",
+            "poster_aspect_ratio": "original",
+            "muted": "true",
+            "cq:styleIds": ["1657877304842"],
+            "jcr:created": "Tue Aug 16 2022 00:36:57 GMT+0000",
+            "jcr:lastModifiedBy": "ghopkins@backcountry.com",
+            "jcr:createdBy": "cchristoffersen@backcountry.com",
+            "alt": "Free Shipping on Orders Over $50",
+            "autoplay": "true",
+            "actionsEnabled": "true",
+            "jcr:description": "<p><span class=\"title1Heavy\">Free Shipping On Orders Over $50</span><br />\r\n</p>\r\n",
+            "jcr:lastModified": "Mon Nov 06 2023 22:53:54 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "additionalDMParameters": "fmt=png-alpha",
+            "alignment": "center",
+            "fileReference": "/content/dam/bcs/projects/launch-8-17/Icon1_Shipping.png",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "base_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "default": {
+                "offset": "0",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "small_bp": {
+                "offset": "0",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            },
+            "actions": {
+              "jcr:primaryType": "nt:unstructured",
+              "item0": {
+                "link": "/service/shipping-policy",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Shipping Options",
+                "variation": "link"
+              }
+            }
+          },
+          "teaser_238261719_cop_869265805": {
+            "aspect_ratio": "original",
+            "controls": "false",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/teaser",
+            "styleName": "tile",
+            "assetList": "images",
+            "promotionId": "202311_CyberMondayLP",
+            "backgroundcolor": "light",
+            "promotionName": "202311_CyberMondayLP",
+            "loop": "true",
+            "poster_aspect_ratio": "original",
+            "muted": "true",
+            "cq:styleIds": ["1657877304842"],
+            "jcr:created": "Tue Aug 16 2022 00:36:57 GMT+0000",
+            "jcr:lastModifiedBy": "ghopkins@backcountry.com",
+            "jcr:createdBy": "cchristoffersen@backcountry.com",
+            "alt": "Hassle Free Returns",
+            "autoplay": "true",
+            "actionsEnabled": "true",
+            "jcr:description": "<p><span class=\"title1Heavy\">Need To Start A Return?</span></p>\r\n",
+            "jcr:lastModified": "Mon Nov 06 2023 22:54:03 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "additionalDMParameters": "fmt=png-alpha",
+            "alignment": "center",
+            "fileReference": "/content/dam/bcs/projects/launch-8-17/Icon2_Returns.png",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "base_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "default": {
+                "offset": "0",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "small_bp": {
+                "offset": "0",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            },
+            "actions": {
+              "jcr:primaryType": "nt:unstructured",
+              "item0": {
+                "link": "/service/bc-returnguarantee",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Our Return Policy",
+                "variation": "link"
+              }
+            }
+          },
+          "teaser_238261719_cop_1710731708": {
+            "aspect_ratio": "original",
+            "controls": "false",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/teaser",
+            "styleName": "tile",
+            "assetList": "images",
+            "promotionId": "202311_CyberMondayLP",
+            "backgroundcolor": "light",
+            "promotionName": "202311_CyberMondayLP",
+            "loop": "true",
+            "poster_aspect_ratio": "original",
+            "muted": "true",
+            "cq:styleIds": ["1657877304842"],
+            "jcr:created": "Tue Aug 16 2022 00:36:57 GMT+0000",
+            "jcr:lastModifiedBy": "ghopkins@backcountry.com",
+            "jcr:createdBy": "cchristoffersen@backcountry.com",
+            "alt": "Expedition Perks Loyalty Program",
+            "autoplay": "true",
+            "actionsEnabled": "true",
+            "jcr:description": "<p><span class=\"title1Heavy\">Ready To Earn Rewards?</span><br />\r\n</p>\r\n",
+            "jcr:lastModified": "Mon Nov 06 2023 22:54:11 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "additionalDMParameters": "fmt=png-alpha",
+            "alignment": "center",
+            "fileReference": "/content/dam/bcs/projects/bc23_0041_ep-homepage-value-prop-tile_/EP_VP.png",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "base_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "default": {
+                "offset": "0",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "small_bp": {
+                "offset": "0",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            },
+            "actions": {
+              "jcr:primaryType": "nt:unstructured",
+              "item0": {
+                "link": "/expeditionperks",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Join Our Loyalty Program",
+                "variation": "link"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

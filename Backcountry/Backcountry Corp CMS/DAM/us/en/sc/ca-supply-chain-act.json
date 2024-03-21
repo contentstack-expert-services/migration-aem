@@ -1,0 +1,76 @@
+{
+  "jcr:created": "Tue Jan 04 2022 23:12:22 GMT+0000",
+  "jcr:createdBy": "cchristoffersen@backcountry.com",
+  "jcr:primaryType": "cq:Page",
+  "jcr:content": {
+    "cq:lastReplicatedBy": "gabriel.segura@backcountry.com",
+    "cq:lastReplicationAction": "Activate",
+    "cq:lastReplicatedBy_publish": "gabriel.segura@backcountry.com",
+    "sling:resourceType": "baem/components/page",
+    "jcr:title": "CA Supply Chain Act",
+    "jcr:uuid": "2f0725cf-250b-440a-91f9-36d094184fea",
+    "cq:isDelivered": true,
+    "pageProperty_seo-toggle": "on",
+    "jcr:versionHistory": "6a66c01b-9a28-4d7a-a52b-4ad1d061c894",
+    "seo-toggle": "on",
+    "cq:lastModifiedBy": "cchristoffersen@backcountry.com",
+    "seo-description": "Outdoor gear and clothing from big brands to the small and undiscovered. Find everything you need for your next adventure at Backcountry.",
+    "cq:template": "/conf/baem/settings/wcm/templates/page-content1",
+    "pageProperty_titleTag": "California Supply Chain Act | Backcountry.com",
+    "seo-canonical": "https://www.backcountry.com/sc/ca-supply-chain-act",
+    "jcr:created": "Tue Jan 04 2022 23:12:22 GMT+0000",
+    "jcr:createdBy": "cchristoffersen@backcountry.com",
+    "seo-title": "California Transparency In Supply Chains Act | Backcountry.com",
+    "jcr:predecessors": ["80aee322-bbfb-4ce5-b0c5-685c3d0c42f0"],
+    "cq:lastReplicationAction_scene7": "Activate",
+    "jcr:isCheckedOut": true,
+    "jcr:mixinTypes": ["mix:versionable", "cq:ReplicationStatus2"],
+    "pageProperty_description": "In accordance with the California Transparency in Supply Chains Act, Backcountry.com. LLC is pleased to share the steps it is taking to identify and eliminate slavery and human trafficking in product supply chains. ",
+    "cq:lastReplicationAction_publish": "Activate",
+    "cq:lastModified": "Tue Oct 11 2022 18:35:37 GMT+0000",
+    "cq:lastReplicatedBy_scene7": "gabriel.segura@backcountry.com",
+    "jcr:primaryType": "cq:PageContent",
+    "cq:lastReplicated": "Wed Aug 16 2023 18:36:06 GMT+0000",
+    "cq:lastReplicated_publish": "Wed Aug 16 2023 18:36:06 GMT+0000",
+    "cq:lastReplicated_scene7": "Wed Aug 16 2023 18:36:06 GMT+0000",
+    "sling:vanityPath": "bc-ca-supply-chain-act",
+    "jcr:baseVersion": "80aee322-bbfb-4ce5-b0c5-685c3d0c42f0",
+    "root": {
+      "layout": "responsiveGrid",
+      "sling:resourceType": "baem/components/container",
+      "jcr:primaryType": "nt:unstructured",
+      "container": {
+        "layout": "responsiveGrid",
+        "sling:resourceType": "baem/components/container",
+        "jcr:primaryType": "nt:unstructured",
+        "title": {
+          "sling:resourceType": "baem/components/title",
+          "jcr:primaryType": "nt:unstructured"
+        },
+        "container": {
+          "layout": "responsiveGrid",
+          "sling:resourceType": "baem/components/container",
+          "jcr:primaryType": "nt:unstructured",
+          "text_651577333": {
+            "jcr:created": "Tue Jan 04 2022 23:13:48 GMT+0000",
+            "jcr:lastModifiedBy": "cchristoffersen@backcountry.com",
+            "jcr:createdBy": "cchristoffersen@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/text",
+            "jcr:lastModified": "Wed Sep 07 2022 18:14:12 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "<h2><span class=\"title3Heavy\">California Transparency In Supply Chains Act</span></h2>\r\n<p><span class=\"body1\">In accordance with the California Transparency in Supply Chains Act, Backcountry.com. LLC (“Backcountry”) is pleased to share the steps it is taking to identify and eliminate slavery and human trafficking in product supply chains. These disclosures provide consumers w<span class=\"body1\"></span>ith information needed to help make informed purchasing decisions. Each of the five disclosure categories are discussed below with detail regarding third-party (buy/sell) products as well as Backcountry branded products.</span></p>\r\n<p>&nbsp;</p>\r\n<h2><span class=\"title3Heavy\">Certification</span></h2>\r\n<p>Describe the extent to which Backcountry requires direct suppliers to certify that materials incorporated into product comply with the laws regarding slavery and human trafficking of the country or countries in which they are doing business.</p>\r\n<p>&nbsp;</p>\r\n<p>Prior to purchasing third-party products from a vendor, Backcountry requires vendors to sign our Vendor Purchase Agreement, specifically warranting that no products supplied to Backcountry “were, are, or will be produced, manufactured, assembled, or packaged by child labor … or any forced, indentured, involuntary, prison, or uncompensated labor,” and that “[v]endor provides its employees with wages, benefits and other compensation in compliance with all applicable local requirements, including regular compensation for overtime work where it is not required by local law.”</p>\r\n<p>&nbsp;</p>\r\n<p>For Backcountry private label products (e.g., Backcountry, Basin &amp; Range, and Stoic), Backcountry requires, and supplier must warrant, that all manufacturers and facilities producing these products meet or exceed the human rights and environmental responsible production standards set forth by the 12 principles of the Worldwide Responsible Accredited Production not-for-profit group (available at <a href=\"https://wrapcompliance.org/12-principles/\">https://wrapcompliance.org/12-principles/</a>) (“WRAP Principles”), including the prohibition of using any “involuntary, forced, or trafficked labor.” Specifically, WRAP Principle number two requires that:</p>\r\n<p>&nbsp;</p>\r\n<p style=\"text-align: justify;\">Facilities will maintain employment strictly on a voluntary basis. Facilities will not use any forced, prison, indentured, bonded, or trafficked labor. This will include ensuring that any workers they hire will be under labor contracts that fully comply with all relevant legal requirements and do not impose any form of coercion (including imposing substantial fines or loss of residency papers by workers leaving employment or restricting a worker’s ability to voluntarily end his/her employment). In addition, workers should not be employed subject to any financial or collateral guarantee or debt security; any recruitment fees involved should be borne by facilities, not workers. Further, facilities will ensure that the workers’ travel documents are not withheld, and that all written contracts are in a language understood by the workers.</p>\r\n<p style=\"text-align: justify;\">&nbsp;</p>\r\n<p>Furthermore, for Backcountry private label products, WRAP Principle number one requires that all facilities “comply with the legal requirements and standards of their industry under the local and national laws of the jurisdictions in which the facilities are doing business, along with any applicable international laws,” including all labor and employment laws of those jurisdictions, as well as laws governing the conduct of business in general.</p>\r\n<p>&nbsp;</p>\r\n<p>The prohibition of forced labor and legal compliance obligation applies not only to suppliers of Backcountry branded products and their factories, but also to the suppliers’ suppliers.</p>\r\n<p>&nbsp;</p>\r\n<h2><span class=\"title3Heavy\">Verification</span></h2>\r\n<p>Describe the extent to which Backcountry engages in verification of product supply chains to evaluate and address risks of human trafficking and slavery.</p>\r\n<p>&nbsp;</p>\r\n<p>Backcountry requires vendors of third-party products to warrant that no products supplied to Backcountry are produced or packaged by forced, indentured, involuntary, prison, or uncompensated labor. Backcountry also reserves the right to review the records of third-party product vendors related to topics in the Vendor Purchase Agreement, including labor issues. Backcountry does not currently verify, or order independent third-party verification, to confirm that supply chains for third-party products are free of human trafficking or slavery.</p>\r\n<p>&nbsp;</p>\r\n<p>For Backcountry branded products, company representatives make scheduled visits to all factories where these items will be produced to verify that the factories have safe working conditions and pay wages that meet or exceed legal requirements to all workers, including overtime pay and time off. Most factories producing Backcountry branded products are also subject to independent, third party, announced audits every year or two years, including review of operations and policies to verify the lack of slavery and forced labor at the factory as well as review of records to verify that workers are all being paid according to legal requirements.</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<h2><span class=\"title3Heavy\">Audits</span></h2>\r\n<p>Describe the extent to which Backcountry conduct audits of suppliers to evaluate supplier compliance with company standards for trafficking and slavery in supply chains.</p>\r\n<p>&nbsp;</p>\r\n<p>Backcountry requires third-party product vendors to warrant that no products supplied to Backcountry are produced or packaged by forced, indentured, involuntary, prison, or uncompensated labor. Backcountry also reserves the right to audit the records of third-party product vendors related to topics in the Vendor Purchase Agreement, including labor issues. However, Backcountry does not currently audit or order independent third-party audits of vendor supply chains related to human trafficking or slavery.</p>\r\n<p>&nbsp;</p>\r\n<p>For Backcountry branded products, company representatives make scheduled visits to factories to ensure that the operations are meeting the WRAP Principles incorporated in Backcountry’s social compliance requirements, including the prohibition on slavery and forced labor. Backcountry makes these factory visits before engaging with a new supplier, and revisits the factories every year to two years. (Although there was a pause on Backcountry’s visits to factories in 2020 due to COVID, Backcountry anticipates resuming factory visits again in Q4 2021.) Most factories producing Backcountry branded products are also subject to independent, third party, announced audits every year or two years, including review of operations and policies regarding slavery and forced labor.</p>\r\n<p>&nbsp;</p>\r\n<h2><span class=\"title3Heavy\">Training</span></h2>\r\n<p>Describe the extent to which Backcountry provides company employees and management, who have direct responsibility for supply chain management, training on human trafficking and slavery, particularly with respect to mitigating risks within the supply chains of products.</p>\r\n<p>&nbsp;</p>\r\n<p>Backcountry buyers of third-party products, and management who have direct responsibility for supply chain management, are trained on the contractual obligations in the Vendor Purchase Agreement, which requires that no products supplied to Backcountry “were, are, or will be produced, manufacturersured, assembled, or packaged by child labor … or any forced, indentured, involuntary, prison, or uncompensated labor,” and that “[v]endor provides its employees with wages, benefits and other compensation in compliance with all applicable local requirements, including regular compensation for overtime work where it is not required by local law.”</p>\r\n<p>&nbsp;</p>\r\n<p>For Backcountry branded products, Backcountry employees and management receive training on the Backcountry Owned Brands Supplier Agreement, which requires all factories and other production, packaging and supplier facilities to meet or exceed the WRAP Principles described in the paragraphs above (and available at <a href=\"http://www.wrapcompliance.org/en/12-principles\">http://www.wrapcompliance.org/en/12-principles</a>).</p>\r\n<p>&nbsp;</p>\r\n<h2><span class=\"title3Heavy\">Internal Accountability</span></h2>\r\n<p>Describe the extent to which Backcountry maintains internal accountability standards and procedures for employees or contractors failing to meet company standards regarding slavery and trafficking.</p>\r\n<p>&nbsp;</p>\r\n<p>Backcountry can terminate its relationship with employees, contractors, or vendors of third-party products that fail to disclose deficiencies in company requirements regarding slavery and human trafficking in the supply chain. With regard to contracted suppliers of Backcountry branded items, Backcountry will not accept goods produced in factories found to use forced labor or slave labor and will end the company’s relationship with such contracted suppliers if they do not move to a socially-compliant factory.</p>\r\n",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,2718 @@
+{
+  "jcr:created": "Tue Jul 25 2023 21:05:12 GMT+0000",
+  "jcr:createdBy": "kzylstra@backcountry.com",
+  "jcr:primaryType": "cq:Page",
+  "jcr:content": {
+    "cq:lastReplicatedBy": "kzylstra@backcountry.com",
+    "cq:lastReplicationAction": "Activate",
+    "cq:lastReplicatedBy_publish": "kzylstra@backcountry.com",
+    "sling:resourceType": "baem/components/page",
+    "jcr:title": "Backcountry Bulletin",
+    "jcr:uuid": "8f65570d-d7dd-4808-b116-39fe0a882425",
+    "cq:isDelivered": true,
+    "pageProperty_seo-toggle": "true",
+    "jcr:versionHistory": "ea34b234-5ac5-4903-99d3-3efdb6dea7f8",
+    "cq:lastModifiedBy": "kzylstra@backcountry.com",
+    "cq:template": "/conf/baem/settings/wcm/templates/page-content",
+    "pageProperty_titleTag": "Outdoor News, Podcasts, Articles & More From Backcountry",
+    "jcr:created": "Tue Jul 25 2023 21:05:12 GMT+0000",
+    "jcr:createdBy": "kzylstra@backcountry.com",
+    "jcr:predecessors": ["53994999-d1f0-4a82-bd62-b2c7117fc5ea"],
+    "jcr:isCheckedOut": true,
+    "jcr:mixinTypes": ["mix:versionable", "cq:ReplicationStatus2"],
+    "pageProperty_description": "The Backcountry Bulletin is where we keep our short films, reviews, podcast episodes—basically everything Goat-Worthy.",
+    "cq:lastReplicationAction_publish": "Activate",
+    "cq:lastModified": "Wed Dec 27 2023 21:45:35 GMT+0000",
+    "jcr:primaryType": "cq:PageContent",
+    "cq:lastReplicated": "Wed Dec 27 2023 21:46:44 GMT+0000",
+    "cq:lastReplicated_publish": "Wed Dec 27 2023 21:46:44 GMT+0000",
+    "sling:vanityPath": "backcountry-bulletin",
+    "jcr:baseVersion": "53994999-d1f0-4a82-bd62-b2c7117fc5ea",
+    "root": {
+      "layout": "responsiveGrid",
+      "sling:resourceType": "baem/components/container",
+      "jcr:primaryType": "nt:unstructured",
+      "container": {
+        "layout": "responsiveGrid",
+        "sling:resourceType": "baem/components/container",
+        "jcr:primaryType": "nt:unstructured",
+        "title": {
+          "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+          "sling:resourceType": "baem/components/title",
+          "type": "h1",
+          "jcr:lastModified": "Mon Aug 07 2023 21:49:18 GMT+0000",
+          "jcr:primaryType": "nt:unstructured",
+          "id": "return"
+        },
+        "container": {
+          "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+          "sling:resourceType": "baem/components/container",
+          "layout": "responsiveGrid",
+          "jcr:lastModified": "Fri Jul 28 2023 19:55:55 GMT+0000",
+          "jcr:primaryType": "nt:unstructured",
+          "alignment": "center",
+          "textbanner": {
+            "jcr:created": "Tue Jul 25 2023 21:06:03 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "colorselector": "brand",
+            "textIsRich": "true",
+            "textcolor": "primary",
+            "sling:resourceType": "baem/components/textbanner",
+            "actionsEnabled": "false",
+            "jcr:lastModified": "Thu Oct 12 2023 21:22:39 GMT+0000",
+            "jcr:description": "<h1 style=\"text-align: center; margin-left: 40.0px;\">&nbsp;</h1>\r\n<h1 style=\"text-align: center; margin-left: 40.0px;\"><span class=\"title3Heavy\">The Backcountry Bulletin</span><br>\r\n</h1>\r\n<hr style=\"text-align: center;\">\r\n\r\n<hr style=\"text-align: center;\">\r\n\r\n<h2 style=\"text-align: center;\"><span style=\"font-size: 24.0px;\"><b><span class=\"title2\">Read | Watch | Listen&nbsp;</span></b></span></h2>\r\n<hr style=\"text-align: center;\">\r\n\r\n<p style=\"text-align: center;\">_______________________________________________________</p>\r\n<p>&nbsp;</p>\r\n<hr>\r\n\r\n",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "center",
+            "fileReference": "/content/dam/bcs/projects/bc23_exp_father'sday/BC - SS23 - Card - Map - 17x9.jpg",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            },
+            "actions": {
+              "jcr:primaryType": "nt:unstructured",
+              "item0": {
+                "link": "#gearhead",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Gearhead Expertise",
+                "variation": "brand"
+              },
+              "item1": {
+                "link": "#venture",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Venture Beyond",
+                "variation": "brand"
+              },
+              "item2": {
+                "link": "#tv",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "BC TV",
+                "variation": "brand"
+              },
+              "item3": {
+                "link": "#explore",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Explore More",
+                "variation": "brand"
+              }
+            }
+          },
+          "anchornavigation": {
+            "backgroundColor": "black",
+            "jcr:created": "Mon Aug 07 2023 22:15:39 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "sling:resourceType": "baem/components/anchornavigation",
+            "jcr:lastModified": "Tue Nov 14 2023 20:58:25 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "center",
+            "actions": {
+              "jcr:primaryType": "nt:unstructured",
+              "item0": {
+                "link": "#gearhead",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Gearhead® Expertise",
+                "openInNewWindow": "false"
+              },
+              "item1": {
+                "link": "#films",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Backcountry Films",
+                "openInNewWindow": "false"
+              },
+              "item2": {
+                "link": "#explore",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Explore Blog",
+                "openInNewWindow": "false"
+              },
+              "item3": {
+                "link": "#podcast",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Podcast",
+                "openInNewWindow": "false"
+              }
+            }
+          },
+          "spacer_1917451416": {
+            "jcr:created": "Mon Aug 07 2023 17:29:57 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "24",
+            "pixels_large": "24",
+            "pixels_medium": "24",
+            "jcr:lastModified": "Mon Aug 07 2023 17:30:05 GMT+0000",
+            "pixels_small": "24",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "24"
+          },
+          "teaser": {
+            "aspect_ratio": "original",
+            "controls": "false",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/teaser",
+            "styleName": "herobox",
+            "assetList": "video",
+            "backgroundcolor": "dark",
+            "loop": "true",
+            "linkURL": "https://www.backcountry.com/service/venture-beyond-episode-5",
+            "poster_aspect_ratio": "hero",
+            "muted": "true",
+            "videoAsset": "/content/dam/bcs/projects/bc23_bul_bulletin/MInd The Gap - HP Hero - 2x1 - R3.mp4",
+            "cq:styleIds": ["1665063735774"],
+            "jcr:created": "Wed Aug 09 2023 21:37:45 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "alt": "Mind The Gap video artwork.",
+            "autoplay": "true",
+            "actionsEnabled": "false",
+            "jcr:lastModified": "Mon Oct 23 2023 20:26:35 GMT+0000",
+            "jcr:description": "<p><span class=\"title1Heavy\">Mind The Gap</span></p>\r\n<p><span class=\"body1\">Venture Beyond | Ep. 5</span></p>\r\n<p><span class=\"body1Heavy\"><u><a href=\"https://www.backcountry.com/service/venture-beyond-episode-5\">Watch The Film</a></u></span></p>\r\n<p>&nbsp;</p>\r\n",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "right",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "large_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "default": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            },
+            "actions": {
+              "jcr:primaryType": "nt:unstructured",
+              "item0": {
+                "link": "https://youtu.be/G3ha46RfUgY",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Taming The Wolverine",
+                "variation": "link"
+              }
+            }
+          },
+          "spacer_1154947117": {
+            "jcr:created": "Mon Aug 21 2023 15:51:27 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "24",
+            "pixels_large": "24",
+            "pixels_medium": "24",
+            "jcr:lastModified": "Mon Aug 21 2023 15:51:33 GMT+0000",
+            "pixels_small": "24",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "24"
+          },
+          "textbanner_1220793502": {
+            "jcr:created": "Mon Aug 21 2023 15:18:05 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "colorselector": "light",
+            "textIsRich": "true",
+            "textcolor": "primary",
+            "sling:resourceType": "baem/components/textbanner",
+            "actionsEnabled": "false",
+            "jcr:lastModified": "Mon Aug 21 2023 15:18:52 GMT+0000",
+            "jcr:description": "<h2><span class=\"title3Heavy\">What&#39;s Trending</span></h2>\r\n",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left"
+          },
+          "teaser_1704611328": {
+            "aspect_ratio": "4:3",
+            "controls": "false",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/teaser",
+            "assetList": "images",
+            "backgroundcolor": "blank",
+            "loop": "true",
+            "linkURL": "https://www.backcountry.com/service/flying-with-ski-snowboard-gear",
+            "poster_aspect_ratio": "original",
+            "muted": "true",
+            "jcr:created": "Thu Aug 17 2023 20:20:54 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "alt": "Airline traveler wheeling the Backcountry Double Ski & Snowboard Bag. ",
+            "autoplay": "true",
+            "actionsEnabled": "false",
+            "jcr:lastModified": "Wed Dec 27 2023 21:41:24 GMT+0000",
+            "jcr:description": "<p><span class=\"body1Heavy\">Read</span><span class=\"body1\">: How To Fly With Your Skis Or Snowboard</span></p>\r\n",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "fileReference": "/content/dam/bcs/projects/bc23_exp_latestarticles/KALENCARD.jpg",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "3",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "0",
+                "width": "6",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "small_bp": {
+                "offset": "0",
+                "width": "6",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "teaser_1599309063": {
+            "aspect_ratio": "4:3",
+            "controls": "false",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/teaser",
+            "assetList": "images",
+            "backgroundcolor": "blank",
+            "loop": "true",
+            "linkURL": "https://www.backcountry.com/service/backcountry-podcast-ep17",
+            "poster_aspect_ratio": "original",
+            "muted": "true",
+            "jcr:created": "Thu Aug 17 2023 20:22:57 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "alt": "Shaun White in the podcast studio.",
+            "autoplay": "true",
+            "actionsEnabled": "false",
+            "jcr:lastModified": "Tue Dec 12 2023 20:39:35 GMT+0000",
+            "jcr:description": "<p><span class=\"body1Heavy\">Listen</span><span class=\"body1\">: The Shaun White Story</span></p>\r\n",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "fileReference": "/content/dam/bcs/projects/bc23_bcpodcast/48FD55C8-FD20-4A98-A299-3357276281B4.jpg",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "3",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "0",
+                "width": "6",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "small_bp": {
+                "offset": "0",
+                "width": "6",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "teaser_1161597559": {
+            "aspect_ratio": "4:3",
+            "controls": "false",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/teaser",
+            "assetList": "images",
+            "backgroundcolor": "blank",
+            "loop": "true",
+            "linkURL": "https://www.backcountry.com/service/best-ski-exercises",
+            "poster_aspect_ratio": "original",
+            "muted": "true",
+            "jcr:created": "Thu Aug 17 2023 20:25:16 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "alt": "Collage of gym goer performing jumping lunge and skier making a turn. ",
+            "autoplay": "true",
+            "actionsEnabled": "false",
+            "jcr:lastModified": "Tue Dec 12 2023 20:42:39 GMT+0000",
+            "jcr:description": "<p><span class=\"body1Heavy\">Read</span><span class=\"body1\">: Best Preseason Ski &amp; Snowboard Exercises</span></p>\r\n",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "fileReference": "/content/dam/bcs/projects/bc23_exp_latestarticles/A25029DF-4F3F-4C0C-BF34-DBDADA779E79.jpg",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "3",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "0",
+                "width": "6",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "small_bp": {
+                "offset": "0",
+                "width": "6",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "teaser_107649963": {
+            "aspect_ratio": "4:3",
+            "controls": "false",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/teaser",
+            "assetList": "images",
+            "backgroundcolor": "blank",
+            "loop": "true",
+            "linkURL": "https://www.backcountry.com/service/backcountry-podcast-ep15",
+            "poster_aspect_ratio": "original",
+            "muted": "true",
+            "jcr:created": "Thu Aug 17 2023 20:27:43 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "alt": "Karel and his support crew alongside videographers in the Backcountry podcast studio. ",
+            "autoplay": "true",
+            "actionsEnabled": "false",
+            "jcr:lastModified": "Tue Dec 12 2023 20:45:50 GMT+0000",
+            "jcr:description": "<p><span class=\"body1Heavy\">Listen</span><span class=\"body1\">: Karel Sabbe &amp; Pacing The Pacific Crew</span></p>\r\n",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "fileReference": "/content/dam/bcs/projects/bc23_bcpodcast/KARLPODTNBLANK.jpg",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "3",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "0",
+                "width": "6",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "small_bp": {
+                "offset": "0",
+                "width": "6",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "text": {
+            "jcr:created": "Mon Aug 21 2023 22:14:00 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/text",
+            "jcr:lastModified": "Mon Aug 21 2023 22:25:47 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "<hr>\r\n\r\n",
+            "id": "gearhead",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "spacer": {
+            "jcr:created": "Mon Jul 31 2023 22:17:32 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "24",
+            "promotionId": "gearhead",
+            "pixels_large": "24",
+            "pixels_medium": "24",
+            "jcr:lastModified": "Mon Aug 21 2023 22:21:03 GMT+0000",
+            "pixels_small": "24",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "24"
+          },
+          "textbanner_2137671475": {
+            "jcr:created": "Fri Jul 28 2023 20:04:32 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "colorselector": "primary",
+            "textIsRich": "true",
+            "textcolor": "brand",
+            "sling:resourceType": "baem/components/textbanner",
+            "actionsEnabled": "true",
+            "jcr:lastModified": "Mon Aug 28 2023 15:52:30 GMT+0000",
+            "jcr:description": "<h2><span class=\"title3Heavy\">Gearhead Expertise</span></h2>\r\n",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "fileReference": "/content/dam/bcs/projects/bc23_exp_latestarticles/Orange Border (1).jpg",
+            "actions": {
+              "jcr:primaryType": "nt:unstructured",
+              "item0": {
+                "link": "https://www.backcountry.com/service/backcountry-gearheads#Gearheads",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Our Gearheads",
+                "variation": "brand"
+              }
+            }
+          },
+          "text_1487631609": {
+            "jcr:created": "Wed Sep 20 2023 22:20:58 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/text",
+            "jcr:lastModified": "Tue Nov 14 2023 21:05:47 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p><span class=\"body1Heavy\"><a href=\"https://www.backcountry.com/service/backcountry-gearheads\">Gearhead® Experts</a></span><span class=\"body1\"> are Backcountry’s outdoor aficionados, gear enthusiasts, and customer service team. Our Gearheads are available via phone or chat to help you place or change orders, find your perfect ski jacket, and access the pro tips you need to get out there.</span></p>\r\n<p>&nbsp;</p>\r\n<hr>\r\n\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "2",
+                "width": "8",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "container": {
+            "jcr:created": "Wed Sep 20 2023 22:27:18 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "sling:resourceType": "baem/components/container",
+            "jcr:lastModified": "Wed Sep 20 2023 22:27:18 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "2",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "customembed_13587464": {
+            "embeddableResourceType": "baem/components/customembed/embeddable/youtube",
+            "jcr:created": "Mon Aug 07 2023 17:07:03 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "youtubeHeight": "1",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/customembed",
+            "type": "embeddable",
+            "background_color": "white",
+            "youtubeVideoId": "s4ugqG7RBq0",
+            "jcr:lastModified": "Tue Dec 12 2023 20:51:21 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "<h3>Best Snowboards Of 2024<br>\r\n</h3>\r\n<h3>&nbsp;</h3>\r\n<p style=\"text-align: left;\">Since our top brands have so many awesome boards, we narrowed down our selection to these top 5 picks for you.&nbsp;From directional powder slashers to symmetrical freestyle twins, there’s a board amongst this group for everyone. </p>\r\n",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "large_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "spacer_2062572672": {
+            "jcr:created": "Mon Aug 14 2023 20:28:15 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "56",
+            "pixels_large": "56",
+            "pixels_medium": "56",
+            "jcr:lastModified": "Tue Dec 12 2023 20:52:28 GMT+0000",
+            "pixels_small": "56",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "56"
+          },
+          "textbanner_1405442151": {
+            "jcr:created": "Mon Aug 21 2023 15:20:01 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "colorselector": "light",
+            "textIsRich": "true",
+            "textcolor": "primary",
+            "sling:resourceType": "baem/components/textbanner",
+            "actionsEnabled": "false",
+            "jcr:lastModified": "Tue Dec 12 2023 20:48:04 GMT+0000",
+            "jcr:description": "<h3><span class=\"title2Heavy\">Expertise: Snowboarding</span></h3>\r\n",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left"
+          },
+          "teaser_2087442532_co": {
+            "aspect_ratio": "4:3",
+            "controls": "false",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/teaser",
+            "assetList": "images",
+            "backgroundcolor": "blank",
+            "loop": "true",
+            "linkURL": "https://www.backcountry.com/explore/how-to-choose-snowboard-boots",
+            "poster_aspect_ratio": "original",
+            "muted": "true",
+            "jcr:created": "Mon Aug 07 2023 19:17:45 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "alt": "Snowboarder putting boots on. ",
+            "cq:panelTitle": "Overlanding guide",
+            "autoplay": "true",
+            "actionsEnabled": "false",
+            "jcr:description": "<p><span class=\"body1Heavy\">Read</span><span class=\"body1\">: Snowboard Boot Guide</span></p>\r\n",
+            "jcr:lastModified": "Mon Dec 18 2023 20:30:15 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "fileReference": "/content/dam/bcs/projects/bc23_bul_bulletin/BCJackDawe_221221-4954.jpg",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "large_bp": {
+                "offset": "0",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "teaser_172295959_cop": {
+            "aspect_ratio": "4:3",
+            "controls": "false",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/teaser",
+            "assetList": "images",
+            "backgroundcolor": "blank",
+            "loop": "true",
+            "linkURL": "https://www.backcountry.com/service/backcountry-podcast-ep16",
+            "poster_aspect_ratio": "original",
+            "muted": "true",
+            "jcr:created": "Mon Aug 07 2023 19:15:19 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "alt": "Torstein Horgmo in the Backcountry Podcast studio. ",
+            "cq:panelTitle": "BC Pod Ep. 10",
+            "autoplay": "true",
+            "actionsEnabled": "false",
+            "jcr:description": "<p><span class=\"body1Heavy\">Listen</span><span class=\"body1\">: Snowboard Lore With Torstein Horgmo</span></p>\r\n",
+            "jcr:lastModified": "Tue Dec 12 2023 20:54:29 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "fileReference": "/content/dam/bcs/projects/bc23_bcpodcast/TORSTEINTN.jpg",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "0",
+                "width": "6",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "teaser_copy": {
+            "aspect_ratio": "4:3",
+            "controls": "false",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/teaser",
+            "assetList": "images",
+            "backgroundcolor": "blank",
+            "loop": "true",
+            "linkURL": "https://www.backcountry.com/service/nils-mindnich-chads-gap",
+            "poster_aspect_ratio": "original",
+            "muted": "true",
+            "jcr:created": "Mon Aug 07 2023 19:12:08 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "alt": "Snowboarder holding board behind his back and peering to the side. ",
+            "cq:panelTitle": "Car camp guide",
+            "autoplay": "true",
+            "actionsEnabled": "false",
+            "jcr:description": "<p><span class=\"body1Heavy\"><span class=\"body1\"></span>Read</span><span class=\"body1\">: What Makes Sense—Nils Mindnich &amp; Chad's Gap</span></p>\r\n",
+            "jcr:lastModified": "Mon Dec 18 2023 19:54:01 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "fileReference": "/content/dam/bcs/projects/bc23_exp_latestarticles/NilsHeadshot.jpg",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "0",
+                "width": "6",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "spacer_307751457": {
+            "jcr:created": "Mon Jul 31 2023 17:16:35 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "24",
+            "pixels_large": "24",
+            "pixels_medium": "24",
+            "jcr:lastModified": "Mon Jul 31 2023 17:16:48 GMT+0000",
+            "pixels_small": "24",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "24"
+          },
+          "textbanner_1181614403": {
+            "jcr:created": "Mon Aug 21 2023 15:23:53 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "colorselector": "light",
+            "textIsRich": "true",
+            "textcolor": "primary",
+            "sling:resourceType": "baem/components/textbanner",
+            "actionsEnabled": "false",
+            "jcr:lastModified": "Wed Aug 30 2023 16:05:42 GMT+0000",
+            "jcr:description": "<h3><span class=\"title2Heavy\">Expertise: Backcountry Touring&nbsp;</span></h3>\r\n",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left"
+          },
+          "teaser_2087442532_co_59593598": {
+            "aspect_ratio": "4:3",
+            "controls": "false",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/teaser",
+            "assetList": "images",
+            "backgroundcolor": "blank",
+            "loop": "true",
+            "linkURL": "https://www.backcountry.com/explore/how-to-learn-about-avalanche-safety",
+            "poster_aspect_ratio": "original",
+            "muted": "true",
+            "jcr:created": "Mon Aug 07 2023 19:17:45 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "alt": "Avy Safety",
+            "cq:panelTitle": "Avy Safety",
+            "autoplay": "true",
+            "actionsEnabled": "false",
+            "jcr:description": "<p><span class=\"body1Heavy\">Read</span><span class=\"body1\">: Avalanche Safety</span></p>\r\n",
+            "jcr:lastModified": "Mon Aug 28 2023 16:38:12 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "fileReference": "/content/dam/bcs/projects/bc23_exp_latestarticles/BCRe_220317_6415.jpg",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "teaser_172295959_cop_1646087505": {
+            "aspect_ratio": "4:3",
+            "controls": "false",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/teaser",
+            "assetList": "images",
+            "backgroundcolor": "blank",
+            "loop": "true",
+            "linkURL": "https://www.backcountry.com/service/backcountry-podcast-ep18",
+            "poster_aspect_ratio": "original",
+            "muted": "true",
+            "jcr:created": "Mon Aug 07 2023 19:15:19 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "alt": "Craig Gordon in the Backcountry podcast studio. ",
+            "cq:panelTitle": "BC Pod Ep. 5",
+            "autoplay": "true",
+            "actionsEnabled": "false",
+            "jcr:description": "<p><span class=\"body1Heavy\">Listen</span><span class=\"body1\">: Craig Gordon Of The Utah Avalanche Center</span></p>\r\n",
+            "jcr:lastModified": "Tue Dec 12 2023 21:02:14 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "fileReference": "/content/dam/bcs/projects/bc23_bcpodcast/4FCB1C94-DF1B-403B-99C8-F8D31F480C93.jpg",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "0",
+                "width": "6",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "teaser_copy_1014682664": {
+            "aspect_ratio": "4:3",
+            "controls": "false",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/teaser",
+            "assetList": "images",
+            "backgroundcolor": "blank",
+            "loop": "true",
+            "linkURL": "https://www.backcountry.com/explore/our-herds-favorite-touring-gear-styles",
+            "poster_aspect_ratio": "original",
+            "muted": "true",
+            "jcr:created": "Mon Aug 07 2023 19:12:08 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "alt": "Splitboard slash",
+            "cq:panelTitle": "Touring Guide",
+            "autoplay": "true",
+            "actionsEnabled": "false",
+            "jcr:description": "<p><span class=\"body1Heavy\">Read</span><span class=\"body1\">: Our Herd's Favorite Touring Gear</span></p>\r\n",
+            "jcr:lastModified": "Mon Aug 28 2023 16:41:56 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "fileReference": "/content/dam/bcs/projects/bc23_exp_latestarticles/JackDawe_BC(JD)_220131_-21.jpg",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "0",
+                "width": "6",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "spacer_1017937758": {
+            "jcr:created": "Mon Aug 28 2023 19:42:53 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "24",
+            "pixels_large": "24",
+            "pixels_medium": "24",
+            "jcr:lastModified": "Mon Aug 28 2023 19:43:00 GMT+0000",
+            "pixels_small": "24",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "24"
+          },
+          "textbanner_118161440": {
+            "jcr:created": "Mon Aug 21 2023 15:23:53 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "colorselector": "light",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "textIsRich": "true",
+            "textcolor": "primary",
+            "sling:resourceType": "baem/components/textbanner",
+            "actionsEnabled": "false",
+            "jcr:description": "<h3><span class=\"title2Heavy\">Expertise: Gearhead Tips &amp; Tricks</span></h3>\r\n",
+            "jcr:lastModified": "Mon Sep 25 2023 18:31:57 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "spacer_486197357": {
+            "jcr:created": "Mon Aug 28 2023 19:42:36 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "24",
+            "pixels_large": "24",
+            "pixels_medium": "24",
+            "jcr:lastModified": "Mon Aug 28 2023 19:42:46 GMT+0000",
+            "pixels_small": "24",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "24"
+          },
+          "carousel_608423627_c": {
+            "horizontalscroll_large": "true",
+            "numberOfVisibleItems_large": "4",
+            "textIsRich": "true",
+            "horizontalscroll_default": "true",
+            "sling:resourceType": "baem/components/carousel",
+            "accessibilityAutoItemTitles": "false",
+            "numberOfVisibleItems_medium": "4",
+            "jcr:created": "Mon Aug 07 2023 19:39:36 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "numberOfVisibleItems_small": "2",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "horizontalscroll_medium": "true",
+            "horizontalscroll_small": "true",
+            "horizontalscroll_base": "true",
+            "jcr:lastModified": "Tue Dec 12 2023 22:30:36 GMT+0000",
+            "numberOfVisibleItems_default": "4",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "numberOfVisibleItems_base": "2",
+            "teaser": {
+              "aspect_ratio": "original",
+              "controls": "false",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/teaser",
+              "assetList": "images",
+              "backgroundcolor": "blank",
+              "loop": "true",
+              "linkURL": "https://youtu.be/W1s2dnG28DA",
+              "poster_aspect_ratio": "original",
+              "muted": "true",
+              "jcr:created": "Mon Aug 07 2023 19:39:42 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "alt": "2024 skis laid out next to each other. ",
+              "cq:panelTitle": "Best Skis Of 2024",
+              "autoplay": "true",
+              "actionsEnabled": "false",
+              "jcr:description": "<p><span class=\"body1Heavy\">Watch</span><span class=\"body1\">: Best Skis Of 2024</span></p>\r\n",
+              "jcr:lastModified": "Tue Dec 12 2023 22:28:45 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "alignment": "left",
+              "fileReference": "/content/dam/bcs/projects/bc23_bul_bulletin/TOPSKISTN 1.jpg"
+            },
+            "teaser_1436497403": {
+              "aspect_ratio": "original",
+              "controls": "false",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/teaser",
+              "assetList": "images",
+              "backgroundcolor": "blank",
+              "loop": "true",
+              "linkURL": "https://youtu.be/Y1HKSYQ5yxQ",
+              "poster_aspect_ratio": "original",
+              "muted": "true",
+              "jcr:created": "Mon Aug 07 2023 19:41:57 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "alt": "Backcountry Ski & Snowboard Boot Bag and Backcountry Double Ski & Snowboard Rolling Bag. ",
+              "cq:panelTitle": "Backcountry Ski & Boot Bag",
+              "autoplay": "true",
+              "actionsEnabled": "false",
+              "jcr:description": "<p><span class=\"body1Heavy\">Watch</span><span class=\"body1\">: Double Ski &amp; Snowboard Rolling Bag + Ski &amp; Snowboard Boot Bag</span></p>\r\n",
+              "jcr:lastModified": "Tue Dec 12 2023 22:32:03 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "alignment": "left",
+              "fileReference": "/content/dam/bcs/projects/bc23_bul_bulletin/SKI+BOOTBAGTN 2.jpg"
+            },
+            "teaser_181001805": {
+              "aspect_ratio": "original",
+              "controls": "false",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/teaser",
+              "assetList": "images",
+              "backgroundcolor": "blank",
+              "loop": "true",
+              "linkURL": "https://youtu.be/cH6wmpUvag0",
+              "poster_aspect_ratio": "original",
+              "muted": "true",
+              "jcr:created": "Mon Aug 07 2023 19:43:37 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "alt": "2024 Salomon ski and ski boot. ",
+              "cq:panelTitle": "New 2024 Salomon Gear",
+              "autoplay": "true",
+              "actionsEnabled": "false",
+              "jcr:description": "<p><span class=\"body1Heavy\">Watch</span><span class=\"body1\">: Salomon's New Gear Fopr 2024</span></p>\r\n",
+              "jcr:lastModified": "Tue Dec 12 2023 22:33:49 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "alignment": "left",
+              "fileReference": "/content/dam/bcs/projects/bc23_bul_bulletin/SALOMONTECHTN 1.jpg"
+            },
+            "teaser_1702727261": {
+              "aspect_ratio": "original",
+              "controls": "false",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/teaser",
+              "assetList": "images",
+              "backgroundcolor": "blank",
+              "loop": "true",
+              "linkURL": "https://youtu.be/fTNdew5b9XU",
+              "poster_aspect_ratio": "original",
+              "muted": "true",
+              "jcr:created": "Mon Aug 07 2023 19:45:18 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "alt": "Winter sports enthusiast wearing different layers.",
+              "cq:panelTitle": "How To Layer",
+              "autoplay": "true",
+              "actionsEnabled": "false",
+              "jcr:description": "<p><span class=\"body1Heavy\">Watch</span><span class=\"body1\">: How To Layer For Winter</span></p>\r\n",
+              "jcr:lastModified": "Tue Dec 12 2023 22:39:52 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "alignment": "left",
+              "fileReference": "/content/dam/bcs/projects/bc23_bul_bulletin/LAYERTN 1.jpg"
+            },
+            "teaser_1917963514": {
+              "aspect_ratio": "original",
+              "controls": "false",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/teaser",
+              "assetList": "images",
+              "backgroundcolor": "blank",
+              "loop": "true",
+              "linkURL": "https://youtu.be/PAa9lro9zLg",
+              "poster_aspect_ratio": "original",
+              "muted": "true",
+              "jcr:created": "Mon Aug 14 2023 18:19:22 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "alt": "Atomic ski boot with new BOA technology. ",
+              "cq:panelTitle": "Best Ski Boots Of 2024",
+              "autoplay": "true",
+              "actionsEnabled": "false",
+              "jcr:description": "<p><span class=\"body1Heavy\">Watch</span><span class=\"body1\">: Best Ski Boots Of 2024</span></p>\r\n<p>&nbsp;</p>\r\n",
+              "jcr:lastModified": "Tue Dec 12 2023 22:42:27 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "alignment": "left",
+              "fileReference": "/content/dam/bcs/projects/bc23_bul_bulletin/TOPBOOTSTN 1.jpg"
+            },
+            "teaser_1323605342": {
+              "aspect_ratio": "original",
+              "controls": "false",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/teaser",
+              "assetList": "images",
+              "backgroundcolor": "blank",
+              "loop": "true",
+              "linkURL": "https://youtu.be/dUMpMO2S9FI",
+              "poster_aspect_ratio": "original",
+              "muted": "true",
+              "jcr:created": "Mon Aug 14 2023 16:46:38 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "alt": "Collage of gym goer performing jumping lunge and skier making a turn. ",
+              "cq:panelTitle": "Best Ski & Snowboard Exercises",
+              "autoplay": "true",
+              "actionsEnabled": "false",
+              "jcr:description": "<p><span class=\"body1Heavy\">Watch</span><span class=\"body1\">: Best Preseason Workout For Skiing &amp; Snowboarding</span></p>\r\n",
+              "jcr:lastModified": "Tue Dec 12 2023 22:44:40 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "alignment": "left",
+              "fileReference": "/content/dam/bcs/projects/bc23_bul_bulletin/SKIEXERCISESTN 1.jpg"
+            },
+            "teaser_875365451": {
+              "aspect_ratio": "original",
+              "controls": "false",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/teaser",
+              "assetList": "images",
+              "backgroundcolor": "blank",
+              "loop": "true",
+              "linkURL": "https://youtu.be/VWbXfMZiiP8",
+              "poster_aspect_ratio": "original",
+              "muted": "true",
+              "jcr:created": "Mon Aug 14 2023 18:06:25 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "alt": "Vans snowboard boot with BOA technology. ",
+              "cq:panelTitle": "Best Snowboard Boots Of 2024",
+              "autoplay": "true",
+              "actionsEnabled": "false",
+              "jcr:description": "<p><span class=\"body1Heavy\">Watch</span><span class=\"body1\">: Top Snowboard Boots Of 2024</span></p>\r\n",
+              "jcr:lastModified": "Tue Dec 12 2023 22:48:00 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "alignment": "left",
+              "fileReference": "/content/dam/bcs/projects/bc23_bul_bulletin/SNOWBOARDBOOTSTN 1.jpg"
+            }
+          },
+          "text_1143383792": {
+            "jcr:created": "Mon Aug 21 2023 22:28:35 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/text",
+            "jcr:lastModified": "Thu Aug 24 2023 22:41:05 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "id": "films",
+            "text": "<hr />\r\n\r\n",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "spacer_1294893652": {
+            "jcr:created": "Mon Aug 07 2023 21:50:16 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "24",
+            "pixels_large": "24",
+            "pixels_medium": "24",
+            "jcr:lastModified": "Mon Aug 07 2023 21:50:23 GMT+0000",
+            "pixels_small": "24",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "24"
+          },
+          "textbanner_1602965141": {
+            "jcr:created": "Fri Jul 28 2023 20:33:52 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "colorselector": "brand",
+            "textIsRich": "true",
+            "textcolor": "primary",
+            "sling:resourceType": "baem/components/textbanner",
+            "actionsEnabled": "true",
+            "jcr:lastModified": "Thu Aug 24 2023 22:33:04 GMT+0000",
+            "jcr:description": "<h2><span class=\"title3Heavy\">Backcountry Films</span></h2>\r\n",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "fileReference": "/content/dam/bcs/projects/bc23_exp_father'sday/BC - SS23 - Card - Map - 17x9.jpg",
+            "actions": {
+              "jcr:primaryType": "nt:unstructured",
+              "item0": {
+                "link": "https://www.backcountry.com/service/backcountry-venture-beyond",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Venture Beyond",
+                "variation": "brand"
+              }
+            }
+          },
+          "spacer_79375172": {
+            "jcr:created": "Fri Jul 28 2023 20:40:06 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "24",
+            "pixels_large": "24",
+            "pixels_medium": "24",
+            "jcr:lastModified": "Fri Jul 28 2023 20:41:12 GMT+0000",
+            "pixels_small": "24",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "24"
+          },
+          "customembed_1847320771": {
+            "embeddableResourceType": "baem/components/customembed/embeddable/youtube",
+            "jcr:created": "Fri Jul 28 2023 20:36:50 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/customembed",
+            "type": "embeddable",
+            "background_color": "white",
+            "youtubeVideoId": "IeGFmm4Krho",
+            "jcr:lastModified": "Mon Oct 23 2023 21:24:15 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "<h3><span class=\"body1-heavy\">Pacing The Pacific&nbsp;</span></h3>\r\n<h3>&nbsp;</h3>\r\n<p><span class=\"body1\">46 days. That might seem like a reasonable amount of time to try a new diet, read every day, or work out each morning. For Karel Sabbe, this is the amount of time he took to complete a supported run of the 2,650-mile Pacific Crest Trail (PCT) in record time, averaging over 50 miles a day, from Mexico to Canada.</span> </p>\r\n",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "large_bp": {
+                "offset": "0",
+                "width": "11",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "spacer_1749522391": {
+            "jcr:created": "Mon Aug 14 2023 20:32:05 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "24",
+            "pixels_large": "24",
+            "pixels_medium": "24",
+            "jcr:lastModified": "Wed Aug 23 2023 18:54:47 GMT+0000",
+            "pixels_small": "24",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "24"
+          },
+          "textbanner_293238202": {
+            "jcr:created": "Mon Aug 21 2023 15:33:22 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "colorselector": "light",
+            "textIsRich": "true",
+            "textcolor": "primary",
+            "sling:resourceType": "baem/components/textbanner",
+            "actionsEnabled": "false",
+            "jcr:lastModified": "Mon Aug 28 2023 15:08:10 GMT+0000",
+            "jcr:description": "<h3><span class=\"title2Heavy\">More Episodes</span></h3>\r\n",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left"
+          },
+          "spacer_1307754076": {
+            "jcr:created": "Mon Aug 28 2023 19:46:39 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "24",
+            "pixels_large": "24",
+            "pixels_medium": "24",
+            "jcr:lastModified": "Mon Aug 28 2023 19:46:48 GMT+0000",
+            "pixels_small": "24",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "24"
+          },
+          "carousel_608423627_c_1013469224": {
+            "horizontalscroll_large": "true",
+            "numberOfVisibleItems_large": "4",
+            "textIsRich": "true",
+            "horizontalscroll_default": "true",
+            "sling:resourceType": "baem/components/carousel",
+            "accessibilityAutoItemTitles": "false",
+            "numberOfVisibleItems_medium": "4",
+            "jcr:created": "Mon Aug 07 2023 19:39:36 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "numberOfVisibleItems_small": "2",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "horizontalscroll_medium": "true",
+            "horizontalscroll_small": "true",
+            "horizontalscroll_base": "true",
+            "jcr:lastModified": "Mon Oct 23 2023 21:39:58 GMT+0000",
+            "numberOfVisibleItems_default": "4",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "numberOfVisibleItems_base": "2",
+            "teaser_1323605342": {
+              "aspect_ratio": "original",
+              "controls": "false",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/teaser",
+              "assetList": "images",
+              "backgroundcolor": "blank",
+              "loop": "true",
+              "linkURL": "https://youtu.be/qBCcwWHJnxE",
+              "poster_aspect_ratio": "original",
+              "muted": "true",
+              "jcr:created": "Mon Aug 14 2023 16:46:38 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "alt": "Mind The Gap film artwork. ",
+              "cq:panelTitle": "Mind The Gap",
+              "autoplay": "true",
+              "actionsEnabled": "false",
+              "jcr:description": "<p><span class=\"body1Heavy\">Watch</span><span class=\"body1\">: Venture Beyond | Ep. 5 | Mind The Gap</span></p>\r\n",
+              "jcr:lastModified": "Mon Oct 23 2023 21:32:24 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "alignment": "left",
+              "fileReference": "/content/dam/bcs/projects/bc23_bul_bulletin/NILSVB 1.jpg"
+            },
+            "teaser_923912453": {
+              "aspect_ratio": "original",
+              "controls": "false",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/teaser",
+              "assetList": "images",
+              "backgroundcolor": "blank",
+              "loop": "true",
+              "linkURL": "https://youtu.be/_6JU23ZrtUU",
+              "poster_aspect_ratio": "original",
+              "muted": "true",
+              "jcr:created": "Mon Oct 23 2023 21:32:42 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "alt": "Shy On The Fly film artwork. ",
+              "cq:panelTitle": "Shy On The Fly",
+              "autoplay": "true",
+              "actionsEnabled": "false",
+              "jcr:lastModified": "Mon Oct 23 2023 21:40:44 GMT+0000",
+              "jcr:description": "<p><span class=\"body1Heavy\">Watch</span><span class=\"body1\">: Venture Beyond | Ep. 3 | Shy On The Fly</span></p>\r\n",
+              "jcr:primaryType": "nt:unstructured",
+              "alignment": "left",
+              "fileReference": "/content/dam/bcs/projects/bc23_bul_bulletin/SHYVB 1.jpg"
+            },
+            "teaser": {
+              "aspect_ratio": "original",
+              "controls": "false",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/teaser",
+              "assetList": "images",
+              "backgroundcolor": "blank",
+              "loop": "true",
+              "linkURL": "https://youtu.be/sBXc62erxWo",
+              "poster_aspect_ratio": "original",
+              "muted": "true",
+              "jcr:created": "Mon Aug 07 2023 19:39:42 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "alt": "Un Mar card",
+              "cq:panelTitle": "Un Mar video",
+              "autoplay": "true",
+              "actionsEnabled": "false",
+              "jcr:description": "<p><span class=\"body1Heavy\">Watch</span><span class=\"body1\">: Venture Beyond | Ep. 2 | Un Mar de Colores</span></p>\r\n",
+              "jcr:lastModified": "Mon Aug 28 2023 18:25:08 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "alignment": "left",
+              "fileReference": "/content/dam/bcs/projects/bc23_exp_latestarticles/maxresdefaultmarioVB 1.jpg"
+            },
+            "teaser_1436497403": {
+              "aspect_ratio": "original",
+              "controls": "false",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/teaser",
+              "assetList": "images",
+              "backgroundcolor": "blank",
+              "loop": "true",
+              "linkURL": "https://youtu.be/G3ha46RfUgY",
+              "poster_aspect_ratio": "original",
+              "muted": "true",
+              "jcr:created": "Mon Aug 07 2023 19:41:57 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "alt": "Boot bag player",
+              "cq:panelTitle": "Wolverine",
+              "autoplay": "true",
+              "actionsEnabled": "false",
+              "jcr:description": "<p><span class=\"body1Heavy\">Watch</span><span class=\"body1\">: Venture Beyond | Ep. 1 | Taming The Wolverine</span></p>\r\n",
+              "jcr:lastModified": "Mon Aug 28 2023 18:29:51 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "alignment": "left",
+              "fileReference": "/content/dam/bcs/projects/bc23_exp_latestarticles/maxresdefaultWolvyTN 1.jpg"
+            },
+            "teaser_1702727261": {
+              "aspect_ratio": "original",
+              "controls": "false",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/teaser",
+              "assetList": "images",
+              "backgroundcolor": "blank",
+              "loop": "true",
+              "linkURL": "https://youtu.be/9CUkstVN4Lw",
+              "poster_aspect_ratio": "original",
+              "muted": "true",
+              "jcr:created": "Mon Aug 07 2023 19:45:18 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "alt": "Cardiac kit card",
+              "cq:panelTitle": "Costa Rica",
+              "autoplay": "true",
+              "actionsEnabled": "false",
+              "jcr:description": "<p><span class=\"body1Heavy\">Watch</span><span class=\"body1\">: Outervention: Costa Rica</span></p>\r\n",
+              "jcr:lastModified": "Mon Aug 28 2023 18:42:43 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "alignment": "left",
+              "fileReference": "/content/dam/bcs/projects/bc23_exp_latestarticles/maxresdefaultCostaRica 1.jpg"
+            },
+            "teaser_181001805": {
+              "aspect_ratio": "original",
+              "controls": "false",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/teaser",
+              "assetList": "images",
+              "backgroundcolor": "blank",
+              "loop": "true",
+              "linkURL": "https://youtu.be/yj7qMa9g_sU",
+              "poster_aspect_ratio": "original",
+              "muted": "true",
+              "jcr:created": "Mon Aug 07 2023 19:43:37 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "alt": "Iceland player",
+              "cq:panelTitle": "Iceland video",
+              "autoplay": "true",
+              "actionsEnabled": "false",
+              "jcr:description": "<p><span class=\"body1Heavy\">Watch</span><span class=\"body1\">: Outervention Iceland: Exploring The Land Of Fire &amp; Ice</span></p>\r\n",
+              "jcr:lastModified": "Mon Aug 28 2023 18:39:00 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "alignment": "left",
+              "fileReference": "/content/dam/bcs/projects/bc23_exp_latestarticles/maxresdefaultIceland 1.jpg"
+            },
+            "teaser_875365451": {
+              "aspect_ratio": "original",
+              "controls": "false",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/teaser",
+              "assetList": "images",
+              "backgroundcolor": "blank",
+              "loop": "true",
+              "linkURL": "https://youtu.be/LYlJI_o4-Wo",
+              "poster_aspect_ratio": "original",
+              "muted": "true",
+              "jcr:created": "Mon Aug 14 2023 18:06:25 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "alt": "Avy safety player",
+              "cq:panelTitle": "Cascadia Ep. 2",
+              "autoplay": "true",
+              "actionsEnabled": "false",
+              "jcr:description": "<p><span class=\"body1Heavy\">Watch</span><span class=\"body1\">: Outervention Cascadia | Ep. 2 </span></p>\r\n",
+              "jcr:lastModified": "Mon Aug 28 2023 18:42:12 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "alignment": "left",
+              "fileReference": "/content/dam/bcs/projects/bc23_exp_latestarticles/maxresdefaultCascadiaEp2 1.jpg"
+            },
+            "teaser_1701929936": {
+              "aspect_ratio": "original",
+              "controls": "false",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/teaser",
+              "assetList": "images",
+              "backgroundcolor": "blank",
+              "loop": "true",
+              "linkURL": "https://youtu.be/hzhCiTarC98",
+              "poster_aspect_ratio": "original",
+              "muted": "true",
+              "jcr:created": "Mon Aug 14 2023 18:27:39 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "alt": "UAC host player",
+              "cq:panelTitle": "Cascadia Ep. 4",
+              "autoplay": "true",
+              "actionsEnabled": "false",
+              "jcr:description": "<p><span class=\"body1Heavy\">Watch</span><span class=\"body1\">: Outervention Cascadia | Ep. 4</span></p>\r\n",
+              "jcr:lastModified": "Mon Aug 28 2023 18:44:04 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "alignment": "left",
+              "fileReference": "/content/dam/bcs/projects/bc23_exp_latestarticles/maxresdefaultCascadiaEp4 1.jpg"
+            }
+          },
+          "text_1436927287": {
+            "jcr:created": "Mon Aug 21 2023 22:31:46 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/text",
+            "jcr:lastModified": "Mon Aug 21 2023 22:32:06 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "id": "explore",
+            "text": "<hr>\r\n\r\n",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "spacer_516665123": {
+            "jcr:created": "Mon Jul 31 2023 17:19:39 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "24",
+            "pixels_large": "24",
+            "pixels_medium": "24",
+            "jcr:lastModified": "Mon Jul 31 2023 17:19:48 GMT+0000",
+            "pixels_small": "24",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "24"
+          },
+          "textbanner_213767147_1740863577": {
+            "jcr:created": "Fri Jul 28 2023 20:04:32 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "colorselector": "primary",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "textIsRich": "true",
+            "textcolor": "brand",
+            "sling:resourceType": "baem/components/textbanner",
+            "actionsEnabled": "true",
+            "jcr:description": "<h2><span class=\"title3Heavy\">Explore Blog</span></h2>\r\n",
+            "jcr:lastModified": "Wed Aug 30 2023 17:59:05 GMT+0000",
+            "linkURL": "https://www.backcountry.com/service/explore-articles",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "fileReference": "/content/dam/bcs/projects/bc23_exp_latestarticles/Orange Border (1).jpg",
+            "actions": {
+              "jcr:primaryType": "nt:unstructured",
+              "item0": {
+                "link": "https://www.backcountry.com/service/explore-articles",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Latest Articles",
+                "variation": "brand"
+              }
+            }
+          },
+          "spacer_345461341": {
+            "jcr:created": "Mon Jul 31 2023 18:23:16 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "24",
+            "pixels_large": "24",
+            "pixels_medium": "24",
+            "jcr:lastModified": "Mon Jul 31 2023 18:23:25 GMT+0000",
+            "pixels_small": "24",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "24"
+          },
+          "carousel_1855796855_": {
+            "horizontalscroll_large": "true",
+            "numberOfVisibleItems_large": "4",
+            "textIsRich": "true",
+            "horizontalscroll_default": "true",
+            "sling:resourceType": "baem/components/carousel",
+            "accessibilityAutoItemTitles": "false",
+            "numberOfVisibleItems_medium": "4",
+            "jcr:created": "Mon Aug 07 2023 21:24:43 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "numberOfVisibleItems_small": "2",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "horizontalscroll_medium": "true",
+            "horizontalscroll_small": "true",
+            "horizontalscroll_base": "true",
+            "jcr:lastModified": "Wed Dec 27 2023 21:45:35 GMT+0000",
+            "numberOfVisibleItems_default": "4",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "numberOfVisibleItems_base": "2",
+            "teaser_1980396258": {
+              "aspect_ratio": "4:3",
+              "controls": "false",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/teaser",
+              "assetList": "images",
+              "backgroundcolor": "blank",
+              "loop": "true",
+              "linkURL": "https://www.backcountry.com/explore/how-to-pick-the-right-ski-length",
+              "poster_aspect_ratio": "original",
+              "muted": "true",
+              "jcr:created": "Mon Aug 28 2023 20:58:01 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "alt": "Skier prepares to click into her skis. ",
+              "cq:panelTitle": "How To Choose The Right Ski Length",
+              "autoplay": "true",
+              "actionsEnabled": "false",
+              "jcr:lastModified": "Tue Dec 12 2023 23:22:26 GMT+0000",
+              "jcr:description": "<p><span class=\"body1Heavy\">Read</span><span class=\"body1\">: How To Choose The Right Ski Length</span></p>\r\n",
+              "jcr:primaryType": "nt:unstructured",
+              "alignment": "left",
+              "fileReference": "/content/dam/bcs/projects/bc23_exp_latestarticles/BCDawe_230612-9183.jpg"
+            },
+            "teaser_1942447787": {
+              "aspect_ratio": "4:3",
+              "controls": "false",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/teaser",
+              "assetList": "images",
+              "backgroundcolor": "blank",
+              "loop": "true",
+              "linkURL": "https://www.backcountry.com/explore/all-about-fleece-jackets",
+              "poster_aspect_ratio": "original",
+              "muted": "true",
+              "jcr:created": "Mon Aug 07 2023 21:27:31 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "alt": "Fleece on the Landy",
+              "cq:panelTitle": "Fleece Jacket Guide",
+              "autoplay": "true",
+              "actionsEnabled": "false",
+              "jcr:description": "<p><span class=\"body1Heavy\">Read</span><span class=\"body1\">: Fleece Jacket Guide</span></p>\r\n",
+              "jcr:lastModified": "Mon Aug 28 2023 20:02:03 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "alignment": "left",
+              "fileReference": "/content/dam/bcs/projects/bc23_exp_latestarticles/2216_BURKARD_043583-Edit 1.jpg"
+            },
+            "teaser_1051479568": {
+              "aspect_ratio": "4:3",
+              "controls": "false",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/teaser",
+              "assetList": "images",
+              "backgroundcolor": "blank",
+              "loop": "true",
+              "linkURL": "https://www.backcountry.com/explore/insulation",
+              "poster_aspect_ratio": "original",
+              "muted": "true",
+              "jcr:created": "Thu Aug 17 2023 19:55:17 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "alt": "Multiple insulated layers stacked on top of a rock with a scenic background. ",
+              "cq:panelTitle": "Insulation Guide",
+              "autoplay": "true",
+              "actionsEnabled": "false",
+              "jcr:description": "<p><span class=\"body1Heavy\">Read</span><span class=\"body1\">: Insulation Guide</span></p>\r\n",
+              "jcr:lastModified": "Tue Dec 12 2023 23:26:40 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "alignment": "left",
+              "fileReference": "/content/dam/bcs/projects/bc23_exp_latestarticles/2216_BURKARD_039189.jpg"
+            },
+            "teaser_881930506": {
+              "aspect_ratio": "4:3",
+              "controls": "false",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/teaser",
+              "assetList": "images",
+              "backgroundcolor": "blank",
+              "loop": "true",
+              "linkURL": "https://www.backcountry.com/explore/how-to-tune-wax-your-skis-or-snowboard-video-tutorial",
+              "poster_aspect_ratio": "original",
+              "muted": "true",
+              "jcr:created": "Mon Aug 14 2023 22:02:55 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "alt": "Scraping wax off ski",
+              "cq:panelTitle": "Ski/board tuning guide",
+              "autoplay": "true",
+              "actionsEnabled": "false",
+              "jcr:description": "<p><span class=\"body1Heavy\">Read</span><span class=\"body1\">: How To Tune &amp; Wax Your Skis Or Snowboard</span></p>\r\n",
+              "jcr:lastModified": "Mon Aug 28 2023 20:06:52 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "alignment": "left",
+              "fileReference": "/content/dam/bcs/projects/bc23_exp_latestarticles/BCRe_150731-00374.jpg"
+            },
+            "teaser_1451423443": {
+              "aspect_ratio": "4:3",
+              "controls": "false",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/teaser",
+              "assetList": "images",
+              "backgroundcolor": "blank",
+              "loop": "true",
+              "linkURL": "https://www.backcountry.com/service/2023-santacruz-megatower-review",
+              "poster_aspect_ratio": "original",
+              "muted": "true",
+              "jcr:created": "Thu Aug 17 2023 19:37:13 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "alt": "Mountain biker descending a slab of granite rock. ",
+              "cq:panelTitle": "Santa Cruz Megatower Review",
+              "autoplay": "true",
+              "actionsEnabled": "false",
+              "jcr:description": "<p><span class=\"body1Heavy\">Read</span><span class=\"body1\">: 2023 Santa Cruz Megatower Review</span></p>\r\n",
+              "jcr:lastModified": "Wed Dec 27 2023 21:45:22 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "alignment": "left",
+              "fileReference": "/content/dam/bcs/projects/bc23_exp_megatowerreview/SaundersDawe_CC_Fall23_6824.jpg"
+            },
+            "teaser_596634824": {
+              "aspect_ratio": "4:3",
+              "controls": "false",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/teaser",
+              "assetList": "images",
+              "backgroundcolor": "blank",
+              "loop": "true",
+              "linkURL": "https://www.backcountry.com/service/running-shoe-guide",
+              "poster_aspect_ratio": "original",
+              "muted": "true",
+              "jcr:created": "Mon Aug 07 2023 21:29:51 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "alt": "Running shoe",
+              "cq:panelTitle": "Running shoe guide",
+              "autoplay": "true",
+              "actionsEnabled": "false",
+              "jcr:description": "<p><span class=\"body1Heavy\">Read</span><span class=\"body1\">: Running Shoe Guide</span></p>\r\n",
+              "jcr:lastModified": "Mon Aug 28 2023 20:04:47 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "alignment": "left",
+              "fileReference": "/content/dam/bcs/projects/bc23_0166_exp_running-shoe-guide/Card_4_3.jpg"
+            }
+          },
+          "spacer_851783770": {
+            "jcr:created": "Mon Aug 28 2023 19:44:22 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "24",
+            "pixels_large": "24",
+            "pixels_medium": "24",
+            "jcr:lastModified": "Mon Aug 28 2023 19:44:31 GMT+0000",
+            "pixels_small": "24",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "24"
+          },
+          "text_1441858025": {
+            "jcr:created": "Mon Aug 28 2023 19:43:33 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/text",
+            "jcr:lastModified": "Mon Aug 28 2023 19:43:53 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "id": "podcast",
+            "text": "<hr>\r\n\r\n"
+          },
+          "spacer_1925266747": {
+            "jcr:created": "Mon Aug 28 2023 19:44:05 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "24",
+            "pixels_large": "24",
+            "pixels_medium": "24",
+            "jcr:lastModified": "Mon Aug 28 2023 19:44:13 GMT+0000",
+            "pixels_small": "24",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "24"
+          },
+          "textbanner_160296514": {
+            "jcr:created": "Fri Jul 28 2023 20:33:52 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "colorselector": "brand",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "textIsRich": "true",
+            "textcolor": "primary",
+            "sling:resourceType": "baem/components/textbanner",
+            "actionsEnabled": "true",
+            "jcr:description": "<h2><span class=\"title3Heavy\">Podcast</span></h2>\r\n",
+            "jcr:lastModified": "Mon Aug 28 2023 15:23:01 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "fileReference": "/content/dam/bcs/projects/bc23_exp_father'sday/BC - SS23 - Card - Map - 17x9.jpg",
+            "actions": {
+              "jcr:primaryType": "nt:unstructured",
+              "item0": {
+                "link": "https://www.backcountry.com/service/backcountry-podcast",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "All Episodes",
+                "variation": "brand"
+              }
+            }
+          },
+          "spacer_334059903": {
+            "jcr:created": "Mon Aug 28 2023 19:48:27 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "24",
+            "pixels_large": "24",
+            "pixels_medium": "24",
+            "jcr:lastModified": "Mon Aug 28 2023 19:48:36 GMT+0000",
+            "pixels_small": "24",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "24"
+          },
+          "carousel_1855796855": {
+            "horizontalscroll_large": "true",
+            "numberOfVisibleItems_large": "4",
+            "textIsRich": "true",
+            "horizontalscroll_default": "true",
+            "sling:resourceType": "baem/components/carousel",
+            "accessibilityAutoItemTitles": "false",
+            "numberOfVisibleItems_medium": "4",
+            "jcr:created": "Mon Aug 07 2023 21:24:43 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "numberOfVisibleItems_small": "2",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "horizontalscroll_medium": "true",
+            "horizontalscroll_small": "true",
+            "horizontalscroll_base": "true",
+            "jcr:lastModified": "Wed Dec 13 2023 16:26:27 GMT+0000",
+            "numberOfVisibleItems_default": "4",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "numberOfVisibleItems_base": "2",
+            "teaser_301608986": {
+              "aspect_ratio": "4:3",
+              "controls": "false",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/teaser",
+              "assetList": "images",
+              "backgroundcolor": "blank",
+              "loop": "true",
+              "linkURL": "https://www.backcountry.com/service/backcountry-podcast-ep18",
+              "poster_aspect_ratio": "original",
+              "muted": "true",
+              "jcr:created": "Mon Aug 07 2023 21:31:51 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "alt": "Craig Gordon in the Backcountry podcast studio. ",
+              "cq:panelTitle": "Podcast Ep. 18",
+              "autoplay": "true",
+              "actionsEnabled": "false",
+              "jcr:lastModified": "Wed Dec 13 2023 16:40:32 GMT+0000",
+              "jcr:description": "<p><span class=\"body1Heavy\">Listen</span><span class=\"body1\">: Ep. 18 | Craig Gordon Of The Utah Avalanche Center</span></p>\r\n",
+              "jcr:primaryType": "nt:unstructured",
+              "alignment": "left",
+              "fileReference": "/content/dam/bcs/projects/bc23_bcpodcast/4FCB1C94-DF1B-403B-99C8-F8D31F480C93.jpg"
+            },
+            "teaser_1942447787": {
+              "aspect_ratio": "4:3",
+              "controls": "false",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/teaser",
+              "assetList": "images",
+              "backgroundcolor": "blank",
+              "loop": "true",
+              "linkURL": "https://www.backcountry.com/service/backcountry-podcast-ep17",
+              "poster_aspect_ratio": "original",
+              "muted": "true",
+              "jcr:created": "Mon Aug 07 2023 21:27:31 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "alt": "Shaun White in the Backcountry podcast studio.",
+              "cq:panelTitle": "Podcast Ep. 17",
+              "autoplay": "true",
+              "actionsEnabled": "false",
+              "jcr:lastModified": "Thu Dec 14 2023 19:51:09 GMT+0000",
+              "jcr:description": "<p><span class=\"body1Heavy\">Listen</span><span class=\"body1\">: Ep. 17 | The Shaun White Story</span></p>\r\n",
+              "jcr:primaryType": "nt:unstructured",
+              "alignment": "left",
+              "fileReference": "/content/dam/bcs/projects/bc23_bcpodcast/48FD55C8-FD20-4A98-A299-3357276281B4.jpg"
+            },
+            "teaser_1451423443": {
+              "aspect_ratio": "4:3",
+              "controls": "false",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/teaser",
+              "assetList": "images",
+              "backgroundcolor": "blank",
+              "loop": "true",
+              "linkURL": "https://www.backcountry.com/service/backcountry-podcast-ep9",
+              "poster_aspect_ratio": "original",
+              "muted": "true",
+              "jcr:created": "Thu Aug 17 2023 19:37:13 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "alt": "Rachael Galipo portrait",
+              "cq:panelTitle": "Podcast Ep. 16",
+              "autoplay": "true",
+              "actionsEnabled": "false",
+              "jcr:lastModified": "Wed Dec 13 2023 16:41:36 GMT+0000",
+              "jcr:description": "<p><span class=\"body1Heavy\">Listen</span><span class=\"body1\">: Ep. 16 | Snowboard Lore With Torstein Horgmo</span></p>\r\n",
+              "jcr:primaryType": "nt:unstructured",
+              "alignment": "left",
+              "fileReference": "/content/dam/bcs/projects/bc23_bcpodcast/TORSTEINTN.jpg"
+            },
+            "teaser_1051479568": {
+              "aspect_ratio": "4:3",
+              "controls": "false",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/teaser",
+              "assetList": "images",
+              "backgroundcolor": "blank",
+              "loop": "true",
+              "linkURL": "https://www.backcountry.com/service/backcountry-podcast-ep15",
+              "poster_aspect_ratio": "original",
+              "muted": "true",
+              "jcr:created": "Thu Aug 17 2023 19:55:17 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "alt": "Karel and his support crew alongside videographers in the Backcountry podcast studio. ",
+              "cq:panelTitle": "Podcast Ep. 15",
+              "autoplay": "true",
+              "actionsEnabled": "false",
+              "jcr:lastModified": "Wed Dec 13 2023 16:45:11 GMT+0000",
+              "jcr:description": "<p><span class=\"body1Heavy\">Listen</span><span class=\"body1\">: Ep. 15 | Karel Sabbe &amp; Pacing The Pacific Crew</span></p>\r\n",
+              "jcr:primaryType": "nt:unstructured",
+              "alignment": "left",
+              "fileReference": "/content/dam/bcs/projects/bc23_bcpodcast/KARLPODTNBLANK.jpg"
+            },
+            "teaser_596634824": {
+              "aspect_ratio": "4:3",
+              "controls": "false",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/teaser",
+              "assetList": "images",
+              "backgroundcolor": "blank",
+              "loop": "true",
+              "linkURL": "https://www.backcountry.com/service/backcountry-podcast-ep14",
+              "poster_aspect_ratio": "original",
+              "muted": "true",
+              "jcr:created": "Mon Aug 07 2023 21:29:51 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "alt": "Skier smiles while gazing at the mountainside.",
+              "cq:panelTitle": "Podcast Ep. 14",
+              "autoplay": "true",
+              "actionsEnabled": "false",
+              "jcr:lastModified": "Wed Dec 13 2023 16:53:46 GMT+0000",
+              "jcr:description": "<p><span class=\"body1Heavy\">Listen</span><span class=\"body1\">: Ep. 14 | Welcome To The Team, Lexi Dupont</span></p>\r\n",
+              "jcr:primaryType": "nt:unstructured",
+              "alignment": "left",
+              "fileReference": "/content/dam/bcs/projects/bc23_bcpodcast/BCDawe_230607-4437.jpg"
+            },
+            "teaser_881930506": {
+              "aspect_ratio": "4:3",
+              "controls": "false",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/teaser",
+              "assetList": "images",
+              "backgroundcolor": "blank",
+              "loop": "true",
+              "linkURL": "https://www.backcountry.com/service/backcountry-podcast-ep13",
+              "poster_aspect_ratio": "original",
+              "muted": "true",
+              "jcr:created": "Mon Aug 14 2023 22:02:55 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "alt": "podcast card ep. 6",
+              "cq:panelTitle": "Podcast Ep. 13",
+              "autoplay": "true",
+              "actionsEnabled": "false",
+              "jcr:lastModified": "Wed Dec 13 2023 16:56:40 GMT+0000",
+              "jcr:description": "<p><span class=\"body1Heavy\">Listen</span><span class=\"body1\">: Ep. 13 | Salomon Ski Rep Lauren Samuels</span></p>\r\n",
+              "jcr:primaryType": "nt:unstructured",
+              "alignment": "left",
+              "fileReference": "/content/dam/bcs/projects/bc23_bcpodcast/LSamuelsBCPOD.jpg"
+            },
+            "teaser": {
+              "aspect_ratio": "4:3",
+              "controls": "false",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/teaser",
+              "assetList": "images",
+              "backgroundcolor": "blank",
+              "loop": "true",
+              "linkURL": "https://www.backcountry.com/service/backcountry-podcast-ep12",
+              "poster_aspect_ratio": "original",
+              "muted": "true",
+              "jcr:created": "Mon Aug 07 2023 21:24:50 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "alt": "Teton Gravity Research athletes",
+              "cq:panelTitle": "Podcast Ep. 12",
+              "autoplay": "true",
+              "actionsEnabled": "false",
+              "jcr:lastModified": "Tue Oct 03 2023 22:23:46 GMT+0000",
+              "jcr:description": "<p><span class=\"body1Heavy\">Listen</span><span class=\"body1\">: Ep. 12 | TGR x BC Athlete Team</span></p>\r\n",
+              "jcr:primaryType": "nt:unstructured",
+              "alignment": "left",
+              "fileReference": "/content/dam/bcs/projects/bc23_bcpodcast/DD7175EF-CD35-4911-B7CE-54747332F6C7.jpg"
+            }
+          },
+          "button": {
+            "jcr:created": "Mon Aug 07 2023 21:46:51 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "link": "#return",
+            "sling:resourceType": "baem/components/button",
+            "jcr:title": "Return To Top",
+            "jcr:lastModified": "Mon Aug 07 2023 21:47:35 GMT+0000",
+            "variant": "brand",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "center"
+          }
+        }
+      }
+    }
+  },
+  "kz-test-page": {
+    "jcr:created": "Thu Aug 17 2023 17:49:18 GMT+0000",
+    "jcr:createdBy": "kzylstra@backcountry.com",
+    "jcr:primaryType": "cq:Page",
+    "jcr:content": {
+      "jcr:created": "Thu Aug 17 2023 17:49:18 GMT+0000",
+      "jcr:createdBy": "kzylstra@backcountry.com",
+      "sling:resourceType": "baem/components/page",
+      "jcr:title": "KZ Test Page",
+      "pageProperty_seo-toggle": "false",
+      "pageProperty_description": "This a test",
+      "cq:lastModified": "Sat Nov 25 2023 21:15:48 GMT+0000",
+      "cq:lastModifiedBy": "kzylstra@backcountry.com",
+      "jcr:primaryType": "cq:PageContent",
+      "cq:template": "/conf/baem/settings/wcm/templates/page-content",
+      "sling:vanityPath": "kz-test",
+      "pageProperty_titleTag": "Testing 123",
+      "root": {
+        "layout": "responsiveGrid",
+        "sling:resourceType": "baem/components/container",
+        "jcr:primaryType": "nt:unstructured",
+        "container": {
+          "layout": "responsiveGrid",
+          "sling:resourceType": "baem/components/container",
+          "jcr:primaryType": "nt:unstructured",
+          "title": {
+            "sling:resourceType": "baem/components/title",
+            "jcr:primaryType": "nt:unstructured"
+          },
+          "container": {
+            "layout": "responsiveGrid",
+            "sling:resourceType": "baem/components/container",
+            "jcr:primaryType": "nt:unstructured",
+            "textbanner": {
+              "jcr:created": "Wed Nov 15 2023 19:37:02 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "colorselector": "primary",
+              "textIsRich": "true",
+              "textcolor": "primary",
+              "sling:resourceType": "baem/components/textbanner",
+              "actionsEnabled": "true",
+              "jcr:lastModified": "Thu Nov 16 2023 21:24:04 GMT+0000",
+              "jcr:description": "<h2><span class=\"title2Heavy\">The Backcountry Bulletin</span></h2>\r\n<h3><span class=\"title1\">The Place For All Things Gearhead</span></h3>\r\n",
+              "linkURL": "https://www.backcountry.com/service/backcountry-bulletin",
+              "jcr:primaryType": "nt:unstructured",
+              "alignment": "left",
+              "actions": {
+                "jcr:primaryType": "nt:unstructured",
+                "item0": {
+                  "link": "https://www.backcountry.com/service/backcountry-bulletin",
+                  "jcr:primaryType": "nt:unstructured",
+                  "text": "Check Out The Bulletin",
+                  "variation": "brand"
+                }
+              }
+            },
+            "teaser": {
+              "aspect_ratio": "4:3",
+              "controls": "false",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/teaser",
+              "assetList": "images",
+              "backgroundcolor": "blank",
+              "loop": "true",
+              "linkURL": "https://www.backcountry.com/service/backcountry-bulletin",
+              "poster_aspect_ratio": "original",
+              "muted": "true",
+              "jcr:created": "Wed Nov 15 2023 19:36:41 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "alt": "Related content animated card. ",
+              "autoplay": "true",
+              "actionsEnabled": "false",
+              "jcr:lastModified": "Wed Nov 22 2023 19:35:07 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "alignment": "left",
+              "fileReference": "/content/dam/bcs/projects/bc23_bul_11-26hpupdate/F33903D7-A9EE-4424-AB26-DC24865AE5C1.jpg",
+              "cq:responsive": {
+                "jcr:primaryType": "nt:unstructured",
+                "default": {
+                  "offset": "0",
+                  "width": "4",
+                  "jcr:primaryType": "nt:unstructured"
+                },
+                "medium_bp": {
+                  "offset": "0",
+                  "width": "6",
+                  "jcr:primaryType": "nt:unstructured"
+                },
+                "small_bp": {
+                  "offset": "1",
+                  "width": "10",
+                  "jcr:primaryType": "nt:unstructured"
+                },
+                "base_bp": {
+                  "offset": "1",
+                  "width": "10",
+                  "jcr:primaryType": "nt:unstructured"
+                },
+                "large_bp": {
+                  "offset": "0",
+                  "width": "5",
+                  "jcr:primaryType": "nt:unstructured"
+                }
+              }
+            },
+            "carousel": {
+              "horizontalscroll_large": "true",
+              "numberOfVisibleItems_large": "3",
+              "textIsRich": "true",
+              "horizontalscroll_default": "true",
+              "sling:resourceType": "baem/components/carousel",
+              "accessibilityAutoItemTitles": "false",
+              "numberOfVisibleItems_medium": "2",
+              "jcr:created": "Wed Nov 15 2023 19:36:53 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "numberOfVisibleItems_small": "2",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "horizontalscroll_medium": "true",
+              "horizontalscroll_small": "true",
+              "horizontalscroll_base": "true",
+              "jcr:lastModified": "Wed Nov 15 2023 22:06:10 GMT+0000",
+              "numberOfVisibleItems_default": "3",
+              "jcr:primaryType": "nt:unstructured",
+              "alignment": "left",
+              "numberOfVisibleItems_base": "2",
+              "cq:responsive": {
+                "jcr:primaryType": "nt:unstructured",
+                "default": {
+                  "offset": "0",
+                  "width": "8",
+                  "jcr:primaryType": "nt:unstructured"
+                },
+                "medium_bp": {
+                  "offset": "0",
+                  "width": "6",
+                  "jcr:primaryType": "nt:unstructured"
+                },
+                "small_bp": {
+                  "offset": "0",
+                  "width": "12",
+                  "jcr:primaryType": "nt:unstructured"
+                },
+                "base_bp": {
+                  "offset": "0",
+                  "width": "12",
+                  "jcr:primaryType": "nt:unstructured"
+                },
+                "large_bp": {
+                  "offset": "0",
+                  "width": "7",
+                  "jcr:primaryType": "nt:unstructured"
+                }
+              },
+              "teaser": {
+                "aspect_ratio": "4:3",
+                "controls": "false",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/teaser",
+                "assetList": "images",
+                "backgroundcolor": "blank",
+                "loop": "true",
+                "linkURL": "https://www.backcountry.com/service/best-gifts-2023",
+                "poster_aspect_ratio": "original",
+                "muted": "true",
+                "jcr:created": "Wed Nov 15 2023 19:41:34 GMT+0000",
+                "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+                "jcr:createdBy": "kzylstra@backcountry.com",
+                "alt": "Christmas stocking surrounded by outdoor gifts. ",
+                "cq:panelTitle": "23 Holiday Gear Gifts",
+                "autoplay": "true",
+                "actionsEnabled": "false",
+                "jcr:lastModified": "Tue Nov 21 2023 20:58:29 GMT+0000",
+                "jcr:description": "<p><span class=\"title1Heavy\">Read: 23 Holiday Gear Gifts</span></p>\r\n<p><span class=\"body2\">Handpicked By Our Gearheads</span></p>\r\n",
+                "jcr:primaryType": "nt:unstructured",
+                "alignment": "left",
+                "fileReference": "/content/dam/bcs/projects/bc23_0337_exp_holidaygiftguide/HGGHEROIMAGE2.jpg"
+              },
+              "teaser_1941023571": {
+                "aspect_ratio": "4:3",
+                "controls": "false",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/teaser",
+                "assetList": "images",
+                "backgroundcolor": "blank",
+                "loop": "true",
+                "linkURL": "https://www.backcountry.com/service/venture-beyond-episode-5",
+                "poster_aspect_ratio": "original",
+                "muted": "true",
+                "jcr:created": "Wed Nov 15 2023 19:48:24 GMT+0000",
+                "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+                "jcr:createdBy": "kzylstra@backcountry.com",
+                "alt": "Snowboarder performing aerial maneuver with an epic mountain backdrop. ",
+                "cq:panelTitle": "Mind The Gap",
+                "autoplay": "true",
+                "actionsEnabled": "false",
+                "jcr:lastModified": "Mon Nov 20 2023 20:30:33 GMT+0000",
+                "jcr:description": "<p><span class=\"title1Heavy\">Watch: Mind The Gap</span></p>\r\n<p><span class=\"body2\">Venture Beyond | Ep. 5</span></p>\r\n",
+                "jcr:primaryType": "nt:unstructured",
+                "alignment": "left",
+                "fileReference": "/content/dam/bcs/projects/bc23_bul_11-26hpupdate/4C3E1D0A-E626-48AE-AD7D-FC811739D04B.jpg"
+              },
+              "teaser_1044265349": {
+                "aspect_ratio": "4:3",
+                "controls": "false",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/teaser",
+                "assetList": "images",
+                "backgroundcolor": "blank",
+                "loop": "true",
+                "linkURL": "https://www.backcountry.com/service/backcountry-podcast-ep14",
+                "poster_aspect_ratio": "original",
+                "muted": "true",
+                "jcr:created": "Wed Nov 15 2023 20:00:37 GMT+0000",
+                "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+                "jcr:createdBy": "kzylstra@backcountry.com",
+                "alt": "Headshot of skier holding her skis and gazing into the distance.  ",
+                "cq:panelTitle": "BC Podcast | Lexi Dupont",
+                "autoplay": "true",
+                "actionsEnabled": "false",
+                "jcr:lastModified": "Mon Nov 20 2023 16:56:46 GMT+0000",
+                "jcr:description": "<p><span class=\"title1Heavy\">Listen: Lexi Dupont | BC Pod</span></p>\r\n<p><span class=\"body2\">Meet Our Newest Athlete</span></p>\r\n",
+                "jcr:primaryType": "nt:unstructured",
+                "alignment": "left",
+                "fileReference": "/content/dam/bcs/projects/bc23_bul_11-26hpupdate/BCDawe_230607-4437.jpg"
+              },
+              "teaser_1606047127": {
+                "aspect_ratio": "4:3",
+                "controls": "false",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/teaser",
+                "assetList": "images",
+                "backgroundcolor": "blank",
+                "loop": "true",
+                "linkURL": "https://www.backcountry.com/service/flying-with-ski-snowboard-gear",
+                "poster_aspect_ratio": "original",
+                "muted": "true",
+                "jcr:created": "Wed Nov 15 2023 20:05:12 GMT+0000",
+                "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+                "jcr:createdBy": "kzylstra@backcountry.com",
+                "alt": "Airline traveler wheeling the Backcountry Double Ski & Snowboard Bag. ",
+                "cq:panelTitle": "Fly With Skis Or A Snowboard",
+                "autoplay": "true",
+                "actionsEnabled": "false",
+                "jcr:lastModified": "Mon Nov 20 2023 16:57:30 GMT+0000",
+                "jcr:description": "<p><span style=\"\tfont-family: AktivGrotesk;\r\n\tfont-size: 20.0px;\r\n\"><b><span class=\"title1Heavy\">Read: How To Fly With Skis</span></b></span></p>\r\n<p><span class=\"body2\">Travel With Your Skis Or Board</span><br />\r\n</p>\r\n",
+                "jcr:primaryType": "nt:unstructured",
+                "alignment": "left",
+                "fileReference": "/content/dam/bcs/projects/bc23_bul_11-26hpupdate/JWBC_230104_304.jpg"
+              },
+              "teaser_1476558879": {
+                "aspect_ratio": "4:3",
+                "controls": "false",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/teaser",
+                "assetList": "images",
+                "backgroundcolor": "blank",
+                "loop": "true",
+                "linkURL": "https://www.backcountry.com/service/flying-with-ski-snowboard-gear#skibagvideo",
+                "poster_aspect_ratio": "original",
+                "muted": "true",
+                "jcr:created": "Wed Nov 15 2023 20:09:25 GMT+0000",
+                "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+                "jcr:createdBy": "kzylstra@backcountry.com",
+                "alt": "Backcountry Ski & Snowboard Boot Bag and Backcountry Double Ski & Snowboard Rolling Bag. ",
+                "cq:panelTitle": "Our Best Ski & Boot Bags",
+                "autoplay": "true",
+                "actionsEnabled": "false",
+                "jcr:lastModified": "Mon Nov 20 2023 20:32:20 GMT+0000",
+                "jcr:description": "<p><span class=\"title1Heavy\">Watch: Our Best Winter Bags</span></p>\r\n<p><span class=\"body2\">Packing Tips From Our Gearheads</span></p>\r\n",
+                "jcr:primaryType": "nt:unstructured",
+                "alignment": "left",
+                "fileReference": "/content/dam/bcs/projects/bc23_bul_11-26hpupdate/E9B7247F-9EC9-42C7-AC5B-85BE2F7DEADB.jpg"
+              },
+              "teaser_433102114": {
+                "aspect_ratio": "4:3",
+                "controls": "false",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/teaser",
+                "assetList": "images",
+                "backgroundcolor": "blank",
+                "loop": "true",
+                "linkURL": "https://www.backcountry.com/service/backcountry-podcast-ep12",
+                "poster_aspect_ratio": "original",
+                "muted": "true",
+                "jcr:created": "Wed Nov 15 2023 20:18:27 GMT+0000",
+                "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+                "jcr:createdBy": "kzylstra@backcountry.com",
+                "alt": "Teton Gravity Research athletes in the studio. ",
+                "cq:panelTitle": "BC Podcast | BC x TGR Team",
+                "autoplay": "true",
+                "actionsEnabled": "false",
+                "jcr:lastModified": "Sat Nov 25 2023 21:15:48 GMT+0000",
+                "jcr:description": "<p><span style=\"\tfont-family: AktivGrotesk;\r\n\tfont-size: 20.0px;\r\n\"><b><span class=\"title1Heavy\">Listen: TGR Team | BC Pod</span></b></span></p>\r\n<p><span class=\"body2\">BC x TGR Athletes Talk Shop</span><br />\r\n</p>\r\n",
+                "jcr:primaryType": "nt:unstructured",
+                "alignment": "left",
+                "fileReference": "/content/dam/bcs/projects/bc23_bul_11-26hpupdate/DD7175EF-CD35-4911-B7CE-54747332F6C7 (1).jpg"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "2023-santa-cruz-megatower-v2-mountain-bike-long-term-review": {
+    "jcr:created": "Tue Nov 21 2023 22:20:55 GMT+0000",
+    "jcr:createdBy": "kzylstra@backcountry.com",
+    "jcr:primaryType": "cq:Page",
+    "jcr:content": {
+      "cq:lastReplicatedBy": "kzylstra@backcountry.com",
+      "cq:lastReplicationAction": "Activate",
+      "cq:lastReplicatedBy_publish": "kzylstra@backcountry.com",
+      "sling:resourceType": "baem/components/page",
+      "jcr:uuid": "2bec01e3-6407-4499-b41f-b7362dfaf0eb",
+      "jcr:title": "2023 Santa Cruz Megatower V2 Mountain Bike Long-Term Review",
+      "cq:isDelivered": true,
+      "pageProperty_seo-toggle": "true",
+      "jcr:versionHistory": "c4e4a530-4592-4801-8a77-dde7aadf77b3",
+      "cq:lastModifiedBy": "kzylstra@backcountry.com",
+      "cq:template": "/conf/baem/settings/wcm/templates/page-content",
+      "pageProperty_titleTag": "The Megatower Is The Flagship Enduro Race Bike From Santa Cruz | Backcountry.com",
+      "jcr:created": "Tue Nov 21 2023 22:20:55 GMT+0000",
+      "jcr:createdBy": "kzylstra@backcountry.com",
+      "jcr:predecessors": ["136a1d24-234d-4ba0-8687-10dc9258b31c"],
+      "jcr:isCheckedOut": true,
+      "jcr:mixinTypes": ["mix:versionable", "cq:ReplicationStatus2"],
+      "pageProperty_description": "The Santa Cruz Megatower has a reputation for being an enduro race bike with strong pedaling characteristics, so we built one up to put it to the test.  ",
+      "cq:lastReplicationAction_publish": "Activate",
+      "cq:lastModified": "Thu Jan 04 2024 18:55:17 GMT+0000",
+      "jcr:primaryType": "cq:PageContent",
+      "cq:lastReplicated": "Wed Nov 22 2023 21:43:24 GMT+0000",
+      "cq:lastReplicated_publish": "Wed Nov 22 2023 21:43:24 GMT+0000",
+      "sling:vanityPath": "2023-santacruz-megatower-review",
+      "jcr:baseVersion": "136a1d24-234d-4ba0-8687-10dc9258b31c",
+      "root": {
+        "layout": "responsiveGrid",
+        "sling:resourceType": "baem/components/container",
+        "jcr:primaryType": "nt:unstructured",
+        "container": {
+          "layout": "responsiveGrid",
+          "sling:resourceType": "baem/components/container",
+          "jcr:primaryType": "nt:unstructured",
+          "title": {
+            "sling:resourceType": "baem/components/title",
+            "jcr:primaryType": "nt:unstructured"
+          },
+          "container": {
+            "layout": "responsiveGrid",
+            "sling:resourceType": "baem/components/container",
+            "jcr:primaryType": "nt:unstructured",
+            "image": {
+              "aspect_ratio": "2:1",
+              "jcr:created": "Tue Nov 21 2023 23:14:01 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "alt": "Mountain biker descending a slab of granite rock. ",
+              "sling:resourceType": "baem/components/image",
+              "jcr:lastModified": "Tue Nov 21 2023 23:14:20 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "fileReference": "/content/dam/bcs/projects/bc23_exp_megatowerreview/SaundersDawe_CC_Fall23_6824.jpg"
+            },
+            "text_773687122_copy": {
+              "jcr:created": "Fri Oct 27 2023 16:53:11 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "alwright@backcountry.com",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/text",
+              "jcr:lastModified": "Wed Nov 22 2023 04:22:51 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "text": "<h1 style=\"text-align: center;\"><br>\r\n<span class=\"title4Heavy\">2023 Santa Cruz Megatower V2 </span></h1>\r\n<h1 style=\"text-align: center;\"><span class=\"title4Heavy\">Long-Term Review</span></h1>\r\n<p style=\"text-align: center;\">&nbsp;</p>\r\n<h2 style=\"text-align: center;\"><span class=\"title2\">We Tested The Flagship Enduro Race Bike From Santa Cruz</span></h2>\r\n",
+              "cq:responsive": {
+                "jcr:primaryType": "nt:unstructured",
+                "default": {
+                  "offset": "3",
+                  "width": "6",
+                  "jcr:primaryType": "nt:unstructured"
+                },
+                "base_bp": {
+                  "offset": "1",
+                  "width": "10",
+                  "jcr:primaryType": "nt:unstructured"
+                }
+              }
+            },
+            "text": {
+              "jcr:created": "Tue Nov 21 2023 22:24:45 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/text",
+              "jcr:lastModified": "Tue Nov 21 2023 23:15:14 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "text": "<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p><span class=\"body1\">On paper, the second-generation Santa Cruz Megatower is absolutely perfect for our backyard trails here in Park City, Utah. It’s a long-travel 29er with an impressive appetite for climbing, which is well-suited to grinding up fire roads at the ski resort to bomb down local skid trails and jump lines. We decided to put it to the test this past 2023 bike season, with Gearhead®&nbsp;Expert Kendall logging around 1,000 miles aboard the Santa Cruz from March through October. &nbsp;</span></p>\r\n<p><span class=\"body1\">&nbsp;</span></p>\r\n<p><span class=\"body1\">For reference, Kendall is 6’4” and weighs 210lb in riding gear. He’s riding an XL frame.</span></p>\r\n<p>&nbsp;</p>\r\n",
+              "cq:responsive": {
+                "jcr:primaryType": "nt:unstructured",
+                "default": {
+                  "offset": "1",
+                  "width": "10",
+                  "jcr:primaryType": "nt:unstructured"
+                }
+              }
+            },
+            "text_28421368": {
+              "jcr:created": "Tue Nov 21 2023 22:59:20 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/text",
+              "jcr:lastModified": "Wed Nov 22 2023 20:14:08 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "text": "<p> </p>\r\n<p><span class=\"body1\">Skip to the sections that interest you:</span></p>\r\n<p><span class=\"body1\"> </span></p>\r\n<ul><li><span class=\"body1\"><a href=\"#frame\">Frame Features</a></span></li><li><span class=\"body1\"><a href=\"#sizing\">Sizing</a></span></li><li><span class=\"body1\"><a href=\"#build\">Build Specs</a></span></li><li><span class=\"body1\"><a href=\"#setup\">Setup</a></span></li><li><span class=\"body1\"><a href=\"#climbing\">Climbing</a></span></li><li><span class=\"body1\"><a href=\"#descending\">Descending</a></span></li><li><span class=\"body1\"><a href=\"#strengths\">Strengths &amp; Weaknesses</a></span></li><li><span class=\"body1\"><a href=\"#gearhead\">Gearhead&#39;s Verdict</a></span></li><li><span class=\"body1\"><a href=\"#informative\">Informative Links/FAQ</a></span></li></ul>\r\n<p> </p>\r\n<p> </p>\r\n",
+              "cq:responsive": {
+                "jcr:primaryType": "nt:unstructured",
+                "default": {
+                  "offset": "2",
+                  "width": "7",
+                  "jcr:primaryType": "nt:unstructured"
+                }
+              }
+            },
+            "customembed": {
+              "embeddableResourceType": "baem/components/customembed/embeddable/youtube",
+              "jcr:created": "Tue Nov 21 2023 22:27:25 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/customembed",
+              "type": "embeddable",
+              "background_color": "white",
+              "youtubeVideoId": "LkCbVG-IHT4",
+              "jcr:lastModified": "Tue Nov 21 2023 22:53:01 GMT+0000",
+              "jcr:primaryType": "nt:unstructured"
+            },
+            "text_594313013": {
+              "jcr:created": "Tue Nov 21 2023 22:26:06 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/text",
+              "jcr:lastModified": "Wed Nov 22 2023 19:32:42 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "text": "<h2 style=\"text-align: center;\">&nbsp;</h2>\r\n<h2 style=\"text-align: center;\">&nbsp;</h2>\r\n<h2 style=\"text-align: center;\"><span class=\"title2Heavy\"><a></a><a id=\"frame\"></a>Frame Features</span></h2>\r\n<h2 style=\"text-align: center;\">&nbsp;</h2>\r\n",
+              "cq:responsive": {
+                "jcr:primaryType": "nt:unstructured",
+                "default": {
+                  "offset": "2",
+                  "width": "8",
+                  "jcr:primaryType": "nt:unstructured"
+                }
+              }
+            },
+            "text_1282940262": {
+              "jcr:created": "Tue Nov 21 2023 22:27:32 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/text",
+              "jcr:lastModified": "Tue Nov 21 2023 22:28:03 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "text": "<p><span class=\"body1\">Before we get into the nitty-gritty tech specs of this particular build, let’s cover some general Megatower features. The frame has 165mm of rear wheel travel and is compatible with 170mm or 180mm of fork travel. It runs on 29in wheels only, but the Santa Cruz Nomad comes with mixed wheels and 170mm of rear wheel travel for those who might be curious. &nbsp;</span></p>\r\n<p><span class=\"body1\">&nbsp;</span></p>\r\n<p><span class=\"body1\">The Megatower pushes towards the long and slack end of the geometry spectrum without going over the top, with a 63.5-degree head tube angle in the low setting and a 492mm reach on this size XL. Speaking of the low setting—all Megatowers feature frame flip chips within the lower link that allow the rider to slightly manipulate the frame geometry based on their preferences. The steep 77.5-degree seat tube angle in the low position provides a modern, efficient pedaling position for long days in the saddle. &nbsp;</span></p>\r\n<p><span class=\"body1\">&nbsp;</span></p>\r\n<p><span class=\"body1\">The frame is available in a slightly less expensive Carbon C layup or a lighter Carbon CC layup, and all frames feature Glovebox in-frame storage within the downtube. Santa Cruz adopted the SRAM UDH early on, meaning derailleur hangers are easy to replace, and the bike is compatible with SRAM’s new Transmission groupsets. The cable routing works as it should, and the rear shock fender keeps mud away from your fancy suspension bits. All Megatower builds feature a chainguide and bashguard, which is always a relief to see.</span> &nbsp;</p>\r\n",
+              "cq:responsive": {
+                "jcr:primaryType": "nt:unstructured",
+                "default": {
+                  "offset": "1",
+                  "width": "10",
+                  "jcr:primaryType": "nt:unstructured"
+                }
+              }
+            },
+            "text_594313013_copy": {
+              "jcr:created": "Tue Nov 21 2023 22:26:06 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/text",
+              "jcr:lastModified": "Wed Nov 22 2023 20:04:29 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "text": "<h2 style=\"text-align: center;\">&nbsp;</h2>\r\n<h2 style=\"text-align: center;\">&nbsp;</h2>\r\n<h2 style=\"text-align: center;\"><span class=\"title2Heavy\"><a></a><a id=\"sizing\"></a>Sizing</span></h2>\r\n<h2 style=\"text-align: center;\">&nbsp;</h2>\r\n",
+              "cq:responsive": {
+                "jcr:primaryType": "nt:unstructured",
+                "default": {
+                  "offset": "2",
+                  "width": "8",
+                  "jcr:primaryType": "nt:unstructured"
+                }
+              }
+            },
+            "text_2086499283": {
+              "jcr:created": "Tue Nov 21 2023 22:42:36 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/text",
+              "jcr:lastModified": "Tue Nov 21 2023 22:43:05 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "text": "<p><span class=\"body1\">The Megatower is available in five sizes ranging from S to a whopping XXL, which is a great option for riders taller than 6’4”. Santa Cruz does offer XS sizing for some of their mixed-wheel bikes like the Bronson, so there is a broad range of sizes across their lineup, although not necessarily for every model. &nbsp;</span></p>\r\n<p><span class=\"body1\">&nbsp;</span></p>\r\n<p><span class=\"body1\">This bike’s sizing is pretty on par with most other major brands, although it may trend slightly smaller compared to Pivot’s Firebird or the Norco Range. These are only slight variances in reach and wheelbase compared to those other bikes, but it’s worth noting that if you’re in between sizes on the Megatower, it may be worth sizing up. It’s always good to see size-specific front and rear triangles, with unique chainstay lengths for every size. While I refer to the rear triangle length as the chainstay in this article, Santa Cruz lists this dimension as “rear center” in their geo charts. &nbsp;</span></p>\r\n<p><span class=\"body1\">&nbsp;</span></p>\r\n<p><span class=\"body1\">Riding this XL came pretty naturally to me right away. Coming from a 432mm chainstay on my previous bike, it took me a second to get used to the 444mm rear end on this bike, but this actually turned out to be one of my favorite features (I’ll touch on this in more detail in the descending section). The 492mm reach feels manageable and adds responsiveness to balance the bike’s long rear end, making it comfortable to settle into an aggressive riding position for cornering. I found the 1298mm wheelbase to be right in the sweet spot for technical riding without feeling too long for goofing off in rolling terrain.</span></p>\r\n",
+              "cq:responsive": {
+                "jcr:primaryType": "nt:unstructured",
+                "default": {
+                  "offset": "1",
+                  "width": "10",
+                  "jcr:primaryType": "nt:unstructured"
+                }
+              }
+            },
+            "text_594313013_copy_": {
+              "jcr:created": "Tue Nov 21 2023 22:26:06 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/text",
+              "jcr:lastModified": "Wed Nov 22 2023 20:05:18 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "text": "<h2 style=\"text-align: center;\">&nbsp;</h2>\r\n<h2 style=\"text-align: center;\">&nbsp;</h2>\r\n<h2 style=\"text-align: center;\"><span class=\"title2Heavy\"><a id=\"build\"></a>Build Specs</span></h2>\r\n<h2 style=\"text-align: center;\">&nbsp;</h2>\r\n",
+              "cq:responsive": {
+                "jcr:primaryType": "nt:unstructured",
+                "default": {
+                  "offset": "2",
+                  "width": "8",
+                  "jcr:primaryType": "nt:unstructured"
+                }
+              }
+            },
+            "text_345078406": {
+              "jcr:created": "Tue Nov 21 2023 22:43:39 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/text",
+              "jcr:lastModified": "Wed Nov 22 2023 19:25:10 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "text": "<p><span class=\"body1\">This Megatower started off as an X01 Mechanical Air Shock build, but had some parts swapped for rider preference.<a href=\"https://www.competitivecyclist.com/cush-core-xc-tire-insert-set\"></a></span></p>\r\n<p>&nbsp;</p>\r\n<ul>\r\n<li><span class=\"body1\"><a href=\"https://www.competitivecyclist.com/santa-cruz-bicycles-megatower-cc-air-mountain-bike-frame\">Megatower Carbon CC Frame</a>, XL</span></li>\r\n<li><span class=\"body1\">165mm rear travel, 170mm fork travel</span></li>\r\n<li><span class=\"body1\">Fox Float Factory X2 Shock</span></li>\r\n<li><span class=\"body1\"><a href=\"https://www.competitivecyclist.com/fox-racing-shox-38-float-29-grip-2-factory-boost-fork\">Fox Float Factory 38 Fork</a></span></li>\r\n<li><span class=\"body1\"><a href=\"https://www.competitivecyclist.com/reserve-30-hd-i9-hydra-29in-boost-wheelset\">Reserve 30HD Carbon 29in Wheels, Industry Nine Hydra Hubs</a></span></li>\r\n<li><span class=\"body1\"><a href=\"https://www.competitivecyclist.com/sram-gx-eagle-axs-transmission-groupset\">SRAM GX Eagle AXS 12-Speed Drivetrain</a></span></li>\r\n<li><span class=\"body1\"><a href=\"https://www.competitivecyclist.com/sram-x01-eagle-dub-crankset-boost\">SRAM X01 Carbon Cranks, 170mm</a></span></li>\r\n<li><span class=\"body1\"><a href=\"https://www.competitivecyclist.com/sram-code-rsc-disc-brake\">SRAM Code RSC Brakes, 200mm HS2 rotors</a></span></li>\r\n<li><span class=\"body1\"><a href=\"https://www.competitivecyclist.com/oneup-components-dropper-post\">OneUp Dropper Post V2, 240mm travel</a></span></li>\r\n<li><span class=\"body1\"><a href=\"https://www.competitivecyclist.com/oneup-components-carbon-handlebar\">OneUp Components Carbon Handlebar, 800mm</a></span></li>\r\n<li><span class=\"body1\"><a href=\"https://www.competitivecyclist.com/oneup-components-edc-stem\">OneUp Stem</a></span></li>\r\n<li><span class=\"body1\"><a href=\"https://www.competitivecyclist.com/maxxis-assegai-wide-trail-3c-exo-tr-tire-29in\">Maxxis Assegai Front Tire, 2.5in, MaxxGrip, EXO+</a></span></li>\r\n<li><span class=\"body1\"><a href=\"https://www.competitivecyclist.com/maxxis-minion-dhr-ii-3c-double-down-tr-tire-29in\">Maxxis Minion DHR II Rear Tire, 2.4in, MaxxTerra, DoubleDown</a></span></li>\r\n<li><span class=\"body1\"><span class=\"NormalTextRun SCXW1478229 BCX0\" style=\"margin: 0.0px; padding: 0.0px;\"><a href=\"https://www.competitivecyclist.com/cush-core-xc-tire-insert-set\">Cushcore XC Tire Insert</a> (Rear Wheel Only)</span>&nbsp;</span></li>\r\n<li><span class=\"body1\"><a href=\"https://www.competitivecyclist.com/shimano-xtr-pd-m9120-pedals\">Shimano XTR PD-M9120 Clipless Pedals</a></span></li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n",
+              "cq:responsive": {
+                "jcr:primaryType": "nt:unstructured",
+                "default": {
+                  "offset": "1",
+                  "width": "10",
+                  "jcr:primaryType": "nt:unstructured"
+                }
+              }
+            },
+            "text_594313013_copy__590037654": {
+              "jcr:created": "Tue Nov 21 2023 22:26:06 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/text",
+              "jcr:lastModified": "Wed Nov 22 2023 20:05:36 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "text": "<h2 style=\"text-align: center;\">&nbsp;</h2>\r\n<h2 style=\"text-align: center;\">&nbsp;</h2>\r\n<h2 style=\"text-align: center;\"><span class=\"title2Heavy\"><a id=\"setup\"></a>Setup</span></h2>\r\n<h2 style=\"text-align: center;\">&nbsp;</h2>\r\n",
+              "cq:responsive": {
+                "jcr:primaryType": "nt:unstructured",
+                "default": {
+                  "offset": "2",
+                  "width": "8",
+                  "jcr:primaryType": "nt:unstructured"
+                }
+              }
+            },
+            "text_1034575923": {
+              "jcr:created": "Tue Nov 21 2023 22:47:52 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/text",
+              "jcr:lastModified": "Tue Nov 21 2023 23:22:34 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "text": "<p>&nbsp;</p>\r\n<p><span class=\"body1\">The Megatower was a little bit finicky to set up, but the juice is definitely worth the squeeze. After setting the X2 shock for sag at 30%, I set the high-speed rebound at 5 clicks out from all the way slow with the high-speed compression fully open. This allowed the bike to track well at speed, but it felt a little sluggish at slower speeds. After lots of experimentation, I ended up adding some air to achieve 25% sag (265PSI), speeding up the rebound a few clicks, adding one click of high-speed compression, and voila, it felt just right—granted, it did take some time. The Fox Float 38 Factory Fork was intuitive to set up; I ran about 95PSI with high-speed compression fully open and relatively middle-of-the-road rebound settings.</span></p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n",
+              "cq:responsive": {
+                "jcr:primaryType": "nt:unstructured",
+                "default": {
+                  "offset": "1",
+                  "width": "10",
+                  "jcr:primaryType": "nt:unstructured"
+                }
+              }
+            },
+            "image_1589445715": {
+              "aspect_ratio": "2:1",
+              "jcr:created": "Tue Nov 21 2023 23:21:37 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "alt": "Mountain biker pedaling up a trail in dense pine trees. ",
+              "sling:resourceType": "baem/components/image",
+              "jcr:lastModified": "Tue Nov 21 2023 23:22:13 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "fileReference": "/content/dam/bcs/projects/bc23_exp_megatowerreview/SaundersDawe_CC_Fall23_4671.jpg"
+            },
+            "text_594313013_copy__599731661": {
+              "jcr:created": "Tue Nov 21 2023 22:26:06 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/text",
+              "jcr:lastModified": "Wed Nov 22 2023 20:05:54 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "text": "<h2 style=\"text-align: center;\">&nbsp;</h2>\r\n<h2 style=\"text-align: center;\">&nbsp;</h2>\r\n<h2 style=\"text-align: center;\"><span class=\"title2Heavy\"><a id=\"climbing\"></a>Climbing</span></h2>\r\n<h2 style=\"text-align: center;\">&nbsp;</h2>\r\n",
+              "cq:responsive": {
+                "jcr:primaryType": "nt:unstructured",
+                "default": {
+                  "offset": "2",
+                  "width": "8",
+                  "jcr:primaryType": "nt:unstructured"
+                }
+              }
+            },
+            "text_276354606": {
+              "jcr:created": "Tue Nov 21 2023 22:49:14 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/text",
+              "jcr:lastModified": "Tue Nov 21 2023 23:42:39 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "text": "<p><span class=\"body1\">I’d like to start this section with the caveat that the components on this build are fairly lightweight. A Megatower with alloy wheels and a coil shock probably provides a different experience than the one I’m about to share. With that aside, let’s dive in.</span> &nbsp;</p>\r\n<p>&nbsp;</p>\r\n<h3><span class=\"title1Heavy\">Non-Technical Climbing</span></h3>\r\n<h3>&nbsp;</h3>\r\n<p><span class=\"body1\">The spritely attitude of this bike thoroughly impressed me from the moment I jumped on it. It provides a pedaling platform that encourages the rider to cycle through the gears on the climbs and try to capture every bit of momentum provided by the trail’s natural rolling contours. Northern Utah’s trail infrastructure has lots of dedicated climbing trails with smooth switchbacks and not many obstacles, and the Megatower really impressed on this kind of climbing. I found it very intuitive to settle into a relatively upbeat cadence and spin away, even on big days with over 2,000ft of elevation gain. While many mixed-wheel enthusiasts claim that their MX machines climb just as well as 29ers, it seems like this Megatower holds its momentum quite well, and the 29in wheel may be a factor here.</span></p>\r\n<p>&nbsp;</p>\r\n<h3><span class=\"title1Heavy\">Fire Road Climbing</span></h3>\r\n<h3>&nbsp;</h3>\r\n<p><span class=\"body1\">As the season moved along and snow started to clear, it felt fitting to move into proper enduro riding at the local ski resorts. This typically involves quite a bit of fire road climbing to access gravity-oriented descending trails often used as enduro stages in local races. These climbs can be brutal, but the Megatower handled them with relative ease. On smoother fire roads, I did utilize the climb switch on the Fox Float X2 Factory Shock to try and squeeze some additional efficiency out of the bike, and this does help in a noticeable capacity. The steep seat tube angle certainly helps with long fire road climbs as the Megatower’s climbing position is comfortable to hang out in for long spins.</span></p>\r\n<p>&nbsp;</p>\r\n<p><span class=\"body1\">On chunkier fire roads with more loose rock, I did feel like I had to leave the shock unlocked to prevent rear wheel slippage. These types of fire roads also make line choice a little bit more important when comparing the Megatower’s VPP suspension to a more planted system like a DW-Link bike. I found that if I rolled the rear wheel of the Megatower over a baseball-sized rock, it could sometimes kick the wheel out to the side, causing me to spin my cranks without resistance in a bit of a frenzy.</span></p>\r\n<p>&nbsp;</p>\r\n<h3><span class=\"title1Heavy\">Technical Climbing&nbsp;</span></h3>\r\n<p><br>\r\n<span class=\"body1\">The lightweight, energetic feel of this Megatower made technical uphill steps in the Utah desert a pleasure to navigate. It’s a cinch to stand up out of the saddle, build some momentum, and pitch the bike up and over awkward rock formations. Where the bike needed some more coaxing was in overly technical trail sections with sustained uphill bouts of nasty bumps, roots, and rock groupings. The rear wheel traction seemed to slip occasionally in these extreme scenarios, which is to be expected with most bikes besides the ultra-ground-hugging ones.</span></p>\r\n<p><br>\r\n&nbsp;</p>\r\n<p>&nbsp;</p>\r\n",
+              "cq:responsive": {
+                "jcr:primaryType": "nt:unstructured",
+                "default": {
+                  "offset": "1",
+                  "width": "10",
+                  "jcr:primaryType": "nt:unstructured"
+                }
+              }
+            },
+            "image_367887841": {
+              "aspect_ratio": "2:1",
+              "jcr:created": "Tue Nov 21 2023 23:27:16 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "alt": "Mountain biker descending a steep granite slab.",
+              "sling:resourceType": "baem/components/image",
+              "jcr:lastModified": "Tue Nov 21 2023 23:28:18 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "fileReference": "/content/dam/bcs/projects/bc23_exp_megatowerreview/SaundersDawe_CC_Fall23_5179.jpg"
+            },
+            "text_594313013_copy__302644988": {
+              "jcr:created": "Tue Nov 21 2023 22:26:06 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/text",
+              "jcr:lastModified": "Wed Nov 22 2023 20:06:41 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "text": "<h2 style=\"text-align: center;\">&nbsp;</h2>\r\n<h2 style=\"text-align: center;\">&nbsp;</h2>\r\n<h2 style=\"text-align: center;\"><span class=\"title2Heavy\"><a id=\"descending\"></a>Descending</span></h2>\r\n<h2 style=\"text-align: center;\">&nbsp;</h2>\r\n",
+              "cq:responsive": {
+                "jcr:primaryType": "nt:unstructured",
+                "default": {
+                  "offset": "2",
+                  "width": "8",
+                  "jcr:primaryType": "nt:unstructured"
+                }
+              }
+            },
+            "text_1406109117": {
+              "jcr:created": "Tue Nov 21 2023 23:28:45 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/text",
+              "jcr:lastModified": "Tue Nov 21 2023 23:36:30 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "text": "<p>&nbsp;</p>\r\n<h3><span class=\"title1Heavy\">Rolling Terrain &amp; Flow Trails</span></h3>\r\n<p>&nbsp;</p>\r\n<p><span class=\"body1\">We’ll start off with the Megatower’s appetite for mild-mannered, rolling descents. It’s worth noting that this is a&nbsp;scenario where enduro race bikes often struggle. I found myself out of the saddle and accelerating through flat sections of trail in order to goof off on side hits—a characteristic usually reserved for trail bikes. On flow trails with sustained descents that aren’t necessarily technical, the bike was an absolute hoot! The get-up-and-go attitude of VPP suspension and 29in wheels made it easy to find speed and add some extra flavor to berms and jumps. While I typically prefer a mixed-wheel bike for flow trails, it’s worth noting that this 29er is intuitive to corner, and the fact that it isn’t overly long and slack makes it fun to jump as well.</span></p>\r\n<p>&nbsp;</p>\r\n<h3><span class=\"title1Heavy\">Technical Descending</span></h3>\r\n<h3>&nbsp;</h3>\r\n<p><span class=\"body1\">Moving onto enduro-style trails with an emphasis on gravity, the Megatower is right at home. Whether it’s high-speed tracks inspired by World Cup races or steep and deep skid trails, the bike settles into its travel and maintains rear wheel traction in a very predictable way. For reference, I do a lot of this style of riding at Park City Mountain Resort, Deer Valley, and I also did a trip to Purgatory in Durango, CO, last season. &nbsp;</span></p>\r\n<p><span class=\"body1\">&nbsp;</span></p>\r\n<p><span class=\"body1\">Getting into the gnarly stuff, the bike’s geometry really comes into play. The slack head tube angle and long chainstay help the rider feel in the bike rather than on top of it. The bike’s VPP suspension design also helps the bike sit into the travel yet does a great job of maintaining bottom-out support. Feeling low to the trail and “in the bike” rather than on it is very comforting in steep and loose terrain. It really helps the bike track predictably, which says a lot considering this is a relatively lightweight build with an air shock. It’s also worth noting that this bike handles steep rock rolls and up-and-over type features very well, &nbsp;which can partially be attributed to the 29in wheels. That said, I did notice that the rear linkage could occasionally hang up on square-edge impacts at low speeds, reminiscent of the issue that I touched on in the climbing section above.</span></p>\r\n<p>&nbsp;</p>\r\n<h3><span class=\"title1Heavy\">Freeride Trails</span></h3>\r\n<h3>&nbsp;</h3>\r\n<p><span class=\"body1\">When it comes to freeride jump lines, the Megatower’s poised personality continues to impress. The VPP rear linkage has a very supportive feel that provides a nice crisp pop off the lip on jump trails. The bottom-out resistance is solid; I’m a large rider, and I hit a handful of drops in the 10ft range and felt like bottoming out the shock is predictable and not too jarring on the ankles. If I were building up a Megatower with intentions to do a lot of freeriding, I would probably go for a coil shock build and bump the fork travel up to 180mm.</span></p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<hr>\r\n\r\n<p>&nbsp;</p>\r\n",
+              "cq:responsive": {
+                "jcr:primaryType": "nt:unstructured",
+                "default": {
+                  "offset": "1",
+                  "width": "10",
+                  "jcr:primaryType": "nt:unstructured"
+                }
+              }
+            },
+            "text_796305959": {
+              "jcr:created": "Tue Nov 21 2023 23:31:20 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/text",
+              "jcr:lastModified": "Wed Nov 22 2023 20:07:01 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "text": "<h2 style=\"text-align: left;\">&nbsp;</h2>\r\n<h2 style=\"text-align: left;\"><span class=\"title2Heavy\"><a id=\"strengths\"></a>Strengths</span></h2>\r\n<h2 style=\"text-align: center;\">&nbsp;</h2>\r\n<ul>\r\n<li>Climbing performance is very efficient</li>\r\n<li>Descending in steep, technical terrain</li>\r\n<li>Fun and energetic on flow trails and rolling terrain</li>\r\n<li><span data-contrast=\"none\" class=\"TextRun SCXW125981923 BCX0\" style=\"margin: 0.0px; padding: 0.0px;\"><span class=\"NormalTextRun SCXW125981923 BCX0\" style=\"margin: 0.0px; padding: 0.0px;\">XL frame fits a 240mm dropper post pretty well</span></span></li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n",
+              "cq:responsive": {
+                "jcr:primaryType": "nt:unstructured",
+                "default": {
+                  "offset": "1",
+                  "width": "5",
+                  "jcr:primaryType": "nt:unstructured"
+                }
+              }
+            },
+            "text_2053911620": {
+              "jcr:created": "Tue Nov 21 2023 23:33:58 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/text",
+              "jcr:lastModified": "Tue Nov 21 2023 23:36:47 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "text": "<h2>&nbsp;</h2>\r\n<h2><span class=\"title2Heavy\">Weaknesses</span></h2>\r\n<p>&nbsp;</p>\r\n<ul>\r\n<li><span class=\"body1\">Rear linkage can hook up on square edges at low speeds while climbing or descending</span></li>\r\n<li><span class=\"body1\">Glovebox door rattled, but noise wasn’t excessive</span></li>\r\n<li><span class=\"body1\">Finicky shock setup</span></li>\r\n</ul>\r\n",
+              "cq:responsive": {
+                "jcr:primaryType": "nt:unstructured",
+                "default": {
+                  "offset": "0",
+                  "width": "5",
+                  "jcr:primaryType": "nt:unstructured"
+                }
+              }
+            },
+            "text_594313013_copy__915676772": {
+              "jcr:created": "Tue Nov 21 2023 22:26:06 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/text",
+              "jcr:lastModified": "Wed Nov 22 2023 20:14:28 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "text": "<h2 style=\"text-align: center;\">&nbsp;</h2>\r\n<h2 style=\"text-align: center;\">&nbsp;</h2>\r\n<h2 style=\"text-align: center;\"><span class=\"title2Heavy\"><a></a><a id=\"gearhead\"></a>Gearhead's Verdict</span></h2>\r\n<h2 style=\"text-align: center;\">&nbsp;</h2>\r\n",
+              "cq:responsive": {
+                "jcr:primaryType": "nt:unstructured",
+                "default": {
+                  "offset": "2",
+                  "width": "8",
+                  "jcr:primaryType": "nt:unstructured"
+                }
+              }
+            },
+            "text_1667358712": {
+              "jcr:created": "Tue Nov 21 2023 23:37:33 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/text",
+              "jcr:lastModified": "Tue Nov 21 2023 23:41:02 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "text": "<p>&nbsp;</p>\r\n<p><span class=\"body1\">The second iteration of the Santa Cruz Megatower takes what used to be more of an aggressive trail or enduro light bike, and places it squarely in the enduro category. This might not come as much of a shock when looking at the geometry chart—what’s truly impressive is that Santa Cruz managed to retain superb climbing characteristics with this bike. If you’re looking to take on the local enduro series, the Megatower is an excellent fit. It’s also a clever option for the rider who lives in an area with steep terrain and lots of rad descents, but also wants to pedal to access these trails.</span></p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<hr>\r\n\r\n<p>&nbsp;</p>\r\n",
+              "cq:responsive": {
+                "jcr:primaryType": "nt:unstructured",
+                "default": {
+                  "offset": "1",
+                  "width": "10",
+                  "jcr:primaryType": "nt:unstructured"
+                }
+              }
+            },
+            "text_594313013_copy__2017327285": {
+              "jcr:created": "Tue Nov 21 2023 22:26:06 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/text",
+              "jcr:lastModified": "Wed Nov 22 2023 20:07:41 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "text": "<h2 style=\"text-align: center;\">&nbsp;</h2>\r\n<h2 style=\"text-align: center;\"><span class=\"title2Heavy\"><a id=\"informative\"></a>Informative Links</span><br>\r\n</h2>\r\n<h2 style=\"text-align: center;\">&nbsp;</h2>\r\n",
+              "cq:responsive": {
+                "jcr:primaryType": "nt:unstructured",
+                "default": {
+                  "offset": "2",
+                  "width": "8",
+                  "jcr:primaryType": "nt:unstructured"
+                }
+              }
+            },
+            "text_1310837480": {
+              "jcr:created": "Tue Nov 21 2023 23:38:30 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/text",
+              "jcr:lastModified": "Wed Nov 22 2023 19:17:26 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "text": "<p>&nbsp;</p>\r\n<ul>\r\n<li><span class=\"body1\">Looking for big travel and mixed wheels? Check out the <a href=\"https://www.competitivecyclist.com/sc/the-new-santa-cruz-nomad\">Nomad</a>.</span></li>\r\n<li><span class=\"body1\">Interested in something that’s equally capable of climbing and descending? Here’s the <a href=\"https://www.competitivecyclist.com/sc/santa-cruz-hightower\">Hightower</a>. <br>\r\n </span></li>\r\n<li><span class=\"body1\">Read our <a href=\"https://www.backcountry.com/explore/how-to-choose-a-mountain-bike\">Mountain Bike Buying Guide</a><br>\r\n</span></li>\r\n<li><span class=\"body1\">Read our <a href=\"https://www.backcountry.com/service/what-to-wear-mountain-biking\">What To Wear Mountain Biking article</a>.</span></li>\r\n</ul>\r\n",
+              "cq:responsive": {
+                "jcr:primaryType": "nt:unstructured",
+                "default": {
+                  "offset": "1",
+                  "width": "10",
+                  "jcr:primaryType": "nt:unstructured"
+                }
+              }
+            },
+            "text_594313013_copy__813051333": {
+              "jcr:created": "Tue Nov 21 2023 22:26:06 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/text",
+              "jcr:lastModified": "Tue Nov 21 2023 23:39:52 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "text": "<h2 style=\"text-align: center;\">&nbsp;</h2>\r\n<h2 style=\"text-align: center;\">&nbsp;</h2>\r\n<h2 style=\"text-align: center;\"><span class=\"title2Heavy\">FAQ</span></h2>\r\n<h2 style=\"text-align: center;\">&nbsp;</h2>\r\n",
+              "cq:responsive": {
+                "jcr:primaryType": "nt:unstructured",
+                "default": {
+                  "offset": "2",
+                  "width": "8",
+                  "jcr:primaryType": "nt:unstructured"
+                }
+              }
+            },
+            "text_875591872": {
+              "jcr:created": "Tue Nov 21 2023 23:39:38 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/text",
+              "jcr:lastModified": "Wed Nov 22 2023 21:42:48 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "text": "<p><span class=\"body1\">Q: What’s the difference between the V1 and V2 Megatower?</span></p>\r\n<p>&nbsp;</p>\r\n<p><span class=\"body1Heavy\">A</span><span class=\"body1\">: The V1 Megatower has 160mm of rear suspension, while the V2 has 165mm. The V2 also has longer and slacker geometry, SRAM UDH compatibility, and integrated Glovebox frame storage technology. &nbsp;</span></p>\r\n<p><span class=\"body1\">&nbsp;</span></p>\r\n<p><span class=\"body1\">Q: Does the Megatower climb well?</span></p>\r\n<p>&nbsp;</p>\r\n<p><span class=\"body1\"><b>A</b>: Yes! By enduro bike standards, it’s an exceptional climber. Check out the <a href=\"#climbing\">climbing review section</a> of this article. &nbsp;</span></p>\r\n<p><span class=\"body1\">&nbsp;</span></p>\r\n<p><span class=\"body1\">Q: What’s the difference between the Megatower and the Santa Cruz Nomad?</span></p>\r\n<p>&nbsp;</p>\r\n<p><span class=\"body1Heavy\">A</span><span class=\"body1\">: The Megatower has 29in wheels front and rear, while the Nomad has a 27.5in rear wheel and a 29in front wheel. The Nomad also features 170mm of rear travel to the Megatower’s 165mm. Both bikes are intended for enduro-style riding, with the Megatower trending towards enduro racing, and the Nomad leaning towards freeriding and bike park laps. &nbsp;</span></p>\r\n<p><span class=\"body1\">&nbsp;</span></p>\r\n<p><i><span class=\"body1\">Gearhead® Expert Kendall has been with Backcountry since 2018. He’s an East Coast transplant who quickly picked up mountain biking in Utah’s hot summers and now pursues the gravity side of the sport, riding the bike park and racing enduro.</span> &nbsp;</i></p>\r\n",
+              "cq:responsive": {
+                "jcr:primaryType": "nt:unstructured",
+                "default": {
+                  "offset": "1",
+                  "width": "10",
+                  "jcr:primaryType": "nt:unstructured"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

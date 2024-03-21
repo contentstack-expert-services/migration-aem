@@ -1,0 +1,828 @@
+{
+  "jcr:created": "Thu May 25 2023 19:12:07 GMT+0000",
+  "jcr:createdBy": "kzylstra@backcountry.com",
+  "jcr:primaryType": "cq:Page",
+  "jcr:content": {
+    "cq:lastReplicatedBy": "kzylstra@backcountry.com",
+    "cq:lastReplicationAction": "Activate",
+    "cq:lastReplicatedBy_publish": "kzylstra@backcountry.com",
+    "sling:resourceType": "baem/components/page",
+    "jcr:title": "Latest Explore Articles",
+    "jcr:uuid": "e37e7c96-690f-4286-b7c0-954f4e339689",
+    "cq:isDelivered": true,
+    "pageProperty_seo-toggle": "true",
+    "jcr:versionHistory": "80e53dd1-8cf4-47bd-94ed-f0c13b2b94f4",
+    "cq:lastModifiedBy": "kzylstra@backcountry.com",
+    "cq:template": "/conf/baem/settings/wcm/templates/page-content",
+    "pageProperty_titleTag": "Learn Outdoor Skills, Tips on the Best Gear for You, and Adventure with the team at Backcountry",
+    "jcr:created": "Thu May 25 2023 19:12:07 GMT+0000",
+    "jcr:createdBy": "kzylstra@backcountry.com",
+    "jcr:predecessors": ["650c1793-2824-4b8f-9c5d-3875c6b4456a"],
+    "cq:lastReplicationAction_scene7": "Activate",
+    "jcr:isCheckedOut": true,
+    "jcr:mixinTypes": ["mix:versionable", "cq:ReplicationStatus2"],
+    "pageProperty_description": "Learn a new skill, get tips on how to shop, and practice repairing your gear with the top outdoor knowledge on the internet provided by Backcountry. ",
+    "cq:lastReplicationAction_publish": "Activate",
+    "cq:lastModified": "Thu Nov 09 2023 18:14:19 GMT+0000",
+    "cq:lastReplicatedBy_scene7": "gabriel.segura@backcountry.com",
+    "jcr:primaryType": "cq:PageContent",
+    "cq:lastReplicated": "Thu Nov 09 2023 18:20:41 GMT+0000",
+    "cq:lastReplicated_publish": "Thu Nov 09 2023 18:20:41 GMT+0000",
+    "cq:lastReplicated_scene7": "Wed Aug 16 2023 18:28:37 GMT+0000",
+    "sling:vanityPath": "explore-articles",
+    "jcr:baseVersion": "650c1793-2824-4b8f-9c5d-3875c6b4456a",
+    "root": {
+      "layout": "responsiveGrid",
+      "sling:resourceType": "baem/components/container",
+      "jcr:primaryType": "nt:unstructured",
+      "container": {
+        "layout": "responsiveGrid",
+        "sling:resourceType": "baem/components/container",
+        "jcr:primaryType": "nt:unstructured",
+        "title": {
+          "sling:resourceType": "baem/components/title",
+          "jcr:primaryType": "nt:unstructured"
+        },
+        "container": {
+          "layout": "responsiveGrid",
+          "sling:resourceType": "baem/components/container",
+          "jcr:primaryType": "nt:unstructured",
+          "textbanner": {
+            "jcr:created": "Thu Jun 01 2023 21:04:33 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kswistak@backcountry.com",
+            "colorselector": "brand",
+            "textIsRich": "true",
+            "textcolor": "brand",
+            "sling:resourceType": "baem/components/textbanner",
+            "actionsEnabled": "false",
+            "jcr:lastModified": "Wed Jul 26 2023 19:10:58 GMT+0000",
+            "jcr:description": "<p><span class=\"title3\">&nbsp;</span></p>\r\n<p style=\"text-align: center;\"><span class=\"title5Brand\">Latest Explore Articles</span></p>\r\n<p><span class=\"title3\">&nbsp;</span></p>\r\n",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "center",
+            "fileReference": "/content/dam/bcs/projects/bc23_exp_father'sday/BC - SS23 - Card - Map - 17x9.jpg"
+          },
+          "spacer_copy_13350112": {
+            "jcr:created": "Wed May 31 2023 22:56:41 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "skim@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "16",
+            "pixels_large": "16",
+            "pixels_medium": "16",
+            "jcr:lastModified": "Thu Jun 01 2023 21:31:17 GMT+0000",
+            "pixels_small": "16",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "16"
+          },
+          "text": {
+            "jcr:created": "Mon Oct 16 2023 19:37:23 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/text",
+            "jcr:lastModified": "Thu Nov 09 2023 16:53:19 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "<p>&nbsp;</p>\r\n<p style=\"text-align: center;\">Our Explore Blog is the place to find written guides and checklists about every single type of gear or outdoor activity imaginable. It's a great place to educate yourself with a bit of light reading, and if you still have further questions afterward, be sure to reach out to a <a href=\"https://www.backcountry.com/sc/backcountry-gearheads?tabNav=0\">Gearhead® Expert</a>.&nbsp;</p>\r\n<p>&nbsp;</p>\r\n",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "3",
+                "width": "6",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "spacer": {
+            "jcr:created": "Mon Oct 16 2023 19:46:03 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "16",
+            "pixels_large": "16",
+            "pixels_medium": "16",
+            "jcr:lastModified": "Mon Oct 16 2023 19:46:10 GMT+0000",
+            "pixels_small": "16",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "16"
+          },
+          "teaser_2093938916": {
+            "aspect_ratio": "4:3",
+            "controls": "false",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/teaser",
+            "assetList": "images",
+            "backgroundcolor": "blank",
+            "loop": "true",
+            "linkURL": "https://www.backcountry.com/service/nils-mindnich-chads-gap",
+            "poster_aspect_ratio": "original",
+            "muted": "true",
+            "jcr:created": "Thu Nov 09 2023 16:58:01 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "alt": "Snowboarder holding board behind his back and peering to the side. ",
+            "autoplay": "true",
+            "actionsEnabled": "false",
+            "jcr:lastModified": "Thu Nov 09 2023 17:58:48 GMT+0000",
+            "jcr:description": "<p><span class=\"title1\">Nils Mindnich &amp; Chad&#39;s Gap</span></p>\r\n",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "center",
+            "fileReference": "/content/dam/bcs/projects/bc23_exp_latestarticles/NilsHeadshot.jpg",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "medium_bp": {
+                "offset": "3",
+                "width": "6",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "small_bp": {
+                "offset": "3",
+                "width": "6",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "teaser_829774025": {
+            "aspect_ratio": "4:3",
+            "controls": "false",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/teaser",
+            "assetList": "images",
+            "backgroundcolor": "blank",
+            "loop": "true",
+            "linkURL": "https://www.backcountry.com/explore/how-to-tune-wax-your-skis-or-snowboard-video-tutorial",
+            "poster_aspect_ratio": "original",
+            "muted": "true",
+            "jcr:created": "Thu Nov 09 2023 18:00:39 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "alt": "Ski tech carefully moves the waxing iron over the base of a ski. ",
+            "autoplay": "true",
+            "actionsEnabled": "false",
+            "jcr:lastModified": "Thu Nov 09 2023 18:05:03 GMT+0000",
+            "jcr:description": "<p><span class=\"title1\">Ski &amp; Snowboard Tuning Guide</span></p>\r\n",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "center",
+            "fileReference": "/content/dam/bcs/projects/bc23_exp_11-5hpupdate/BCRe_150731-109.jpg",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "medium_bp": {
+                "offset": "1",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "small_bp": {
+                "offset": "1",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "teaser_1186305824": {
+            "aspect_ratio": "4:3",
+            "controls": "false",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/teaser",
+            "assetList": "images",
+            "backgroundcolor": "blank",
+            "loop": "true",
+            "linkURL": "https://www.backcountry.com/explore/how-to-pick-the-right-ski-length",
+            "poster_aspect_ratio": "original",
+            "muted": "true",
+            "jcr:created": "Thu Nov 09 2023 16:37:57 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "alt": "A skier prepares to put her skis on with a pine forest background. ",
+            "autoplay": "true",
+            "actionsEnabled": "false",
+            "jcr:lastModified": "Thu Nov 09 2023 16:51:51 GMT+0000",
+            "jcr:description": "<p><span class=\"title1\">How To Choose The Right Ski Length</span></p>\r\n",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "center",
+            "fileReference": "/content/dam/bcs/projects/bc23_exp_latestarticles/BCDawe_230612-9183.jpg",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "medium_bp": {
+                "offset": "2",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "small_bp": {
+                "offset": "2",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "teaser_copy": {
+            "aspect_ratio": "4:3",
+            "controls": "false",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/teaser",
+            "assetList": "images",
+            "backgroundcolor": "blank",
+            "loop": "true",
+            "linkURL": "https://www.backcountry.com/service/flying-with-ski-snowboard-gear",
+            "poster_aspect_ratio": "original",
+            "muted": "true",
+            "jcr:created": "Mon Aug 07 2023 19:12:08 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "alt": "Backcountry Ski & Snowboard Boot Bag and Backcountry Double Ski & Snowboard Rolling Bag. ",
+            "cq:panelTitle": "Car camp guide",
+            "autoplay": "true",
+            "actionsEnabled": "false",
+            "jcr:description": "<p><span style=\"font-size: 20.0px;\"><span class=\"title1\">How To Fly With Your Skis Or Snowboard</span></span></p>\r\n",
+            "jcr:lastModified": "Mon Oct 30 2023 17:08:25 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "center",
+            "fileReference": "/content/dam/bcs/projects/bc23_exp_latestarticles/FlySkisBoardsHERO.jpeg",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "medium_bp": {
+                "offset": "1",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "small_bp": {
+                "offset": "1",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "teaser_1809992089": {
+            "aspect_ratio": "4:3",
+            "controls": "false",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/teaser",
+            "assetList": "images",
+            "backgroundcolor": "blank",
+            "loop": "true",
+            "linkURL": "https://www.backcountry.com/service/running-shoe-guide",
+            "poster_aspect_ratio": "original",
+            "muted": "true",
+            "jcr:created": "Thu May 25 2023 19:14:11 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "alt": "shoe on rock",
+            "autoplay": "true",
+            "actionsEnabled": "false",
+            "jcr:description": "<p><span class=\"title1\">Running Shoe Buying Guide</span></p>\r\n",
+            "jcr:lastModified": "Mon Oct 16 2023 19:49:15 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "center",
+            "fileReference": "/content/dam/bcs/projects/bc23_0166_exp_running-shoe-guide/Card_4_3.jpg",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "medium_bp": {
+                "offset": "2",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "small_bp": {
+                "offset": "2",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "teaser_1027155539": {
+            "aspect_ratio": "4:3",
+            "controls": "false",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/teaser",
+            "assetList": "images",
+            "backgroundcolor": "blank",
+            "loop": "true",
+            "linkURL": "https://www.backcountry.com/explore/all-about-fleece-jackets",
+            "poster_aspect_ratio": "original",
+            "muted": "true",
+            "jcr:created": "Thu May 25 2023 19:19:31 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "alt": "Fleece on the Landy",
+            "autoplay": "true",
+            "actionsEnabled": "false",
+            "jcr:description": "<p><span class=\"title1\">Fleece Jacket Guide</span></p>\r\n",
+            "jcr:lastModified": "Mon Oct 16 2023 19:49:29 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "center",
+            "fileReference": "/content/dam/bcs/projects/bc23_exp_latestarticles/2216_BURKARD_043583-Edit 1.jpg",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "medium_bp": {
+                "offset": "1",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "small_bp": {
+                "offset": "1",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "teaser_1711189391": {
+            "aspect_ratio": "4:3",
+            "controls": "false",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/teaser",
+            "assetList": "images",
+            "backgroundcolor": "blank",
+            "loop": "true",
+            "linkURL": "https://www.backcountry.com/explore/packing-list-car-camping",
+            "poster_aspect_ratio": "original",
+            "muted": "true",
+            "jcr:created": "Thu May 25 2023 20:38:39 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "alt": "RAV4 cargo zone",
+            "autoplay": "true",
+            "actionsEnabled": "false",
+            "jcr:description": "<p><span class=\"title1\">Camping Checklist</span></p>\r\n",
+            "jcr:lastModified": "Mon Oct 16 2023 19:52:36 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "center",
+            "fileReference": "/content/dam/bcs/projects/bc23_exp_homepage-explore-card-update/BCFRX_230404_09490 (1).jpg",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "medium_bp": {
+                "offset": "2",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "small_bp": {
+                "offset": "2",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "teaser_1722477512": {
+            "aspect_ratio": "4:3",
+            "controls": "false",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/teaser",
+            "assetList": "images",
+            "backgroundcolor": "blank",
+            "loop": "true",
+            "linkURL": "https://www.backcountry.com/service/best-gifts-2023",
+            "poster_aspect_ratio": "original",
+            "muted": "true",
+            "jcr:created": "Thu May 25 2023 20:41:03 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "alt": "Golden retriever wearing a Santa hat sits next to a pile of gifts. ",
+            "autoplay": "true",
+            "actionsEnabled": "false",
+            "jcr:description": "<p><span class=\"title1\">Best Gifts Of 2023</span></p>\r\n",
+            "jcr:lastModified": "Thu Oct 19 2023 20:43:09 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "center",
+            "fileReference": "/content/dam/bcs/projects/bc23_0337_exp_holidaygiftguide/HGGHEROIMAGE2.jpg",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "medium_bp": {
+                "offset": "1",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "small_bp": {
+                "offset": "1",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "teaser_235843057": {
+            "aspect_ratio": "4:3",
+            "controls": "false",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/teaser",
+            "assetList": "images",
+            "backgroundcolor": "blank",
+            "loop": "true",
+            "linkURL": "https://www.backcountry.com/service/overlanding-guide",
+            "poster_aspect_ratio": "original",
+            "muted": "true",
+            "jcr:created": "Thu Jun 22 2023 21:13:59 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "alt": "Overlanding vehicle",
+            "autoplay": "true",
+            "actionsEnabled": "false",
+            "jcr:lastModified": "Mon Oct 16 2023 19:48:00 GMT+0000",
+            "jcr:description": "<p><span class=\"title1\">Overlanding: What It Is &amp; Gearing Up</span></p>\r\n",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "center",
+            "fileReference": "/content/dam/bcs/projects/bc23_exp_0072_overlanding/BCWS_220203_1729.jpg",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "medium_bp": {
+                "offset": "2",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "small_bp": {
+                "offset": "2",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "teaser_925597417": {
+            "aspect_ratio": "4:3",
+            "controls": "false",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/teaser",
+            "assetList": "images",
+            "backgroundcolor": "blank",
+            "loop": "true",
+            "linkURL": "https://www.backcountry.com/service/fly-fishing-guide",
+            "poster_aspect_ratio": "original",
+            "muted": "true",
+            "jcr:created": "Thu Jun 22 2023 21:14:13 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "alt": "Trio of anglers",
+            "autoplay": "true",
+            "actionsEnabled": "false",
+            "jcr:lastModified": "Mon Oct 16 2023 19:52:58 GMT+0000",
+            "jcr:description": "<p><span class=\"title1\">Fly Fishing: A Beginner's Guide</span></p>\r\n",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "center",
+            "fileReference": "/content/dam/bcs/projects/bc23_exp_0098_beginnerflyfish/BCrg_230523_4423.jpg",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "medium_bp": {
+                "offset": "1",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "small_bp": {
+                "offset": "1",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "teaser_2062023547": {
+            "aspect_ratio": "4:3",
+            "controls": "false",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/teaser",
+            "assetList": "images",
+            "backgroundcolor": "blank",
+            "loop": "true",
+            "linkURL": "https://www.backcountry.com/service/what-to-wear-mountain-biking",
+            "poster_aspect_ratio": "original",
+            "muted": "true",
+            "jcr:created": "Thu Jun 22 2023 21:14:35 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "alt": "Mountain bikers descending",
+            "autoplay": "true",
+            "actionsEnabled": "false",
+            "jcr:lastModified": "Mon Oct 16 2023 19:48:11 GMT+0000",
+            "jcr:description": "<p><span class=\"title1\">What To Wear Mountain Biking</span></p>\r\n",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "center",
+            "fileReference": "/content/dam/bcs/projects/bc23_0105_exp_what-to-wear-mountain-biking/Image 1_2_1.jpg",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "medium_bp": {
+                "offset": "2",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "small_bp": {
+                "offset": "2",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "teaser_1127040546_co": {
+            "aspect_ratio": "4:3",
+            "controls": "false",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/teaser",
+            "assetList": "images",
+            "backgroundcolor": "blank",
+            "loop": "true",
+            "linkURL": "https://www.backcountry.com/service/replace-mtb-helmet",
+            "poster_aspect_ratio": "original",
+            "muted": "true",
+            "jcr:created": "Fri Aug 18 2023 20:55:14 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "alt": "Mountain bike rider adjusting helmet",
+            "autoplay": "true",
+            "actionsEnabled": "false",
+            "jcr:description": "<p><span class=\"title1\">When To Replace Your MTB Helmet</span></p>\r\n",
+            "jcr:lastModified": "Mon Oct 16 2023 19:53:10 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "center",
+            "fileReference": "/content/dam/bcs/projects/bc23_0176_exp_when-to-replace-a-mtb-helmet/Card_4.3.jpg",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "medium_bp": {
+                "offset": "1",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "small_bp": {
+                "offset": "1",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "teaser_1780806590": {
+            "aspect_ratio": "4:3",
+            "controls": "false",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/teaser",
+            "assetList": "images",
+            "backgroundcolor": "blank",
+            "loop": "true",
+            "linkURL": "https://www.backcountry.com/service/e-bike-guide",
+            "poster_aspect_ratio": "original",
+            "muted": "true",
+            "jcr:created": "Fri Aug 18 2023 21:01:24 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "alt": "Mountain biker descending on e-bike",
+            "autoplay": "true",
+            "actionsEnabled": "false",
+            "jcr:lastModified": "Mon Oct 16 2023 19:53:21 GMT+0000",
+            "jcr:description": "<p><span class=\"title1\">E-Bike Guide</span></p>\r\n",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "center",
+            "fileReference": "/content/dam/bcs/projects/bc23_0086_exp_ebike-buying-guide/Card_4.3.jpg",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "medium_bp": {
+                "offset": "2",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "small_bp": {
+                "offset": "2",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "teaser_1161597559_co": {
+            "aspect_ratio": "4:3",
+            "controls": "false",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/teaser",
+            "assetList": "images",
+            "backgroundcolor": "blank",
+            "loop": "true",
+            "linkURL": "https://www.backcountry.com/explore/insulation",
+            "poster_aspect_ratio": "original",
+            "muted": "true",
+            "jcr:created": "Thu Aug 17 2023 20:25:16 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "alt": "Insulated jackets stacked ",
+            "autoplay": "true",
+            "actionsEnabled": "false",
+            "jcr:description": "<p><span style=\"font-size: 20.0px;\"><span class=\"title1\">Insulation Guide</span></span></p>\r\n",
+            "jcr:lastModified": "Mon Oct 16 2023 19:53:31 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "center",
+            "fileReference": "/content/dam/bcs/projects/bc23_exp_latestarticles/2216_BURKARD_039189.jpg",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "small_bp": {
+                "offset": "1",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "medium_bp": {
+                "offset": "1",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "teaser": {
+            "aspect_ratio": "4:3",
+            "controls": "false",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/teaser",
+            "assetList": "images",
+            "backgroundcolor": "blank",
+            "loop": "true",
+            "linkURL": "https://www.backcountry.com/explore/how-to-choose-a-mountain-bike",
+            "poster_aspect_ratio": "original",
+            "muted": "true",
+            "jcr:created": "Thu May 25 2023 19:13:53 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "alt": "Enduro riders",
+            "autoplay": "true",
+            "actionsEnabled": "false",
+            "jcr:description": "<p><span class=\"title1\">Mountain Bike Buying Guide</span></p>\r\n",
+            "jcr:lastModified": "Mon Oct 16 2023 19:46:58 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "center",
+            "fileReference": "/content/dam/bcs/projects/bc23_0231_exp_homepage-explore-card-update/MTB Buying Guide - Explore Thumbnail.jpg",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "medium_bp": {
+                "offset": "2",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "small_bp": {
+                "offset": "2",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "spacer_copy_13350112_1720384453": {
+            "jcr:created": "Wed May 31 2023 22:56:41 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "skim@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "16",
+            "pixels_large": "16",
+            "pixels_medium": "16",
+            "jcr:lastModified": "Thu Jun 01 2023 21:31:17 GMT+0000",
+            "pixels_small": "16",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "16"
+          },
+          "button_copy": {
+            "jcr:created": "Thu Jun 01 2023 20:21:53 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "kzylstra@backcountry.com",
+            "link": "https://www.backcountry.com/explore",
+            "sling:resourceType": "baem/components/button",
+            "jcr:title": "See More Explore Articles",
+            "jcr:lastModified": "Thu Jun 01 2023 20:22:23 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "center"
+          }
+        }
+      }
+    }
+  }
+}

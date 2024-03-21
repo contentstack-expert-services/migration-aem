@@ -1,0 +1,76 @@
+{
+  "jcr:created": "Tue Jan 04 2022 23:23:45 GMT+0000",
+  "jcr:createdBy": "cchristoffersen@backcountry.com",
+  "jcr:primaryType": "cq:Page",
+  "jcr:content": {
+    "cq:lastReplicatedBy": "gabriel.segura@backcountry.com",
+    "cq:lastReplicationAction": "Activate",
+    "cq:lastReplicatedBy_publish": "gabriel.segura@backcountry.com",
+    "sling:resourceType": "baem/components/page",
+    "jcr:title": "Responsible Products",
+    "jcr:uuid": "30aec970-c3a6-40d7-889c-d09d1b186cb3",
+    "cq:isDelivered": true,
+    "pageProperty_seo-toggle": "on",
+    "jcr:versionHistory": "4a85d906-d75a-41c2-a5f6-dfdbe017a38e",
+    "seo-toggle": "on",
+    "cq:lastModifiedBy": "cchristoffersen@backcountry.com",
+    "seo-description": "Responsible Products | Backcountry.com",
+    "cq:template": "/conf/baem/settings/wcm/templates/page-content1",
+    "pageProperty_titleTag": "Responsible Products | Backcountry.com",
+    "seo-canonical": "https://www.backcountry.com/sc/responsible-products",
+    "jcr:created": "Tue Jan 04 2022 23:23:45 GMT+0000",
+    "jcr:createdBy": "cchristoffersen@backcountry.com",
+    "seo-title": "Responsible Products | Backcountry.com",
+    "jcr:predecessors": ["326e8675-2be1-497c-a901-5a80bfaea8fd"],
+    "cq:lastReplicationAction_scene7": "Activate",
+    "jcr:isCheckedOut": true,
+    "jcr:mixinTypes": ["mix:versionable", "cq:ReplicationStatus2"],
+    "pageProperty_description": "We wish we could become 100% sustainable overnight, but everyone has to start somewhere. That’s why we’ve made it easier for you to find products that are responsibly manufactured or have a positive social impact.",
+    "cq:lastReplicationAction_publish": "Activate",
+    "cq:lastModified": "Tue Oct 11 2022 18:39:14 GMT+0000",
+    "cq:lastReplicatedBy_scene7": "gabriel.segura@backcountry.com",
+    "jcr:primaryType": "cq:PageContent",
+    "cq:lastReplicated": "Wed Aug 16 2023 18:35:35 GMT+0000",
+    "cq:lastReplicated_publish": "Wed Aug 16 2023 18:35:35 GMT+0000",
+    "cq:lastReplicated_scene7": "Wed Aug 16 2023 18:35:35 GMT+0000",
+    "sling:vanityPath": "bc-responsible-products",
+    "jcr:baseVersion": "326e8675-2be1-497c-a901-5a80bfaea8fd",
+    "root": {
+      "layout": "responsiveGrid",
+      "sling:resourceType": "baem/components/container",
+      "jcr:primaryType": "nt:unstructured",
+      "container": {
+        "layout": "responsiveGrid",
+        "sling:resourceType": "baem/components/container",
+        "jcr:primaryType": "nt:unstructured",
+        "title": {
+          "sling:resourceType": "baem/components/title",
+          "jcr:primaryType": "nt:unstructured"
+        },
+        "container": {
+          "layout": "responsiveGrid",
+          "sling:resourceType": "baem/components/container",
+          "jcr:primaryType": "nt:unstructured",
+          "text": {
+            "jcr:created": "Tue Jan 04 2022 23:24:41 GMT+0000",
+            "jcr:lastModifiedBy": "cchristoffersen@backcountry.com",
+            "jcr:createdBy": "cchristoffersen@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/text",
+            "jcr:lastModified": "Fri Jan 28 2022 20:48:29 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "<p style=\"text-align: left;\"><span class=\"title4Brand\">What Are Responsible Products?</span></p>\r\n<p style=\"text-align: left;\">&nbsp;</p>\r\n<p style=\"text-align: left;\">We wish we could become 100% sustainable overnight, but everyone has to start somewhere. That’s why we’ve made it easier for you to find products that are responsibly manufactured or have a positive social impact. We work with our brand partners to display this information on product pages so you can find gear and brands that put people and our backcountry first.</p>\r\n<p>&nbsp;</p>\r\n<p>For a product to be considered “responsible” on our site, it has to meet at least one of the following criteria: Certified B-Corp, bluesign® APPROVED, Organic Materials, Recycled/Repurposed Materials, Responsible Wool Standard, Responsible Down Standard, or Fair Trade Certified™.</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p><span class=\"body1Heavy\">Certified B-Corp:&nbsp; </span>Brands that balance purpose and profit, meeting the highest standards of verified social and environmental performance, transparency, and legal accountability. A B-Corp’s goal is to use business as a force for good, driving positive impact for employees, communities, and our planet.</p>\r\n<p><a href=\"https://bcorporation.net/\">Learn more</a></p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p><span class=\"body1Heavy\">Bluesign Approved: </span>bluesign® is an independent authority that certifies each step of the textile production process as responsibly manufactured, with the lowest possible impact on people and planet. When a product is bluesign® APPROVED, it has been strictly tested to meet bluesign’s sustainability standards.</p>\r\n<p><a href=\"https://www.bluesign.com/en\">Learn more</a></p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p><span class=\"body1Heavy\">Organic Materials:</span> Products made with organic materials, such as organic cotton, fall into this category. To see what percentage of material is organic, check the tech specs toward the bottom of the product page.</p>\r\n<p>&nbsp;</p>\r\n<p><span class=\"body1Heavy\">Recycled/Repurposed:</span> Products made from recycled materials (e.g., plastic water bottles or down insulation) or repurposed material (e.g., nylon). Check the tech specs toward the bottom of the product page to see what percentage of material is recycled or repurposed.</p>\r\n<p>&nbsp;</p>\r\n<p><span class=\"body1Heavy\">Responsible Wool Standard: </span>Products that comply with an independent, voluntary benchmark that ensures sheep are treated ethically and that grazing lands are managed and protected using best practices.</p>\r\n<p><a href=\"https://responsiblewool.org/about-rws\">Learn more</a></p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p><span class=\"body1Heavy\">Responsible Down Standard: </span>Products that follow an independent, voluntary set of guidelines that ensures geese and ducks are not subjected to unnecessary harm, like live-plucking and force-feeding. RDS-certified products are made using 100% certified down.</p>\r\n<p><a href=\"https://responsibledown.org/\">Learn more</a></p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p><span class=\"body1Heavy\">Fair Trade Certified™:</span> Products made according to a set of strict social, economic, and environmental guidelines. The nonprofit Fair Trade USA establishes safe conditions and sustainable compensation for workers, while also protecting the environment.</p>\r\n<p><a href=\"https://www.fairtradecertified.org/\">Learn more</a><br>\r\n<br>\r\n</p>\r\n<p><i>Backcountry.com is protected by U.S. and international intellectual property laws worldwide. Backcountry.com and the Backcountry goat logo are registered trademarks of Backcountry.com, LLC. All other trademarks are the property of their respective owners.</i></p>\r\n",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

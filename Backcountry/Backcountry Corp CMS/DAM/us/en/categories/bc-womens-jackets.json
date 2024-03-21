@@ -1,0 +1,168 @@
+{
+    "jcr:created": "Mon Nov 13 2023 16:32:50 GMT+0000",
+    "jcr:createdBy": "steph.briggs@backcountry.com",
+    "jcr:primaryType": "cq:Page",
+    "jcr:content": {
+      "cq:lastReplicatedBy": "steph.briggs@backcountry.com",
+      "cq:lastReplicationAction": "Activate",
+      "cq:lastReplicatedBy_publish": "steph.briggs@backcountry.com",
+      "sling:resourceType": "baem/components/page",
+      "jcr:title": "Women's Jackets",
+      "jcr:uuid": "5086847d-38d6-41a9-a606-fd06dffe3e4f",
+      "cq:isDelivered": true,
+      "pageProperty_seo-toggle": "false",
+      "jcr:versionHistory": "3e14862e-9128-4da4-9dce-df6a4b82215b",
+      "cq:lastModifiedBy": "steph.briggs@backcountry.com",
+      "cq:template": "/conf/baem/settings/wcm/templates/plp-content",
+      "pageProperty_titleTag": "Women's Jackets",
+      "jcr:created": "Mon Nov 13 2023 16:32:50 GMT+0000",
+      "jcr:createdBy": "steph.briggs@backcountry.com",
+      "jcr:predecessors": [
+        "dbc76886-b988-41cb-8054-b130e964b8d7"
+      ],
+      "cq:lastReplicationAction_scene7": "Activate",
+      "jcr:isCheckedOut": true,
+      "jcr:mixinTypes": [
+        "mix:versionable",
+        "cq:ReplicationStatus2"
+      ],
+      "pageProperty_description": "Women's Jackets",
+      "cq:lastReplicationAction_publish": "Activate",
+      "cq:lastModified": "Mon Nov 13 2023 17:27:05 GMT+0000",
+      "cq:lastReplicatedBy_scene7": "steph.briggs@backcountry.com",
+      "jcr:primaryType": "cq:PageContent",
+      "cq:lastReplicated": "Mon Nov 13 2023 17:27:08 GMT+0000",
+      "cq:lastReplicated_publish": "Mon Nov 13 2023 17:27:08 GMT+0000",
+      "cq:lastReplicated_scene7": "Mon Nov 13 2023 17:27:08 GMT+0000",
+      "sling:vanityPath": "bc-womens-jackets",
+      "jcr:baseVersion": "dbc76886-b988-41cb-8054-b130e964b8d7",
+      "root": {
+        "layout": "responsiveGrid",
+        "sling:resourceType": "baem/components/container",
+        "jcr:primaryType": "nt:unstructured",
+        "container": {
+          "layout": "responsiveGrid",
+          "sling:resourceType": "baem/components/container",
+          "jcr:primaryType": "nt:unstructured",
+          "accordion": {
+            "jcr:created": "Mon Nov 13 2023 16:33:01 GMT+0000",
+            "jcr:lastModifiedBy": "steph.briggs@backcountry.com",
+            "jcr:createdBy": "steph.briggs@backcountry.com",
+            "sling:resourceType": "baem/components/accordion",
+            "singleExpansion": "false",
+            "jcr:lastModified": "Mon Nov 13 2023 17:27:05 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "item_1699893382147": {
+              "cq:panelTitle": "How should a jacket fit?",
+              "sling:resourceType": "baem/components/container",
+              "jcr:primaryType": "nt:unstructured",
+              "text": {
+                "jcr:created": "Mon Nov 13 2023 16:37:01 GMT+0000",
+                "jcr:lastModifiedBy": "steph.briggs@backcountry.com",
+                "jcr:createdBy": "steph.briggs@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Mon Nov 13 2023 16:37:59 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<p>Jacket fit depends on which role it will play in your layering system. Midlayers should fit snugly without impinging movement. Outer layers such as hardshells need to accomodate midlayers &amp; fleeces underneath without being too baggy.</p>\r\n"
+              }
+            },
+            "item_1699896294970": {
+              "cq:panelTitle": "How can you tell if a jacket fits?",
+              "sling:resourceType": "baem/components/container",
+              "jcr:primaryType": "nt:unstructured",
+              "text": {
+                "jcr:created": "Mon Nov 13 2023 17:25:41 GMT+0000",
+                "jcr:lastModifiedBy": "steph.briggs@backcountry.com",
+                "jcr:createdBy": "steph.briggs@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Mon Nov 13 2023 17:26:08 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<p>To make sure your jacket isn't too small, and your movement isn’t restricted, do some bending and twisting in your jacket to simulate movement. Depending on your style, your jacket can be as baggy or slim fitting as you’d like. </p>\r\n"
+              }
+            },
+            "item_1699896309396": {
+              "cq:panelTitle": "Should I size up in a jacket?",
+              "sling:resourceType": "baem/components/container",
+              "jcr:primaryType": "nt:unstructured",
+              "text": {
+                "jcr:created": "Mon Nov 13 2023 17:26:15 GMT+0000",
+                "jcr:lastModifiedBy": "steph.briggs@backcountry.com",
+                "jcr:createdBy": "steph.briggs@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Mon Nov 13 2023 17:26:44 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<p>The rule of thumb is usually to size up, especially if it is an insulated jacket. Shells with no insulation tend to run true to size. You'll want to try the jacket out at home with the layers you'll be wearing out to ensure a good fit. </p>\r\n"
+              }
+            },
+            "item_1699893678301": {
+              "cq:panelTitle": "What's the difference between a hard shell and soft shell jacket?",
+              "sling:resourceType": "baem/components/container",
+              "jcr:primaryType": "nt:unstructured",
+              "text": {
+                "jcr:created": "Mon Nov 13 2023 16:41:47 GMT+0000",
+                "jcr:lastModifiedBy": "steph.briggs@backcountry.com",
+                "jcr:createdBy": "steph.briggs@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Mon Nov 13 2023 17:24:18 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<p>Hardshell jackets are almost always waterproof and softshell jackets are usually not. Most people choose hardshell jackets for protection from harsh wet weather. Softshell jackets provide more airflow and stretch (plus a bit of wind &amp; water-resistance) and are therefore used for active, high-output activities.</p>\r\n<p>&nbsp;</p>\r\n<p><a href=\"https://www.backcountry.com/womens-rain-jackets\">Rain jackets</a> and <a href=\"https://www.backcountry.com/womens-ski-jackets\">ski jackets</a> are typically hard shell, while <a href=\"https://www.backcountry.com/womens-fleece-jackets\">fleece</a> is a type of soft shell jacket.</p>\r\n"
+              }
+            },
+            "item_1": {
+              "cq:panelTitle": "Should baselayers be tight or loose?",
+              "sling:resourceType": "baem/components/container",
+              "jcr:title": "Item 1",
+              "layout": "responsiveGrid",
+              "jcr:primaryType": "nt:unstructured",
+              "text": {
+                "jcr:created": "Mon Nov 13 2023 16:38:05 GMT+0000",
+                "jcr:lastModifiedBy": "steph.briggs@backcountry.com",
+                "jcr:createdBy": "steph.briggs@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Mon Nov 13 2023 16:38:54 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<p><a href=\"https://www.backcountry.com/womens-baselayers\">Baselayers</a> should have a snug, but comfortable, next-to-skin fit. They should not be overly loose or tight.</p>\r\n"
+              }
+            },
+            "item_2": {
+              "cq:panelTitle": "What is the warmest baselayer?",
+              "sling:resourceType": "baem/components/container",
+              "jcr:title": "Item 2",
+              "layout": "responsiveGrid",
+              "jcr:primaryType": "nt:unstructured",
+              "text": {
+                "jcr:created": "Mon Nov 13 2023 16:39:09 GMT+0000",
+                "jcr:lastModifiedBy": "steph.briggs@backcountry.com",
+                "jcr:createdBy": "steph.briggs@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Mon Nov 13 2023 16:39:52 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<p>Merino wool is the warmest baselayer material. If merino is not for you, synthetic grid fleece is the next warmest.</p>\r\n"
+              }
+            },
+            "item_1699893258177": {
+              "cq:panelTitle": "Are baselayers the same as leggings?",
+              "sling:resourceType": "baem/components/container",
+              "jcr:primaryType": "nt:unstructured",
+              "text": {
+                "jcr:created": "Mon Nov 13 2023 16:40:07 GMT+0000",
+                "jcr:lastModifiedBy": "steph.briggs@backcountry.com",
+                "jcr:createdBy": "steph.briggs@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Mon Nov 13 2023 16:40:35 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<p>Generally speaking, baselayers and leggings are not the same. Baselayers are made of moisture-wicking fabrics that have thermal properties. Most leggings are not made with fabric meant to insulate like baselayers, especially in the cold. Whether you need specific baselayer bottoms or leggings underneath your jacket depends on what the leggings are made of and how cold it is going to be.</p>\r\n"
+              }
+            }
+          }
+        }
+      }
+    }
+  }

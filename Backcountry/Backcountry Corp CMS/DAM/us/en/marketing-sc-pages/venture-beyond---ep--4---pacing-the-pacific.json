@@ -1,0 +1,626 @@
+{
+  "jcr:created": "Tue Oct 10 2023 15:31:12 GMT+0000",
+  "jcr:createdBy": "kzylstra@backcountry.com",
+  "jcr:primaryType": "cq:Page",
+  "jcr:content": {
+    "cq:lastReplicatedBy": "kzylstra@backcountry.com",
+    "cq:lastReplicationAction": "Activate",
+    "cq:lastReplicatedBy_publish": "kzylstra@backcountry.com",
+    "sling:resourceType": "baem/components/page",
+    "jcr:uuid": "72f49c4c-0060-47e8-ba58-1cff45911e2a",
+    "jcr:title": "Venture Beyond | Ep. 4 | Pacing The Pacific",
+    "cq:isDelivered": true,
+    "pageProperty_seo-toggle": "true",
+    "jcr:versionHistory": "f19f3fbe-4054-4fca-86e9-427312b732aa",
+    "cq:lastModifiedBy": "kzylstra@backcountry.com",
+    "cq:template": "/conf/baem/settings/wcm/templates/page-content",
+    "pageProperty_titleTag": "Venture Beyond | Ep. 4 | Pacing The Pacific",
+    "jcr:created": "Tue Oct 10 2023 15:31:12 GMT+0000",
+    "jcr:createdBy": "kzylstra@backcountry.com",
+    "jcr:predecessors": ["7539cce1-4ce2-48f6-8c2a-77de187df223"],
+    "jcr:isCheckedOut": true,
+    "jcr:mixinTypes": ["mix:versionable", "cq:ReplicationStatus2"],
+    "pageProperty_description": "Ultrarunner Karel Sabbe just reclaimed the PCT speed record, and we caught it all on film. Watch the trials—and triumphs—in this full-length documentary, presented by On. ",
+    "cq:lastReplicationAction_publish": "Activate",
+    "cq:lastModified": "Mon Oct 23 2023 17:17:24 GMT+0000",
+    "jcr:primaryType": "cq:PageContent",
+    "cq:lastReplicated": "Tue Oct 24 2023 18:00:01 GMT+0000",
+    "cq:lastReplicated_publish": "Tue Oct 24 2023 18:00:01 GMT+0000",
+    "sling:vanityPath": "venture-beyond-episode-4",
+    "jcr:baseVersion": "7539cce1-4ce2-48f6-8c2a-77de187df223",
+    "root": {
+      "layout": "responsiveGrid",
+      "sling:resourceType": "baem/components/container",
+      "jcr:primaryType": "nt:unstructured",
+      "container": {
+        "layout": "responsiveGrid",
+        "sling:resourceType": "baem/components/container",
+        "jcr:primaryType": "nt:unstructured",
+        "title": {
+          "sling:resourceType": "baem/components/title",
+          "jcr:primaryType": "nt:unstructured"
+        },
+        "container": {
+          "layout": "responsiveGrid",
+          "sling:resourceType": "baem/components/container",
+          "jcr:primaryType": "nt:unstructured",
+          "teaser_copy": {
+            "aspect_ratio": "3:1",
+            "controls": "false",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/teaser",
+            "styleName": "card",
+            "assetList": "images",
+            "backgroundcolor": "blank",
+            "loop": "true",
+            "poster_aspect_ratio": "original",
+            "muted": "true",
+            "cq:styleIds": ["1657877310615"],
+            "jcr:created": "Thu Aug 31 2023 02:03:13 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "alt": "Pacing The Pacific",
+            "autoplay": "true",
+            "actionsEnabled": "false",
+            "jcr:lastModified": "Mon Oct 23 2023 17:17:24 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "fileReference": "/content/dam/bcs/projects/bc23_0341_venture-beyond_ep5/landing-pages/PacingThePacific_Hero_3.1.jpg"
+          },
+          "text_copy_copy": {
+            "jcr:created": "Thu Aug 31 2023 01:29:53 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/text",
+            "jcr:lastModified": "Tue Oct 10 2023 17:07:16 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "<p style=\"text-align: center;\"><span class=\"title4Brand\">Ep. 4 | Pacing The Pacific</span></p>\r\n<p style=\"text-align: center;\">&nbsp;</p>\r\n<p style=\"text-align: center;\"><span class=\"body2\">What happens when your unchallenged speed record of the 2,650-mile Pacific Crest Trail is finally taken? If your name is Karel Sabbe, you vie to take it back. Watch the trials—and triumphs—in our full-length documentary, presented by <a href=\"https://www.backcountry.com/on-footwear\">On</a>.</span></p>\r\n",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "spacer_copy_copy": {
+            "jcr:created": "Thu Aug 31 2023 02:11:39 GMT+0000",
+            "jcr:lastModifiedBy": "ghopkins@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "64",
+            "pixels_large": "64",
+            "pixels_medium": "64",
+            "jcr:lastModified": "Thu Aug 31 2023 02:11:49 GMT+0000",
+            "pixels_small": "64",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "64"
+          },
+          "customembed_copy_cop": {
+            "embeddableResourceType": "baem/components/customembed/embeddable/youtube",
+            "jcr:created": "Tue Jun 13 2023 23:49:04 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/customembed",
+            "type": "embeddable",
+            "background_color": "white",
+            "youtubeVideoId": "IeGFmm4Krho",
+            "jcr:lastModified": "Tue Oct 10 2023 15:53:35 GMT+0000",
+            "jcr:primaryType": "nt:unstructured"
+          },
+          "spacer_copy_28976442": {
+            "jcr:created": "Thu Aug 31 2023 02:11:39 GMT+0000",
+            "jcr:lastModifiedBy": "ghopkins@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "64",
+            "pixels_large": "64",
+            "pixels_medium": "64",
+            "jcr:lastModified": "Thu Aug 31 2023 02:11:49 GMT+0000",
+            "pixels_small": "64",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "64"
+          },
+          "text_copy": {
+            "jcr:created": "Thu Aug 31 2023 02:07:30 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/text",
+            "jcr:lastModified": "Tue Oct 10 2023 16:16:42 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "<p style=\"text-align: center;\"><span class=\"title3\">Chasing The Limits</span></p>\r\n<p style=\"text-align: center;\">&nbsp;</p>\r\n<p style=\"text-align: center;\"><span class=\"body2\">Running in the mountains is where Karel Sabbe feels his happiest. Professionally, he’s a dentist, but pursuit-ally, he’s an ultrarunner. The On athlete is known for his epic feats, tackling monster hikes and doing them faster than anyone thought was possible.&nbsp;</span></p>\r\n<p style=\"text-align: center;\"><span class=\"body2\">&nbsp;</span></p>\r\n<p style=\"text-align: center;\"><span class=\"body2\">His latest venture—snagging the speed record for a supported run of the 2,650-mile PCT—is actually a repeat. Seven years after he snagged the record the first time, he returned to do it again.</span></p>\r\n",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "2",
+                "width": "8",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "spacer_copy_14926948": {
+            "jcr:created": "Thu Aug 31 2023 02:11:39 GMT+0000",
+            "jcr:lastModifiedBy": "ghopkins@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "64",
+            "pixels_large": "64",
+            "pixels_medium": "64",
+            "jcr:lastModified": "Thu Aug 31 2023 02:11:49 GMT+0000",
+            "pixels_small": "64",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "64"
+          },
+          "teaser_728633766_cop": {
+            "aspect_ratio": "2:1",
+            "controls": "false",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/teaser",
+            "styleName": "card",
+            "assetList": "images",
+            "backgroundcolor": "blank",
+            "loop": "true",
+            "poster_aspect_ratio": "original",
+            "muted": "true",
+            "cq:styleIds": ["1657877310615"],
+            "jcr:created": "Thu Aug 31 2023 02:08:53 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "alt": "A man runs through the forest on a trail.",
+            "autoplay": "true",
+            "actionsEnabled": "false",
+            "jcr:lastModified": "Tue Oct 10 2023 15:58:45 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "fileReference": "/content/dam/bcs/projects/bc23_0367_mdf_on-running-fall-trail_pacing-the-pacific-venture-beyond-ep--4-karl-sabbe/Karel2_1.jpg",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "8",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "teaser_1576039640_co": {
+            "aspect_ratio": "1:1",
+            "controls": "false",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/teaser",
+            "styleName": "card",
+            "assetList": "images",
+            "backgroundcolor": "blank",
+            "loop": "true",
+            "poster_aspect_ratio": "original",
+            "muted": "true",
+            "cq:styleIds": ["1657877310615"],
+            "jcr:created": "Thu Aug 31 2023 02:10:02 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "alt": "Film stats overlay a photo of Karel running a section of trail in California. The Crew: Karel Sabbe, ultrarunner & On athlete. The Location: The Pacific Crest Trail. The Distance: 2,650 miles. The times to beat: 51 days, 16 hours, 55 min (Timothy Olson, 2021) & 52 days, 8 hours, 25 min (Karel Sabbe, 2016). The New FKT: 46 days, 12 hours, 50 min. The Shoes Worn: 2 Cloudultra 2, 2 Cloudsurfer, 1 Cloudmonster. ",
+            "autoplay": "true",
+            "actionsEnabled": "false",
+            "jcr:lastModified": "Tue Oct 10 2023 15:59:42 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "fileReference": "/content/dam/bcs/projects/bc23_0367_mdf_on-running-fall-trail_pacing-the-pacific-venture-beyond-ep--4-karl-sabbe/Karel1_1.jpg",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "spacer_copy": {
+            "jcr:created": "Thu Aug 31 2023 02:11:39 GMT+0000",
+            "jcr:lastModifiedBy": "ghopkins@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "40",
+            "pixels_large": "40",
+            "pixels_medium": "40",
+            "jcr:lastModified": "Sat Sep 02 2023 19:47:35 GMT+0000",
+            "pixels_small": "40",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "40"
+          },
+          "text_1490779931_copy": {
+            "jcr:created": "Thu Aug 31 2023 20:20:55 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/text",
+            "jcr:lastModified": "Tue Oct 10 2023 16:08:19 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "<p><span class=\"title2Heavy\">Related Content</span></p>\r\n"
+          },
+          "spacer_copy_75967949": {
+            "jcr:created": "Thu Aug 31 2023 02:11:39 GMT+0000",
+            "jcr:lastModifiedBy": "ghopkins@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "16",
+            "pixels_large": "16",
+            "pixels_medium": "16",
+            "jcr:lastModified": "Thu Aug 31 2023 20:21:48 GMT+0000",
+            "pixels_small": "16",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "16"
+          },
+          "teaser_192292225_cop": {
+            "aspect_ratio": "4:3",
+            "controls": "false",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/teaser",
+            "styleName": "card",
+            "assetList": "images",
+            "promotionId": "202308_VentureBeyond_service-fly-fishing-guide",
+            "backgroundcolor": "blank",
+            "promotionName": "202308_VentureBeyond_service-fly-fishing-guide",
+            "loop": "true",
+            "poster_aspect_ratio": "original",
+            "muted": "true",
+            "cq:styleIds": ["1657877310615"],
+            "jcr:created": "Thu Aug 31 2023 02:12:06 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "alt": "A blurred motion shot of Karel from behind.",
+            "autoplay": "true",
+            "actionsEnabled": "true",
+            "jcr:description": "<p><span style=\"font-size: 24.0px;\"><b><span class=\"title2Heavy\">Feeling Inspired?</span></b></span></p>\r\n<p><span class=\"title1\">Read Our Intro To Trail Running</span></p>\r\n",
+            "jcr:lastModified": "Tue Oct 10 2023 16:35:58 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "fileReference": "/content/dam/bcs/projects/bc23_0367_mdf_on-running-fall-trail_pacing-the-pacific-venture-beyond-ep--4-karl-sabbe/ExploreBlog4_3.jpg",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "6",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            },
+            "actions": {
+              "jcr:primaryType": "nt:unstructured",
+              "item0": {
+                "link": "https://www.backcountry.com/explore/intro-to-trail-running",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Learn More",
+                "variation": "brand"
+              }
+            }
+          },
+          "teaser_192292225_cop_115913374": {
+            "aspect_ratio": "4:3",
+            "controls": "false",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/teaser",
+            "styleName": "card",
+            "assetList": "images",
+            "backgroundcolor": "blank",
+            "loop": "true",
+            "poster_aspect_ratio": "original",
+            "muted": "true",
+            "cq:styleIds": ["1657877310615"],
+            "jcr:created": "Thu Aug 31 2023 02:12:06 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "alt": "Karel adjusts a pair of On Cloudmonsters.",
+            "autoplay": "true",
+            "actionsEnabled": "true",
+            "jcr:description": "<p><span class=\"title2Heavy\">Get The Gear</span></p>\r\n<p><span class=\"title1\">Karel&#39;s Kit, Outfitted By On</span></p>\r\n",
+            "jcr:lastModified": "Tue Oct 10 2023 17:07:29 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "fileReference": "/content/dam/bcs/projects/bc23_0367_mdf_on-running-fall-trail_pacing-the-pacific-venture-beyond-ep--4-karl-sabbe/TrailRun4_3.jpg",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "0",
+                "width": "6",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "0",
+                "width": "12",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            },
+            "actions": {
+              "jcr:primaryType": "nt:unstructured",
+              "item0": {
+                "link": "https://www.backcountry.com/on-footwear",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "Learn More",
+                "variation": "brand"
+              }
+            }
+          },
+          "spacer_copy_13438898": {
+            "jcr:created": "Thu Aug 31 2023 02:11:39 GMT+0000",
+            "jcr:lastModifiedBy": "ghopkins@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "40",
+            "pixels_large": "40",
+            "pixels_medium": "40",
+            "jcr:lastModified": "Sat Sep 02 2023 19:47:42 GMT+0000",
+            "pixels_small": "40",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "40"
+          },
+          "carousel_copy_copy_c": {
+            "horizontalscroll_large": "true",
+            "numberOfVisibleItems_large": "3",
+            "textIsRich": "true",
+            "horizontalscroll_default": "true",
+            "sling:resourceType": "baem/components/carousel",
+            "accessibilityAutoItemTitles": "false",
+            "numberOfVisibleItems_medium": "3",
+            "carousel_title": "<p><span class=\"title2Heavy\">More Episodes</span></p>\r\n",
+            "jcr:created": "Thu Aug 31 2023 02:26:10 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "numberOfVisibleItems_small": "2",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "horizontalscroll_medium": "true",
+            "horizontalscroll_small": "true",
+            "horizontalscroll_base": "true",
+            "jcr:lastModified": "Mon Oct 23 2023 17:08:53 GMT+0000",
+            "numberOfVisibleItems_default": "3",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "left",
+            "numberOfVisibleItems_base": "2",
+            "teaser_208484305": {
+              "aspect_ratio": "4:3",
+              "controls": "false",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/teaser",
+              "styleName": "card",
+              "assetList": "images",
+              "backgroundcolor": "blank",
+              "loop": "true",
+              "poster_aspect_ratio": "original",
+              "muted": "true",
+              "cq:styleIds": ["1657877310615"],
+              "jcr:created": "Mon Oct 23 2023 16:27:04 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "alt": "An epic scene of Nils Mindnich mid-flight on a snowboard. Utah’s Little Cottonwood Canyon stretches in the background.",
+              "cq:panelTitle": "Ep. 5",
+              "autoplay": "true",
+              "actionsEnabled": "true",
+              "jcr:description": "<p><span class=\"title2Heavy\">Ep. 5 | Mind The Gap</span></p>\r\n<p><span class=\"title1\">Nils Mindnich Takes On Chad’s Gap</span></p>\r\n",
+              "jcr:lastModified": "Mon Oct 23 2023 16:38:42 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "alignment": "left",
+              "fileReference": "/content/dam/bcs/projects/bc23_0341_venture-beyond_ep5/landing-pages/ChadsGap_4.3.jpg",
+              "actions": {
+                "jcr:primaryType": "nt:unstructured",
+                "item0": {
+                  "link": "/service/venture-beyond-episode-5",
+                  "jcr:primaryType": "nt:unstructured",
+                  "text": "Watch Ep. 5",
+                  "variation": "brand"
+                }
+              }
+            },
+            "teaser": {
+              "aspect_ratio": "4:3",
+              "controls": "false",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/teaser",
+              "styleName": "card",
+              "assetList": "images",
+              "backgroundcolor": "blank",
+              "loop": "true",
+              "poster_aspect_ratio": "original",
+              "muted": "true",
+              "cq:styleIds": ["1657877310615"],
+              "jcr:created": "Tue Oct 10 2023 17:46:03 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "kzylstra@backcountry.com",
+              "alt": "Film poster for Pacing The Pacific, featuring a Karel Sabbe in profile and a map of the Pacific Crest Trail.",
+              "cq:panelTitle": "Ep. 4",
+              "autoplay": "true",
+              "actionsEnabled": "true",
+              "jcr:description": "<p><span class=\"title2Heavy\">Ep. 4 | Pacing The Pacific</span></p>\r\n<p><span class=\"title1\">1 Man, 2650 Miles &amp; 1 FKT To Reclaim</span></p>\r\n",
+              "jcr:lastModified": "Mon Oct 23 2023 17:10:24 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "alignment": "left",
+              "fileReference": "/content/dam/bcs/projects/bc23_0341_venture-beyond_ep5/landing-pages/PacingThePacific_4.3.jpg",
+              "actions": {
+                "jcr:primaryType": "nt:unstructured",
+                "item0": {
+                  "link": "/service/venture-beyond-episode-4",
+                  "jcr:primaryType": "nt:unstructured",
+                  "text": "Watch Ep. 4",
+                  "variation": "brand"
+                }
+              }
+            },
+            "teaser_1424881688_co": {
+              "aspect_ratio": "4:3",
+              "controls": "false",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/teaser",
+              "styleName": "card",
+              "assetList": "images",
+              "promotionId": "202308_VentureBeyond_service-venture-beyond-episode-3",
+              "backgroundcolor": "blank",
+              "promotionName": "202308_VentureBeyond_service-venture-beyond-episode-3",
+              "loop": "true",
+              "poster_aspect_ratio": "original",
+              "muted": "true",
+              "cq:styleIds": ["1657877310615"],
+              "jcr:created": "Thu Aug 31 2023 01:31:21 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "ghopkins@backcountry.com",
+              "alt": "Shy On The Fly",
+              "cq:panelTitle": "Ep. 3",
+              "autoplay": "true",
+              "actionsEnabled": "true",
+              "jcr:description": "<p><span class=\"title2Heavy\">Ep. 3 | Shy On The Fly</span></p>\r\n<p><span class=\"title1\">A Life (And Fishing) Story</span></p>\r\n",
+              "jcr:lastModified": "Mon Oct 23 2023 17:11:20 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "alignment": "left",
+              "fileReference": "/content/dam/bcs/projects/bc23_0341_venture-beyond_ep5/landing-pages/Shy_4.3.jpg",
+              "cq:responsive": {
+                "jcr:primaryType": "nt:unstructured",
+                "default": {
+                  "offset": "0",
+                  "width": "4",
+                  "jcr:primaryType": "nt:unstructured"
+                }
+              },
+              "actions": {
+                "jcr:primaryType": "nt:unstructured",
+                "item0": {
+                  "link": "/service/venture-beyond-episode-3",
+                  "jcr:primaryType": "nt:unstructured",
+                  "text": "Watch Ep. 3",
+                  "variation": "brand"
+                }
+              }
+            },
+            "teaser_1424881688_co_499012617": {
+              "aspect_ratio": "4:3",
+              "controls": "false",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/teaser",
+              "styleName": "card",
+              "assetList": "images",
+              "promotionId": "202308_VentureBeyond_service-venture-beyond-episode-2",
+              "backgroundcolor": "blank",
+              "promotionName": "202308_VentureBeyond_service-venture-beyond-episode-2",
+              "loop": "true",
+              "poster_aspect_ratio": "original",
+              "muted": "true",
+              "cq:styleIds": ["1657877310615"],
+              "jcr:created": "Thu Aug 31 2023 01:31:21 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "ghopkins@backcountry.com",
+              "alt": "An Ocean of Colors",
+              "cq:panelTitle": "Ep. 2",
+              "autoplay": "true",
+              "actionsEnabled": "true",
+              "jcr:description": "<p><span class=\"title2Heavy\">Ep. 2 | An Ocean Of Colors</span></p>\r\n<p><span class=\"title1\">Carving Community Out Of Water</span></p>\r\n",
+              "jcr:lastModified": "Mon Oct 23 2023 17:11:51 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "alignment": "left",
+              "fileReference": "/content/dam/bcs/projects/bc23_0341_venture-beyond_ep5/landing-pages/Mario_4.3.jpg",
+              "cq:responsive": {
+                "jcr:primaryType": "nt:unstructured",
+                "default": {
+                  "offset": "0",
+                  "width": "4",
+                  "jcr:primaryType": "nt:unstructured"
+                }
+              },
+              "actions": {
+                "jcr:primaryType": "nt:unstructured",
+                "item0": {
+                  "link": "/service/venture-beyond-episode-2",
+                  "jcr:primaryType": "nt:unstructured",
+                  "text": "Watch Ep. 2",
+                  "variation": "brand"
+                }
+              }
+            },
+            "teaser_1424881688_co_711097876": {
+              "aspect_ratio": "4:3",
+              "controls": "false",
+              "textIsRich": "true",
+              "sling:resourceType": "baem/components/teaser",
+              "styleName": "card",
+              "assetList": "images",
+              "promotionId": "202308_VentureBeyond_service-venture-beyond-episode-1",
+              "backgroundcolor": "blank",
+              "promotionName": "202308_VentureBeyond_service-venture-beyond-episode-1",
+              "loop": "true",
+              "poster_aspect_ratio": "original",
+              "muted": "true",
+              "cq:styleIds": ["1657877310615"],
+              "jcr:created": "Thu Aug 31 2023 01:31:21 GMT+0000",
+              "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+              "jcr:createdBy": "ghopkins@backcountry.com",
+              "alt": "Taming The Wolverine",
+              "cq:panelTitle": "Ep. 1",
+              "autoplay": "true",
+              "actionsEnabled": "true",
+              "jcr:description": "<p><span class=\"title2Heavy\">Ep. 1 | Taming The Wolverine</span></p>\r\n<p><span class=\"title1\">An Unshakeable Freeskiing Objective</span></p>\r\n",
+              "jcr:lastModified": "Mon Oct 23 2023 17:12:17 GMT+0000",
+              "jcr:primaryType": "nt:unstructured",
+              "alignment": "left",
+              "fileReference": "/content/dam/bcs/projects/bc23_0341_venture-beyond_ep5/landing-pages/Wolverine_4.3.jpg",
+              "cq:responsive": {
+                "jcr:primaryType": "nt:unstructured",
+                "default": {
+                  "offset": "0",
+                  "width": "4",
+                  "jcr:primaryType": "nt:unstructured"
+                }
+              },
+              "actions": {
+                "jcr:primaryType": "nt:unstructured",
+                "item0": {
+                  "link": "/service/venture-beyond-episode-1",
+                  "jcr:primaryType": "nt:unstructured",
+                  "text": "Watch Ep. 1",
+                  "variation": "brand"
+                }
+              }
+            }
+          },
+          "spacer_copy_13438898_841451993": {
+            "jcr:created": "Thu Aug 31 2023 02:11:39 GMT+0000",
+            "jcr:lastModifiedBy": "ghopkins@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "sling:resourceType": "baem/components/spacer",
+            "pixels_default": "64",
+            "pixels_large": "64",
+            "pixels_medium": "64",
+            "jcr:lastModified": "Thu Aug 31 2023 02:11:49 GMT+0000",
+            "pixels_small": "64",
+            "jcr:primaryType": "nt:unstructured",
+            "pixels_base": "64"
+          },
+          "button_copy": {
+            "jcr:created": "Thu Aug 31 2023 02:31:56 GMT+0000",
+            "jcr:lastModifiedBy": "ghopkins@backcountry.com",
+            "jcr:createdBy": "ghopkins@backcountry.com",
+            "link": "/service/backcountry-venture-beyond",
+            "sling:resourceType": "baem/components/button",
+            "jcr:title": "Return To Home",
+            "promotionId": "202308_VentureBeyond_service-backcountry-venture-beyond",
+            "promotionName": "202308_VentureBeyond_service-backcountry-venture-beyond",
+            "jcr:lastModified": "Thu Aug 31 2023 02:34:25 GMT+0000",
+            "variant": "light",
+            "jcr:primaryType": "nt:unstructured",
+            "alignment": "center"
+          }
+        }
+      }
+    }
+  }
+}

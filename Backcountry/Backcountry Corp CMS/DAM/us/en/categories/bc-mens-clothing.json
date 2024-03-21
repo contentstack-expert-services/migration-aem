@@ -1,0 +1,123 @@
+{
+    "jcr:created": "Mon Nov 06 2023 19:18:51 GMT+0000",
+    "jcr:createdBy": "svalenza@backcountry.com",
+    "jcr:primaryType": "cq:Page",
+    "jcr:content": {
+      "cq:lastReplicatedBy": "svalenza@backcountry.com",
+      "cq:lastReplicationAction": "Activate",
+      "cq:lastReplicatedBy_publish": "svalenza@backcountry.com",
+      "sling:resourceType": "baem/components/page",
+      "jcr:uuid": "9450a264-10bb-4bef-b256-5fbbb1b268a4",
+      "jcr:title": "Men's Clothing",
+      "cq:isDelivered": true,
+      "pageProperty_seo-toggle": "false",
+      "jcr:versionHistory": "d360835c-bdc7-4709-95b8-40764e78f0a4",
+      "cq:lastModifiedBy": "svalenza@backcountry.com",
+      "cq:template": "/conf/baem/settings/wcm/templates/plp-content",
+      "pageProperty_titleTag": "Men's Clothing",
+      "jcr:created": "Mon Nov 06 2023 19:18:51 GMT+0000",
+      "jcr:createdBy": "svalenza@backcountry.com",
+      "jcr:predecessors": [
+        "b288b1f5-5fca-4ae8-8509-901247237d07"
+      ],
+      "cq:lastReplicationAction_scene7": "Activate",
+      "jcr:isCheckedOut": true,
+      "jcr:mixinTypes": [
+        "mix:versionable",
+        "cq:ReplicationStatus2"
+      ],
+      "pageProperty_description": "Men's Clothing",
+      "cq:lastReplicationAction_publish": "Activate",
+      "cq:lastModified": "Mon Nov 06 2023 19:34:56 GMT+0000",
+      "cq:lastReplicatedBy_scene7": "svalenza@backcountry.com",
+      "jcr:primaryType": "cq:PageContent",
+      "cq:lastReplicated": "Mon Nov 06 2023 19:35:21 GMT+0000",
+      "cq:lastReplicated_publish": "Mon Nov 06 2023 19:35:21 GMT+0000",
+      "cq:lastReplicated_scene7": "Mon Nov 06 2023 19:35:21 GMT+0000",
+      "sling:vanityPath": "backcountry.com/mens-clothing",
+      "jcr:baseVersion": "b288b1f5-5fca-4ae8-8509-901247237d07",
+      "root": {
+        "layout": "responsiveGrid",
+        "sling:resourceType": "baem/components/container",
+        "jcr:primaryType": "nt:unstructured",
+        "container": {
+          "layout": "responsiveGrid",
+          "sling:resourceType": "baem/components/container",
+          "jcr:primaryType": "nt:unstructured",
+          "accordion": {
+            "jcr:created": "Mon Nov 06 2023 19:19:01 GMT+0000",
+            "jcr:lastModifiedBy": "svalenza@backcountry.com",
+            "jcr:createdBy": "svalenza@backcountry.com",
+            "sling:resourceType": "baem/components/accordion",
+            "singleExpansion": "false",
+            "jcr:lastModified": "Mon Nov 06 2023 19:27:08 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "item_1": {
+              "cq:panelTitle": "How should you choose your clothes? ",
+              "sling:resourceType": "baem/components/container",
+              "jcr:title": "Item 1",
+              "layout": "responsiveGrid",
+              "jcr:primaryType": "nt:unstructured",
+              "text": {
+                "jcr:created": "Mon Nov 06 2023 19:24:13 GMT+0000",
+                "jcr:lastModifiedBy": "svalenza@backcountry.com",
+                "jcr:createdBy": "svalenza@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Mon Nov 06 2023 19:26:49 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<p>For outdoor recreation clothing, consider the season and the region. Summer in the East is hot and humid, so look for clothes made with lightweight, moisture-wicking fabrics, such as polyester. Parts of the west coast have morning fog, so a lightweight, <a href=\"https://www.backcountry.com/mens-rain-jackets\">packable rain jacket</a> is useful. <a href=\"https://www.backcountry.com/mens-long-sleeve-performance-shirts\">Sun hoodies</a> are always a good choice, especially for high-altitude regions. Last, take in what you feel comfortable in and your personal style while taking advantage of our return policy to see if different styles work for you.</p>\r\n"
+              }
+            },
+            "item_2": {
+              "cq:panelTitle": "What is a popular outdoor style for men to dress in? ",
+              "sling:resourceType": "baem/components/container",
+              "jcr:title": "Item 2",
+              "layout": "responsiveGrid",
+              "jcr:primaryType": "nt:unstructured",
+              "text": {
+                "jcr:created": "Mon Nov 06 2023 19:33:01 GMT+0000",
+                "jcr:lastModifiedBy": "svalenza@backcountry.com",
+                "jcr:createdBy": "svalenza@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Mon Nov 06 2023 19:34:56 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<p>A popular outdoor style for men combines <a href=\"https://www.backcountry.com/mens-activewear\">athleisure and functional fashion</a>. It includes moisture-wicking fabrics, versatile layering, and earthy tones. The goal is to blend outdoor practicality with a stylish urban look, allowing men to stay comfortable and fashionable while enjoying both the outdoors and city life.</p>\r\n"
+              }
+            },
+            "item_1699298380595": {
+              "cq:panelTitle": "How do you find your outdoor clothes style?  ",
+              "sling:resourceType": "baem/components/container",
+              "jcr:primaryType": "nt:unstructured",
+              "text": {
+                "jcr:created": "Mon Nov 06 2023 19:27:27 GMT+0000",
+                "jcr:lastModifiedBy": "svalenza@backcountry.com",
+                "jcr:createdBy": "svalenza@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Mon Nov 06 2023 19:32:14 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<div>Four steps to better outdoor style for men:</div>\r\n<ol>\r\n<li><b>Self-assessment</b>: Identify your outdoor preferences and comfort level.</li>\r\n<li><b>Dress for the Occasion</b>: Select clothing and footwear suitable for the outdoor activities you plan to pursue. Consider the climate, season, and potential weather conditions.</li>\r\n<li><b>Experiment and Adapt</b>: Try different gear and clothing, prioritize comfort, safety, and eco-friendly choices, and be open to evolving your style over time.</li>\r\n<li><b>Seek Expert Advice</b>:&nbsp;Consult with outdoor experts, like our <a href=\"https://www.backcountry.com/service/backcountry-gearheads\">Gearheads</a>, for personalized recommendations based on your needs.</li>\r\n</ol>\r\n"
+              }
+            },
+            "item_1699298629891": {
+              "cq:panelTitle": "What is Backcountry's return policy? ",
+              "sling:resourceType": "baem/components/container",
+              "jcr:primaryType": "nt:unstructured",
+              "text": {
+                "jcr:created": "Mon Nov 06 2023 19:31:41 GMT+0000",
+                "jcr:lastModifiedBy": "svalenza@backcountry.com",
+                "jcr:createdBy": "svalenza@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Mon Nov 06 2023 19:32:01 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<p><a href=\"https://www.backcountry.com/service/bc-returnguarantee\">Backcountry's return policy</a> offers a 30-day window for returns, ensuring customer satisfaction with outdoor equipment purchases. Items must be in unused condition with original packaging, and certain exclusions apply. They provide easy returns through their website, making the process convenient and hassle-free for their customers.</p>\r\n"
+              }
+            }
+          }
+        }
+      }
+    }
+  }

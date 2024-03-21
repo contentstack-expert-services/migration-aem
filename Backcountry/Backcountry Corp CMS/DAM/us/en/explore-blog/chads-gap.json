@@ -1,0 +1,426 @@
+{
+  "jcr:created": "Wed Nov 01 2023 21:56:24 GMT+0000",
+  "jcr:createdBy": "bhedges@backcountry.com",
+  "jcr:primaryType": "cq:Page",
+  "jcr:content": {
+    "cq:lastReplicatedBy": "kzylstra@backcountry.com",
+    "cq:lastReplicationAction": "Activate",
+    "cq:lastReplicatedBy_publish": "kzylstra@backcountry.com",
+    "sling:resourceType": "baem/components/page",
+    "jcr:uuid": "30c42566-ba20-4ad7-bbd8-d97770724ccf",
+    "jcr:title": "The Nils Mindnich & Chad's Gap Story",
+    "cq:isDelivered": true,
+    "pageProperty_seo-toggle": "true",
+    "jcr:versionHistory": "5d40afa0-2d4d-41ca-a1cb-e334c6809338",
+    "cq:lastModifiedBy": "kzylstra@backcountry.com",
+    "cq:template": "/conf/baem/settings/wcm/templates/page-content",
+    "pageProperty_titleTag": "Nils Mindnich & Chad's Gap | Backcountry.com ",
+    "jcr:created": "Wed Nov 01 2023 21:56:24 GMT+0000",
+    "jcr:createdBy": "bhedges@backcountry.com",
+    "jcr:predecessors": ["66abf2fc-5d4b-4ae6-9b76-e57b5038bde2"],
+    "jcr:isCheckedOut": true,
+    "jcr:mixinTypes": ["mix:versionable", "cq:ReplicationStatus2"],
+    "pageProperty_description": "Read the story of how Backcountry Podcast host and professional snowboarder, Nils Mindnich, makes his mark on the iconic backcountry jump known as Chad’s Gap.  ",
+    "cq:lastReplicationAction_publish": "Activate",
+    "cq:lastModified": "Thu Nov 09 2023 20:45:54 GMT+0000",
+    "jcr:primaryType": "cq:PageContent",
+    "cq:lastReplicated": "Thu Nov 09 2023 20:46:20 GMT+0000",
+    "cq:lastReplicated_publish": "Thu Nov 09 2023 20:46:20 GMT+0000",
+    "sling:vanityPath": "nils-mindnich-chads-gap",
+    "jcr:baseVersion": "66abf2fc-5d4b-4ae6-9b76-e57b5038bde2",
+    "root": {
+      "layout": "responsiveGrid",
+      "sling:resourceType": "baem/components/container",
+      "jcr:primaryType": "nt:unstructured",
+      "container": {
+        "layout": "responsiveGrid",
+        "sling:resourceType": "baem/components/container",
+        "jcr:primaryType": "nt:unstructured",
+        "title": {
+          "sling:resourceType": "baem/components/title",
+          "jcr:primaryType": "nt:unstructured"
+        },
+        "container": {
+          "jcr:lastModifiedBy": "bhedges@backcountry.com",
+          "sling:resourceType": "baem/components/container",
+          "layout": "responsiveGrid",
+          "jcr:lastModified": "Thu Nov 02 2023 18:11:06 GMT+0000",
+          "jcr:primaryType": "nt:unstructured",
+          "alignment": "left",
+          "image": {
+            "aspect_ratio": "3:1",
+            "jcr:created": "Thu Nov 02 2023 15:39:45 GMT+0000",
+            "jcr:lastModifiedBy": "bhedges@backcountry.com",
+            "jcr:createdBy": "bhedges@backcountry.com",
+            "alt": "Nils soars over Chad's Gap.",
+            "sling:resourceType": "baem/components/image",
+            "jcr:lastModified": "Thu Nov 02 2023 17:52:45 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "fileReference": "/content/dam/bcs/projects/bc23_0341_venture-beyond_ep5/landing-pages/MTG_Hero_3.1.jpg"
+          },
+          "text_773687122_copy": {
+            "jcr:created": "Fri Oct 27 2023 16:53:11 GMT+0000",
+            "jcr:lastModifiedBy": "bhedges@backcountry.com",
+            "jcr:createdBy": "alwright@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/text",
+            "jcr:lastModified": "Wed Nov 08 2023 18:00:14 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "<h1 style=\"text-align: center;\">&nbsp;</h1>\r\n<h1 style=\"text-align: center;\"><br>\r\n<span class=\"title4Heavy\">What Makes Sense</span></h1>\r\n<p style=\"text-align: center;\">&nbsp;</p>\r\n<h2 style=\"text-align: center;\"><span class=\"title2\">Nils Mindnich &amp; Chad's Gap</span></h2>\r\n",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "2",
+                "width": "8",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "text_773687122_copy_": {
+            "jcr:created": "Fri Oct 27 2023 16:53:11 GMT+0000",
+            "jcr:lastModifiedBy": "bhedges@backcountry.com",
+            "jcr:createdBy": "alwright@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/text",
+            "jcr:lastModified": "Wed Nov 08 2023 18:00:24 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "<h1 style=\"text-align: center;\">&nbsp;</h1>\r\n<h1 style=\"text-align: center;\">&nbsp;</h1>\r\n<h2 style=\"text-align: center;\"><span class=\"title2Heavy\">Chad's Gap</span></h2>\r\n<h2 style=\"text-align: center;\">&nbsp;</h2>\r\n",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "2",
+                "width": "8",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "text_260635330_copy": {
+            "jcr:created": "Fri Oct 27 2023 16:33:11 GMT+0000",
+            "jcr:lastModifiedBy": "bhedges@backcountry.com",
+            "jcr:createdBy": "alwright@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/text",
+            "jcr:lastModified": "Wed Nov 08 2023 17:59:28 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "<p>&nbsp;</p>\r\n<p>Near Alta, Utah, partway up a side canyon called Grizzly Gulch, sit two tailings piles, vestiges of Alta’s mining past. In the summer they look like a couple of large mounds of dirt. But when they’re covered beneath dozens of feet of snow, as they were in winter of 2023, these piles take on an appearance familiar to skiers and riders. &nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>“You look at it and it just sort of makes sense. There's the hill and there's the landing and there's the gap and the takeoff, right? All the pieces are there—you don't have to expand your imagination too far to think about jumping it.”&nbsp;&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>Backcountry Podcast host and professional snowboarder, Nils Mindnich, is, of course, describing the iconic 120-foot backcountry jump, Chad’s Gap.</p>\r\n<p>&nbsp;</p>\r\n<p>Chad Zurinskas, a local skier and climber in the Salt Lake area, was the first to try to fully realize the gap’s potential. On his first few attempts he didn’t clear the gap, but it was named after him anyway, in honor of his vision and effort. In 1999 Candide Thovex cleared the gap and landed cleanly, becoming the first skier to do so. &nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>“[Candide] and Travis Rice are some characters of their respective sports that were decades ahead of where everyone else was at.” Nils recalled of the late '90s and early '00s, when Candide first cleared the jump and Travis Rice, one of the greatest snowboarders of all time, pushed limits by sticking a futuristic-for-the-time backside rodeo 7. “And I think what really amplified the hype around it is that Tanner [Hall], one of the best skiers in the world at the time, has this terrible accident on it. It allowed everyone to see the consequences, to see how gnarly it was.”</p>\r\n<p>&nbsp;</p>\r\n<p>After watching skiers and riders hit Chad’s Gap throughout the early 2000s, creating iconic moments as they tried (and sometimes landed) progressive tricks, Nils felt it was time to make his mark.</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "customembed": {
+            "embeddableResourceType": "baem/components/customembed/embeddable/youtube",
+            "jcr:created": "Wed Nov 08 2023 17:57:22 GMT+0000",
+            "jcr:lastModifiedBy": "bhedges@backcountry.com",
+            "jcr:createdBy": "bhedges@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/customembed",
+            "type": "embeddable",
+            "background_color": "white",
+            "youtubeVideoId": "qBCcwWHJnxE",
+            "jcr:lastModified": "Wed Nov 08 2023 17:58:32 GMT+0000",
+            "jcr:primaryType": "nt:unstructured"
+          },
+          "text_773687122_copy__93054490": {
+            "jcr:created": "Fri Oct 27 2023 16:53:11 GMT+0000",
+            "jcr:lastModifiedBy": "bhedges@backcountry.com",
+            "jcr:createdBy": "alwright@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/text",
+            "jcr:lastModified": "Wed Nov 01 2023 22:10:04 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "<h3 style=\"text-align: center;\"><span class=\"title3\">&nbsp;</span></h3>\r\n<h3 style=\"text-align: center;\"><span class=\"title3\">&nbsp;</span></h3>\r\n<h2 style=\"text-align: center;\"><span class=\"title2Heavy\">The Nils Mindnich Story</span></h2>\r\n",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "2",
+                "width": "8",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "text_260635330_copy_": {
+            "jcr:created": "Fri Oct 27 2023 16:33:11 GMT+0000",
+            "jcr:lastModifiedBy": "bhedges@backcountry.com",
+            "jcr:createdBy": "alwright@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/text",
+            "jcr:lastModified": "Tue Nov 07 2023 23:36:04 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "<p>&nbsp;</p>\r\n<p>Nils Mindnich grew up in the small ski town of Stowe, Vermont, where his mom worked at a ski resort that served as wintertime daycare for him, his brother, and sister.</p>\r\n<p>&nbsp;</p>\r\n<p>“I started riding at a pretty early age, around six or seven” Nils told us. “There was a snowboard community in the town we were in, so I started competing and things happened pretty quickly. I started getting sponsored around 12. At 14, I moved out west to go to a school that accommodated my riding schedule a bit more.”</p>\r\n<p>&nbsp;</p>\r\n<p>Grasping that the odds of finding oneself in a stable and serious career at a young age were very low, he felt like he had to figure out a way to maintain his love for snowboarding through his entire life, passionately pursuing it at an elite level.</p>\r\n<p>&nbsp;</p>\r\n<p>“I was like, okay, there's a contest. Do good. There's a photo shoot. Do good. And granted, I had a lot of fun along the way, but it felt serious.” Because if it didn’t work out, if he didn’t place, he had nothing he could lean back on.</p>\r\n<p>&nbsp;</p>\r\n<p>Nils competed around the world&nbsp;until the age of 17, but he wasn’t providing his sponsors with the results they wanted. So they dropped him.</p>\r\n<p>&nbsp;</p>\r\n<p>“To lose that support was really grounding and shaking. And it also essentially is what pushed me out of contests. I would have loved to... hire my own coach or keep going to these events, but I just straight up couldn't afford to go anywhere.”</p>\r\n<p>&nbsp;</p>\r\n<p>Bound financially, and anchored to Utah and the Wasatch mountains, Nils skipped the contests but kept on riding.</p>\r\n",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "text_773687122_copy__194898541": {
+            "jcr:created": "Fri Oct 27 2023 16:53:11 GMT+0000",
+            "jcr:lastModifiedBy": "bhedges@backcountry.com",
+            "jcr:createdBy": "alwright@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/text",
+            "jcr:lastModified": "Wed Nov 01 2023 22:12:57 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "<h3 style=\"text-align: center;\"><span class=\"title3\">&nbsp;</span></h3>\r\n<h3 style=\"text-align: center;\"><span class=\"title3\">&nbsp;</span></h3>\r\n<h2 style=\"text-align: center;\"><span class=\"title2Heavy\">Redefining Identities</span></h2>\r\n",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "2",
+                "width": "8",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "text_260635330_copy__850143275": {
+            "jcr:created": "Fri Oct 27 2023 16:33:11 GMT+0000",
+            "jcr:lastModifiedBy": "bhedges@backcountry.com",
+            "jcr:createdBy": "alwright@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/text",
+            "jcr:lastModified": "Tue Nov 07 2023 23:37:57 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "<p>&nbsp;</p>\r\n<p>That year, Nils landed a gig as a snowboarding stunt double in&nbsp;a movie. Suddenly able to pay rent and buy a car, he leaned into this alternate path, but not without hesitancy. He had seen other riders peak and fall as they pursued&nbsp;backup plans and was fully aware of how turbulent a career in snowboarding could be.</p>\r\n<p>&nbsp;</p>\r\n<p>Free from the constraints of the contest and buoyed by the fact that stunt-doubling was helping him&nbsp;make it through the season, Nils then began making snowboarding videos with his local crew, Lick The Cat. Often, these homemade films would get picked up and shared by Transworld or Snowboard Mag, expanding their reach. Through filming, Nils continued to get his name out there and kept the momentum going.</p>\r\n<p>&nbsp;</p>\r\n<p>“I also had this fire lit under me at that time. I didn't [just] want to make it work. It was more like, this has to work. There's no exit strategy here.”</p>\r\n<p>&nbsp;</p>\r\n<p>As he shifted his efforts from contests to filming, Nils also watched his identity shift. “A big part of that, honestly, was climbing,” he told us. “It was something I found on my own as an adult. I was able to identify with it, and I was good at it.” &nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>Building community in a sport he chose gave Nils a sense of belonging and autonomy. “It felt a little more like mine,” he said. “A little more special [than snowboarding]”</p>\r\n<p>&nbsp;</p>\r\n<p>During this period, he was also pursuing a mechanical engineering degree at the University of Utah. While in some ways he felt less pressure now that he was outside of the contest world, he was also suffering, failing, and learning. &nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>“If you don't have Algebra 1 dialed,” he said, “how are you going to do good in calculus?” It took him six years to get his bachelor’s degree, an experience that put things into perspective: there were things he didn’t know. &nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>Nils started applying college concepts and climbing confidence to snowboarding, asking himself if there were any&nbsp;gaps in his&nbsp;riding foundations. He started rethinking the basics. He asked himself what he didn’t know about the heel edge and what he didn’t know about the toe edge. He would never have developed this method of inquiry without being humbled by school and climbing.</p>\r\n<p>&nbsp;</p>\r\n",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "image_1809015946": {
+            "aspect_ratio": "1:1",
+            "jcr:created": "Thu Nov 02 2023 18:12:31 GMT+0000",
+            "jcr:lastModifiedBy": "bhedges@backcountry.com",
+            "jcr:createdBy": "bhedges@backcountry.com",
+            "alt": "Nils Mindnich",
+            "sling:resourceType": "baem/components/image",
+            "jcr:lastModified": "Thu Nov 02 2023 18:20:01 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "fileReference": "/content/dam/bcs/projects/bc23_0341_venture-beyond_ep5/landing-pages/ShopNilsKit.jpg",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "1",
+                "width": "5",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "medium_bp": {
+                "offset": "2",
+                "width": "8",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "small_bp": {
+                "offset": "2",
+                "width": "8",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "2",
+                "width": "8",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "large_bp": {
+                "offset": "2",
+                "width": "8",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "text_copy": {
+            "jcr:created": "Wed Nov 01 2023 22:00:03 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "bhedges@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/text",
+            "jcr:lastModified": "Thu Nov 09 2023 20:45:54 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "<p>&nbsp;</p>\r\n<p>Ironically, it took redefining his identity and allowing himself to step away from snowboarding as an exclusive endeavor to finally come full circle and commit to it completely. “I feel like in just the last two years I've gotten to a point that I'm ready to take a little more control and... commit to it. I'm mentally committed to snowboarding at this point.” If we would have asked him two years ago, he told us, that wouldn’t have been the case. “I can finally see a road map... Oh, okay, I'm here.<br>\r\n</p>\r\n<p>&nbsp;</p>\r\n<p>He’s looking at the past and future less and trying to remain in the present, applying what he’s learned to both snowboarding and everyday life. Part of being present, he said, is asking himself: “What makes sense? What is the best thing I can do right now? Because sometimes the best thing I can do is to stop trying a trick, at which point I might risk not getting it.”</p>\r\n<p>&nbsp;</p>\r\n<p>After two decades of riding; numerous contests; and a shift to filming, climbing, and college, Nils finally feels like he has a foundation on which to build the peak of his career. And that foundation is rooted in that question. What makes sense? “I'm solid. I know what I’m doing. And I also know when I don't know what I'm doing and when it's time to explore that space or back off or something.”</p>\r\n<p>&nbsp;</p>\r\n<p>Rethinking his foundation, expanding his identity, and fully committing to snowboarding eventually brought Nils to Chad’s Gap.</p>\r\n",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "1",
+                "width": "4",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "medium_bp": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "small_bp": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "base_bp": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              },
+              "large_bp": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "text_773687122_copy__1369670793": {
+            "jcr:created": "Fri Oct 27 2023 16:53:11 GMT+0000",
+            "jcr:lastModifiedBy": "bhedges@backcountry.com",
+            "jcr:createdBy": "alwright@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/text",
+            "jcr:lastModified": "Thu Nov 02 2023 15:27:38 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "<h3 style=\"text-align: center;\"><span class=\"title3\">&nbsp;</span></h3>\r\n<h3 style=\"text-align: center;\"><span class=\"title3\">&nbsp;</span></h3>\r\n<h2 style=\"text-align: center;\"><span class=\"title2Heavy\">Investigating Chad's Gap</span></h2>\r\n",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "2",
+                "width": "8",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "text_260635330_copy__301371167": {
+            "jcr:created": "Fri Oct 27 2023 16:33:11 GMT+0000",
+            "jcr:lastModifiedBy": "bhedges@backcountry.com",
+            "jcr:createdBy": "alwright@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/text",
+            "jcr:lastModified": "Tue Nov 07 2023 23:40:08 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "<p>&nbsp;</p>\r\n<p>“Coming off of the 2023 season, I had been feeling really confident and it was a good year. I got to ride with Sage [Kotsenburg] a bunch. It was the best experience filming I'd ever had. We opened up a jump in Wyoming that we measured and it was 127 feet to the knuckle. Chad's is 120 and some of our landings were at like 155 ft. So I was like, okay, cool. I'm solid, you know. Chad's Gap, how bad could it be? I've hit something bigger than Chad's. I wanted to hit it in April. I think in December I was even talking, ‘I want hit Chad's gap this year.’”</p>\r\n<p>&nbsp;</p>\r\n<p>But by the time April rolled around, Nils had more or less written off Chad’s Gap for the year. Huge storm cycles continued into the spring, and without a good weather window, Nils transitioned to other activities. &nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>“That's always sort of the change indicator of my season coming to a close: I go camping, climb somewhere, and I'll still ride a little bit.”</p>\r\n<p>&nbsp;</p>\r\n<p>After climbing for two days, Nils returned to Salt Lake City on a Monday, not thinking too seriously about Chad’s Gap. After several days of riding in Little Cottonwood Canyon, Nils, Sebbe, and Sage hiked up to Chad’s Gap simply to give it a look.</p>\r\n<p>&nbsp;</p>\r\n<p>“We get up to Chad's... and Sage is like, ‘I've never seen it look this good!’ [It was] 1:30 in the afternoon, we kind of start having this discussion... do you want to hit it? And Sage is like, ‘I'll help build. It'll be awesome.’”</p>\r\n",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "text_773687122_copy__526609518": {
+            "jcr:created": "Fri Oct 27 2023 16:53:11 GMT+0000",
+            "jcr:lastModifiedBy": "bhedges@backcountry.com",
+            "jcr:createdBy": "alwright@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/text",
+            "jcr:lastModified": "Thu Nov 02 2023 15:29:15 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "<h3 style=\"text-align: center;\"><span class=\"title3\">&nbsp;</span></h3>\r\n<h3 style=\"text-align: center;\"><span class=\"title3\">&nbsp;</span></h3>\r\n<h2 style=\"text-align: center;\"><span class=\"title2Heavy\">The Build</span></h2>\r\n",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "2",
+                "width": "8",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "text_260635330_copy__1360091850": {
+            "jcr:created": "Fri Oct 27 2023 16:33:11 GMT+0000",
+            "jcr:lastModifiedBy": "bhedges@backcountry.com",
+            "jcr:createdBy": "alwright@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/text",
+            "jcr:lastModified": "Tue Nov 07 2023 23:41:05 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "<p>&nbsp;</p>\r\n<p>Nils went from writing off Chad’s Gap to prepping to hit it over the course of just a few minutes and began to worry about getting it built within that promising weather window.</p>\r\n<p>&nbsp;</p>\r\n<p>“I am so tired by this point because it's my sixth day of activity. There's four of us working on it. You hear stories of people taking three days with a 20-person crew to put it together, and we're four guys that are already kind of tired. How is this going to even work?”</p>\r\n<p>&nbsp;</p>\r\n<p>Though he had heard a lot of lore about the gap and difficulties of the build itself, Nils stayed focused on the task at hand. “This is what has to happen. And this is very methodical and logical and there's not really any emotional involvement. There's not really any human element to it. I'm just executing, which is sort of the phase I entered with Chad's Gap: This is my life right now. Nothing else matters.”</p>\r\n<p>&nbsp;</p>\r\n<p>Which is not to say emotion can be blocked out entirely. “I think it was two nights before hitting Chad's Gap. My wife, Bri, bless her heart, was trying to help. She was trying to talk about it, unpack how it was feeling.” She could see Nils was a little uneasy and asked him why he was scared. Nils told her he was thinking about Tanner Hall's&nbsp;terrible accident on it, acknowledging that a 120-foot gap inevitably has high consequences.</p>\r\n<p>&nbsp;</p>\r\n<p>The day of the jump, various stressors started to stack up. The high-pressure window that was ideal for the jump was also accompanied by warm temperatures. Wet slide avalanche activity became more prevalent in the area, and there was flooding activity, too. Due to the flooding, the Little Cottonwood Canyon road would close from 9am to 7pm and was only open for an hour at a time, so Nils and his crew weren’t able to come and go as they pleased.</p>\r\n<p>&nbsp;</p>\r\n<p>“We were hiking up from Little Cottonwood... but we thought we might get locked in...” Nils recalled of the stressful circumstances. “We might have to hike to the next canyon tonight to get out of here. We&nbsp;didn’t even care. Let's focus on the jump.”</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "image_548837190": {
+            "aspect_ratio": "2:1",
+            "jcr:created": "Thu Nov 02 2023 17:40:57 GMT+0000",
+            "jcr:lastModifiedBy": "bhedges@backcountry.com",
+            "jcr:createdBy": "bhedges@backcountry.com",
+            "alt": "Chad's Gap and Nils. ",
+            "sling:resourceType": "baem/components/image",
+            "jcr:lastModified": "Tue Nov 07 2023 22:14:55 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "fileReference": "/content/dam/bcs/projects/bc23_0341_venture-beyond_ep5/landing-pages/2_1.jpg",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "text_773687122_copy__635151184": {
+            "jcr:created": "Fri Oct 27 2023 16:53:11 GMT+0000",
+            "jcr:lastModifiedBy": "bhedges@backcountry.com",
+            "jcr:createdBy": "alwright@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/text",
+            "jcr:lastModified": "Thu Nov 02 2023 15:56:15 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "<h3 style=\"text-align: center;\"><span class=\"title3\">&nbsp;</span></h3>\r\n<h3 style=\"text-align: center;\"><span class=\"title3\">&nbsp;</span></h3>\r\n<h2 style=\"text-align: center;\"><span class=\"title2Heavy\">What Makes Sense</span></h2>\r\n",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "2",
+                "width": "8",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "text_260635330_copy__834732147": {
+            "jcr:created": "Fri Oct 27 2023 16:33:11 GMT+0000",
+            "jcr:lastModifiedBy": "bhedges@backcountry.com",
+            "jcr:createdBy": "alwright@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/text",
+            "jcr:lastModified": "Thu Nov 02 2023 15:37:14 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "<p>&nbsp;</p>\r\n<p>“As goes with guinea pigging jumps, Sebbe [De Buck] and I rock, paper, scissors. I won, which means I got to go first.” Nils hiked back up to the start contemplating the in-run.</p>\r\n<p> &nbsp;</p>\r\n<p>The approach for Chad’s Gap is particularly steep and gets even steeper right before it flattens out. This flat area is often referred to as a compression zone, and its full effect on a rider’s body can’t be fully understood during speed tests. Because he had to put on the brakes above the compression zone and slide to a stop on the lip, it was impossible to know how the jump would feel in reality. Nils had gathered all the information he could, processed it, and decided it was time to drop in.</p>\r\n<p>&nbsp;</p>\r\n<p>“I'm flying through the air... horizontally. It's not like a huge poppy jump, so I was kind of going towards the knuckle. Did I go fast enough? I’m about to the knuckle right now, and I kind of come around the trick and I see the orientation of the knuckle below me. Okay, cool clearing it, go ride out, [stuck] the three. And I'm just like, whoa, that was really gnarly.”</p>\r\n<p>&nbsp;</p>\r\n<p>Nils sticks a 360 and then waits at the bottom thinking about how the lip had a lot more kick to it than he had anticipated.&nbsp;“Sebbe hits it. I see he does I believe it was a seven [720] or something and greases it. Both of us are just screaming, ‘you just hit Chad's Gap, we did it!’ It’s like a childhood thing. It's like getting to ride the iconic big wave spot or something. Even that in itself was a wild experience to be able to do that.”</p>\r\n<p>&nbsp;</p>\r\n<p>Once Sebbe and Nils had agreed that Chad’s was a bit scarier than expected, Nils thought, “Okay, I don't want to be here long. Let's get to work.”</p>\r\n<p>&nbsp;</p>\r\n<p>“With a jump like that, ideally, you want to be the first person to do your trick on it. You don't want to do what someone else has done and get the credit for it. The... [trick] I can think of doing that's in my wheelhouse is a switchback seven.” What makes the switchback 720 trickier than its frontside variant is body geometry. “It's harder to keep your structure correct.”</p>\r\n<p>&nbsp;</p>\r\n<p>For the last couple of years, Nils had been focusing on switch riding. Not only does his audience find it impressive, but it also gives him the space to try and progress and learn new things all the time. He felt like doing the switchback seven on Chad’s Gap would give him a certain placement in the snowboarding world. “I'm like, okay, you want to walk in the big shoes and wear the big-kid pants and be a main player in this sport and have people remember you? This is what that looks like right now.”</p>\r\n<p>&nbsp;</p>\r\n<p>But he couldn’t nail the landing. Despite his intense focus, he kept splatting out. Getting that close and then falling over and over told him there was probably something going on that was out of his control. Nils decided to back off. “Deciding to call it on the switchback seven wasn't easy. It was kind of humbling, but on paper... I technically failed. That was the task and I couldn't do it.”</p>\r\n<p>&nbsp;</p>\r\n<p>Was it actually a&nbsp;failure? Nils had&nbsp;asked the important question he learned to ask: “What makes sense? What is the best thing I can do right now?” Recognizing his energy had changed and the light had changed, it became clear that succumbing to the desire to pull the trick could result in injury. But maybe that choice doesn’t denote failure. With deep respect for Chad’s Gap, he took a clear-eyed look at reality, a choice that could be viewed as complete success.&nbsp;After all, it’s named after a skier with a vision who tried and initially failed to clear the jump.</p>\r\n<p>&nbsp;</p>\r\n<p>“It’s so gnarly and deserves so much respect... I couldn't expect to bring it into submission or something. I had to do my best and respect the jump. It's... a very, very special jump that I'm grateful to have experienced.”</p>\r\n",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "text": {
+            "jcr:created": "Wed Nov 01 2023 22:00:03 GMT+0000",
+            "jcr:lastModifiedBy": "kzylstra@backcountry.com",
+            "jcr:createdBy": "bhedges@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/text",
+            "jcr:lastModified": "Thu Nov 09 2023 18:21:16 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p><span class=\"body1\"><i>Gearhead® Expert Ben Kilbourne has been exploring the vast landscapes of the American West since birth. His experiences on the land, whether triumphant or thwarted by events either in or out of his control, have provided the foundation for his essays, paintings, and songs. He lives in Utah and has been with Backcountry since 2022.</i></span></p>\r\n",
+            "cq:responsive": {
+              "jcr:primaryType": "nt:unstructured",
+              "default": {
+                "offset": "1",
+                "width": "10",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

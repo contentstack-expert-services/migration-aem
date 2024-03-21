@@ -1,0 +1,64 @@
+{
+  "jcr:created": "Thu Sep 29 2022 22:47:20 GMT+0000",
+  "jcr:createdBy": "anicholson@backcountry.com",
+  "jcr:primaryType": "cq:Page",
+  "jcr:content": {
+    "cq:lastReplicatedBy": "hhardcastle@backcountry.com",
+    "cq:lastReplicationAction": "Activate",
+    "cq:lastReplicatedBy_publish": "hhardcastle@backcountry.com",
+    "sling:resourceType": "baem/components/page",
+    "jcr:uuid": "25e67e3b-dd65-4d03-a91e-2452798ebbff",
+    "jcr:title": "Free 2-day Shipping on Orders Over $50",
+    "pageProperty_seo-toggle": "off",
+    "jcr:versionHistory": "669d9753-2b39-425b-9b96-585e9c4b65d0",
+    "cq:lastModifiedBy": "anicholson@backcountry.com",
+    "pageProperty_name": "Free 2-day Shipping on Orders Over $50",
+    "cq:template": "/conf/baem/settings/wcm/templates/page-content",
+    "pageProperty_titleTag": "Free 2-day Shipping on Orders Over $50",
+    "jcr:created": "Thu Sep 29 2022 22:47:20 GMT+0000",
+    "jcr:createdBy": "anicholson@backcountry.com",
+    "jcr:predecessors": ["5baca930-9efc-4f52-a3f5-44a7dda5cde5"],
+    "cq:lastReplicationAction_scene7": "Activate",
+    "jcr:isCheckedOut": true,
+    "jcr:mixinTypes": ["mix:versionable"],
+    "pageProperty_description": "Offer valid for free 2-day shipping for select items in your Backcountry.com cart, exclusions apply",
+    "cq:lastReplicationAction_publish": "Activate",
+    "cq:lastModified": "Tue Oct 25 2022 21:19:24 GMT+0000",
+    "cq:lastReplicatedBy_scene7": "hhardcastle@backcountry.com",
+    "jcr:primaryType": "cq:PageContent",
+    "cq:lastReplicated": "Wed Oct 26 2022 20:12:48 GMT+0000",
+    "cq:lastReplicated_publish": "Wed Oct 26 2022 20:12:48 GMT+0000",
+    "cq:lastReplicated_scene7": "Wed Oct 26 2022 20:12:48 GMT+0000",
+    "sling:vanityPath": "free-2-day-shipping-ntf",
+    "jcr:baseVersion": "5baca930-9efc-4f52-a3f5-44a7dda5cde5",
+    "root": {
+      "layout": "responsiveGrid",
+      "sling:resourceType": "baem/components/container",
+      "jcr:primaryType": "nt:unstructured",
+      "container": {
+        "layout": "responsiveGrid",
+        "sling:resourceType": "baem/components/container",
+        "jcr:primaryType": "nt:unstructured",
+        "title": {
+          "sling:resourceType": "baem/components/title",
+          "jcr:primaryType": "nt:unstructured"
+        },
+        "container": {
+          "layout": "responsiveGrid",
+          "sling:resourceType": "baem/components/container",
+          "jcr:primaryType": "nt:unstructured",
+          "text": {
+            "jcr:created": "Tue Oct 25 2022 20:35:49 GMT+0000",
+            "jcr:lastModifiedBy": "anicholson@backcountry.com",
+            "jcr:createdBy": "anicholson@backcountry.com",
+            "textIsRich": "true",
+            "sling:resourceType": "baem/components/text",
+            "jcr:lastModified": "Tue Oct 25 2022 21:19:24 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "text": "<p><span class=\"title2Heavy\">Free 2-day Shipping on Orders Over $50</span></p>\r\n<p>&nbsp;</p>\r\n<ul>\r\n<li>Offer valid Free 2-Day shipping for items in your Backcountry.com cart.<br>\r\n</li>\r\n<li>First-time customers only, subject to the exclusions below.</li>\r\n<li>Offer valid for a limited time, and may not be combined with any other discount or offer. Limit one use per customer.<br>\r\n</li>\r\n<li>Coupon offers are not stackable (i.e. multiple coupon codes cannot be applied to a single order) and the most recently applied coupon will always be applied.<br>\r\n</li>\r\n<li>Offer available only to Backcountry.com email and SMS subscribers. Sign up and join our loyal customers who are the first to know about news, sales, and deals.<br>\r\n</li>\r\n<li style=\"text-align: left;\">Offer is limited to stock on hand; offer is nontransferable and is not redeemable for cash</li>\r\n</ul>\r\n<p>&nbsp;</p>\r\n<p><span class=\"title2Heavy\">Some Restrictions Apply:</span></p>\r\n<ul>\r\n<li><span class=\"title2\"></span>The offer code is limited to one use per customer<br>\r\n</li>\r\n<li>Available for orders shipped to the contiguous United States only (excludes AK, HI, and international orders)<br>\r\n</li>\r\n<li>Excludes PO boxes &amp; APO addresses<br>\r\n</li>\r\n<li>Excludes complete bikes, bike frames, bike wheels, travel cases, ABS airbag packs or cylinders, kayaks, SUP boards, surfboards, crash pads, cargo boxes, car racks, indoor cycles, rooftop tents &amp; all other freight items<br>\r\n</li>\r\n<li>Not valid on pre-orders or back orders<br>\r\n</li>\r\n</ul>\r\n"
+          }
+        }
+      }
+    }
+  }
+}

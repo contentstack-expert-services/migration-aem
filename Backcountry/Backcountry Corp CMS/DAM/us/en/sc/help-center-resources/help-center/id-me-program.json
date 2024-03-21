@@ -1,0 +1,233 @@
+{
+  "jcr:created": "Mon Feb 28 2022 22:06:08 GMT+0000",
+  "jcr:createdBy": "cchristoffersen@backcountry.com",
+  "jcr:primaryType": "cq:Page",
+  "jcr:content": {
+    "cq:lastReplicatedBy": "hhardcastle@backcountry.com",
+    "cq:lastReplicationAction": "Deactivate",
+    "cq:lastReplicatedBy_publish": "hhardcastle@backcountry.com",
+    "sling:resourceType": "baem/components/page",
+    "jcr:uuid": "462ae048-2282-4d39-b200-2d9c395a71f8",
+    "jcr:title": "Special Group Offers",
+    "jcr:versionHistory": "c8a400e5-aea9-4c12-9a30-90f36ab8f2b3",
+    "seo-toggle": "on",
+    "cq:lastModifiedBy": "cchristoffersen@backcountry.com",
+    "cq:template": "/conf/baem/settings/wcm/templates/page-content",
+    "jcr:created": "Mon Feb 28 2022 22:06:08 GMT+0000",
+    "jcr:createdBy": "cchristoffersen@backcountry.com",
+    "jcr:predecessors": ["dfc53d0d-9be1-44ae-93cc-4367aa56473d"],
+    "cq:lastReplicationAction_scene7": "Deactivate",
+    "jcr:isCheckedOut": true,
+    "jcr:mixinTypes": ["mix:versionable"],
+    "cq:lastReplicationAction_publish": "Deactivate",
+    "cq:lastModified": "Mon Feb 28 2022 22:17:51 GMT+0000",
+    "cq:lastReplicatedBy_scene7": "hhardcastle@backcountry.com",
+    "jcr:primaryType": "cq:PageContent",
+    "cq:lastReplicated": "Fri Mar 25 2022 19:37:51 GMT+0000",
+    "cq:lastReplicated_publish": "Fri Mar 25 2022 19:37:51 GMT+0000",
+    "cq:lastReplicated_scene7": "Fri Mar 25 2022 19:37:51 GMT+0000",
+    "jcr:baseVersion": "dfc53d0d-9be1-44ae-93cc-4367aa56473d",
+    "root": {
+      "layout": "responsiveGrid",
+      "sling:resourceType": "baem/components/container",
+      "jcr:primaryType": "nt:unstructured",
+      "container": {
+        "layout": "responsiveGrid",
+        "sling:resourceType": "baem/components/container",
+        "jcr:primaryType": "nt:unstructured",
+        "title": {
+          "sling:resourceType": "baem/components/title",
+          "jcr:primaryType": "nt:unstructured"
+        },
+        "container": {
+          "layout": "responsiveGrid",
+          "sling:resourceType": "baem/components/container",
+          "jcr:primaryType": "nt:unstructured",
+          "columncontrol": {
+            "coltype": "12-col",
+            "jcr:created": "Mon Feb 28 2022 22:06:36 GMT+0000",
+            "jcr:lastModifiedBy": "cchristoffersen@backcountry.com",
+            "jcr:createdBy": "cchristoffersen@backcountry.com",
+            "sling:resourceType": "baem/components/columncontrol",
+            "ux_component_name": "Image Grid",
+            "background_color": "light",
+            "jcr:lastModified": "Mon Feb 28 2022 22:06:50 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "col-12": {
+              "sling:resourceType": "wcm/foundation/components/parsys",
+              "jcr:primaryType": "nt:unstructured",
+              "image": {
+                "aspect_ratio": "3:1",
+                "jcr:created": "Mon Feb 28 2022 22:06:57 GMT+0000",
+                "jcr:lastModifiedBy": "cchristoffersen@backcountry.com",
+                "jcr:createdBy": "cchristoffersen@backcountry.com",
+                "sling:resourceType": "baem/components/image",
+                "jcr:lastModified": "Mon Feb 28 2022 22:07:48 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "fileReference": "/content/dam/bcs/test_assets/Arg3.jpeg"
+              }
+            }
+          },
+          "columncontrol_221290780": {
+            "coltype": "12-col",
+            "jcr:created": "Mon Feb 28 2022 22:08:25 GMT+0000",
+            "jcr:lastModifiedBy": "cchristoffersen@backcountry.com",
+            "jcr:createdBy": "cchristoffersen@backcountry.com",
+            "sling:resourceType": "baem/components/columncontrol",
+            "ux_component_name": "Free Text",
+            "background_color": "light",
+            "jcr:lastModified": "Mon Feb 28 2022 22:08:34 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "col-12": {
+              "sling:resourceType": "wcm/foundation/components/parsys",
+              "jcr:primaryType": "nt:unstructured",
+              "text": {
+                "jcr:created": "Mon Feb 28 2022 22:08:41 GMT+0000",
+                "jcr:lastModifiedBy": "cchristoffersen@backcountry.com",
+                "jcr:createdBy": "cchristoffersen@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Mon Feb 28 2022 22:09:50 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<h2 style=\"text-align: center;\"><span class=\"title3Heavy\">Special 20% Off Savings for Our Community of Heroes</span></h2>\r\n<p style=\"text-align: center;\"><span class=\"body1\">To thank our community heroes, we’re extending an <b><span class=\"body1Heavy\">exclusive 20% discount on select full-price purchases</span></b> on Backcountry.com. We are grateful for your commitment to helping your communities stay safe and healthy and to thrive.</span></p>\r\n<p style=\"text-align: center;\"><span class=\"body1\">Follow the link below to verify your status and become eligible for your discount. This discount cannot be combined with other promotional codes, coupons, or sitewide promotions, and some brand exclusions apply.</span></p>\r\n"
+              }
+            }
+          },
+          "columncontrol_1240614155": {
+            "coltype": "12-col",
+            "jcr:created": "Mon Feb 28 2022 22:12:11 GMT+0000",
+            "jcr:lastModifiedBy": "cchristoffersen@backcountry.com",
+            "jcr:createdBy": "cchristoffersen@backcountry.com",
+            "sling:resourceType": "baem/components/columncontrol",
+            "ux_component_name": "CTA",
+            "background_color": "light",
+            "jcr:lastModified": "Mon Feb 28 2022 22:12:27 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "col-12": {
+              "sling:resourceType": "wcm/foundation/components/parsys",
+              "jcr:primaryType": "nt:unstructured",
+              "button": {
+                "jcr:created": "Mon Feb 28 2022 22:12:46 GMT+0000",
+                "jcr:lastModifiedBy": "cchristoffersen@backcountry.com",
+                "jcr:createdBy": "cchristoffersen@backcountry.com",
+                "link": "https://hosted-pages.id.me/offers/backcountry",
+                "sling:resourceType": "baem/components/button",
+                "jcr:title": "Verify with ID.me",
+                "jcr:lastModified": "Mon Feb 28 2022 22:13:04 GMT+0000",
+                "jcr:primaryType": "nt:unstructured"
+              }
+            }
+          },
+          "columncontrol_1516753070": {
+            "coltype": "12-col",
+            "jcr:created": "Mon Feb 28 2022 22:13:26 GMT+0000",
+            "jcr:lastModifiedBy": "cchristoffersen@backcountry.com",
+            "jcr:createdBy": "cchristoffersen@backcountry.com",
+            "sling:resourceType": "baem/components/columncontrol",
+            "ux_component_name": "Free Text",
+            "background_color": "light",
+            "jcr:lastModified": "Mon Feb 28 2022 22:13:37 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "col-12": {
+              "sling:resourceType": "wcm/foundation/components/parsys",
+              "jcr:primaryType": "nt:unstructured",
+              "text": {
+                "jcr:created": "Mon Feb 28 2022 22:13:59 GMT+0000",
+                "jcr:lastModifiedBy": "cchristoffersen@backcountry.com",
+                "jcr:createdBy": "cchristoffersen@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Mon Feb 28 2022 22:14:18 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<p style=\"text-align: center;\"><span class=\"title3Heavy\">Members of Our Herd</span></p>\r\n"
+              }
+            }
+          },
+          "columncontrol_509701700": {
+            "coltype": "4-4-4-col",
+            "jcr:created": "Mon Feb 28 2022 22:14:29 GMT+0000",
+            "jcr:lastModifiedBy": "cchristoffersen@backcountry.com",
+            "jcr:createdBy": "cchristoffersen@backcountry.com",
+            "sling:resourceType": "baem/components/columncontrol",
+            "ux_component_name": "Image + Text (Columns)",
+            "background_color": "light",
+            "jcr:lastModified": "Mon Feb 28 2022 22:14:52 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "col-4-4-4-1": {
+              "sling:resourceType": "wcm/foundation/components/parsys",
+              "jcr:primaryType": "nt:unstructured",
+              "image": {
+                "aspect_ratio": "full",
+                "jcr:created": "Mon Feb 28 2022 22:14:58 GMT+0000",
+                "jcr:lastModifiedBy": "cchristoffersen@backcountry.com",
+                "jcr:createdBy": "cchristoffersen@backcountry.com",
+                "sling:resourceType": "baem/components/image",
+                "jcr:lastModified": "Mon Feb 28 2022 22:15:15 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "fileReference": "/content/dam/bcs/test_assets/Arg3.jpeg"
+              },
+              "text": {
+                "jcr:created": "Mon Feb 28 2022 22:15:56 GMT+0000",
+                "jcr:lastModifiedBy": "cchristoffersen@backcountry.com",
+                "jcr:createdBy": "cchristoffersen@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Mon Feb 28 2022 22:16:25 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<h2 style=\"text-align: center;\"><span class=\"title3Heavy\">Healthcare Workers &amp; First Responders</span></h2>\r\n<p style=\"text-align: center;\"><span class=\"body1\">We are grateful to doctors, nurses, healthcare workers, and first responders like Casey, a flight paramedic and avid skier. Like so many of our first responders, firefighters, police, and healthcare-heroes at the University of Utah Hospital, essential workers like to unwind in the outdoors, and we’re proud to be able to bring them closer to what matters most to them.</span></p>\r\n"
+              }
+            },
+            "col-4-4-4-2": {
+              "sling:resourceType": "wcm/foundation/components/parsys",
+              "jcr:primaryType": "nt:unstructured",
+              "image": {
+                "aspect_ratio": "full",
+                "jcr:created": "Mon Feb 28 2022 22:15:01 GMT+0000",
+                "jcr:lastModifiedBy": "cchristoffersen@backcountry.com",
+                "jcr:createdBy": "cchristoffersen@backcountry.com",
+                "sling:resourceType": "baem/components/image",
+                "jcr:lastModified": "Mon Feb 28 2022 22:15:25 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "fileReference": "/content/dam/bcs/test_assets/Arg3.jpeg"
+              },
+              "text": {
+                "jcr:created": "Mon Feb 28 2022 22:15:58 GMT+0000",
+                "jcr:lastModifiedBy": "cchristoffersen@backcountry.com",
+                "jcr:createdBy": "cchristoffersen@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Mon Feb 28 2022 22:17:06 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<h2 style=\"text-align: center;\"><span class=\"title3Heavy\">Educators</span></h2>\r\n<p style=\"text-align: center;\"><span class=\"body1\">Professors, teachers, school administrators, and other educators—thank you for inspiring positive change within our communities everyday. Like Melissa, a teacher at Park City High School that loves to snowboard and mountain bike with her two kids. With this discount, we hope Melissa, and educators like her, can continue to connect with the outdoors and her family.</span></p>\r\n"
+              }
+            },
+            "col-4-4-4-3": {
+              "sling:resourceType": "wcm/foundation/components/parsys",
+              "jcr:primaryType": "nt:unstructured",
+              "image": {
+                "aspect_ratio": "full",
+                "jcr:created": "Mon Feb 28 2022 22:15:03 GMT+0000",
+                "jcr:lastModifiedBy": "cchristoffersen@backcountry.com",
+                "jcr:createdBy": "cchristoffersen@backcountry.com",
+                "sling:resourceType": "baem/components/image",
+                "jcr:lastModified": "Mon Feb 28 2022 22:15:34 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "fileReference": "/content/dam/bcs/test_assets/Arg3.jpeg"
+              },
+              "text": {
+                "jcr:created": "Mon Feb 28 2022 22:16:00 GMT+0000",
+                "jcr:lastModifiedBy": "cchristoffersen@backcountry.com",
+                "jcr:createdBy": "cchristoffersen@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Mon Feb 28 2022 22:17:51 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<h2 style=\"text-align: center;\"><span class=\"title3Heavy\">Military &amp; Government Employees</span></h2>\r\n<p style=\"text-align: center;\">Active duty military personnel, veterans, military family members, and government employees—we are thankful for your service to our country. After Ginger was discharged from the Army following a career-ending injury, she found the National Ability Center where she discovered a love for climbing, snowboarding, road biking and more. With this discount, we hope veterans, military personnel, and government employees like Ginger can enjoy the outdoors.</p>\r\n"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

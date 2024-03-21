@@ -1,0 +1,44 @@
+{
+  "title": "Image",
+  "uid": "image",
+  "schema": [
+    {
+      "data_type": "text",
+      "display_name": "Alt",
+      "field_metadata": { "_default": true, "version": 1 },
+      "mandatory": true,
+      "uid": "title",
+      "unique": true,
+      "multiple": false,
+      "non_localizable": false
+    },
+    {
+      "data_type": "text",
+      "display_name": "URL",
+      "uid": "url",
+      "field_metadata": { "_default": true, "version": 1 },
+      "multiple": false,
+      "unique": false,
+      "mandatory": false,
+      "non_localizable": false
+    },
+    {
+      "data_type": "file",
+      "display_name": "File Reference",
+      "uid": "file_reference",
+      "extensions": [],
+      "field_metadata": { "description": "", "rich_text_type": "standard" },
+      "mandatory": false,
+      "multiple": true,
+      "non_localizable": false,
+      "unique": false
+    }
+  ],
+  "description": "",
+  "options": {
+    "is_page": false,
+    "singleton": false,
+    "sub_title": [],
+    "title": "title"
+  }
+}

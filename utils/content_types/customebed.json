@@ -1,0 +1,54 @@
+{
+  "title": "Customembed",
+  "uid": "Customembed",
+  "schema": [
+    {
+      "data_type": "text",
+      "display_name": "Title",
+      "field_metadata": { "_default": true, "version": 1 },
+      "mandatory": true,
+      "uid": "title",
+      "unique": true,
+      "multiple": false,
+      "non_localizable": false
+    },
+    {
+      "data_type": "text",
+      "display_name": "URL",
+      "uid": "url",
+      "field_metadata": { "_default": true, "version": 1 },
+      "multiple": false,
+      "unique": false,
+      "mandatory": false,
+      "non_localizable": false
+    },
+    {
+      "data_type": "json",
+      "display_name": "youtubeVideoId",
+      "uid": "youtubevideoid",
+      "field_metadata": {
+        "allow_json_rte": true,
+        "embed_entry": false,
+        "description": "",
+        "default_value": "",
+        "multiline": false,
+        "rich_text_type": "advanced",
+        "options": []
+      },
+      "format": "",
+      "error_messages": { "format": "" },
+      "reference_to": ["sys_assets"],
+      "multiple": false,
+      "non_localizable": false,
+      "unique": false,
+      "mandatory": false
+    }
+  ],
+  "description": "",
+  "options": {
+    "is_page": false,
+    "singleton": false,
+    "sub_title": [],
+    "title": "title"
+  }
+}

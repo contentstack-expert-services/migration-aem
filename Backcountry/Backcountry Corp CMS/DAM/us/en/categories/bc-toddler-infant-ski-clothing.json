@@ -1,0 +1,120 @@
+{
+    "jcr:created": "Mon Nov 13 2023 19:54:37 GMT+0000",
+    "jcr:createdBy": "steph.briggs@backcountry.com",
+    "jcr:primaryType": "cq:Page",
+    "jcr:content": {
+      "cq:lastReplicatedBy": "steph.briggs@backcountry.com",
+      "cq:lastReplicationAction": "Activate",
+      "cq:lastReplicatedBy_publish": "steph.briggs@backcountry.com",
+      "sling:resourceType": "baem/components/page",
+      "jcr:uuid": "825ce7df-cbf3-4fae-affc-b49dd0bc9651",
+      "jcr:title": "Toddler & Infant Ski Clothing",
+      "cq:isDelivered": true,
+      "pageProperty_seo-toggle": "false",
+      "jcr:versionHistory": "191ca7ec-3cb0-4c9d-a765-9b3947dabf99",
+      "cq:lastModifiedBy": "steph.briggs@backcountry.com",
+      "cq:template": "/conf/baem/settings/wcm/templates/plp-content",
+      "pageProperty_titleTag": "Toddler & Infant Ski Clothing",
+      "jcr:created": "Mon Nov 13 2023 19:54:37 GMT+0000",
+      "jcr:createdBy": "steph.briggs@backcountry.com",
+      "jcr:predecessors": [
+        "8c02ebda-8b53-4da5-8947-a15fa058499c"
+      ],
+      "cq:lastReplicationAction_scene7": "Activate",
+      "jcr:isCheckedOut": true,
+      "jcr:mixinTypes": [
+        "mix:versionable",
+        "cq:ReplicationStatus2"
+      ],
+      "pageProperty_description": "Toddler & Infant Ski Clothing",
+      "cq:lastReplicationAction_publish": "Activate",
+      "cq:lastModified": "Mon Nov 13 2023 19:54:37 GMT+0000",
+      "cq:lastReplicatedBy_scene7": "steph.briggs@backcountry.com",
+      "jcr:primaryType": "cq:PageContent",
+      "cq:lastReplicated": "Mon Nov 13 2023 19:54:54 GMT+0000",
+      "cq:lastReplicated_publish": "Mon Nov 13 2023 19:54:54 GMT+0000",
+      "cq:lastReplicated_scene7": "Mon Nov 13 2023 19:54:54 GMT+0000",
+      "jcr:baseVersion": "8c02ebda-8b53-4da5-8947-a15fa058499c",
+      "root": {
+        "layout": "responsiveGrid",
+        "sling:resourceType": "baem/components/container",
+        "jcr:primaryType": "nt:unstructured",
+        "container": {
+          "layout": "responsiveGrid",
+          "sling:resourceType": "baem/components/container",
+          "jcr:primaryType": "nt:unstructured",
+          "accordion": {
+            "jcr:created": "Mon Nov 13 2023 17:31:10 GMT+0000",
+            "jcr:lastModifiedBy": "steph.briggs@backcountry.com",
+            "jcr:createdBy": "steph.briggs@backcountry.com",
+            "sling:resourceType": "baem/components/accordion",
+            "singleExpansion": "false",
+            "jcr:lastModified": "Mon Nov 13 2023 17:54:47 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "item_1699897550948": {
+              "cq:panelTitle": "How do you determine ski size for kids?",
+              "sling:resourceType": "baem/components/container",
+              "jcr:primaryType": "nt:unstructured",
+              "text": {
+                "jcr:created": "Mon Nov 13 2023 17:46:23 GMT+0000",
+                "jcr:lastModifiedBy": "steph.briggs@backcountry.com",
+                "jcr:createdBy": "steph.briggs@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Mon Nov 13 2023 17:47:21 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<p>It’s recommended to look over the <a href=\"https://www.backcountry.com/explore/how-to-pick-the-right-ski-length\">ski size chart</a> from the brand you’re interested in. You can also ask our Gearhead Experts for help. </p>\r\n"
+              }
+            },
+            "item_1699897548419": {
+              "cq:panelTitle": "How many layers should a child wear skiing?",
+              "sling:resourceType": "baem/components/container",
+              "jcr:primaryType": "nt:unstructured",
+              "text": {
+                "jcr:created": "Mon Nov 13 2023 17:46:20 GMT+0000",
+                "jcr:lastModifiedBy": "steph.briggs@backcountry.com",
+                "jcr:createdBy": "steph.briggs@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Mon Nov 13 2023 17:46:37 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<p>Three: a baselayer, an insulation layer, and a shell layer. However, be ready to adapt this rule depending on weather and mountain conditions, and the child's comfort level and response to the conditions. </p>\r\n"
+              }
+            },
+            "item_1699896675099": {
+              "cq:panelTitle": "What kind of jacket is best for skiing?",
+              "sling:resourceType": "baem/components/container",
+              "jcr:primaryType": "nt:unstructured",
+              "text": {
+                "jcr:created": "Mon Nov 13 2023 17:33:22 GMT+0000",
+                "jcr:lastModifiedBy": "steph.briggs@backcountry.com",
+                "jcr:createdBy": "steph.briggs@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Mon Nov 13 2023 17:34:42 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<p>The warmest ski jacket has a weatherproof 3-layer construction and insulation. The breathable laminate keeps water out but allows sweat vapor to escape. The insulation can be synthetic, down, or wool and is offered in various weights to choose your warmth level. </p>\r\n"
+              }
+            },
+            "item_1": {
+              "layout": "responsiveGrid",
+              "cq:panelTitle": "What should you wear skiing?",
+              "sling:resourceType": "baem/components/container",
+              "jcr:primaryType": "nt:unstructured",
+              "jcr:title": "Item 1",
+              "text": {
+                "jcr:created": "Mon Nov 13 2023 17:33:26 GMT+0000",
+                "jcr:lastModifiedBy": "steph.briggs@backcountry.com",
+                "jcr:createdBy": "steph.briggs@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Mon Nov 13 2023 17:45:10 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<p>When skiing, wear baselayers under water-resistant or waterproof ski pants and a hardshell jacket. Add a midlayer or sweater under the jacket for added warmth. To cover your hands: Ski gloves are good for dexterity, and mittens tend to be warmer. You’ll need ski socks, a helmet, and goggles too.</p>\r\n"
+              }
+            }
+          }
+        }
+      }
+    }
+  }

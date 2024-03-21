@@ -1,0 +1,123 @@
+{
+    "jcr:created": "Mon Nov 06 2023 19:37:45 GMT+0000",
+    "jcr:createdBy": "svalenza@backcountry.com",
+    "jcr:primaryType": "cq:Page",
+    "jcr:content": {
+      "cq:lastReplicatedBy": "svalenza@backcountry.com",
+      "cq:lastReplicationAction": "Activate",
+      "cq:lastReplicatedBy_publish": "svalenza@backcountry.com",
+      "sling:resourceType": "baem/components/page",
+      "jcr:uuid": "4f6beb01-b051-483a-bc2a-fa12b9bab792",
+      "jcr:title": "Women's Clothing",
+      "cq:isDelivered": true,
+      "pageProperty_seo-toggle": "false",
+      "jcr:versionHistory": "f315ceb2-da48-4345-a115-3c16c067af05",
+      "cq:lastModifiedBy": "svalenza@backcountry.com",
+      "cq:template": "/conf/baem/settings/wcm/templates/plp-content",
+      "pageProperty_titleTag": "Women's Clothing",
+      "jcr:created": "Mon Nov 06 2023 19:37:45 GMT+0000",
+      "jcr:createdBy": "svalenza@backcountry.com",
+      "jcr:predecessors": [
+        "9a7f2f63-3552-47af-b7d7-f47bdb324f36"
+      ],
+      "cq:lastReplicationAction_scene7": "Activate",
+      "jcr:isCheckedOut": true,
+      "jcr:mixinTypes": [
+        "mix:versionable",
+        "cq:ReplicationStatus2"
+      ],
+      "pageProperty_description": "Women's Clothing",
+      "cq:lastReplicationAction_publish": "Activate",
+      "cq:lastModified": "Mon Nov 06 2023 22:49:05 GMT+0000",
+      "cq:lastReplicatedBy_scene7": "svalenza@backcountry.com",
+      "jcr:primaryType": "cq:PageContent",
+      "cq:lastReplicated": "Mon Nov 06 2023 22:49:18 GMT+0000",
+      "cq:lastReplicated_publish": "Mon Nov 06 2023 22:49:18 GMT+0000",
+      "cq:lastReplicated_scene7": "Mon Nov 06 2023 22:49:18 GMT+0000",
+      "sling:vanityPath": "backcountry.com/womens-clothing",
+      "jcr:baseVersion": "9a7f2f63-3552-47af-b7d7-f47bdb324f36",
+      "root": {
+        "layout": "responsiveGrid",
+        "sling:resourceType": "baem/components/container",
+        "jcr:primaryType": "nt:unstructured",
+        "container": {
+          "layout": "responsiveGrid",
+          "sling:resourceType": "baem/components/container",
+          "jcr:primaryType": "nt:unstructured",
+          "accordion": {
+            "jcr:created": "Mon Nov 06 2023 19:37:58 GMT+0000",
+            "jcr:lastModifiedBy": "svalenza@backcountry.com",
+            "jcr:createdBy": "svalenza@backcountry.com",
+            "sling:resourceType": "baem/components/accordion",
+            "singleExpansion": "false",
+            "jcr:lastModified": "Mon Nov 06 2023 19:55:48 GMT+0000",
+            "jcr:primaryType": "nt:unstructured",
+            "item_2": {
+              "cq:panelTitle": " What are the essential clothing items for women's athleisure?",
+              "sling:resourceType": "baem/components/container",
+              "jcr:title": "Item 2",
+              "layout": "responsiveGrid",
+              "jcr:primaryType": "nt:unstructured",
+              "text": {
+                "jcr:created": "Mon Nov 06 2023 19:51:57 GMT+0000",
+                "jcr:lastModifiedBy": "svalenza@backcountry.com",
+                "jcr:createdBy": "svalenza@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Mon Nov 06 2023 19:54:25 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<p><br>\r\nEssential clothing items for women's athleisure style include comfortable, <a href=\"https://www.backcountry.com/womens-performance-leggings-pants\">moisture-wicking leggings or joggers</a>, a fitted sports bra for support, a <a href=\"https://www.backcountry.com/womens-tops\">versatile and breathable top</a>, athletic sneakers for both exercise and everyday wear, and a <a href=\"https://www.backcountry.com/womens-jackets\">zip-up hoodie or stylish jacket</a>. Layering pieces like a bomber jacket or sweatshirt and accessories such as a cap or headband can complete the look and get you ready for everything from the campsite to a night on the town.</p>\r\n"
+              }
+            },
+            "item_1": {
+              "cq:panelTitle": "What is the new outdoor clothing trend gorpcore? ",
+              "sling:resourceType": "baem/components/container",
+              "jcr:title": "Item 1",
+              "layout": "responsiveGrid",
+              "jcr:primaryType": "nt:unstructured",
+              "text": {
+                "jcr:created": "Mon Nov 06 2023 19:54:48 GMT+0000",
+                "jcr:lastModifiedBy": "svalenza@backcountry.com",
+                "jcr:createdBy": "svalenza@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Mon Nov 06 2023 22:49:05 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<p>Gorpcore is a fashion trend rooted in outdoor gear aesthetics. The term combines &quot;gorp&quot; (slang for trail mix, often carried on hikes) and &quot;core&quot; (from &quot;streetwear&quot;). Gorpcore embraces practical outdoor clothing, like utility jackets, hiking boots, and fleece layers, in everyday urban wear. Check out this trend in our&nbsp;<a href=\"https://www.backcountry.com/backcountry-womens-clothing\">Backcountry women's clothing</a> line or other brands like <a href=\"https://www.backcountry.com/patagonia-womens-clothing\">Patagonia</a>, <a href=\"https://www.backcountry.com/fjallraven-womens-clothing\">Fjallraven</a>, and <a href=\"https://www.backcountry.com/the-north-face-womens-clothing\">The North Face.</a></p>\r\n"
+              }
+            },
+            "item_1699300123836": {
+              "cq:panelTitle": "How do you find your outdoor clothes style?",
+              "sling:resourceType": "baem/components/container",
+              "jcr:primaryType": "nt:unstructured",
+              "text": {
+                "jcr:created": "Mon Nov 06 2023 19:50:11 GMT+0000",
+                "jcr:lastModifiedBy": "svalenza@backcountry.com",
+                "jcr:createdBy": "svalenza@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Mon Nov 06 2023 19:50:35 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<p>Four steps to better outdoor style for women:</p>\r\n<ol>\r\n<li><b>Self-assessmen</b>t: Identify your outdoor preferences and comfort level.</li>\r\n<li><b>Dress for the Occasion</b>: Select clothing and footwear suitable for the outdoor activities you plan to pursue. Consider the climate, season, and potential weather conditions.</li>\r\n<li><b>Experiment and Adapt</b>: Try different gear and clothing, prioritize comfort, safety, and eco-friendly choices, and be open to evolving your style over time.</li>\r\n<li><b>Seek Expert Advice</b>:&nbsp;Consult with outdoor experts, like our&nbsp;<a href=\"https://www.backcountry.com/service/backcountry-gearheads\">Gearheads</a>, for personalized recommendations based on your needs.</li>\r\n</ol>\r\n"
+              }
+            },
+            "item_1699300076205": {
+              "cq:panelTitle": "What is the Backcountry return policy?",
+              "sling:resourceType": "baem/components/container",
+              "jcr:primaryType": "nt:unstructured",
+              "text": {
+                "jcr:created": "Mon Nov 06 2023 19:49:40 GMT+0000",
+                "jcr:lastModifiedBy": "svalenza@backcountry.com",
+                "jcr:createdBy": "svalenza@backcountry.com",
+                "textIsRich": "true",
+                "sling:resourceType": "baem/components/text",
+                "jcr:lastModified": "Mon Nov 06 2023 19:49:50 GMT+0000",
+                "jcr:primaryType": "nt:unstructured",
+                "text": "<p><a href=\"https://www.backcountry.com/service/bc-returnguarantee\">Backcountry's return policy</a>&nbsp;offers a 30-day window for returns, ensuring customer satisfaction with outdoor equipment purchases. Items must be in unused condition with original packaging, and certain exclusions apply. They provide easy returns through their website, making the process convenient and hassle-free for their customers.</p>\r\n"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
