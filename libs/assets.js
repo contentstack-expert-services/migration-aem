@@ -1,38 +1,37 @@
-const mkdirp = require("mkdirp");
-const path = require("path");
-const fs = require("fs");
-const read = require("fs-readdir-recursive");
-const helper = require("../utils/helper");
+const mkdirp = require('mkdirp');
+const path = require('path');
+const fs = require('fs');
+const helper = require('../utils/helper');
 
-var guard = require("when/guard"),
-  parallel = require("when/parallel"),
-  when = require("when"),
-  axios = require("axios");
+var guard = require('when/guard'),
+  parallel = require('when/parallel'),
+  when = require('when'),
+  axios = require('axios');
 
-const chalk = require("chalk");
+const chalk = require('chalk');
 
 var assetConfig = config.modules.asset,
   assetFolderPath = path.resolve(config.data, assetConfig.dirName),
-  assetMasterFolderPath = path.resolve(process.cwd(), "logs", "assets"),
+  assetMasterFolderPath = path.resolve(process.cwd(), 'logs', 'assets'),
   failedJSON =
-    helper.readFile(path.join(assetMasterFolderPath, "aem_failed")) || {};
+    helper.readFile(path.join(assetMasterFolderPath, 'aem_failed')) || {};
 failedJSON =
-  helper.readFile(path.join(assetMasterFolderPath, "aem_failed")) || {};
+  helper.readFile(path.join(assetMasterFolderPath, 'aem_failed')) || {};
 
 if (!fs.existsSync(assetFolderPath)) {
   mkdirp.sync(assetFolderPath);
-  helper.writeFile(path.join(assetFolderPath, "assets"));
+  helper.writeFile(path.join(assetFolderPath, 'assets'));
   mkdirp.sync(assetMasterFolderPath);
 } else {
-  if (!fs.existsSync(path.join(assetFolderPath, "assets.json")))
-    helper.writeFile(path.join(assetFolderPath, "assets"));
+  if (!fs.existsSync(path.join(assetFolderPath, 'assets.json')))
+    helper.writeFile(path.join(assetFolderPath, 'assets'));
   if (!fs.existsSync(assetMasterFolderPath)) {
     mkdirp.sync(assetMasterFolderPath);
   }
 }
 
 //Reading a File
-var assetData = helper.readFile(path.join(assetFolderPath, "assets.json"));
+var assetData = helper.readFile(path.join(assetFolderPath, 'assets.json'));
 
 function ExtractAssets() {}
 
@@ -47,28 +46,28 @@ ExtractAssets.prototype = {
 
         if (url) {
           const name = (url?.match(/\/content\/dam\/bcs\/projects\/(.*)/) ||
-            [])[1]?.replace(/\//g, " ");
+            [])[1]?.replace(/\//g, ' ');
           if (name) {
             const uid = url
-              .replace(/[^a-zA-Z0-9]+/g, "_")
-              .replace(/^_+|_+$/g, "")
+              .replace(/[^a-zA-Z0-9]+/g, '_')
+              .replace(/^_+|_+$/g, '')
               .toLowerCase();
-            url = url.replace("/content/", "https://content.backcountry.com/");
+            url = url.replace('/content/', 'https://content.backcountry.com/');
 
             var assetPath = path.resolve(assetFolderPath, uid);
             if (fs.existsSync(path.join(assetPath, name))) {
               console.log(
-                "An asset with id",
+                'An asset with id',
                 chalk.red(uid),
-                "and name",
+                'and name',
                 chalk.red(`${name}`),
-                "already present."
+                'already present.'
               );
               resolve(uid);
             } else {
               try {
                 const response = await axios.get(url, {
-                  responseType: "arraybuffer",
+                  responseType: 'arraybuffer',
                 });
 
                 mkdirp.sync(assetPath);
@@ -91,11 +90,11 @@ ExtractAssets.prototype = {
                 };
 
                 console.log(
-                  "An asset with id",
+                  'An asset with id',
                   chalk.green(uid),
-                  "and name",
+                  'and name',
                   chalk.green(`${name}`),
-                  "got downloaded successfully."
+                  'got downloaded successfully.'
                 );
                 // Update assetVersionInfoFile.
                 const assetVersionInfoFile = path.resolve(assetPath, uid);
@@ -121,7 +120,7 @@ ExtractAssets.prototype = {
                       reason_for_error: err.mesaage,
                     };
                     helper.writeFile(
-                      path.join(assetMasterFolderPath, "aem_failed"),
+                      path.join(assetMasterFolderPath, 'aem_failed'),
                       JSON.stringify(failedJSON, null, 4)
                     );
                     resolve(uid);
@@ -141,7 +140,7 @@ ExtractAssets.prototype = {
         }
         resolve();
       } catch (error) {
-        console.log("error", error);
+        console.log('error', error);
         reject();
       }
     });
@@ -172,22 +171,22 @@ ExtractAssets.prototype = {
         taskResults
           .then(function (results) {
             helper.writeFile(
-              path.join(assetFolderPath, "assets"),
+              path.join(assetFolderPath, 'assets'),
               JSON.stringify(assetData, null, 4)
             );
             helper.writeFile(
-              path.join(assetMasterFolderPath, "aem_failed"),
+              path.join(assetMasterFolderPath, 'aem_failed'),
               JSON.stringify(failedJSON, null, 4)
             );
             resolve(results);
           })
           .catch(function (e) {
-            errorLogger("failed to download assets: ", e);
+            errorLogger('failed to download assets: ', e);
             resolve();
           });
         resolve();
       } catch (error) {
-        console.log("error", error);
+        console.log('error', error);
         reject();
       }
     });
@@ -199,7 +198,7 @@ ExtractAssets.prototype = {
       try {
         const data = helper?.readFile(templatePaths);
 
-        let jsonArray = ["image", "teaser", "carousel"];
+        let jsonArray = ['image', 'teaser', 'carousel'];
 
         // Function to filter JSON based on prefixes recursively
         function filterJson(json, prefixes) {
@@ -221,7 +220,7 @@ ExtractAssets.prototype = {
             }
 
             // If the value is an object, recursively call the function
-            if (typeof json[key] === "object" && json[key] !== null) {
+            if (typeof json[key] === 'object' && json[key] !== null) {
               let nestedResult = filterJson(json[key], prefixes);
               // Merge the nested result with the current result
               result = result.concat(nestedResult);
@@ -232,7 +231,7 @@ ExtractAssets.prototype = {
         }
 
         let modifiedJsonArray = filterJson(
-          data["jcr:content"]?.root?.container?.container,
+          data['jcr:content']?.root?.container?.container,
           jsonArray
         );
 
@@ -251,7 +250,7 @@ ExtractAssets.prototype = {
 
   start: function (aemFile) {
     var self = this;
-    successLogger("exporting assets...");
+    successLogger('exporting assets...');
     return new Promise(async function (resolve, reject) {
       try {
         for (const templatePaths of aemFile || []) {
