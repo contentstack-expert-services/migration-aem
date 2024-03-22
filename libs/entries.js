@@ -280,7 +280,7 @@ ExtractEntries.prototype = {
           } else if (key.startsWith('image') && uid !== undefined) {
             entriesData[uid] = {
               uid: uid,
-              title: value.alt,
+              title: value.alt ?? uidString,
             };
             await imageMapping(uid, value, entriesData);
             writeEntriesFile(filePath, entriesData);
@@ -311,7 +311,7 @@ ExtractEntries.prototype = {
             if (value?.['jcr:title']) {
               entriesData[uid] = {
                 uid: uid,
-                title: value?.['jcr:title'],
+                title: value?.['jcr:title'] ?? uidString,
               };
             }
             writeEntriesFile(filePath, entriesData);

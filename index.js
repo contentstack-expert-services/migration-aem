@@ -70,10 +70,6 @@ const schemaMaker = () => {
 
 const migFunction = async () => {
   try {
-    // global.config.sitecore_folder =
-    //   "/Users/saurav.upadhyay/Expert Service/Team Fury/Backcountry/Backcountry Corp CMS/DAM/us/en/explore-blog";
-    // global.config.sitecore_folder =
-    //   "/Users/saurav.upadhyay/Expert Service/Team Fury/Backcountry";
     global.filePath = undefined;
     let files = read(global.config.sitecore_folder);
     for (const filePath of files) {
@@ -92,9 +88,6 @@ const migFunction = async () => {
       // Introduce a 5-second delay between module executions
       await new Promise((resolve) => setTimeout(resolve, 5000));
     }
-
-    // Wait for all module promises to complete
-    // await Promise.all(modulePromises);
 
     console.log(chalk.green('\n\nAEM Data exporting has been started\n'));
   } catch (error) {
