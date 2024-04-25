@@ -1,6 +1,6 @@
-var winston = require("winston");
-var pathLib = require("path");
-var fs = require("fs");
+var winston = require('winston');
+var pathLib = require('path');
+var fs = require('fs');
 var slice = Array.prototype.slice;
 
 function makeSureLogsDir(dirPath) {
@@ -12,17 +12,17 @@ function makeSureLogsDir(dirPath) {
 }
 
 function returnString(args) {
-  var returnStr = "";
+  var returnStr = '';
   if (args && args.length) {
     returnStr = args
       .map(function (item) {
         if (item)
-          if (item && typeof item === "object") {
+          if (item && typeof item === 'object') {
             return JSON.stringify(item);
           }
         return item;
       })
-      .join("  ")
+      .join('  ')
       .trim();
   }
   return returnStr;
@@ -36,17 +36,17 @@ var myCustomLevels = {
     debug: 3,
   },
   colors: {
-    info: "blue",
-    debug: "green",
-    warn: "yellow",
-    error: "red",
+    info: 'blue',
+    debug: 'green',
+    warn: 'yellow',
+    error: 'red',
   },
 };
 
 module.exports = function (logfileName) {
-  var logsDir = __dirname + "/logs";
+  var logsDir = pathLib.join(process.cwd(), 'logs');
   makeSureLogsDir(logsDir);
-  var logPath = pathLib.join(logsDir, logfileName + ".log");
+  var logPath = pathLib.join(logsDir, logfileName + '.log');
 
   var transports = [
     new winston.transports.File({
@@ -71,28 +71,28 @@ module.exports = function (logfileName) {
       var args = slice.call(arguments);
       var logString = returnString(args);
       if (logString) {
-        logger.log("info", logString);
+        logger.log('info', logString);
       }
     },
     warn: function () {
       var args = slice.call(arguments);
       var logString = returnString(args);
       if (logString) {
-        logger.log("warn", logString);
+        logger.log('warn', logString);
       }
     },
     error: function () {
       var args = slice.call(arguments);
       var logString = returnString(args);
       if (logString) {
-        logger.log("error", logString);
+        logger.log('error', logString);
       }
     },
     debug: function () {
       var args = slice.call(arguments);
       var logString = returnString(args);
       if (logString) {
-        logger.log("debug", logString);
+        logger.log('debug', logString);
       }
     },
   };

@@ -1,6 +1,6 @@
 {
-  "title": "Accordion",
-  "uid": "accordion",
+  "title": "Anchornavigation",
+  "uid": "anchornavigation",
   "_version": 1,
   "inbuilt_class": false,
   "schema": [
@@ -34,8 +34,8 @@
       "schema": [
         {
           "data_type": "text",
-          "display_name": "Panel Title",
-          "uid": "panel_title",
+          "display_name": "Link",
+          "uid": "link",
           "field_metadata": {
             "description": "",
             "default_value": "",
@@ -50,8 +50,8 @@
         },
         {
           "data_type": "text",
-          "display_name": "Title",
-          "uid": "title",
+          "display_name": "Text",
+          "uid": "text",
           "field_metadata": {
             "description": "",
             "default_value": "",
@@ -63,27 +63,6 @@
           "multiple": false,
           "non_localizable": false,
           "unique": false
-        },
-        {
-          "data_type": "json",
-          "display_name": "text",
-          "uid": "text",
-          "field_metadata": {
-            "allow_json_rte": true,
-            "embed_entry": false,
-            "description": "",
-            "default_value": "",
-            "multiline": false,
-            "rich_text_type": "advanced",
-            "options": []
-          },
-          "format": "",
-          "error_messages": { "format": "" },
-          "reference_to": ["sys_assets"],
-          "multiple": false,
-          "non_localizable": false,
-          "unique": false,
-          "mandatory": false
         }
       ],
       "uid": "item",

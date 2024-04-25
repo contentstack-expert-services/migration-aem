@@ -7,6 +7,7 @@ const aemFile = [];
 
 const Messages = require('./utils/message');
 const messages = new Messages('wordpress').msgs;
+const cliUpdate = require('./utils/cli_convert');
 
 config = require('./config');
 global.errorLogger = require('./utils/logger')('error').error;
@@ -17,56 +18,11 @@ var modulesList = [
   'assets',
   'content_types',
   'labels',
+  'teaserPage',
   'entries',
+  'locales',
   'entryMapping',
 ]; //to create entries
-
-const schemaMaker = () => {
-  if (
-    fs.existsSync(
-      path.join(process.cwd(), config.data, 'content_types', 'schema.json')
-    )
-  ) {
-    // to copy json data from all the content type and meke a schema.json
-    fs.readdir(
-      path.join(process.cwd(), config.data, 'content_types'),
-      (err, fileNames) => {
-        if (err) throw console.log(err.message);
-        // Loop fileNames array
-        fileNames.forEach((filename) => {
-          // Read file content
-          fs.readFile(
-            path.join(
-              process.cwd(),
-              config.data,
-              'content_types',
-              `${filename}`
-            ),
-            (err, data) => {
-              if (err) throw console.log(err.message);
-              // Log file content
-              const output = JSON.parse(data);
-              arr.push(output);
-
-              fs.writeFileSync(
-                path.join(
-                  process.cwd(),
-                  config.data,
-                  'content_types',
-                  `schema.json`
-                ),
-                JSON.stringify(arr, null, 4),
-                (err) => {
-                  if (err) throw console.log(err.message);
-                }
-              );
-            }
-          );
-        });
-      }
-    );
-  }
-};
 
 const migFunction = async () => {
   try {
@@ -86,10 +42,13 @@ const migFunction = async () => {
       await moduleExport.start(aemFile);
 
       // Introduce a 5-second delay between module executions
-      await new Promise((resolve) => setTimeout(resolve, 5000));
+      await new Promise((resolve) => setTimeout(resolve, 20000));
     }
+    await cliUpdate();
 
     console.log(chalk.green('\n\nAEM Data exporting has been started\n'));
+
+    // to convert data to support CLI support
   } catch (error) {
     console.log(error);
   }

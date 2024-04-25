@@ -1,5 +1,0 @@
-1. Expierence Management:- Expierence Management is like global field in Contentstack. It can be used in multiple page 
-2. Free-text:- Its like JSON RTE in Contentstack. It also have various component same like JSON RTE have.
-3. Carousel:- Its a file field in contentstack. As it support multiple images
-4. Teaser:- Its a group of File field, Single Line, MultiLine, and RTE component in Contentstack
-5. Text-Banner:- Its a group of File field and Single Line field in contentstack

@@ -3,6 +3,8 @@ node_modules
 package-lock.json
 logs
 Backcountry*
+_backup_*
+dummy*
 # Created by https://www.toptal.com/developers/gitignore/api/macos,node,visualstudiocode
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,node,visualstudiocode
 

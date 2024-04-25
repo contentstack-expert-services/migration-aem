@@ -1,7 +1,6 @@
 const mkdirp = require('mkdirp');
 const path = require('path');
 const fs = require('fs');
-const read = require('fs-readdir-recursive');
 var when = require('when');
 const chalk = require('chalk');
 const { JSDOM } = require('jsdom');
@@ -12,11 +11,14 @@ const axios = require('axios');
 const helper = require('../utils/helper');
 
 var entryFolderPath = path.resolve(config.data, config.modules.entries.dirName);
-
 if (!fs.existsSync(entryFolderPath)) {
   mkdirp.sync(entryFolderPath);
 }
+
 function ExtractEntries() {}
+
+const carouselEntries = {};
+const teaserEntries = {};
 
 async function getYoutubeDetails(url) {
   try {
@@ -50,8 +52,30 @@ function extractContent(input) {
 }
 
 const processTeaser = async (key, value, entriesData, filePath) => {
-  // console.log("here", filePath);
   filePath = filePath.replace(/carousel(?![^\/]*carousel)/, 'teaser');
+
+  const teaserFilePath = path.join(
+    process.cwd(),
+    config.data,
+    'entries',
+    'teaser',
+    'en-us',
+    'carousel-teaser.json'
+  );
+
+  if (!fs.existsSync(teaserFilePath)) {
+    helper.writeFile(teaserFilePath);
+  }
+
+  // Write entries to respective files
+  const carouselFilePath = path.join(
+    process.cwd(),
+    config.data,
+    'entries',
+    'carousel',
+    'en-us.json'
+  );
+
   if (key.startsWith('teaser')) {
     let uidString = `${key} ${value['jcr:created']}`;
     let uid = uidString
@@ -74,47 +98,31 @@ const processTeaser = async (key, value, entriesData, filePath) => {
       const dom = new JSDOM(value?.['jcr:description'] ?? '');
       let htmlDoc = dom.window.document.querySelector('body');
       const jsonValue = htmlToJson(htmlDoc);
-
+      // console.log('uid', uid);
       entriesData[uid] = {
         uid: uid,
-        title: extractContent(value?.['jcr:description'] ?? ''),
+        title: uidString,
         url: value?.linkURL ?? '',
         description: jsonValue,
         action: actionArray,
       };
 
-      await imageMapping(uid, value, entriesData);
+      imageMapping(uid, value, entriesData);
     }
-    const carouselEntries = {};
-    const teaserEntries = {};
 
     // Iterate over the entriesData and categorize based on key
     for (const [key, value] of Object.entries(entriesData)) {
       if (key.startsWith('carousel')) {
         carouselEntries[key] = value;
+        writeEntriesFile(carouselFilePath, carouselEntries);
       } else if (key.startsWith('teaser')) {
+        // console.log('teaser data', teaserEntries[key]);
         teaserEntries[key] = value;
+        writeEntriesFile(teaserFilePath, teaserEntries);
+      } else {
+        // console.log(key);
       }
     }
-
-    // Write entries to respective files
-    const carouselFilePath = path.join(
-      process.cwd(),
-      config.data,
-      'entries',
-      'carousel',
-      'en-us.json'
-    );
-    writeEntriesFile(carouselFilePath, carouselEntries);
-
-    const teaserFilePath = path.join(
-      process.cwd(),
-      config.data,
-      'entries',
-      'teaser',
-      'en-us.json'
-    );
-    writeEntriesFile(teaserFilePath, teaserEntries);
   }
 };
 
@@ -130,46 +138,51 @@ function writeEntriesFile(filePath, data) {
   fs.writeFileSync(filePath, JSON.stringify(data, null, 4), 'utf-8');
 }
 
-async function imageMapping(entryId, entry, entryData) {
-  return new Promise(async (resolve, reject) => {
-    try {
-      var assetsId = helper.readFile(
-        path.join(process.cwd(), config.data, 'assets', 'assets.json')
-      );
+function imageMapping(entryId, entry, entryData) {
+  try {
+    var assetsId = helper.readFile(
+      path.join(process.cwd(), config.data, 'assets', 'assets.json')
+    );
 
-      const getAssetsDetails = (entryField) => {
-        if (entryField) {
-          const attachmentId = entryField
-            .replace(/[^a-zA-Z0-9]+/g, '_')
-            .replace(/^_+|_+$/g, '')
-            .toLowerCase();
-          return (
-            Object.values(assetsId).find(
-              (asset) => asset.uid === attachmentId
-            ) || null
-          );
-        }
-        return null;
-      };
-
-      if (entry?.fileReference) {
-        const fileReferenceDetails = getAssetsDetails(entry.fileReference);
-        if (fileReferenceDetails) {
-          entryData[entryId]['file_reference'] = [fileReferenceDetails];
-        }
-      } else if (entry?.videoAsset) {
-        const videoAssetDetails = getAssetsDetails(entry.videoAsset);
-        if (videoAssetDetails) {
-          entryData[entryId]['video_asset'] = [videoAssetDetails];
-        }
+    const getAssetsDetails = (entryField) => {
+      if (entryField) {
+        const attachmentId = entryField
+          .replace(/[^a-zA-Z0-9]+/g, '_')
+          .replace(/^_+|_+$/g, '')
+          .toLowerCase();
+        return (
+          Object.values(assetsId).find((asset) => asset.uid === attachmentId) ||
+          null
+        );
       }
-      resolve();
-    } catch (error) {
-      console.error('Error reading assets file:', error);
-      reject(error);
+      return null;
+    };
+
+    if (entry?.fileReference) {
+      const fileReferenceDetails = getAssetsDetails(entry.fileReference);
+      if (fileReferenceDetails) {
+        entryData[entryId]['file_reference'] = [fileReferenceDetails];
+      } else {
+        entryData[entryId]['file_reference'] = [];
+      }
+    } else if (entry?.videoAsset) {
+      const videoAssetDetails = getAssetsDetails(entry.videoAsset);
+      if (videoAssetDetails) {
+        entryData[entryId]['video_asset'] = [videoAssetDetails];
+      } else {
+        entryData[entryId]['video_asset'] = [];
+      }
+    } else {
+      entryData[entryId]['file_reference'] = [];
+      entryData[entryId]['video_asset'] = [];
     }
-  });
+  } catch (error) {
+    console.error('Error reading assets file:', error);
+    reject(error);
+  }
 }
+
+const teaserEntriesData = {};
 
 ExtractEntries.prototype = {
   saveEntry: function (entries) {
@@ -179,237 +192,265 @@ ExtractEntries.prototype = {
       const promises = [];
 
       for (const [key, value] of Object.entries(entries)) {
+        let ignoreContentType = ['spacer', 'container', 'columncontrol'];
         if (value['jcr:created']) {
-          const folderPath = path.join(
-            process.cwd(),
-            config.data,
-            'entries',
-            key.split(/_(.*)/s)[0]
-          );
+          if (!ignoreContentType.includes(key.split(/_(.*)/s)[0])) {
+            const folderPath = path.join(
+              process.cwd(),
+              config.data,
+              'entries',
+              key.split(/_(.*)/s)[0]
+            );
 
-          if (!fs.existsSync(folderPath)) {
-            mkdirp.sync(folderPath);
-          }
-
-          const filePath = path.join(folderPath, 'en-us.json');
-          let entriesData = readEntriesFile(filePath);
-
-          let uidString = `${key} ${value['jcr:created']}`;
-          let uid = uidString
-            .replace(/[^a-zA-Z0-9]/g, '_')
-            .replace(/^_+/, '')
-            .replace(/_+/g, '_')
-            .toLowerCase();
-
-          let actionArray = [];
-
-          if (key.startsWith('textbanner')) {
-            if (value?.actions) {
-              actionArray = Object.keys(value?.actions)
-                .filter((key) => key.startsWith('item')) // Filter out non-item keys
-                .map((key) => ({
-                  title: value?.actions[key].text,
-                  href: value?.actions[key].link,
-                }));
-            }
-            let jsonValue;
-            if (value?.['jcr:description']) {
-              const dom = new JSDOM(
-                value?.['jcr:description']
-                  .replace(/<!--.*?-->/g, '')
-                  .replace(/&lt;!--?\s+\/?wp:.*?--&gt;/g, '')
-              );
-              let htmlDoc = dom.window.document.querySelector('body');
-              jsonValue = htmlToJson(htmlDoc);
+            if (!fs.existsSync(folderPath)) {
+              mkdirp.sync(folderPath);
             }
 
-            entriesData[uid] = {
-              uid: uid,
-              title: extractContent(value?.['jcr:description'] ?? ''),
-              description: jsonValue || null,
-              action: actionArray,
-            };
-            if (
-              entriesData[uid]?.title &&
-              entriesData[uid]?.title == '&nbsp;'
-            ) {
-              entriesData[uid].title = uid;
-            }
-            await imageMapping(uid, value, entriesData);
-            writeEntriesFile(filePath, entriesData);
-          } else if (key.startsWith('text') && uid !== undefined) {
-            if (value?.text !== undefined) {
-              const dom = new JSDOM(
-                value?.text
-                  .replace(/<!--.*?-->/g, '')
-                  .replace(/&lt;!--?\s+\/?wp:.*?--&gt;/g, '')
-              );
-              let htmlDoc = dom.window.document.querySelector('body');
-              const jsonValue = htmlToJson(htmlDoc);
-              entriesData[uid] = {
-                uid: uid,
-                title: extractContent(value?.text ?? ''),
-                text: jsonValue,
-              };
-            }
-            if (
-              entriesData[uid]?.title ||
-              entriesData[uid]?.title === '&nbsp;' ||
-              entriesData[uid]?.title === ''
-            ) {
-              entriesData[uid].title = uid;
-            }
-            writeEntriesFile(filePath, entriesData);
-          } else if (key.startsWith('anchornavigation')) {
-            const outputArray = [];
-            for (let keyValue in value?.actions) {
-              if (keyValue.startsWith('item')) {
-                let item = value?.actions[keyValue];
-                let newItem = {
-                  link: item.link,
-                  text: item.text,
-                };
-                outputArray.push(newItem);
-              }
-            }
-            entriesData[uid] = {
-              uid: uid,
-              title: '',
-              item: outputArray,
-            };
-          } else if (key.startsWith('image') && uid !== undefined) {
-            entriesData[uid] = {
-              uid: uid,
-              title: value.alt ?? uidString,
-            };
-            await imageMapping(uid, value, entriesData);
-            writeEntriesFile(filePath, entriesData);
-          } else if (key.startsWith('teaser') && uid !== undefined) {
-            if (value?.actions) {
-              actionArray = Object.keys(value?.actions)
-                .filter((key) => key.startsWith('item')) // Filter out non-item keys
-                .map((key) => ({
-                  title: value?.actions[key].text,
-                  href: value?.actions[key].link,
-                }));
-            }
-
-            const dom = new JSDOM(value?.['jcr:description'] ?? '');
-            let htmlDoc = dom.window.document.querySelector('body');
-            const jsonValue = htmlToJson(htmlDoc);
-
-            entriesData[uid] = {
-              uid: uid,
-              title: extractContent(value?.['jcr:description'] ?? ''),
-              url: value?.linkURL ?? '',
-              description: jsonValue,
-              action: actionArray,
-            };
-            await imageMapping(uid, value, entriesData);
-            writeEntriesFile(filePath, entriesData);
-          } else if (key.startsWith('button') && uid !== undefined) {
-            if (value?.['jcr:title']) {
-              entriesData[uid] = {
-                uid: uid,
-                title: value?.['jcr:title'] ?? uidString,
-              };
-            }
-            writeEntriesFile(filePath, entriesData);
-          } else if (key.startsWith('customembed') && uid !== undefined) {
-            let youtubeVideoUrl;
-            if (value?.youtubeVideoId?.startsWith('www.youtube.com')) {
-              youtubeVideoUrl = `https://${value?.youtubeVideoId}`;
-            } else if (
-              value?.youtubeVideoId?.startsWith('https://www.youtube.com')
-            ) {
-              youtubeVideoUrl = value?.youtubeVideoId;
-            } else {
-              youtubeVideoUrl = `https://www.youtube.com/watch?v=${value?.youtubeVideoId}`;
-            }
-
-            const youtubeTitle = await getYoutubeDetails(youtubeVideoUrl);
-            let youtubeJsonUrl = `<iframe src=\"${youtubeVideoUrl}" data-type=\"social-embeds\"></iframe>`;
-            const dom = new JSDOM(youtubeJsonUrl, '');
-            let htmlDoc = dom.window.document.querySelector('body');
-            const jsonValue = htmlToJson(htmlDoc);
-            entriesData[uid] = {
-              uid: uid,
-              title: youtubeTitle ?? youtubeVideoUrl,
-              youtubevideoid: jsonValue,
-            };
-            writeEntriesFile(filePath, entriesData);
-          } else if (key.startsWith('carousel')) {
-            const teaserMapping = {
-              teaser: Object.keys(value)
-                .filter((key) => key.startsWith('teaser'))
-                .map((teaserKey) => {
-                  const teaser = value[teaserKey];
-                  let uidString = `${teaserKey} ${teaser['jcr:created']}`;
-                  return {
-                    uid: uidString
-                      .replace(/[^a-zA-Z0-9]/g, '_')
-                      .replace(/^_+/, '')
-                      .replace(/_+/g, '_')
-                      .toLowerCase(),
-                    _content_type_uid: 'teaser',
-                  };
-                }),
-            };
-
-            entriesData[uid] = {
-              uid: uid,
-              ...teaserMapping,
-            };
-
-            let teaserPath = path.join(
+            const filePath = path.join(folderPath, 'en-us.json');
+            const normalTeaserFilePath = path.join(
               process.cwd(),
               config.data,
               'entries',
               'teaser',
-              'en-us.json'
+              'en-us',
+              'normal-teaser.json'
             );
-            for (const teaserKey in value) {
-              // Check if the key is a teaser (starts with "teaser")
-              if (teaserKey.startsWith('teaser')) {
-                const teaser = value[teaserKey];
+            let entriesData = readEntriesFile(filePath);
 
-                // Process each teaser and save it in the teaser file
-                await processTeaser(teaserKey, teaser, entriesData, teaserPath);
+            let uidString = `${key} ${value['jcr:created']}`;
+            let uid = uidString
+              .replace(/[^a-zA-Z0-9]/g, '_')
+              .replace(/^_+/, '')
+              .replace(/_+/g, '_')
+              .toLowerCase();
+
+            let actionArray = [];
+
+            if (key.startsWith('textbanner')) {
+              if (value?.actions) {
+                actionArray = Object.keys(value?.actions)
+                  .filter((key) => key.startsWith('item')) // Filter out non-item keys
+                  .map((key) => ({
+                    title: value?.actions[key].text,
+                    href: value?.actions[key].link,
+                  }));
               }
-            }
-          } else if (key.startsWith('accordion')) {
-            const outputArray = [];
-
-            for (const keyValue in value) {
-              if (value.hasOwnProperty(keyValue)) {
-                const item = value[keyValue];
-                const panelTitle = item['cq:panelTitle'] || '';
-                const title = item['jcr:title'] || '';
-                const text = item.text ? item.text.text || '' : '';
-
-                if (panelTitle !== '' && text !== '') {
-                  const dom = new JSDOM(text);
-                  let htmlDoc = dom.window.document.querySelector('body');
-                  const jsonValue = htmlToJson(htmlDoc);
-                  const outputItem = {
-                    panel_title: panelTitle,
-                    title: title,
-                    text: jsonValue,
+              let jsonValue;
+              if (value?.['jcr:description']) {
+                const dom = new JSDOM(
+                  value?.['jcr:description']
+                    .replace(/<!--.*?-->/g, '')
+                    .replace(/&lt;!--?\s+\/?wp:.*?--&gt;/g, '')
+                );
+                let htmlDoc = dom.window.document.querySelector('body');
+                jsonValue = htmlToJson(htmlDoc);
+              }
+              entriesData[uid] = {
+                uid: uid,
+                title: uidString,
+                description: jsonValue || null,
+                action: actionArray,
+              };
+              imageMapping(uid, value, entriesData);
+              writeEntriesFile(filePath, entriesData);
+            } else if (key.startsWith('text') && uid !== undefined) {
+              if (value?.text !== undefined) {
+                const dom = new JSDOM(
+                  value?.text
+                    .replace(/<!--.*?-->/g, '')
+                    .replace(/&lt;!--?\s+\/?wp:.*?--&gt;/g, '')
+                );
+                let htmlDoc = dom.window.document.querySelector('body');
+                const jsonValue = htmlToJson(htmlDoc);
+                entriesData[uid] = {
+                  uid: uid,
+                  title: uidString,
+                  text: jsonValue,
+                };
+              }
+              if (
+                entriesData[uid]?.title ||
+                entriesData[uid]?.title === '&nbsp;' ||
+                entriesData[uid]?.title === ''
+              ) {
+                entriesData[uid].title = uid;
+              }
+              writeEntriesFile(filePath, entriesData);
+            } else if (key.startsWith('anchornavigation')) {
+              const outputArray = [];
+              for (let keyValue in value?.actions) {
+                if (keyValue.startsWith('item')) {
+                  let item = value?.actions[keyValue];
+                  let newItem = {
+                    link: item.link,
+                    text: item.text,
                   };
-
-                  outputArray.push(outputItem);
+                  outputArray.push(newItem);
                 }
               }
-            }
-            entriesData[uid] = {
-              uid: uid,
-              title: '',
-              item: outputArray,
-            };
-            writeEntriesFile(filePath, entriesData);
-          }
+              entriesData[uid] = {
+                uid: uid,
+                title: uidString ?? '',
+                item: outputArray,
+              };
+              writeEntriesFile(filePath, entriesData);
+            } else if (key.startsWith('image') && uid !== undefined) {
+              entriesData[uid] = {
+                uid: uid,
+                title: value.alt ?? uidString,
+              };
+              imageMapping(uid, value, entriesData);
+              writeEntriesFile(filePath, entriesData);
+            } else if (key.startsWith('teaser') && uid !== undefined) {
+              if (value?.actions) {
+                actionArray = Object.keys(value?.actions)
+                  .filter((key) => key.startsWith('item')) // Filter out non-item keys
+                  .map((key) => ({
+                    title: value?.actions[key].text,
+                    href: value?.actions[key].link,
+                  }));
+              }
 
-          promises.push(Promise.resolve());
+              const dom = new JSDOM(value?.['jcr:description'] ?? '');
+              let htmlDoc = dom.window.document.querySelector('body');
+              const jsonValue = htmlToJson(htmlDoc);
+
+              teaserEntriesData[uid] = {
+                uid: uid,
+                title: uidString,
+                url: value?.linkURL ?? '',
+                description: jsonValue,
+                action: actionArray,
+              };
+              imageMapping(uid, value, teaserEntriesData);
+
+              writeEntriesFile(normalTeaserFilePath, teaserEntriesData);
+            } else if (key.startsWith('button') && uid !== undefined) {
+              if (value?.['jcr:title']) {
+                entriesData[uid] = {
+                  uid: uid,
+                  title: `${value?.['jcr:title'] ?? uidString}`,
+                };
+              }
+              writeEntriesFile(filePath, entriesData);
+            } else if (key.startsWith('customembed') && uid !== undefined) {
+              let youtubeVideoUrl;
+              if (value?.youtubeVideoId?.startsWith('www.youtube.com')) {
+                youtubeVideoUrl = `https://${value?.youtubeVideoId}`;
+              } else if (
+                value?.youtubeVideoId?.startsWith('https://www.youtube.com')
+              ) {
+                youtubeVideoUrl = value?.youtubeVideoId;
+              } else {
+                if (value?.youtubeVideoId)
+                  youtubeVideoUrl = `https://www.youtube.com/watch?v=${value?.youtubeVideoId}`;
+              }
+              if (youtubeVideoUrl) {
+                // const youtubeTitle = await getYoutubeDetails(youtubeVideoUrl);
+                let youtubeJsonUrl = `<iframe src=\"${youtubeVideoUrl}" data-type=\"social-embeds\"></iframe>`;
+                const dom = new JSDOM(youtubeJsonUrl, '');
+                let htmlDoc = dom.window.document.querySelector('body');
+                const jsonValue = htmlToJson(htmlDoc);
+                entriesData[uid] = {
+                  uid: uid,
+                  title: value?.youtubeVideoId ?? uidString,
+                  youtubevideoid: jsonValue,
+                };
+                writeEntriesFile(filePath, entriesData);
+              }
+            } else if (key.startsWith('carousel')) {
+              const teaserMapping = {
+                teaser: Object.keys(value)
+                  .filter((key) => key.startsWith('teaser'))
+                  .map((teaserKey) => {
+                    const teaser = value[teaserKey];
+                    let uidString = `${teaserKey} ${teaser['jcr:created']}`;
+                    return {
+                      uid: uidString
+                        .replace(/[^a-zA-Z0-9]/g, '_')
+                        .replace(/^_+/, '')
+                        .replace(/_+/g, '_')
+                        .toLowerCase(),
+                      _content_type_uid: 'teaser',
+                    };
+                  }),
+              };
+
+              entriesData[uid] = {
+                uid: uid,
+                title: uidString,
+                ...teaserMapping,
+              };
+              // console.log('uid', uid);
+              let teaserPath = path.join(
+                process.cwd(),
+                config.data,
+                'entries',
+                'teaser',
+                'en-us.json'
+              );
+              for (const teaserKey in value) {
+                // Check if the key is a teaser (starts with "teaser")
+                if (teaserKey.startsWith('teaser')) {
+                  const teaser = value[teaserKey];
+
+                  // Process each teaser and save it in the teaser file
+                  await processTeaser(
+                    teaserKey,
+                    teaser,
+                    entriesData,
+                    teaserPath
+                  );
+                }
+              }
+              // console.log('testing uid', uid);
+              // if (uid.startsWith('carousel')) {
+              //   console.log('hey check this', uid);
+              //   writeEntriesFile(filePath, entriesData);
+              // }
+            } else if (key.startsWith('accordion')) {
+              const outputArray = [];
+              for (const keyValue in value) {
+                if (value.hasOwnProperty(keyValue)) {
+                  const item = value[keyValue];
+                  const panelTitle = item['cq:panelTitle'] || '';
+                  const title = item['jcr:title'] || '';
+                  const text = item.text ? item.text.text || '' : '';
+
+                  if (panelTitle !== '' && text !== '') {
+                    const dom = new JSDOM(text);
+                    let htmlDoc = dom.window.document.querySelector('body');
+                    const jsonValue = htmlToJson(htmlDoc);
+                    const outputItem = {
+                      panel_title: panelTitle,
+                      title: title,
+                      text: jsonValue,
+                    };
+
+                    outputArray.push(outputItem);
+                  }
+                }
+              }
+              entriesData[uid] = {
+                uid: uid,
+                title: uidString ?? '',
+                item: outputArray,
+              };
+              writeEntriesFile(filePath, entriesData);
+            } else if (key.startsWith('experiencefragment')) {
+              const dom = new JSDOM(value?.text ?? '');
+              let htmlDoc = dom.window.document.querySelector('body');
+              const jsonValue = htmlToJson(htmlDoc);
+              entriesData[uid] = {
+                uid: uid,
+                title: `${key} - ${value['cq:panelTitle']}`,
+                text: jsonValue,
+              };
+              writeEntriesFile(filePath, entriesData);
+            }
+
+            promises.push(Promise.resolve());
+          }
         }
       }
 
