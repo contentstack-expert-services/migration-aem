@@ -201,3 +201,11 @@ dist
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/macos,node,visualstudiocode
+
+csMigrationData*
+.DS_Store
+demo*
+cycle*
+text.json
+text1.json
+ignoreFiles

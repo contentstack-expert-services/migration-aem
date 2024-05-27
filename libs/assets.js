@@ -41,10 +41,7 @@ ExtractAssets.prototype = {
 
     return when.promise(async function (resolve, reject) {
       try {
-        var url = assetUrl?.fileReference || assetUrl?.videoAsset;
-        // console.log(url);
-
-        if (url) {
+        const processUrl = async (url, isFileReference) => {
           const name = (url?.match(/\/content\/dam\/bcs\/projects\/(.*)/) ||
             [])[1]?.replace(/\//g, ' ');
           if (name) {
@@ -52,15 +49,26 @@ ExtractAssets.prototype = {
               .replace(/[^a-zA-Z0-9]+/g, '_')
               .replace(/^_+|_+$/g, '')
               .toLowerCase();
-            url = url.replace('/content/', 'https://content.backcountry.com/');
 
-            var assetPath = path.resolve(assetFolderPath, uid);
+            // Modify the URL based on the source
+            if (isFileReference) {
+              const modifyUrl = url.match(/\/([^\/]+)\.[^\/]+$/)?.[1] || null;
+              url = `https://s7d1.scene7.com/is/image/backcountry/${modifyUrl}`;
+            } else {
+              url = url.replace(
+                '/content/',
+                'https://content.backcountry.com/'
+              );
+            }
+
+            const assetPath = path.resolve(assetFolderPath, uid);
+
             if (fs.existsSync(path.join(assetPath, name))) {
               console.log(
                 'An asset with id',
                 chalk.red(uid),
                 'and name',
-                chalk.red(`${name}`),
+                chalk.red(name),
                 'already present.'
               );
               resolve(uid);
@@ -69,74 +77,77 @@ ExtractAssets.prototype = {
                 const response = await axios.get(url, {
                   responseType: 'arraybuffer',
                 });
+                if (response.status === 200) {
+                  mkdirp.sync(assetPath);
+                  fs.writeFileSync(path.join(assetPath, name), response.data);
+                  const stats = fs.lstatSync(path.join(assetPath, name));
 
-                mkdirp.sync(assetPath);
-                fs.writeFileSync(path.join(assetPath, name), response.data);
-                var stats = fs.lstatSync(path.join(assetPath, name));
+                  assetData[uid] = {
+                    uid: uid,
+                    urlPath: `/assets/${uid}`,
+                    status: true,
+                    file_size: `${stats.size}`,
+                    tag: [],
+                    filename: name,
+                    url: url,
+                    is_dir: false,
+                    parent_uid: null,
+                    _version: 1,
+                    title: name,
+                    publish_details: [],
+                  };
 
-                assetData[uid] = {
-                  uid: uid,
-                  urlPath: `/assets/${uid}`,
-                  status: true,
-                  file_size: `${stats?.size}`,
-                  tag: [],
-                  filename: name,
-                  url: url,
-                  is_dir: false,
-                  parent_uid: null,
-                  _version: 1,
-                  title: name,
-                  publish_details: [],
-                };
+                  console.log(
+                    'An asset with id',
+                    chalk.green(uid),
+                    'and name',
+                    chalk.green(name),
+                    'got downloaded successfully.'
+                  );
 
-                console.log(
-                  'An asset with id',
-                  chalk.green(uid),
-                  'and name',
-                  chalk.green(`${name}`),
-                  'got downloaded successfully.'
-                );
-                // Update assetVersionInfoFile.
-                const assetVersionInfoFile = path.resolve(assetPath, uid);
+                  const assetVersionInfoFile = path.resolve(assetPath, uid);
+                  helper.writeFile(
+                    assetVersionInfoFile,
+                    JSON.stringify(assetData[uid], null, 4)
+                  );
 
-                helper.writeFile(
-                  assetVersionInfoFile,
-                  JSON.stringify(assetData[uid], null, 4)
-                );
-
-                if (failedJSON[uid]) {
-                  delete failedJSON[uid];
-                }
-
-                resolve(uid);
-              } catch (err) {
-                if (err) {
-                  failedJSON[uid] = err;
-                  if (retryCount == 1) {
-                    failedJSON[uid] = {
-                      failedUid: uid,
-                      name: name,
-                      url: url,
-                      reason_for_error: err.mesaage,
-                    };
-                    helper.writeFile(
-                      path.join(assetMasterFolderPath, 'aem_failed'),
-                      JSON.stringify(failedJSON, null, 4)
-                    );
-                    resolve(uid);
-                  } else {
-                    let assets =
-                      assetUrl?.fileReference || assetUrl?.videoAsset;
-                    self
-                      .saveAsset(assets, assetData, 1)
-                      .then(function (results) {
-                        resolve();
-                      });
+                  if (failedJSON[uid]) {
+                    delete failedJSON[uid];
                   }
+
+                  helper.writeFile(
+                    path.join(assetMasterFolderPath, 'asset.json'),
+                    JSON.stringify(assetData, null, 4)
+                  );
+
+                  resolve(uid);
+                } else {
+                  throw new Error(
+                    `Failed with status code: ${response.status}`
+                  );
                 }
+              } catch (err) {
+                failedJSON[uid] = {
+                  failedUid: uid,
+                  name: name,
+                  url: url,
+                  reason_for_error: err.message,
+                };
+                helper.writeFile(
+                  path.join(assetMasterFolderPath, 'aem_failed.json'),
+                  JSON.stringify(failedJSON, null, 4)
+                );
+                resolve(uid);
               }
             }
           }
+        };
+
+        if (assetUrl?.fileReference) {
+          await processUrl(assetUrl.fileReference, true); // true indicates it's a fileReference
+        }
+        if (assetUrl?.videoAsset) {
+          await processUrl(assetUrl.videoAsset, false); // false indicates it's a videoAsset
         }
         resolve();
       } catch (error) {
@@ -198,7 +209,7 @@ ExtractAssets.prototype = {
       try {
         const data = helper?.readFile(templatePaths);
 
-        let jsonArray = ['image', 'teaser', 'carousel'];
+        let jsonArray = ['image', 'teaser', 'carousel', 'textbanner'];
 
         // Function to filter JSON based on prefixes recursively
         function filterJson(json, prefixes) {
@@ -234,7 +245,6 @@ ExtractAssets.prototype = {
           data['jcr:content']?.root?.container?.container,
           jsonArray
         );
-
         // Check if the array is empty or not
         if (modifiedJsonArray.length !== 0) {
           await self.getAsset(modifiedJsonArray);
