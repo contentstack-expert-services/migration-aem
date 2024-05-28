@@ -38,16 +38,14 @@ function ExtractAssets() {}
 ExtractAssets.prototype = {
   saveAsset: function (assetUrl, retryCount) {
     var self = this;
+
     return when.promise(async function (resolve, reject) {
       try {
-        const processUrl = async (url, isFileReference, backcountryurl="") => {
-          // const name = (url?.match(/\/content\/dam\/bcs\/projects\/(.*)/) ||
-          //   [])[1]?.replace(/\//g, " ");
-
-          const name = (url?.match(/\/content\/dam\/(.*)/) || [])[1]?.replace(
-            /\//g,
-            " "
-          );
+        const processUrl = async (url, isFileReference) => {
+          const name = (url?.match(/\/content\/dam\/bcs\/projects\/(.*)/) ||
+            [])[1]?.replace(/\//g, " ");
+          // const name = (url?.match(/\/content\/dam\/(.*)/) ||
+          // [])[1]?.replace(/\//g, ' ');
           if (name) {
             const uid = url
               .replace(/[^a-zA-Z0-9]+/g, "_")
@@ -64,29 +62,11 @@ ExtractAssets.prototype = {
             //     'https://content.backcountry.com/'
             //   );
             // }
-            // console.log(isFileReference,backcountryurl)
-            // if (isFileReference) {
-              if (backcountryurl && backcountryurl !== "" && backcountryurl !== undefined) {
-                url = backcountryurl;
-              } else {
-       
-                url = url.replace(
-                  "/content/",
-                  "https://content.backcountry.com/"
-                );
-              }
-            // } else {
-            //   console.log("Video reference of url",url)
-            //   url = url.replace(
-            //     "/content/",
-            //     "https://content.backcountry.com/"
-            //   );
-            // }
             // url = url.replace(
-            //   "/content/",
-            //   "https://content.competitivecyclist.com/"
-            // );
-
+            //     '/content/',
+            //     'https://content.competitivecyclist.com/'
+            //   );
+            url = url.replace("/content/", "https://content.backcountry.com/");
             const assetPath = path.resolve(assetFolderPath, uid);
 
             if (fs.existsSync(path.join(assetPath, name))) {
@@ -170,11 +150,7 @@ ExtractAssets.prototype = {
         };
 
         if (assetUrl?.fileReference) {
-          await processUrl(
-            assetUrl.fileReference,
-            true,
-            assetUrl?.backcountryurl
-          ); // true indicates it's a fileReference
+          await processUrl(assetUrl.fileReference, true); // true indicates it's a fileReference
         }
         if (assetUrl?.videoAsset) {
           await processUrl(assetUrl.videoAsset, false); // false indicates it's a videoAsset
@@ -275,26 +251,6 @@ ExtractAssets.prototype = {
           data["jcr:content"]?.root?.container?.container,
           jsonArray
         );
-        modifiedJsonArray.forEach((el) => {
-          const dataPath = templatePaths.replace(".infinity", ".backcountry");
-          const bcData = helper.readFile(dataPath);
-
-          el.name = el.fileReference?.split("/").reverse()[0];
-          el.name = helper.removeLastDelimiter(el.name, ".");
-          let keys = Object.keys(bcData).filter((el) => {
-            return el.toString().includes("src.large");
-          });
-          const images = keys.map((key) => bcData[key]);
-          const mapper = {};
-          images.forEach((image) => {
-            let filename = image.split(":")[0].split("/").reverse()[0];
-            filename = helper.removeLastDelimiter(filename, "-");
-            mapper[filename.toString()] = image;
-          });
-          el.backcountryurl = mapper?.[el.name]
-            ? `https:${mapper?.[el.name]}`
-            : undefined;
-        });
         // Check if the array is empty or not
         if (modifiedJsonArray.length !== 0) {
           await self.getAsset(modifiedJsonArray);

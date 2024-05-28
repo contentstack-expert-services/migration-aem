@@ -43,3 +43,11 @@ exports.makeDirectory = function () {
     if (!fs.existsSync(dirname)) mkdirp.sync(dirname);
   }
 };
+
+exports.removeLastDelimiter=function(filename,delimiter){
+  const lastIndex = filename?.lastIndexOf(delimiter);
+  if (lastIndex===undefined || lastIndex === -1) {
+      return filename; 
+  }
+  return filename.substring(0, lastIndex);
+}

@@ -23,14 +23,22 @@ const {
 //   '/info/': 'info',
 // };
 
+
 const pathMappings = {
-  "campaign-landing-pages": "campaign",
-  "help-center-resources": "info",
-  "resource-pages": "info",
-  "accessibility-statement.infinity.json": "info",
-  "affiliate-program.infinity.json": "info",
-  "competitive-cyclist-privacy-policy.infinity.json": "info",
+  'marketing-sc-pages': 'campaign',
+  'explore-blog': 'blog',
+  'sc': 'info',
 };
+
+
+// const pathMappings = {
+//   "campaign-landing-pages": "campaign",
+//   "help-center-resources": "info",
+//   "resource-pages": "info",
+//   "accessibility-statement.infinity.json": "info",
+//   "affiliate-program.infinity.json": "info",
+//   "competitive-cyclist-privacy-policy.infinity.json": "info",
+// };
 
 const entryFolderPath = path.resolve(
   config.data,
@@ -52,6 +60,7 @@ function readEntriesFile(filePath) {
 }
 
 function writeEntriesFile(filePath, data) {
+  console.log(filePath)
   fs.writeFileSync(filePath, JSON.stringify(data, null, 4), "utf-8");
 }
 
@@ -71,9 +80,9 @@ function getFilePath(templatePath) {
       ensureDirectoryExists(directory);
       return path.join(directory, "en-us.json");
     }
-    // throw new Error(
-    //   `Template path does not match any known directories: ${templatePath}`
-    // );
+    throw new Error(
+      `Template path does not match any known directories: ${templatePath}`
+    );
   
 }
 
