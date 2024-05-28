@@ -16,20 +16,22 @@ global.warnLogger = require('./utils/logger')('warn').log;
 
 var modulesList = [
   // 'assets',
-  'card',
-  'productlisting',
-  'textbanner',
-  'singleFiles',
+  // 'card',
+  // 'productlisting',
+  // 'textbanner',
+  // 'singleFiles',
 ]; //to create entries
 
 const migFunction = async () => {
   try {
     global.filePath = undefined;
     let files = read(global.config.sitecore_folder);
+
     for (const filePath of files) {
       if (path.extname(filePath) === '.json') {
         const fullpath = path.join(global.config.sitecore_folder, filePath);
         aemFile.push(fullpath);
+
       }
     }
 
@@ -42,7 +44,7 @@ const migFunction = async () => {
       // Introduce a 5-second delay between module executions
       await new Promise((resolve) => setTimeout(resolve, 20000));
     }
-    // await cliUpdate();
+    await cliUpdate();
 
     console.log(chalk.green('\n\nAEM Data exporting has been started\n'));
 

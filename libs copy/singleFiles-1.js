@@ -65,35 +65,21 @@ function containsAnyKey(string, array) {
 }
 
 function getFilePath(templatePath) {
-    const key = containsAnyKey(templatePath,Object.keys(pathMappings))
-      if(key!==''){
-      const directory = path.join(entryFolderPath, pathMappings[key]);
+  for (const [key, dirName] of Object.entries(pathMappings)) {
+    console.log(key)
+    console.log(templatePath.includes(Object));
+    // if (templatePath.includes(key)) {
+      
+      if(containsAnyKey(templatePath,Object.keys(pathMappings))){
+      const directory = path.join(entryFolderPath, dirName);
       ensureDirectoryExists(directory);
       return path.join(directory, "en-us.json");
     }
-    // throw new Error(
-    //   `Template path does not match any known directories: ${templatePath}`
-    // );
-  
+    throw new Error(
+      `Template path does not match any known directories: ${templatePath}`
+    );
+  }
 }
-
-// function getFilePath(templatePath) {
-//     for (const [key, dirName] of Object.entries(pathMappings)) {
-//       console.log(key)
-//       console.log(templatePath.includes(key));
-//       // if (templatePath.includes(key)) {
-        
-//         if(containsAnyKey(templatePath,Object.keys(pathMappings))){
-//         const directory = path.join(entryFolderPath, dirName);
-//         ensureDirectoryExists(directory);
-//         return path.join(directory, "en-us.json");
-//       }
-//       throw new Error(
-//         `Template path does not match any known directories: ${templatePath}`
-//       );
-//     }
-//   }
-  
 
 function ExtractEntries() {}
 
@@ -195,6 +181,7 @@ ExtractEntries.prototype = {
           //   tags: pageTag,
           publish_details: [],
         };
+        console.log("File path is ", filePath);
         writeEntriesFile(filePath, entriesData);
         resolve();
       } catch (error) {
