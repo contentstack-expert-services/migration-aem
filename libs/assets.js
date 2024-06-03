@@ -42,8 +42,12 @@ ExtractAssets.prototype = {
     return when.promise(async function (resolve, reject) {
       try {
         const processUrl = async (url, isFileReference) => {
-          const name = (url?.match(/\/content\/dam\/bcs\/projects\/(.*)/) ||
-            [])[1]?.replace(/\//g, ' ');
+          // const name = (url?.match(/\/content\/dam\/bcs\/projects\/(.*)/) ||
+          //   [])[1]?.replace(/\//g, ' ');
+          const name = (url?.match(/\/content\/dam\/(.*)/) || [])[1]?.replace(
+            /\//g,
+            ' '
+          );
           if (name) {
             const uid = url
               .replace(/[^a-zA-Z0-9]+/g, '_')
@@ -51,15 +55,19 @@ ExtractAssets.prototype = {
               .toLowerCase();
 
             // Modify the URL based on the source
-            if (isFileReference) {
-              const modifyUrl = url.match(/\/([^\/]+)\.[^\/]+$/)?.[1] || null;
-              url = `https://s7d1.scene7.com/is/image/backcountry/${modifyUrl}`;
-            } else {
-              url = url.replace(
-                '/content/',
-                'https://content.backcountry.com/'
-              );
-            }
+            // if (isFileReference) {
+            //   const modifyUrl = url.match(/\/([^\/]+)\.[^\/]+$/)?.[1] || null;
+            //   url = `https://s7d1.scene7.com/is/image/backcountry/${modifyUrl}`;
+            // } else {
+            //   url = url.replace(
+            //     '/content/',
+            //     'https://content.backcountry.com/'
+            //   );
+            // }
+            url = url.replace(
+              '/content/',
+              'https://content.competitivecyclist.com/'
+            );
 
             const assetPath = path.resolve(assetFolderPath, uid);
 
@@ -91,7 +99,7 @@ ExtractAssets.prototype = {
                     filename: name,
                     url: url,
                     is_dir: false,
-                    parent_uid: null,
+                    parent_uid: 'migrationasset',
                     _version: 1,
                     title: name,
                     publish_details: [],

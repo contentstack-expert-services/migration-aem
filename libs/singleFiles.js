@@ -17,11 +17,32 @@ const {
   accordion,
 } = require('./entrySchema');
 
+// for backcountry
+
 const pathMappings = {
   '/campaign/': 'campaign',
-  '/explore-blog/': 'blog',
+  '/blog/': 'blog',
   '/info/': 'info',
 };
+
+// for competitive-cyclist
+
+// const pathMappings = {
+//   'campaign-landing-pages': 'campaign',
+//   'help-center-resources': 'info',
+//   'resource-pages': 'info',
+//   'accessibility-statement.infinity.json': 'info',
+//   'affiliate-program.infinity.json': 'info',
+//   'competitive-cyclist-privacy-policy.infinity.json': 'info',
+// };
+
+// for steapandcheap
+
+// const pathMappings = {
+//   'help-center-resources': 'info',
+//   'resource-pages': 'info',
+//   'accessibility-statement.infinity.json': 'info',
+// };
 
 const entryFolderPath = path.resolve(
   config.data,
@@ -46,18 +67,43 @@ function writeEntriesFile(filePath, data) {
   fs.writeFileSync(filePath, JSON.stringify(data, null, 4), 'utf-8');
 }
 
-function getFilePath(templatePath) {
-  for (const [key, dirName] of Object.entries(pathMappings)) {
-    if (templatePath.includes(key)) {
-      const directory = path.join(entryFolderPath, dirName);
-      ensureDirectoryExists(directory);
-      return path.join(directory, 'en-us.json');
+function containsAnyKey(string, array) {
+  for (let i = 0; i < array.length; i++) {
+    if (string.includes(array[i])) {
+      return array[i];
     }
   }
-  throw new Error(
-    `Template path does not match any known directories: ${templatePath}`
-  );
+  return '';
 }
+
+function getFilePath(templatePath) {
+  const key = containsAnyKey(templatePath, Object.keys(pathMappings));
+  if (key !== '') {
+    const directory = path.join(entryFolderPath, pathMappings[key]);
+    ensureDirectoryExists(directory);
+    return path.join(directory, 'en-us.json');
+  }
+  // throw new Error(
+  //   `Template path does not match any known directories: ${templatePath}`
+  // );
+}
+
+// function getFilePath(templatePath) {
+//     for (const [key, dirName] of Object.entries(pathMappings)) {
+//       console.log(key)
+//       console.log(templatePath.includes(key));
+//       // if (templatePath.includes(key)) {
+
+//         if(containsAnyKey(templatePath,Object.keys(pathMappings))){
+//         const directory = path.join(entryFolderPath, dirName);
+//         ensureDirectoryExists(directory);
+//         return path.join(directory, "en-us.json");
+//       }
+//       throw new Error(
+//         `Template path does not match any known directories: ${templatePath}`
+//       );
+//     }
+//   }
 
 function ExtractEntries() {}
 
@@ -149,17 +195,20 @@ ExtractEntries.prototype = {
         entriesData[uid] = {
           uid: uid,
           title: title,
-          url: entries['sling:vanityPath'],
+          url: entries?.['sling:vanityPath']
+            ? `/${entries['sling:vanityPath']}`
+            : '',
           page_content: { components: [...components] },
           seo: {
-            title: entries['pageProperty_titleTag'],
+            title: entries?.['pageProperty_titleTag']
+              ? entries?.['pageProperty_titleTag'].split('|')[0]
+              : '',
             index_follow: true,
-            description: entries['pageProperty_description'],
+            description: entries['pageProperty_description'] ?? '',
           },
           //   tags: pageTag,
           publish_details: [],
         };
-
         writeEntriesFile(filePath, entriesData);
         resolve();
       } catch (error) {

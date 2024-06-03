@@ -109,14 +109,27 @@ ExtractEntries.prototype = {
                   .filter((key) => key.startsWith('item')) // Filter out non-item keys
                   .map((key) => ({
                     link: {
-                      title: value?.actions[key].text,
-                      href: value?.actions[key].link,
+                      title: value?.actions[key]?.text,
+                      href: value?.actions[key]?.link,
                     },
-                    style: value?.actions[key].variation,
+                    style: value.actions[key]?.variation ?? 'solid',
                     _metadata: {
                       uid: `${Math.floor(Math.random() * 100000000000000)}`,
                     },
                   }));
+              } else {
+                actionArray = [
+                  {
+                    link: {
+                      title: '',
+                      href: '',
+                    },
+                    style: 'solid',
+                    _metadata: {
+                      uid: `${Math.floor(Math.random() * 100000000000000)}`,
+                    },
+                  },
+                ];
               }
 
               let jsonValue;

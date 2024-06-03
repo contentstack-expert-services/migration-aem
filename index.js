@@ -16,10 +16,11 @@ global.warnLogger = require('./utils/logger')('warn').log;
 
 var modulesList = [
   // 'assets',
-  'card',
+  // 'folders',
+  // 'card',
   'productlisting',
-  'textbanner',
-  'singleFiles',
+  // 'textbanner',
+  // 'singleFiles',
 ]; //to create entries
 
 const migFunction = async () => {
@@ -42,7 +43,7 @@ const migFunction = async () => {
       // Introduce a 5-second delay between module executions
       await new Promise((resolve) => setTimeout(resolve, 20000));
     }
-    // await cliUpdate();
+    await cliUpdate();
 
     console.log(chalk.green('\n\nAEM Data exporting has been started\n'));
 
