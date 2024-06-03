@@ -1,0 +1,26 @@
+{
+    "content_dam_bcs_test_assets_klarnafaqstep3_png": {
+        "failedUid": "content_dam_bcs_test_assets_klarnafaqstep3_png",
+        "name": "bcs test_assets klarnafaqstep3.png",
+        "url": "https://content.backcountry.com/bcs/marketing/klarnafaqstep3:large_full",
+        "reason_for_error": "Request failed with status code 403"
+    },
+    "content_dam_bcs_test_assets_fjallravenlogo2015a_jpeg": {
+        "failedUid": "content_dam_bcs_test_assets_fjallravenlogo2015a_jpeg",
+        "name": "bcs test_assets Fjallravenlogo2015a.jpeg",
+        "url": "https://content.backcountry.com/bcs/marketing/Fjallravenlogo2015a-1:large_full",
+        "reason_for_error": "Request failed with status code 403"
+    },
+    "content_dam_bcs_test_assets_klarnafaqstep1_png": {
+        "failedUid": "content_dam_bcs_test_assets_klarnafaqstep1_png",
+        "name": "bcs test_assets klarnafaqstep1.png",
+        "url": "https://content.backcountry.com/bcs/marketing/klarnafaqstep1:large_full",
+        "reason_for_error": "Request failed with status code 403"
+    },
+    "content_dam_bcs_test_assets_klarnafaqstep2_png": {
+        "failedUid": "content_dam_bcs_test_assets_klarnafaqstep2_png",
+        "name": "bcs test_assets klarnafaqstep2.png",
+        "url": "https://content.backcountry.com/bcs/marketing/klarnafaqstep2:large_full",
+        "reason_for_error": "Request failed with status code 403"
+    }
+}

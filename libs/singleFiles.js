@@ -18,18 +18,16 @@ const {
 } = require("./entrySchema");
 
 // const pathMappings = {
-//   '/campaign/': 'campaign',
-//   '/explore-blog/': 'blog',
-//   '/info/': 'info',
+//   "help-center-resources": "info",
+//   "resource-pages": "info",
+//   "accessibility-statement.infinity.json": "info",
 // };
-
 
 const pathMappings = {
   'marketing-sc-pages': 'campaign',
   'explore-blog': 'blog',
   'sc': 'info',
 };
-
 
 // const pathMappings = {
 //   "campaign-landing-pages": "campaign",
@@ -60,30 +58,29 @@ function readEntriesFile(filePath) {
 }
 
 function writeEntriesFile(filePath, data) {
-  console.log(filePath)
+  console.log(filePath);
   fs.writeFileSync(filePath, JSON.stringify(data, null, 4), "utf-8");
 }
 
 function containsAnyKey(string, array) {
   for (let i = 0; i < array.length; i++) {
-      if (string.includes(array[i])) {
-          return array[i];
-      }
+    if (string.includes(array[i])) {
+      return array[i];
+    }
   }
-  return '';
+  return "";
 }
 
 function getFilePath(templatePath) {
-    const key = containsAnyKey(templatePath,Object.keys(pathMappings))
-      if(key!==''){
-      const directory = path.join(entryFolderPath, pathMappings[key]);
-      ensureDirectoryExists(directory);
-      return path.join(directory, "en-us.json");
-    }
-    throw new Error(
-      `Template path does not match any known directories: ${templatePath}`
-    );
-  
+  const key = containsAnyKey(templatePath, Object.keys(pathMappings));
+  if (key !== "") {
+    const directory = path.join(entryFolderPath, pathMappings[key]);
+    ensureDirectoryExists(directory);
+    return path.join(directory, "en-us.json");
+  }
+  throw new Error(
+    `Template path does not match any known directories: ${templatePath}`
+  );
 }
 
 // function getFilePath(templatePath) {
@@ -91,7 +88,7 @@ function getFilePath(templatePath) {
 //       console.log(key)
 //       console.log(templatePath.includes(key));
 //       // if (templatePath.includes(key)) {
-        
+
 //         if(containsAnyKey(templatePath,Object.keys(pathMappings))){
 //         const directory = path.join(entryFolderPath, dirName);
 //         ensureDirectoryExists(directory);
@@ -102,7 +99,6 @@ function getFilePath(templatePath) {
 //       );
 //     }
 //   }
-  
 
 function ExtractEntries() {}
 
@@ -194,10 +190,10 @@ ExtractEntries.prototype = {
         entriesData[uid] = {
           uid: uid,
           title: title,
-          url: entries["sling:vanityPath"],
+          url: entries?.["sling:vanityPath"] ? `/${entries["sling:vanityPath"]}` : "",
           page_content: { components: [...components] },
           seo: {
-            title: entries["pageProperty_titleTag"],
+            title: entries["pageProperty_titleTag"].split("|")[0],
             index_follow: true,
             description: entries["pageProperty_description"],
           },
@@ -220,7 +216,6 @@ ExtractEntries.prototype = {
         const entries = alldata["jcr:content"];
 
         if (entries) {
-
           this.saveEntry(entries, templatePaths)
             .then(() => resolve())
             .catch((error) => reject(error));

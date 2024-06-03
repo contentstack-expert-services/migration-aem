@@ -1,5 +1,5 @@
 {
-  "data": "./aemMigrationData",
+  "data": "./aemMigrationData-1",
   "backup": "./backupMigrationData",
   "masterLanguage": "",
   "aemLocales": ["en", "eg"],

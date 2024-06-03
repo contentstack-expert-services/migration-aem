@@ -42,10 +42,10 @@ ExtractAssets.prototype = {
     return when.promise(async function (resolve, reject) {
       try {
         const processUrl = async (url, isFileReference) => {
-          const name = (url?.match(/\/content\/dam\/bcs\/projects\/(.*)/) ||
-            [])[1]?.replace(/\//g, " ");
-          // const name = (url?.match(/\/content\/dam\/(.*)/) ||
-          // [])[1]?.replace(/\//g, ' ');
+          // const name = (url?.match(/\/content\/dam\/bcs\/projects\/(.*)/) ||
+          //   [])[1]?.replace(/\//g, " ");
+          const name = (url?.match(/\/content\/dam\/(.*)/) ||
+          [])[1]?.replace(/\//g, ' ');
           if (name) {
             const uid = url
               .replace(/[^a-zA-Z0-9]+/g, "_")
@@ -62,11 +62,11 @@ ExtractAssets.prototype = {
             //     'https://content.backcountry.com/'
             //   );
             // }
-            // url = url.replace(
-            //     '/content/',
-            //     'https://content.competitivecyclist.com/'
-            //   );
-            url = url.replace("/content/", "https://content.backcountry.com/");
+            url = url.replace(
+                '/content/',
+                'https://content.competitivecyclist.com/'
+              );
+            // url = url.replace("/content/", "https://content.backcountry.com/");
             const assetPath = path.resolve(assetFolderPath, uid);
 
             if (fs.existsSync(path.join(assetPath, name))) {

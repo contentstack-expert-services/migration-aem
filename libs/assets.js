@@ -117,7 +117,7 @@ ExtractAssets.prototype = {
                     filename: name,
                     url: url,
                     is_dir: false,
-                    parent_uid: null,
+                    parent_uid: "migrationasset",
                     _version: 1,
                     title: name,
                     publish_details: [],
