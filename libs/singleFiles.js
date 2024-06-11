@@ -19,22 +19,22 @@ const {
 
 // for backcountry
 
-const pathMappings = {
-  '/campaign/': 'campaign',
-  '/blog/': 'blog',
-  '/info/': 'info',
-};
+// const pathMappings = {
+//   '/campaign/': 'campaign',
+//   '/blog/': 'blog',
+//   '/info/': 'info',
+// };
 
 // for competitive-cyclist
 
-// const pathMappings = {
-//   'campaign-landing-pages': 'campaign',
-//   'help-center-resources': 'info',
-//   'resource-pages': 'info',
-//   'accessibility-statement.infinity.json': 'info',
-//   'affiliate-program.infinity.json': 'info',
-//   'competitive-cyclist-privacy-policy.infinity.json': 'info',
-// };
+const pathMappings = {
+  'campaign-landing-pages': 'campaign',
+  'help-center-resources': 'info',
+  'resource-pages': 'info',
+  'accessibility-statement.infinity.json': 'info',
+  'affiliate-program.infinity.json': 'info',
+  'competitive-cyclist-privacy-policy.infinity.json': 'info',
+};
 
 // for steapandcheap
 

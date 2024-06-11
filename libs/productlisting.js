@@ -104,12 +104,13 @@ ExtractEntries.prototype = {
 
             let entriesData = readEntriesFile(filePath);
 
-            let uidString = `Product List: ${key} - ${value['jcr:created']}`;
-            let uid = `${key} ${value['jcr:created']}`
-              .replace(/[^a-zA-Z0-9]/g, '_')
-              .replace(/^_+/, '')
-              .replace(/_+/g, '_')
-              .toLowerCase();
+            let uidString = `Product List: ${key} - C: ${value['jcr:created']} M: ${value['jcr:lastModified']}`;
+            let uid =
+              `${key} - C: ${value['jcr:created']} M: ${value['jcr:lastModified']}`
+                .replace(/[^a-zA-Z0-9]/g, '_')
+                .replace(/^_+/, '')
+                .replace(/_+/g, '_')
+                .toLowerCase();
 
             let title;
             if (value?.trackingProductList) {

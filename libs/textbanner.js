@@ -30,9 +30,7 @@ function writeEntriesFile(filePath, data) {
 
 function imageMapping(entryId, entry, entryData) {
   try {
-    var assetsId = helper.readFile(
-      path.join(process.cwd(), config.data, 'assets', 'assets.json')
-    );
+    var assetsId = '';
 
     const getAssetsDetails = (entryField) => {
       if (entryField) {
@@ -94,7 +92,7 @@ ExtractEntries.prototype = {
 
             let entriesData = readEntriesFile(filePath);
 
-            let uidString = `${key} - ${value['jcr:created']}`;
+            let uidString = `${key} -C: ${value['jcr:created']} M: ${value['jcr:lastModified']}`;
             let uid = uidString
               .replace(/[^a-zA-Z0-9]/g, '_')
               .replace(/^_+/, '')

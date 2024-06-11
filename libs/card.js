@@ -29,6 +29,44 @@ function writeEntriesFile(filePath, data) {
   fs.writeFileSync(filePath, JSON.stringify(data, null, 4), 'utf-8');
 }
 
+// to add TextStyle inside the JSON RTE
+function addTextStyle(obj) {
+  if (obj.attrs) {
+    obj.textStyle = obj.attrs['class-name'] || '';
+  } else {
+    obj.textStyle = '';
+  }
+
+  if (obj.children && Array.isArray(obj.children)) {
+    obj.children.forEach((child) => addTextStyle(child));
+  }
+
+  return obj;
+}
+
+// to convert anchor tag according to backcountry
+function modifyAnchorTags(htmlContent) {
+  const $ = cheerio.load(htmlContent);
+
+  $('a').each(function () {
+    let href = $(this).attr('href');
+    if (href) {
+      if (href.startsWith('https://') || href.startsWith('www.')) {
+        href = href.replace(/#512$/, '');
+      } else {
+        if (href.endsWith('.html')) {
+          href = href.replace(/\.html$/, '');
+        } else if (/\.html#/.test(href)) {
+          href = href.replace(/\.html(?=#)/, '');
+        }
+      }
+      $(this).attr('href', href);
+    }
+  });
+
+  return $.html();
+}
+
 function imageMapping(entryId, entry, entryData) {
   try {
     var assetsId = helper.readFile(
@@ -82,64 +120,29 @@ const processEntry = async (key, value, entriesData, filePath) => {
 
   let isMatch = checkArray.some((val) => key.includes(val));
   if (isMatch) {
-    const uidString = `Card: ${key} - ${value['jcr:created']}`;
-    const uid = `${key} - ${value['jcr:created']}`
-      .replace(/[^a-zA-Z0-9]/g, '_')
-      .replace(/^_+/, '')
-      .replace(/_+/g, '_')
-      .toLowerCase();
+    const uidString = `Card: ${key} - C: ${value['jcr:created']} M: ${value['jcr:lastModified']}`;
+    const uid =
+      `${key} -C: ${value['jcr:created']} M: ${value['jcr:lastModified']}`
+        .replace(/[^a-zA-Z0-9]/g, '_')
+        .replace(/^_+/, '')
+        .replace(/_+/g, '_')
+        .toLowerCase();
 
     let description;
     if (value?.['jcr:description']) {
       description = querystring.unescape(value?.['jcr:description']);
     }
+    let replaceHtml = description
+      ?.replace(/\\"/g, '"')
+      .replace(/\r\n/g, '')
+      .replace(/\t/g, '');
 
-    const $ = cheerio.load(description ?? '<p></p>');
+    const modifiedHtml = modifyAnchorTags(replaceHtml ?? '<p></p>');
 
-    // Set to store unique tag names
-    const tagSet = new Set();
-
-    const dom = new JSDOM(
-      description
-        ?.replace(/\\"/g, '"')
-        .replace(/\r\n/g, '<br>')
-        .replace(/\t/g, '')
-    );
+    const dom = new JSDOM(modifiedHtml);
 
     let htmlDoc = dom.window.document.querySelector('body');
-
-    // Traverse through all elements and add their tag names to the set
-    $('body *').each((index, element) => {
-      tagSet.add(element.tagName);
-    });
-
-    // Convert the set to an array
-    const tagList = Array.from(tagSet);
-
-    // Object to store all customElementTags definitions
-    let customElementTags = {};
-
-    // Loop through the tag list and add definitions to customElementTags
-    for (const tag of tagList) {
-      customElementTags[tag.toUpperCase()] = (el) => {
-        let jsonObject = {
-          type: tag,
-          attrs: {},
-        };
-
-        const classAttribute = el.getAttribute('class');
-        if (classAttribute) {
-          jsonObject.textstyle = classAttribute;
-        }
-
-        return jsonObject;
-      };
-    }
-
-    // Convert HTML to JSON using the customElementTags
-    const jsonValue = htmlToJson(htmlDoc, {
-      customElementTags: customElementTags,
-    });
+    const jsonValue = htmlToJson(htmlDoc);
 
     let actionArray = [];
     if (key.startsWith('teaser') && value?.actions) {
@@ -206,7 +209,7 @@ const processEntry = async (key, value, entriesData, filePath) => {
 
     // Conditionally add the texts array to the content key if jsonValue is not empty
     if (jsonValue && Object.keys(jsonValue).length > 0) {
-      entryData.content.texts = jsonValue;
+      entryData.content.text = addTextStyle(jsonValue);
     }
 
     entriesData[uid] = entryData;

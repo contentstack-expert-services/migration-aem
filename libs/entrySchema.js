@@ -3,9 +3,47 @@ const { htmlToJson } = require('@contentstack/json-rte-serializer');
 const querystring = require('querystring');
 const cheerio = require('cheerio');
 
+// to add TextStyle inside the JSON RTE
+function addTextStyle(obj) {
+  if (obj.attrs) {
+    obj.textStyle = obj.attrs['class-name'] || '';
+  } else {
+    obj.textStyle = '';
+  }
+
+  if (obj.children && Array.isArray(obj.children)) {
+    obj.children.forEach((child) => addTextStyle(child));
+  }
+
+  return obj;
+}
+
+// to convert anchor tag according to backcountry
+function modifyAnchorTags(htmlContent) {
+  const $ = cheerio.load(htmlContent);
+
+  $('a').each(function () {
+    let href = $(this).attr('href');
+    if (href) {
+      if (href.startsWith('https://') || href.startsWith('www.')) {
+        href = href.replace(/#512$/, '');
+      } else {
+        if (href.endsWith('.html')) {
+          href = href.replace(/\.html$/, '');
+        } else if (/\.html#/.test(href)) {
+          href = href.replace(/\.html(?=#)/, '');
+        }
+      }
+      $(this).attr('href', href);
+    }
+  });
+
+  return $.html();
+}
+
 function textbanner(value, key) {
   try {
-    let uidString = `${key} ${value['jcr:created']}`;
+    let uidString = `${key} -C: ${value['jcr:created']} M: ${value['jcr:lastModified']}`;
     let uid = uidString
       .replace(/[^a-zA-Z0-9]/g, '_')
       .replace(/^_+/, '')
@@ -36,7 +74,7 @@ function carousel(value) {
       .filter((key) => key.startsWith('teaser'))
       .map((teaserKey) => {
         const teaser = value[teaserKey];
-        let uidString = `${teaserKey} ${teaser['jcr:created']}`;
+        let uidString = `${teaserKey} -C: ${teaser['jcr:created']} -M: ${teaser['jcr:lastModified']}`;
         return {
           uid: uidString
             .replace(/[^a-zA-Z0-9]/g, '_')
@@ -82,49 +120,18 @@ function text(value) {
     if (value?.text) {
       text = querystring.unescape(value?.text);
     }
-    const $ = cheerio.load(text ?? '<p></p>');
 
-    // Set to store unique tag names
-    const tagSet = new Set();
+    let replaceHtml = text
+      ?.replace(/\\"/g, '"')
+      .replace(/\r\n/g, '')
+      .replace(/\t/g, '');
 
-    const dom = new JSDOM(
-      text?.replace(/\\"/g, '"').replace(/\r\n/g, '<br>').replace(/\t/g, '')
-    );
+    const modifiedHtml = modifyAnchorTags(replaceHtml ?? '<p></p>');
+
+    const dom = new JSDOM(modifiedHtml);
 
     let htmlDoc = dom.window.document.querySelector('body');
-
-    // Traverse through all elements and add their tag names to the set
-    $('body *').each((index, element) => {
-      tagSet.add(element.tagName);
-    });
-
-    // Convert the set to an array
-    const tagList = Array.from(tagSet);
-
-    // Object to store all customElementTags definitions
-    let customElementTags = {};
-
-    // Loop through the tag list and add definitions to customElementTags
-    for (const tag of tagList) {
-      customElementTags[tag.toUpperCase()] = (el) => {
-        let jsonObject = {
-          type: tag,
-          attrs: {},
-        };
-
-        const classAttribute = el.getAttribute('class');
-        if (classAttribute) {
-          jsonObject.textstyle = classAttribute;
-        }
-
-        return jsonObject;
-      };
-    }
-
-    // Convert HTML to JSON using the customElementTags
-    const jsonValue = htmlToJson(htmlDoc, {
-      customElementTags: customElementTags,
-    });
+    const jsonValue = htmlToJson(htmlDoc);
 
     // Initialize the response object with _metadata
     let response = {
@@ -137,7 +144,7 @@ function text(value) {
 
     // Add content key only if jsonValue is not empty
     if (jsonValue && Object.keys(jsonValue).length > 0) {
-      response.text.content = jsonValue;
+      response.text.content = addTextStyle(jsonValue);
     }
 
     return response;
@@ -148,7 +155,7 @@ function text(value) {
 
 function experiencefragment(value, key) {
   try {
-    let uidString = `${key} ${value['jcr:created']}`;
+    let uidString = `${key} -C: ${value['jcr:created']} M: ${value['jcr:lastModified']}`;
     let uid = uidString
       .replace(/[^a-zA-Z0-9]/g, '_')
       .replace(/^_+/, '')
@@ -275,7 +282,7 @@ function button(value) {
 
 function image(value, key) {
   try {
-    let uidString = `${key} ${value['jcr:created']}`;
+    let uidString = `${key} -C: ${value['jcr:created']} M: ${value['jcr:lastModified']}`;
     let uid = uidString
       .replace(/[^a-zA-Z0-9]/g, '_')
       .replace(/^_+/, '')
@@ -302,7 +309,7 @@ function image(value, key) {
 
 function teaser(value, key) {
   try {
-    let uidString = `${key} ${value['jcr:created']}`;
+    let uidString = `${key} -C: ${value['jcr:created']} M: ${value['jcr:lastModified']}`;
     let uid = uidString
       .replace(/[^a-zA-Z0-9]/g, '_')
       .replace(/^_+/, '')
@@ -329,7 +336,7 @@ function teaser(value, key) {
 
 function productlist(value, key) {
   try {
-    let uidString = `${key} ${value['jcr:created']}`;
+    let uidString = `${key} -C: ${value['jcr:created']} M: ${value['jcr:lastModified']}`;
     let uid = uidString
       .replace(/[^a-zA-Z0-9]/g, '_')
       .replace(/^_+/, '')
