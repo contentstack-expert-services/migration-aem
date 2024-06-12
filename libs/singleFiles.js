@@ -1,9 +1,9 @@
-const mkdirp = require("mkdirp");
-const path = require("path");
-const fs = require("fs");
-const when = require("when");
-const chalk = require("chalk");
-const helper = require("../utils/helper");
+const mkdirp = require('mkdirp');
+const path = require('path');
+const fs = require('fs');
+const when = require('when');
+const chalk = require('chalk');
+const helper = require('../utils/helper');
 
 const {
   textbanner,
@@ -15,27 +15,33 @@ const {
   teaser,
   productlist,
   accordion,
-} = require("./entrySchema");
+} = require('./entrySchema');
 
-// const pathMappings = {
-//   "help-center-resources": "info",
-//   "resource-pages": "info",
-//   "accessibility-statement.infinity.json": "info",
-// };
+// for backcountry
 
 const pathMappings = {
-  'marketing-sc-pages': 'campaign',
-  'explore-blog': 'blog',
-  'sc': 'info',
+  '/campaign/': 'campaign',
+  '/blog/': 'blog',
+  '/info/': 'info',
 };
 
+// for competitive-cyclist
+
 // const pathMappings = {
-//   "campaign-landing-pages": "campaign",
-//   "help-center-resources": "info",
-//   "resource-pages": "info",
-//   "accessibility-statement.infinity.json": "info",
-//   "affiliate-program.infinity.json": "info",
-//   "competitive-cyclist-privacy-policy.infinity.json": "info",
+//   'campaign-landing-pages': 'campaign',
+//   'help-center-resources': 'info',
+//   'resource-pages': 'info',
+//   'accessibility-statement.infinity.json': 'info',
+//   'affiliate-program.infinity.json': 'info',
+//   'competitive-cyclist-privacy-policy.infinity.json': 'info',
+// };
+
+// for steapandcheap
+
+// const pathMappings = {
+//   'help-center-resources': 'info',
+//   'resource-pages': 'info',
+//   'accessibility-statement.infinity.json': 'info',
 // };
 
 const entryFolderPath = path.resolve(
@@ -51,15 +57,14 @@ function ensureDirectoryExists(directory) {
 
 function readEntriesFile(filePath) {
   if (fs.existsSync(filePath)) {
-    const fileContent = fs.readFileSync(filePath, "utf-8");
+    const fileContent = fs.readFileSync(filePath, 'utf-8');
     return JSON.parse(fileContent);
   }
   return {};
 }
 
 function writeEntriesFile(filePath, data) {
-  console.log(filePath);
-  fs.writeFileSync(filePath, JSON.stringify(data, null, 4), "utf-8");
+  fs.writeFileSync(filePath, JSON.stringify(data, null, 4), 'utf-8');
 }
 
 function containsAnyKey(string, array) {
@@ -68,19 +73,19 @@ function containsAnyKey(string, array) {
       return array[i];
     }
   }
-  return "";
+  return '';
 }
 
 function getFilePath(templatePath) {
   const key = containsAnyKey(templatePath, Object.keys(pathMappings));
-  if (key !== "") {
+  if (key !== '') {
     const directory = path.join(entryFolderPath, pathMappings[key]);
     ensureDirectoryExists(directory);
-    return path.join(directory, "en-us.json");
+    return path.join(directory, 'en-us.json');
   }
-  throw new Error(
-    `Template path does not match any known directories: ${templatePath}`
-  );
+  // throw new Error(
+  //   `Template path does not match any known directories: ${templatePath}`
+  // );
 }
 
 // function getFilePath(templatePath) {
@@ -112,42 +117,42 @@ ExtractEntries.prototype = {
 
         for (const [key, value] of Object.entries(entry)) {
           let ignoreContentType = [
-            "spacer",
-            "container",
-            "columncontrol",
-            "jcr:primaryType",
-            "layout",
-            "sling:resourceType",
-            "experiencefragment",
-            "jcr:lastModifiedBy",
-            "customembed",
-            "alignment",
-            "jcr:lastModified",
+            'spacer',
+            'container',
+            'columncontrol',
+            'jcr:primaryType',
+            'layout',
+            'sling:resourceType',
+            'experiencefragment',
+            'jcr:lastModifiedBy',
+            'customembed',
+            'alignment',
+            'jcr:lastModified',
           ];
           if (!ignoreContentType.includes(key.split(/_(.*)/s)[0])) {
             switch (true) {
-              case key.startsWith("textbanner"):
+              case key.startsWith('textbanner'):
                 components.push(textbanner(value, key));
                 break;
               case /^(text_|text)(?!banner)/.test(key):
                 components.push(text(value, key));
                 break;
-              case key.startsWith("anchornavigation"):
+              case key.startsWith('anchornavigation'):
                 components.push(anchornavigation(value, key));
                 break;
-              case key.startsWith("image"):
+              case key.startsWith('image'):
                 components.push(image(value, key));
                 break;
-              case key.startsWith("teaser"):
+              case key.startsWith('teaser'):
                 components.push(teaser(value, key));
                 break;
-              case key.startsWith("button"):
+              case key.startsWith('button'):
                 components.push(button(value, key));
                 break;
-              case key.startsWith("carousel"):
+              case key.startsWith('carousel'):
                 components.push(carousel(value, key));
                 break;
-              case key.startsWith("productlisting"):
+              case key.startsWith('productlisting'):
                 components.push(productlist(value, key));
                 break;
               default:
@@ -161,11 +166,11 @@ ExtractEntries.prototype = {
         let entriesData = readEntriesFile(filePath);
 
         // to create uid
-        let uidString = entries["jcr:uuid"] + entries["jcr:title"];
+        let uidString = entries['jcr:uuid'] + entries['jcr:title'];
         let uid = uidString
-          .replace(/[^a-zA-Z0-9]/g, "_")
-          .replace(/^_+/, "")
-          .replace(/_+/g, "_")
+          .replace(/[^a-zA-Z0-9]/g, '_')
+          .replace(/^_+/, '')
+          .replace(/_+/g, '_')
           .toLowerCase();
 
         // to create tag for page
@@ -177,9 +182,9 @@ ExtractEntries.prototype = {
         // }
 
         let title;
-        if (entries["jcr:title"]) {
-          if (entries["jcr:title"].trim()) {
-            title = `${entries["jcr:title"]} - ${entries["jcr:created"]}`;
+        if (entries['jcr:title']) {
+          if (entries['jcr:title'].trim()) {
+            title = `${entries['jcr:title']} - ${entries['jcr:created']}`;
           } else {
             title = uidString;
           }
@@ -190,12 +195,16 @@ ExtractEntries.prototype = {
         entriesData[uid] = {
           uid: uid,
           title: title,
-          url: entries?.["sling:vanityPath"] ? `/${entries["sling:vanityPath"]}` : "",
+          url: entries?.['sling:vanityPath']
+            ? `/${entries['sling:vanityPath']}`
+            : '',
           page_content: { components: [...components] },
           seo: {
-            title: entries["pageProperty_titleTag"].split("|")[0],
+            title: entries?.['pageProperty_titleTag']
+              ? entries?.['pageProperty_titleTag'].split('|')[0]
+              : '',
             index_follow: true,
-            description: entries["pageProperty_description"],
+            description: entries['pageProperty_description'] ?? '',
           },
           //   tags: pageTag,
           publish_details: [],
@@ -213,14 +222,14 @@ ExtractEntries.prototype = {
     return when.promise((resolve, reject) => {
       try {
         const alldata = helper.readFile(templatePaths);
-        const entries = alldata["jcr:content"];
+        const entries = alldata['jcr:content'];
 
         if (entries) {
           this.saveEntry(entries, templatePaths)
             .then(() => resolve())
             .catch((error) => reject(error));
         } else {
-          console.log(chalk.red("No entries found"));
+          console.log(chalk.red('No entries found'));
           resolve();
         }
       } catch (error) {
@@ -231,7 +240,7 @@ ExtractEntries.prototype = {
   },
 
   start: function (aemFile) {
-    successLogger("exporting entries...");
+    successLogger('exporting entries...');
 
     return when.promise((resolve, reject) => {
       const promises = aemFile.map((file) =>

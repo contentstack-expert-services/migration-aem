@@ -6,6 +6,7 @@ const chalk = require('chalk');
 const { JSDOM } = require('jsdom');
 const { htmlToJson } = require('@contentstack/json-rte-serializer');
 const querystring = require('querystring');
+const cheerio = require('cheerio');
 
 const helper = require('../utils/helper');
 
@@ -93,9 +94,52 @@ const processEntry = async (key, value, entriesData, filePath) => {
       description = querystring.unescape(value?.['jcr:description']);
     }
 
-    const dom = new JSDOM(description);
-    const htmlDoc = dom.window.document.querySelector('body');
-    const jsonValue = htmlToJson(htmlDoc);
+    const $ = cheerio.load(description ?? '<p></p>');
+
+    // Set to store unique tag names
+    const tagSet = new Set();
+
+    const dom = new JSDOM(
+      description
+        ?.replace(/\\"/g, '"')
+        .replace(/\r\n/g, '<br>')
+        .replace(/\t/g, '')
+    );
+
+    let htmlDoc = dom.window.document.querySelector('body');
+
+    // Traverse through all elements and add their tag names to the set
+    $('body *').each((index, element) => {
+      tagSet.add(element.tagName);
+    });
+
+    // Convert the set to an array
+    const tagList = Array.from(tagSet);
+
+    // Object to store all customElementTags definitions
+    let customElementTags = {};
+
+    // Loop through the tag list and add definitions to customElementTags
+    for (const tag of tagList) {
+      customElementTags[tag.toUpperCase()] = (el) => {
+        let jsonObject = {
+          type: tag,
+          attrs: {},
+        };
+
+        const classAttribute = el.getAttribute('class');
+        if (classAttribute) {
+          jsonObject.textstyle = classAttribute;
+        }
+
+        return jsonObject;
+      };
+    }
+
+    // Convert HTML to JSON using the customElementTags
+    const jsonValue = htmlToJson(htmlDoc, {
+      customElementTags: customElementTags,
+    });
 
     let actionArray = [];
     if (key.startsWith('teaser') && value?.actions) {
@@ -103,10 +147,10 @@ const processEntry = async (key, value, entriesData, filePath) => {
         .filter((key) => key.startsWith('item'))
         .map((key) => ({
           link: {
-            title: value.actions[key].text,
-            href: value.actions[key].link,
+            title: value.actions[key]?.text ?? '',
+            href: value.actions[key]?.link ?? '',
           },
-          style: value.actions[key].variation ?? 'solid',
+          style: value.actions[key]?.variation ?? 'solid',
           _metadata: {
             uid: `${Math.floor(Math.random() * 100000000000000)}`,
           },
@@ -125,17 +169,6 @@ const processEntry = async (key, value, entriesData, filePath) => {
         },
       ];
     }
-
-    // let title;
-    // if (value?.alt) {
-    //   if (value.alt.trim()) {
-    //     title = value.alt;
-    //   } else {
-    //     title = uidString;
-    //   }
-    // } else {
-    //   title = uidString;
-    // }
 
     let alignment;
     if (value?.alignment === 'left') {
@@ -163,6 +196,10 @@ const processEntry = async (key, value, entriesData, filePath) => {
         alignment: alignment ?? 'flex-start',
         background_color: { value: bgValue ?? 'bg.primary' },
         ctas: actionArray,
+      },
+      tracking: {
+        name: value?.promotionName ?? '',
+        promo_id: value?.promotionId ?? '',
       },
       publish_details: [],
     };

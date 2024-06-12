@@ -1,6 +1,7 @@
 const { JSDOM } = require('jsdom');
 const { htmlToJson } = require('@contentstack/json-rte-serializer');
 const querystring = require('querystring');
+const cheerio = require('cheerio');
 
 function textbanner(value, key) {
   try {
@@ -81,10 +82,50 @@ function text(value) {
     if (value?.text) {
       text = querystring.unescape(value?.text);
     }
+    const $ = cheerio.load(text ?? '<p></p>');
 
-    const dom = new JSDOM(text);
+    // Set to store unique tag names
+    const tagSet = new Set();
+
+    const dom = new JSDOM(
+      text?.replace(/\\"/g, '"').replace(/\r\n/g, '<br>').replace(/\t/g, '')
+    );
+
     let htmlDoc = dom.window.document.querySelector('body');
-    const jsonValue = htmlToJson(htmlDoc);
+
+    // Traverse through all elements and add their tag names to the set
+    $('body *').each((index, element) => {
+      tagSet.add(element.tagName);
+    });
+
+    // Convert the set to an array
+    const tagList = Array.from(tagSet);
+
+    // Object to store all customElementTags definitions
+    let customElementTags = {};
+
+    // Loop through the tag list and add definitions to customElementTags
+    for (const tag of tagList) {
+      customElementTags[tag.toUpperCase()] = (el) => {
+        let jsonObject = {
+          type: tag,
+          attrs: {},
+        };
+
+        const classAttribute = el.getAttribute('class');
+        if (classAttribute) {
+          jsonObject.textstyle = classAttribute;
+        }
+
+        return jsonObject;
+      };
+    }
+
+    // Convert HTML to JSON using the customElementTags
+    const jsonValue = htmlToJson(htmlDoc, {
+      customElementTags: customElementTags,
+    });
+
     // Initialize the response object with _metadata
     let response = {
       text: {
@@ -174,7 +215,7 @@ function anchornavigation(value) {
       anchor_nav: {
         background_color: bgValue ?? 'bg.primary',
         text_color: textColor ?? 'txt.primary',
-        link: actionArray,
+        links: actionArray,
         alignment: alignment ?? 'flex-start',
         _metadata: {
           uid: `cse${Math.floor(Math.random() * 100000000000000)}`,

@@ -17,8 +17,9 @@ global.warnLogger = require('./utils/logger')('warn').log;
 var modulesList = [
   // "folder",
   // 'assets',
+  // 'folders',
   // 'card',
-  // 'productlisting',
+  'productlisting',
   // 'textbanner',
   // 'singleFiles',
 ]; //to create entries
