@@ -1,0 +1,941 @@
+{
+  "headerProperty": {
+    "logoImage": "/content/dam/logos-fonts/logos/express/express-logo.svg",
+    "evergreenMessage": "Free Shipping on Orders $75+",
+    "linkText": "Details",
+    "linkHref": "/content/express/en/g/modal/disclaimer/free-shipping-details.html",
+    "searchPageUrl": "/exp/search"
+  },
+  "menuNavigation": [
+    {
+      "title": "Women",
+      "url": "/womens-clothing?ICID=W_HEADER_WOMENSCLOTHING",
+      "children": [
+        {
+          "label": "Clothing ",
+          "columnType": "featured",
+          "links": [
+            {
+              "title": "Special Sale",
+              "url": "/womens-clothing/discounts/cat4740004?ICID=TN_W_CLOTHING_SPECIALSALE"
+            },
+            {
+              "title": "Tops",
+              "url": "/womens-clothing/tops/cat430028?ICID=TN_W_TOPS_CLOTHING"
+            },
+            {
+              "title": "Dresses",
+              "url": "/womens-clothing/dresses/cat550007?ICID=TN_W_DRESSES_CLOTHING"
+            },
+            {
+              "title": "Jumpsuits & Rompers",
+              "url": "/womens-clothing/dresses/jumpsuits-rompers/cat320051?ICID=TN_W_JUMPSUITS_CLOTHING"
+            },
+            {
+              "title": "Matching Sets",
+              "url": "/womens-clothing/whats-hot/two-piece-sets/cat2060022?ICID=TN_W_MATCHINGSETS_CLOTHING"
+            },
+            {
+              "title": "Jeans",
+              "url": "/womens-clothing/jeans/cat2005"
+            },
+            {
+              "title": "Pants",
+              "url": "/womens-clothing/dress-pants/cat2008"
+            },
+            {
+              "title": "Shorts",
+              "url": "/womens-clothing/bottoms/shorts/cat320019?ICID=TN_W_SHORTS_CLOTHING"
+            },
+            {
+              "title": "Sweaters",
+              "url": "/womens-clothing/tops/sweaters/cat2012"
+            },
+            {
+              "title": "Jackets & Coats ",
+              "url": "/womens-clothing/jackets/cat320022"
+            },
+            {
+              "title": "Skirts",
+              "url": "/womens-clothing/bottoms/skirts/cat2011"
+            },
+            {
+              "title": "Suits",
+              "url": "/womens-clothing/wear-to-work/suits/cat3360001?ICID=TN_W_SUITS_CLOTHING"
+            },
+            {
+              "title": "Swim Shop",
+              "url": "/womens-clothing/swimsuits/cat1780009"
+            },
+            {
+              "title": "Body Contour",
+              "url": "/womens-clothing/bodycontour/cat5050041?ICID=TN_W_BC_CLOTHING"
+            }
+          ]
+        },
+        {
+          "label": "New & Now",
+          "columnType": "column-one",
+          "links": [
+            {
+              "title": "New Arrivals",
+              "url": "/womens-clothing/whats-hot/cat120002?ICID=TN_W_NEWARRIVALS_NEWNOW"
+            },
+            {
+              "title": "Linen Shop",
+              "url": "/womens-clothing/whats-hot/linen/cat4490004"
+            }
+          ]
+        },
+        {
+          "label": "Top Shop",
+          "columnType": "column-one",
+          "links": [
+            {
+              "title": "All Tops",
+              "url": "/womens-clothing/tops/cat430028?ICID=TN_W_TOPS_TOPSHOP"
+            },
+            {
+              "title": "Shirts & Blouses",
+              "url": "/womens-clothing/tops/shirts-blouses/cat1910067"
+            },
+            {
+              "title": "Basic Tees & Tanks",
+              "url": "/womens-clothing/tops/modern-essential-tops/cat4800008"
+            },
+            {
+              "title": "Bodysuits",
+              "url": "/womens-clothing/tops/bodysuits/cat3350001"
+            },
+            {
+              "title": "Bra Cami",
+              "url": "/womens-clothing/tops/bra-camis/cat5050233"
+            }
+          ]
+        },
+        {
+          "label": "Dress Shop",
+          "columnType": "column-two",
+          "links": [
+            {
+              "title": "All Dresses",
+              "url": "/womens-clothing/dresses/cat550007?ICID=TN_W_DRESSES_DRESSSHOP"
+            },
+            {
+              "title": "Summer Dresses",
+              "url": "/womens-clothing/dresses/summer-dresses/cat2780008"
+            },
+            {
+              "title": "Wedding Guest Dresses",
+              "url": "/womens-clothing/dresses/wedding-guest-dresses/cat4670033"
+            },
+            {
+              "title": "Mini Dresses",
+              "url": "/womens-clothing/dresses/mini-dresses/cat1910048"
+            },
+            {
+              "title": "White Dresses",
+              "url": "/womens-clothing/dresses/white-dresses/cat3610001"
+            },
+            {
+              "title": "Casual Dresses",
+              "url": "/womens-clothing/dresses/style/cat4480003"
+            }
+          ]
+        },
+        {
+          "label": "Accessories & Shoes",
+          "columnType": "column-two",
+          "links": [
+            {
+              "title": "All Accessories ",
+              "url": "/womens-clothing/accessories/cat740011"
+            },
+            {
+              "title": "Shoes ",
+              "url": "/womens-clothing/accessories/shoes-boots/cat2010"
+            },
+            {
+              "title": "Jewelry ",
+              "url": "/womens-clothing/accessories/jewelry/cat1910053"
+            },
+            {
+              "title": "Belts",
+              "url": "/womens-clothing/accessories/belts/cat1920057"
+            }
+          ]
+        },
+        {
+          "carouselItems": [
+            {
+              "image": "/content/dam/express/2024/projects/web/category-inline/06-june/06-floorset/32735-vis-nav-cards/w-nav-01.png",
+              "imageAltText": "Womens New Arrivals",
+              "title": "SHOP NOW",
+              "url": "/womens-clothing/whats-hot/cat120002?ICID=W_HEADER_NEWARRIVALS"
+            },
+            {
+              "image": "/content/dam/express/2024/projects/web/category-inline/06-june/06-floorset/32735-vis-nav-cards/w-nav-02.png",
+              "imageAltText": "Womens Summer Dresses",
+              "title": "SHOP NOW",
+              "url": "/womens-clothing/dresses/summer-dresses/cat2780008?ICID=W_HEADER_DRESSES"
+            },
+            {
+              "image": "/content/dam/express/2024/projects/web/category-inline/06-june/06-floorset/32735-vis-nav-cards/w-nav-03.png",
+              "imageAltText": "Womens Lux Leisure",
+              "title": "SHOP NOW",
+              "url": "/womens-clothing/whats-hot/athleisure/cat5050263?ICID=W_HEADER_ATHLEISURE"
+            }
+          ]
+        },
+        {
+          "label": "Sale",
+          "columnType": "column-three",
+          "links": [
+            {
+              "title": "Special Sale",
+              "url": "/womens-clothing/discounts/cat4740004?ICID=TN_W_SALE_SPECIALSALE"
+            },
+            {
+              "title": "Clearance ",
+              "url": "/womens-clothing/sale/clearance/cat890004"
+            },
+            {
+              "title": "Final Sale",
+              "url": "/womens-clothing/sale/clearance/final-sale/cat4670007/sort/skuHighPrice"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Men",
+      "url": "/mens-clothing?ICID=M_HEADER_MENSCLOTHING",
+      "children": [
+        {
+          "label": "Clothing",
+          "columnType": "featured",
+          "links": [
+            {
+              "title": "Special Sale",
+              "url": "/mens-clothing/discounts/cat4690004?ICID=TN_M_CLOTHING_SPECIALSALE"
+            },
+            {
+              "title": "Full Suits",
+              "url": "/mens-clothing/suiting/suit-ensembles/cat2430045?ICID=TN_M_SUIT_CLOTHING"
+            },
+            {
+              "title": "Jeans",
+              "url": "/mens-clothing/jeans/cat400003?ICID=TN_M_JEANS_CLOTHING"
+            },
+            {
+              "title": "Tops",
+              "url": "/mens-clothing/shirts/cat410008"
+            },
+            {
+              "title": "Button Down Shirts",
+              "url": "/mens-clothing/shirts/button-down-shirts/cat4500002"
+            },
+            {
+              "title": "Polos",
+              "url": "/mens-clothing/shirts/polos/cat1006"
+            },
+            {
+              "title": "T-Shirts",
+              "url": "/mens-clothing/shirts/tees-henleys/cat430030"
+            },
+            {
+              "title": "Sweater Polos",
+              "url": "/mens-clothing/shirts/sweater-polos/cat5050213"
+            },
+            {
+              "title": "Pants",
+              "url": "/mens-clothing/pants/cat1005"
+            },
+            {
+              "title": "Chinos & Joggers",
+              "url": "/mens-clothing/pants/chinos/cat1730039"
+            },
+            {
+              "title": "Shorts",
+              "url": "/mens-clothing/pants/shorts/cat1490010"
+            },
+            {
+              "title": "Swim Trunks",
+              "url": "/mens-clothing/pants/shorts/swim-trunks/cat1910094"
+            },
+            {
+              "title": "Jackets & Coats",
+              "url": "/mens-clothing/coats/cat1490017"
+            },
+            {
+              "title": "Suit Jackets & Blazers",
+              "url": "/mens-clothing/suiting/blazers-vests/cat560005?ICID=TN_M_BLAZERS_CLOTHING"
+            }
+          ]
+        },
+        {
+          "label": "New & Now",
+          "columnType": "column-one",
+          "links": [
+            {
+              "title": "New Arrivals",
+              "url": "/mens-clothing/whats-hot/cat120009?ICID=TN_M_NEWARRIVALS_NEWNOW"
+            },
+            {
+              "title": "Everyday Performance",
+              "url": "/mens-clothing/whats-hot/performance-looks/cat4810006"
+            },
+            {
+              "title": "Perfect Pima Cotton Tops",
+              "url": "/mens-clothing/shirts/tees-henleys/perfect-tee/cat5050231?ICID=TN_M_HSJEANS_NEWNOW"
+            },
+            {
+              "title": "Linen Shop",
+              "url": "/mens-clothing/whats-hot/clothing-trends/cat5040024?ICID=TN_NEW_LINEN"
+            },
+            {
+              "title": "Matching Summer Sets",
+              "url": "/mens-clothing/whats-hot/sets/cat5050166"
+            }
+          ]
+        },
+        {
+          "label": "Suit Shop",
+          "columnType": "column-one",
+          "links": [
+            {
+              "title": "Full Suits",
+              "url": "/mens-clothing/suiting/suit-ensembles/cat2430045?ICID=TN_M_SUIT_SUITSHOP"
+            },
+            {
+              "title": "Suit Jackets & Blazers",
+              "url": "/mens-clothing/suiting/blazers-vests/cat560005?ICID=TN_M_BLAZERS_SUITSHOP"
+            },
+            {
+              "title": "Dress Pants",
+              "url": "/mens-clothing/pants/dress-pants/cat280012?ICID=TN_M_DP_SUITSHOP"
+            },
+            {
+              "title": "Modern Tech Suits",
+              "url": "/mens-clothing/suiting/modern-fit-suits/cat1830008"
+            },
+            {
+              "title": "Wedding Shop",
+              "url": "/mens-clothing/whats-hot/wedding-groomsmen/cat1820001"
+            }
+          ]
+        },
+        {
+          "label": "Shirt Shop",
+          "columnType": "column-two",
+          "links": [
+            {
+              "title": "All Shirts",
+              "url": "/mens-clothing/shirts/button-down-shirts/cat4500002"
+            },
+            {
+              "title": "Short Sleeve Button Ups",
+              "url": "/mens-clothing/shirts/short-sleeve-casual-shirts/cat3450006"
+            },
+            {
+              "title": "1MX Dress Shirts",
+              "url": "/mens-clothing/shirts/1mx-shirts/cat270001"
+            },
+            {
+              "title": "Performance Shirts",
+              "url": "/mens-clothing/shirts/1mx-shirts/performance-dress-shirts/cat2560003"
+            },
+            {
+              "title": "Linen Shirts",
+              "url": "/mens-clothing/shirts/casual-shirts/linen-shirts/cat1900010?ICID=TN_SHIRT_LINEN"
+            },
+            {
+              "title": "Casual Shirts",
+              "url": "/mens-clothing/shirts/casual-shirts/cat2060009"
+            }
+          ]
+        },
+        {
+          "label": "Accessories & Shoes",
+          "columnType": "column-two",
+          "links": [
+            {
+              "title": "Underwear",
+              "url": "/mens-clothing/underwear-lounge/cat1490012"
+            },
+            {
+              "title": "Shoes & Sneakers",
+              "url": "/mens-clothing/fashion-accessories/shoes/cat280006"
+            },
+            {
+              "title": "Ties & Bowties",
+              "url": "/mens-clothing/fashion-accessories/ties/cat280005"
+            },
+            {
+              "title": "All Accessories ",
+              "url": "/mens-clothing/fashion-accessories/cat400001"
+            }
+          ]
+        },
+        {
+          "carouselItems": [
+            {
+              "image": "/content/dam/express/2024/projects/web/category-inline/06-june/0603-digital-32735-dg-nav-cards/m-nav-01.jpg",
+              "imageAltText": "Mens New Arrivals",
+              "title": "SHOP NOW",
+              "url": "/mens-clothing/whats-hot/cat120009?ICID=M_HEADER_NEWARRIVALS"
+            },
+            {
+              "image": "/content/dam/express/2024/projects/web/category-inline/06-june/06-floorset/32735-vis-nav-cards/m-nav-02.png",
+              "imageAltText": "Mens Everyday Performance",
+              "title": "SHOP NOW",
+              "url": "/mens-clothing/whats-hot/performance-looks/cat4810006?ICID=M_HEADER_PERFORMANCELOOKS"
+            },
+            {
+              "image": "/content/dam/express/2024/projects/web/category-inline/06-june/0603-digital-32735-dg-nav-cards/m-nav-03.jpg",
+              "imageAltText": "Mens Button Downs",
+              "title": "SHOP NOW",
+              "url": "/mens-clothing/shirts/short-sleeve-casual-shirts/cat3450006?ICID=M_HEADER_CASUALSHIRTS"
+            }
+          ]
+        },
+        {
+          "label": "Sale",
+          "columnType": "column-three",
+          "links": [
+            {
+              "title": "Special Sale",
+              "url": "/mens-clothing/discounts/cat4690004?ICID=TN_M_SALE_SPECIALSALE"
+            },
+            {
+              "title": "Clearance ",
+              "url": "/mens-clothing/sale/clearance/cat890006"
+            },
+            {
+              "title": "Final Sale",
+              "url": "/mens-clothing/sale/clearance/final-sale/cat4670006"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Jeans",
+      "url": "/exp/express-jeans?ICID=N_HEADER_JEANS",
+      "children": [
+        {
+          "carouselItems": [
+            {
+              "image": "/content/dam/express/2024/projects/web/category-inline/06-june/06-floorset/32735-vis-nav-cards/dg-jeans-nav-01.png",
+              "imageAltText": "Jeans",
+              "title": "SHOP NOW",
+              "url": "/exp/express-jeans?ICID=N_HEADER_JEANS"
+            }
+          ]
+        },
+        {
+          "label": "Women's Jeans ",
+          "columnType": "column-one",
+          "links": [
+            {
+              "title": "All Women's Jeans ",
+              "url": "/womens-clothing/jeans/cat2005"
+            },
+            {
+              "title": "FlexX Jeans",
+              "url": "/womens-clothing/jeans/flex-x/cat5050055"
+            },
+            {
+              "title": "Hyper Sculpt Jeans",
+              "url": "/womens-clothing/jeans/trend/cat5040035"
+            },
+            {
+              "title": "Straight Jeans",
+              "url": "/womens-clothing/jeans/straight-leg-jeans/cat3670001"
+            },
+            {
+              "title": "Flare Jeans",
+              "url": "/womens-clothing/jeans/flare-jeans/cat1910083"
+            },
+            {
+              "title": "Skyscraper Jeans",
+              "url": "/womens-clothing/jeans/skyscraper-jeans/cat1910080"
+            },
+            {
+              "title": "Skinny Jeans",
+              "url": "/womens-clothing/jeans/skinny-jeans/cat1910079"
+            },
+            {
+              "title": "Wide Leg Jeans",
+              "url": "/womens-clothing/jeans/wide-leg-jeans/cat4430016"
+            },
+            {
+              "title": "Slim Jeans",
+              "url": "/womens-clothing/jeans/slim-jeans/cat4800027"
+            },
+            {
+              "title": "Relaxed Jeans",
+              "url": "/womens-clothing/jeans/comfort/cat5010002"
+            },
+            {
+              "title": "Cropped Jeans",
+              "url": "/womens-clothing/jeans/cropped-jeans/cat810056"
+            }
+          ]
+        },
+        {
+          "label": "Men's Jeans",
+          "columnType": "column-two",
+          "links": [
+            {
+              "title": "All Men's Jeans",
+              "url": "/mens-clothing/jeans/cat400003"
+            },
+            {
+              "title": "Hyper Stretch Jeans",
+              "url": "/mens-clothing/jeans/hyper-stretch-jeans/cat4340003"
+            },
+            {
+              "title": "Slim Jeans",
+              "url": "/mens-clothing/jeans/slim-fit-jeans/cat1920024"
+            },
+            {
+              "title": "Slim Straight Jeans",
+              "url": "/mens-clothing/jeans/slim-fit-straight-leg-jeans/cat2430007"
+            },
+            {
+              "title": "Athletic Tapered Slim Jeans",
+              "url": "/mens-clothing/jeans/athletic-slim-fit-jeans/cat4430009"
+            },
+            {
+              "title": "Skinny Jeans",
+              "url": "/mens-clothing/jeans/skinny-jeans/cat1920021"
+            },
+            {
+              "title": "Straight Fit Jeans",
+              "url": "/mens-clothing/jeans/classic-fit-straight-jeans/cat2430009"
+            },
+            {
+              "title": "Relaxed Jeans",
+              "url": "/mens-clothing/jeans/relaxed-fit-jeans/cat4170013"
+            },
+            {
+              "title": "Colored Jeans",
+              "url": "/mens-clothing/jeans/new/cat5050161"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "DRESSES\t\t",
+      "url": "/womens-clothing/dresses/cat550007?ICID=N_HEADER_DRESSES",
+      "children": [
+        {
+          "label": "DRESS SHOP",
+          "columnType": "featured",
+          "links": [
+            {
+              "title": "All Dresses",
+              "url": "/womens-clothing/dresses/cat550007?ICID=TN_W_DRESSES_ALL"
+            },
+            {
+              "title": "New Dresses",
+              "url": "/womens-clothing/whats-hot/cat120002/filter/categoryType_uFilter:Dresses%20%26%20Jumpsuits??ICID=TN_W_DRESSES_NEW"
+            },
+            {
+              "title": "Summer Dresses",
+              "url": "/womens-clothing/dresses/summer-dresses/cat2780008?ICID=TN_W_DRESSES_SUMMER"
+            },
+            {
+              "title": "White Dresses",
+              "url": "/womens-clothing/dresses/white-dresses/cat3610001?ICID=TN_W_DRESSES_WHITE"
+            },
+            {
+              "title": "Floral Dresses ",
+              "url": "/womens-clothing/dresses/floral-dresses/cat3400003?ICID=TN_W_DRESSES_FLORAL"
+            },
+            {
+              "title": "Jumpsuits & Rompers",
+              "url": "/womens-clothing/dresses/jumpsuits-rompers/cat320051?ICID=TN_W_DRESSES_JUMPSUITS"
+            },
+            {
+              "title": "Shirt Dresses",
+              "url": "/womens-clothing/dresses/shirt-dresses/cat3960002?ICID=TN_W_DRESSES_SHIRT"
+            }
+          ]
+        },
+        {
+          "label": "SHOP BY LENGTH",
+          "columnType": "column-one",
+          "links": [
+            {
+              "title": "Mini Dresses",
+              "url": "/womens-clothing/dresses/mini-dresses/cat1910048?ICID=TN_W_DRESSES_MINI"
+            },
+            {
+              "title": "Midi Dresses",
+              "url": "/womens-clothing/dresses/midi-dresses/cat1910049?ICID=TN_W_DRESSES_MIDI"
+            },
+            {
+              "title": "Maxi Dresses",
+              "url": "/womens-clothing/dresses/maxi-dresses/cat1910047?ICID=TN_W_DRESSES_MAXI"
+            }
+          ]
+        },
+        {
+          "label": "SHOP BY OCCASION ",
+          "columnType": "column-two",
+          "links": [
+            {
+              "title": "Casual Dresses",
+              "url": "/womens-clothing/dresses/style/cat4480003?ICID=TN_W_DRESSES_CASUAL"
+            },
+            {
+              "title": "Work Dresses",
+              "url": "/womens-clothing/wear-to-work/work-dresses/cat2580008?ICID=TN_W_DRESSES_WORK"
+            },
+            {
+              "title": "Cocktail & Party Dresses",
+              "url": "/womens-clothing/dresses/cocktail-dresses/cat1910064?ICID=TN_W_DRESSES_COCKTAIL"
+            },
+            {
+              "title": "Wedding Guest Dresses",
+              "url": "/womens-clothing/dresses/wedding-guest-dresses/cat4670033?ICID=TN_W_DRESSES_WEDDINGGUEST"
+            }
+          ]
+        },
+        {
+          "label": "",
+          "columnType": "column-two",
+          "links": []
+        },
+        {
+          "carouselItems": [
+            {
+              "image": "/content/dam/express/2024/projects/web/category-inline/06-june/06-floorset/32735-vis-nav-cards/w-nav-04.png",
+              "imageAltText": "Summer Dresses and Jumpsuits",
+              "title": "SHOP NOW",
+              "url": "/womens-clothing/dresses/cat550007?ICID=W_HEADER_DRESSES"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "SUITS\t\t",
+      "url": "/mens-clothing/suiting/suit-ensembles/cat2430045?ICID=N_HEADER_SUITING",
+      "children": [
+        {
+          "label": "Women's Suit Shop",
+          "columnType": "featured",
+          "links": [
+            {
+              "title": "All Suits",
+              "url": "/womens-clothing/wear-to-work/suits/cat3360001?ICID=TN_W_SUITS_ALL"
+            },
+            {
+              "title": "All Work Essentials ",
+              "url": "/womens-clothing/wear-to-work/cat1910076?ICID=TN_W_SUITS_WORKESSENTIALS"
+            },
+            {
+              "title": "Blazers & Suits Jackets",
+              "url": "/womens-clothing/tops/blazers/cat1910071?ICID=TN_W_SUITS_BLAZERS"
+            },
+            {
+              "title": "Work Tops",
+              "url": "/womens-clothing/wear-to-work/work-shirts/cat1910074?ICID=TN_W_SUITS_WORKTOPS"
+            },
+            {
+              "title": "Work Dresses",
+              "url": "/womens-clothing/wear-to-work/work-dresses/cat2580008?ICID=TN_W_SUITS_WORKDRESSES"
+            },
+            {
+              "title": "Editor Collection ",
+              "url": "/womens-clothing/wear-to-work/best-suits/cat5050154?ICID=TN_W_SUITS_EDITORCOLLECTION"
+            },
+            {
+              "title": "Dress Pants",
+              "url": "/womens-clothing/dress-pants/cat2008?ICID=TN_W_SUITS_DRESSPANTS"
+            },
+            {
+              "title": "Business Casual ",
+              "url": "/womens-clothing/wear-to-work/business-casual/cat4110001?ICID=TN_W_SUITS_BUSINESSCASUAL"
+            }
+          ]
+        },
+        {
+          "label": "Men's Suit Shop",
+          "columnType": "column-one",
+          "links": [
+            {
+              "title": "Full Suits",
+              "url": "/mens-clothing/suiting/suit-ensembles/cat2430045?ICID=TN_M_SUITS_FULL"
+            },
+            {
+              "title": "Suits & Suit Separates",
+              "url": "/mens-clothing/suiting/cat1830016?ICID=TN_M_SUITS_SEPARATES"
+            },
+            {
+              "title": "Suit Jackets & Blazers",
+              "url": "/mens-clothing/suiting/blazers-vests/cat560005?ICID=TN_M_SUITS_JACKETS"
+            },
+            {
+              "title": "Dress Pants",
+              "url": "/mens-clothing/pants/dress-pants/cat280012?ICID=TN_M_SUITS_DRESSPANTS"
+            },
+            {
+              "title": "Modern Tech Suits",
+              "url": "/mens-clothing/suiting/modern-fit-suits/cat1830008?ICID=TN_M_SUITS_MODERNTECH"
+            },
+            {
+              "title": "Wedding Shop",
+              "url": "/mens-clothing/whats-hot/wedding-groomsmen/cat1820001?ICID=TN_M_SUITS_WEDDINGSHOP"
+            }
+          ]
+        },
+        {
+          "label": "SHOP BY FIT",
+          "columnType": "column-one",
+          "links": [
+            {
+              "title": "Extra Slim Suits",
+              "url": "/mens-clothing/suiting/extra-slim-fit-suits/cat1830006?ICID=TN_M_SUITS_EXTRASLIM"
+            },
+            {
+              "title": "Slim Suits",
+              "url": "/mens-clothing/suiting/slim-fit-suits/cat1830007?ICID=TN_M_SUITS_SLIM"
+            },
+            {
+              "title": "Classic Suits",
+              "url": "/mens-clothing/suiting/classic-fit-suits/cat3890003?ICID=TN_M_SUITS_CLASSIC"
+            }
+          ]
+        },
+        {
+          "label": "SHOP BY COLOR",
+          "columnType": "column-one",
+          "links": [
+            {
+              "title": "Black Suits ",
+              "url": "/mens-clothing/suiting/cat1830016/filter/v_color_uFilter:Black"
+            },
+            {
+              "title": "Blue Suits",
+              "url": "/mens-clothing/suiting/cat1830016/filter/v_color_uFilter:Blue"
+            },
+            {
+              "title": "Gray Suits",
+              "url": "/mens-clothing/suiting/cat1830016/filter/v_color_uFilter:Gray"
+            }
+          ]
+        },
+        {
+          "label": "",
+          "columnType": "column-two",
+          "links": []
+        },
+        {
+          "carouselItems": [
+            {
+              "image": "/content/dam/express/2024/projects/web/category-inline/06-june/06-floorset/32735-vis-nav-cards/m-nav-04.png",
+              "imageAltText": "Standout Suits",
+              "title": "SHOP NOW",
+              "url": "/mens-clothing/suiting/suit-ensembles/cat2430045?ICID=M_HEADER_SUITENSEMBLES"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "ESSENTIALS",
+      "url": "/exp/essentials?ICID=N_HEADER_ESSENTIALS",
+      "children": [
+        {
+          "label": "Women's Essentials",
+          "columnType": "featured",
+          "links": [
+            {
+              "title": "Hyper Stretch Jeans",
+              "url": "/womens-clothing/jeans/cat2005"
+            },
+            {
+              "title": "Portofino",
+              "url": "/womens-clothing/wear-to-work/portofino-styles/cat5050235"
+            },
+            {
+              "title": "Body Contour",
+              "url": "/womens-clothing/bodycontour/cat5050041"
+            },
+            {
+              "title": "Bra Cami",
+              "url": "/womens-clothing/tops/bra-camis/cat5050233"
+            },
+            {
+              "title": "Editor",
+              "url": "/womens-clothing/wear-to-work/best-suits/cat5050154"
+            },
+            {
+              "title": "Columnist",
+              "url": "/womens-clothing/wear-to-work/columnist-collection/cat5050236"
+            },
+            {
+              "title": "Stylist",
+              "url": "/womens-clothing/wear-to-work/stylist-collection/cat5050237"
+            },
+            {
+              "title": "Essential Tops",
+              "url": "/womens-clothing/tops/iconic-tops/cat5050232"
+            },
+            {
+              "title": "Essential Sweaters",
+              "url": "/womens-clothing/tops/sweaters/essential-sweaters/cat5050264"
+            }
+          ]
+        },
+        {
+          "label": "Men's Essentials",
+          "columnType": "column-one",
+          "links": [
+            {
+              "title": "Perfect Pima Cotton Tops",
+              "url": "/mens-clothing/shirts/tees-henleys/perfect-tee/cat5050231"
+            },
+            {
+              "title": "Hyper Stretch Jeans",
+              "url": "/mens-clothing/jeans/hyper-stretch-jeans/cat4340003"
+            },
+            {
+              "title": "1MX Dress Shirts",
+              "url": "/mens-clothing/shirts/1mx-shirts/cat270001"
+            },
+            {
+              "title": "Modern Tech Suits",
+              "url": "/mens-clothing/suiting/modern-fit-suits/cat1830008"
+            },
+            {
+              "title": "Modern Prep Sweater Polo",
+              "url": "https://www.express.com/clothing/men/modern-prep-short-sleeve-sweater-polo/pro/03986254/color/Chalk/e/regular/"
+            },
+            {
+              "title": "Hyper Stretch Chinos",
+              "url": "/mens-clothing/pants/chinos/cat1730039"
+            }
+          ]
+        },
+        {
+          "carouselItems": [
+            {
+              "image": "/content/dam/express/2024/projects/web/category-inline/06-june/06-floorset/32735-vis-nav-cards/dg-essentials-nav-01.png",
+              "imageAltText": "Express Essentials; Versatile closet must-haves for everyday, effortless style.",
+              "title": "SHOP NOW",
+              "url": "https://www.express.com/exp/essentials?ICID=N_HEADER_ESSENTIALS"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Sale ",
+      "url": "/exp/clothing-sales?ICID=N_HEADER_SALE",
+      "children": [
+        {
+          "label": "Women's Clearance",
+          "columnType": "featured",
+          "links": [
+            {
+              "title": "All Women's Clearance",
+              "url": "/womens-clothing/sale/clearance/cat890004"
+            },
+            {
+              "title": "Tops",
+              "url": "/womens-clothing/sale/clearance/cat890004/filter/categoryType_uFilter:Tops%7CSweaters"
+            },
+            {
+              "title": "Bottoms",
+              "url": "/womens-clothing/sale/clearance/cat890004/filter/categoryType_uFilter:Bottoms"
+            },
+            {
+              "title": "Dresses & Jumpsuits",
+              "url": "/womens-clothing/sale/clearance/cat890004/filter/categoryType_uFilter:Dresses%20%26%20Jumpsuits"
+            },
+            {
+              "title": "Jackets & Coats",
+              "url": "/womens-clothing/sale/clearance/cat890004/filter/categoryType_uFilter:Jackets%20%26%20Coats%7CJackets%7CCoats"
+            },
+            {
+              "title": "Shoes",
+              "url": "/womens-clothing/sale/clearance/cat890004/filter/categoryType_uFilter:Shoes"
+            },
+            {
+              "title": "Accessories",
+              "url": "/womens-clothing/sale/clearance/cat890004/filter/categoryType_uFilter:Accessories%7CJewelry%7CSleepwear"
+            },
+            {
+              "title": "",
+              "url": ""
+            }
+          ]
+        },
+        {
+          "label": "Men's Clearance",
+          "columnType": "column-one",
+          "links": [
+            {
+              "title": "All Men's Clearance",
+              "url": "/mens-clothing/sale/clearance/cat890006"
+            },
+            {
+              "title": "Tops",
+              "url": "/mens-clothing/sale/clearance/cat890006/filter/categoryType_uFilter:Shirts"
+            },
+            {
+              "title": "Bottoms",
+              "url": "/mens-clothing/sale/clearance/cat890006/filter/categoryType_uFilter:Pants"
+            },
+            {
+              "title": "Jackets & Coats",
+              "url": "/mens-clothing/sale/clearance/cat890006/filter/categoryType_uFilter:Jackets%20%26%20Coats"
+            },
+            {
+              "title": "Suits",
+              "url": "/mens-clothing/sale/clearance/cat890006/filter/type_uFilter:Suit%20Jacket%7CSuit%20Pant%7CBlazer%7CTopcoat%7CBomber%7CDress%20Pant"
+            },
+            {
+              "title": "Underwear",
+              "url": "/mens-clothing/sale/clearance/cat890006/filter/categoryType_uFilter:Underwear"
+            },
+            {
+              "title": "Accessories",
+              "url": "/mens-clothing/sale/clearance/cat890006/filter/categoryType_uFilter:Accessories"
+            }
+          ]
+        },
+        {
+          "label": "Final Sale",
+          "columnType": "column-two",
+          "links": [
+            {
+              "title": "All Women's Final Sale",
+              "url": "/womens-clothing/sale/clearance/final-sale/cat4670007/sort/skuHighPrice"
+            },
+            {
+              "title": "All Men's Final Sale",
+              "url": "/mens-clothing/sale/clearance/final-sale/cat4670006"
+            }
+          ]
+        },
+        {
+          "carouselItems": [
+            {
+              "image": "/content/dam/express/2022/projects/web/header-nav/04-april/0425-digital-17444-sale-nav/dg-nav-sale.jpg",
+              "imageAltText": "SALE",
+              "title": "Sale",
+              "url": "/exp/clothing-sales?ICID=N_HEADER_SALE"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
