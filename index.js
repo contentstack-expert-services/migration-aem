@@ -17,7 +17,7 @@ global.warnLogger = require('./utils/logger')('warn').log;
 var modulesList = [
   'assets',
   // 'entry',
-  // 'folders',
+  'folders',
   // 'card',
   // 'productlisting',
   // 'textbanner',
@@ -29,7 +29,7 @@ const migFunction = async () => {
     global.filePath = undefined;
 
     global.config.aem_folder =
-      '/Users/saurav.upadhyay/Expert Service/Team Fury/migration-aem - express/sample.json';
+      '/Users/saurav.upadhyay/Expert Service/Team Fury/migration-aem - backcountry/sample.json';
 
     // let files = read(global.config.aem_folder);
     // for (const filePath of files) {

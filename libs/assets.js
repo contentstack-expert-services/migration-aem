@@ -193,6 +193,7 @@ ExtractAssets.prototype = {
             resolve(results);
           })
           .catch(function (e) {
+            // console.log(e);
             errorLogger('failed to download assets: ', e);
             resolve();
           });
@@ -204,7 +205,8 @@ ExtractAssets.prototype = {
     });
   },
 
-  getAllAssets: function ({ templatePaths }) {
+  // getAllAssets: function ({ templatePaths }) {
+  getAllAssets: function (templatePaths) {
     var self = this;
     return when.promise(async function (resolve, reject) {
       try {
