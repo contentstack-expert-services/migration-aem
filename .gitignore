@@ -209,5 +209,5 @@ cycle*
 text.json
 text1.json
 ignoreFiles
-sc
+sc*
 test1*
