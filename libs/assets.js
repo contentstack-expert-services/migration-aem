@@ -53,7 +53,11 @@ ExtractAssets.prototype = {
               .replace(/^_+|_+$/g, '')
               .toLowerCase();
 
+            // old method to download asset
             url = `https://express.com${url}`;
+
+            // new method to download asset
+            // url = `https://author-express-preview.adobecqms.net${url}`;
 
             const assetPath = path.resolve(assetFolderPath, uid);
 
@@ -68,8 +72,21 @@ ExtractAssets.prototype = {
               resolve(uid);
             } else {
               try {
-                const response = await axios.get(url, {
-                  responseType: 'arraybuffer',
+                // old method to download asset without using username and password
+                //======================================================================
+                // const response = await axios.get(url, {
+                //   responseType: 'arraybuffer',
+                // } );
+
+                // new method to download asset using username and password
+                const response = await axios.get({
+                  method: 'get',
+                  url: url,
+                  responseType: 'stream',
+                  auth: {
+                    username: config.username,
+                    password: config.password,
+                  },
                 });
                 if (response.status === 200) {
                   mkdirp.sync(assetPath);

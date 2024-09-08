@@ -18,10 +18,6 @@ var modulesList = [
   'assets',
   // 'entry',
   'folders',
-  // 'card',
-  // 'productlisting',
-  // 'textbanner',
-  // 'singleFiles',
 ]; //to create entries
 
 const migFunction = async () => {
